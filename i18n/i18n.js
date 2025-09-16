@@ -1,6 +1,6 @@
 /*! ThriveI18n v1.0 - simple runtime */
 (function () {
-  const STORE_KEY = "lang";
+  const STORE_KEY = "preferredLang";
   const DEFAULT_LANG = "en";
   const ATTRS = ["aria-label", "title", "alt", "placeholder", "value"];
 
