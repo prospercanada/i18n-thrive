@@ -1,17 +1,16 @@
-/*! bootstrap-i18n.js */
+/*! Thrive i18n bootstrap - attach data-i18n attributes */
 (function () {
-  const loadJSON = (url) =>
-    fetch(url, { cache: "no-store" }).then((r) => {
-      if (!r.ok) throw new Error(`Failed ${url}`);
-      return r.json();
-    });
-  const toAbs = (base, file) =>
-    new URL(file, new URL(base, location.origin)).toString();
+  async function loadJSON(url) {
+    const r = await fetch(url, { cache: "no-store" });
+    if (!r.ok) throw new Error(`Failed to fetch ${url}`);
+    return r.json();
+  }
 
   function attach(entries) {
     for (const e of entries || []) {
       const { selector, type, attr, key } = e || {};
-      if (!selector || !type || !key) continue;
+      if (!selector || !key) continue;
+
       const el = document.querySelector(selector);
       if (!el) continue;
 
@@ -29,21 +28,25 @@
   }
 
   async function run(opts) {
-    const { manifestUrl, namespaces = ["profile"], onlyIf } = opts || {};
+    const { manifestUrl, namespaces = [] } = opts || {};
     if (!manifestUrl) throw new Error("manifestUrl required");
-    if (typeof onlyIf === "function" && !onlyIf()) return;
 
     const manifest = await loadJSON(manifestUrl);
-    const mapUrls = namespaces
-      .map((ns) => manifest[`${ns}.map`])
-      .filter(Boolean)
-      .map((file) => toAbs(manifestUrl, file));
 
-    const maps = await Promise.all(mapUrls.map(loadJSON));
-    maps.forEach(attach);
+    for (const ns of namespaces) {
+      const mapFile = manifest[`${ns}.map`];
+      if (!mapFile) continue;
 
-    console.log("[i18n bootstrap] attached for:", namespaces.join(", "));
+      const base = new URL(manifestUrl, location.origin);
+      const mapUrl = new URL(mapFile, base).toString();
+      const map = await loadJSON(mapUrl);
+
+      attach(map);
+    }
+
+    console.log("[i18n bootstrap] attached:", namespaces.join(", "));
   }
 
+  // expose globally so you can call it
   window.ThriveI18nBootstrap = run;
 })();
