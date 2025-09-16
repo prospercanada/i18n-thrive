@@ -1,6 +1,7 @@
 /*! Thrive i18n bootstrap: attach data-i18n attributes based on JSON mapping */
 (async function () {
-  const MANIFEST_URL = "https://YOUR-CDN/i18n/manifest.json";
+  const MANIFEST_URL =
+    "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json";
   const PAGE_NAMESPACE = "profile"; // change per page
 
   // Load manifest
@@ -24,25 +25,26 @@
     const url = new URL(enFile, base);
     const mapping = await loadJSON(url);
 
-    mapping.forEach((entry) => {
-      const { selector, type, attr, key } = entry;
-      if (!selector) return;
-      const el = document.querySelector(selector);
-      if (!el) return;
+    console.log("mapping ", mapping);
+    // mapping.forEach((entry) => {
+    //   const { selector, type, attr, key } = entry;
+    //   if (!selector) return;
+    //   const el = document.querySelector(selector);
+    //   if (!el) return;
 
-      if (type === "text") {
-        // attach data-i18n for text content
-        el.setAttribute("data-i18n", key);
-      } else if (type === "attr" && attr) {
-        // attach data-i18n-attr for attribute translations
-        const existing = el.getAttribute("data-i18n-attr") || "";
-        const newPair = `${attr}:${key}`;
-        const merged = existing
-          ? existing.split(",").concat(newPair).join(",")
-          : newPair;
-        el.setAttribute("data-i18n-attr", merged);
-      }
-    });
+    //   if (type === "text") {
+    //     // attach data-i18n for text content
+    //     el.setAttribute("data-i18n", key);
+    //   } else if (type === "attr" && attr) {
+    //     // attach data-i18n-attr for attribute translations
+    //     const existing = el.getAttribute("data-i18n-attr") || "";
+    //     const newPair = `${attr}:${key}`;
+    //     const merged = existing
+    //       ? existing.split(",").concat(newPair).join(",")
+    //       : newPair;
+    //     el.setAttribute("data-i18n-attr", merged);
+    //   }
+    // });
 
     console.log(`[i18n bootstrap] Attached data-i18n for ${PAGE_NAMESPACE}`);
   } catch (err) {
