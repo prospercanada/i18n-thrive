@@ -172,5 +172,312 @@
     "selector": "#MainCopy_ctl35_AddItem",
     "type": "text",
     "key": "section.honors-awards.add"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ManageDropDown1_lnkEditPicture",
+    "type": "text",
+    "key": "profile.picture.change"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ManageDropDown1_lnkDeletePicture",
+    "type": "text",
+    "key": "profile.picture.restore"
+  },
+  {
+    "selector": ".profileContactOptions h2",
+    "type": "text",
+    "key": "profile.contact.heading"
+  },
+  {
+    "selector": "#ContentItemReacte5f0aa62bd41459b8ae29387a0fd5451 h2",
+    "type": "text",
+    "key": "XX.profile.ribbons.heading"
+  },
+  {
+    "selector": "#ContentItemReacte0c229080e094067ad58ae6986bdc343 h2",
+    "type": "text",
+    "key": "XX.profile.badges.heading"
+  },
+  {
+    "selector": ".RibbonsBadges.ContentUserControl .widget-heading h2",
+    "type": "text",
+    "key": "profile.ribbons.heading"
+  },
+  {
+    "selector": ".RibbonsBadges.ContentUserControl .widget-heading h2",
+    "type": "text",
+    "key": "profile.badges.heading"
+  },
+  {
+    "selector": "[aria-describedby=dialog-confirm-deleteprofileimage] #ui-id-1",
+    "type": "text",
+    "key": "profile.dialog.deleteTitle"
+  },
+  {
+    "selector": "[aria-describedby=dialog-confirm-deleteprofileimage] #dialog-confirm-deleteprofileimage-message",
+    "type": "text",
+    "key": "profile.dialog.deleteMessage"
+  },
+  {
+    "selector": "Oui",
+    "type": "supprimer cette image.",
+    "key": "profile.dialog.deleteYes"
+  },
+  {
+    "selector": "[aria-describedby=dialog-confirm-deleteprofileimage] .ui-dialog-buttonset .btn.btn-default",
+    "type": "text",
+    "key": "profile.dialog.cancel"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo .modal-header",
+    "type": "text",
+    "key": "profile.contact.editTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_EmailAddressLabel",
+    "type": "text",
+    "key": "profile.contact.email.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_RequiredFieldValidatorEmailAddress",
+    "type": "text",
+    "key": "profile.contact.email.required"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_RegularExpressionValidatorEmailAddress",
+    "type": "text",
+    "key": "profile.contact.email.invalid"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblCompanyName",
+    "type": "text",
+    "key": "profile.contact.company.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblTitle",
+    "type": "text",
+    "key": "profile.contact.jobTitle.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_DepartmentLabel",
+    "type": "text",
+    "key": "profile.contact.department.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblAddress1",
+    "type": "text",
+    "key": "profile.contact.address1.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblAddress2",
+    "type": "text",
+    "key": "profile.contact.address2.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblCity",
+    "type": "text",
+    "key": "profile.contact.city.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #lblCountry",
+    "type": "text",
+    "key": "profile.contact.country.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #lblState",
+    "type": "text",
+    "key": "profile.contact.state.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblPostalCode",
+    "type": "text",
+    "key": "profile.contact.postal.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_WebsiteUrlLabel",
+    "type": "text",
+    "key": "profile.contact.website.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_btnSave",
+    "type": "attr",
+    "key": "profile.contact.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lnkCancel",
+    "type": "attr",
+    "key": "profile.contact.cancel",
+    "attr": "value"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal .modal-header",
+    "type": "text",
+    "key": "profile.education.editTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel .modal-header",
+    "type": "text",
+    "key": "profile.education.addTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblCity",
+    "type": "text",
+    "key": "profile.education.city.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #lblCountry",
+    "type": "text",
+    "key": "profile.education.country.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #lblState",
+    "type": "text",
+    "key": "profile.education.state.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblSchool",
+    "type": "text",
+    "key": "profile.education.school.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_RequiredFieldValidator1",
+    "type": "text",
+    "key": "profile.education.school.required"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblDegree",
+    "type": "text",
+    "key": "profile.education.degree.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblDegreeYear",
+    "type": "text",
+    "key": "profile.education.degreeYear.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_RangeValidator1",
+    "type": "text",
+    "key": "profile.education.degreeYear.invalid"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblFStudy",
+    "type": "text",
+    "key": "profile.education.field.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblDates",
+    "type": "text",
+    "key": "profile.education.dates.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel label[for=MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlFrom]",
+    "type": "text",
+    "key": "profile.education.dates.from"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel label[for=MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlTo]",
+    "type": "text",
+    "key": "profile.education.dates.to"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_cvFromToValues",
+    "type": "text",
+    "key": "profile.education.dates.invalid"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblDissertation",
+    "type": "text",
+    "key": "profile.education.dissertation.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblAdvisor",
+    "type": "text",
+    "key": "profile.education.advisor.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel label[for=MainCopy_ctl32_ucEducationEditorAdd_chkIsHighestDegree]",
+    "type": "text",
+    "key": "profile.education.highestDegree.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_SaveTop",
+    "type": "attr",
+    "key": "profile.education.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_CancelTop",
+    "type": "attr",
+    "key": "profile.education.cancel",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl29_HtmlEditor .modal-header label",
+    "type": "text",
+    "key": "profile.bio.editTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl29_HtmlEditor #MainCopy_ctl29_Btn_Save",
+    "type": "attr",
+    "key": "profile.bio.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl29_HtmlEditor #MainCopy_ctl29_lnkCancel",
+    "type": "text",
+    "key": "profile.bio.cancel"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_pnlEditHornorAndAwards .modal-header",
+    "type": "text",
+    "key": "profile.awards.editTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel .modal-header",
+    "type": "text",
+    "key": "profile.awards.addTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_Label1",
+    "type": "text",
+    "key": "profile.awards.award.label"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_RequiredFieldValidator1",
+    "type": "text",
+    "key": "profile.awards.award.required"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_Label2",
+    "type": "text",
+    "key": "profile.awards.orgAcronym.label"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_AcronyLabel",
+    "type": "text",
+    "key": "profile.awards.acronym.sronly"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_Label3",
+    "type": "text",
+    "key": "profile.awards.years.label"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_YearsValidatorSingle",
+    "type": "text",
+    "key": "profile.awards.years.invalid"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_SaveTop",
+    "type": "attr",
+    "key": "profile.awards.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_CancelTop",
+    "type": "attr",
+    "key": "profile.awards.cancel",
+    "attr": "value"
   }
 ]
