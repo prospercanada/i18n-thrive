@@ -301,7 +301,7 @@
     "attr": "value"
   },
   {
-    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal.modal-header",
+    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal .modal-header",
     "type": "text",
     "key": "profile.education.editTitle"
   },
@@ -429,7 +429,7 @@
     "key": "profile.awards.addTitle"
   },
   {
-    "selector": "#MainCopy_ctl35_AwardName",
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label1",
     "type": "text",
     "key": "profile.awards.award.label"
   },
@@ -439,7 +439,7 @@
     "key": "profile.awards.award.required"
   },
   {
-    "selector": "#MainCopy_ctl35_Label2",
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label2",
     "type": "text",
     "key": "profile.awards.orgAcronym.label"
   },
@@ -449,7 +449,7 @@
     "key": "profile.awards.acronym.sronly"
   },
   {
-    "selector": "#MainCopy_ctl35_Label3",
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label3",
     "type": "text",
     "key": "profile.awards.years.label"
   },
@@ -459,13 +459,13 @@
     "key": "profile.awards.years.invalid"
   },
   {
-    "selector": "#MainCopy_ctl35_SaveTop",
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom",
     "type": "attr",
     "key": "profile.awards.save",
     "attr": "value"
   },
   {
-    "selector": "#MainCopy_ctl35_CancelTop",
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_CancelBottom",
     "type": "attr",
     "key": "profile.awards.cancel",
     "attr": "value"
