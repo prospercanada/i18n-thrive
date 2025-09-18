@@ -27,9 +27,15 @@
     }
   }
 
-  async function run(opts) {
-    const { manifestUrl, namespaces = [] } = opts || {};
-    if (!manifestUrl) throw new Error("manifestUrl required");
+async function run(opts) {
+  const { manifestUrl, namespaces = [], onlyIf } = opts || {};
+  if (!manifestUrl) throw new Error("manifestUrl required");
+
+  // ✅ optional guard
+  if (typeof onlyIf === "function" && !onlyIf()) {
+    console.debug("[i18n bootstrap] skipped by onlyIf");
+    return;
+  }
 
     const manifest = await loadJSON(manifestUrl);
 

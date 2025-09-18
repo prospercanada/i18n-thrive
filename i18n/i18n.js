@@ -26,20 +26,34 @@
     return r.json();
   }
 
+  function firstTextNode(el) {
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
+      acceptNode(n) {
+        return n.nodeValue && n.nodeValue.trim()
+          ? NodeFilter.FILTER_ACCEPT
+          : NodeFilter.FILTER_REJECT;
+      },
+    });
+    return walker.nextNode();
+  }
+
   function applyToElement(el, tmap) {
     const key = el.getAttribute("data-i18n");
     if (key && tmap[key] != null) {
       if (el.hasAttribute("data-i18n-html")) {
-        el.innerHTML = tmap[key];
+        el.innerHTML = tmap[key]; // you opted-in for raw HTML
       } else {
-        el.textContent = tmap[key];
+        const tn = firstTextNode(el);
+        if (tn) tn.nodeValue = tmap[key];
+        else el.textContent = tmap[key]; // fallback
       }
     }
+
     const map = el.getAttribute("data-i18n-attr");
     if (map) {
       map.split(",").forEach((pair) => {
         const [attr, k] = pair.split(":").map((s) => s.trim());
-        if (!ATTRS.includes(attr)) return;
+        if (!attr || !ATTRS.includes(attr)) return;
         if (tmap[k] != null) el.setAttribute(attr, tmap[k]);
       });
     }

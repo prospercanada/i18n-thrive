@@ -1,131 +1,35 @@
 key,en,fr,selector,type,attr
-profile.navskiplink.skip-main-navigation-press,Skip main navigation (Press Enter).,Skip main navigation (Press Enter).-fr,#navskiplink,text,
-common.inbox,Inbox,Inbox-fr,#RibbitWelcomeMobile,text,
-common.profile,Profile,Profile-fr,#RibbitWelcomeMobile,text,
-common.my-communities,My Communities,My Communities-fr,#RibbitWelcomeMobile,text,
-common.followed-content,Followed Content,Followed Content-fr,#RibbitWelcomeMobile,text,
-common.log-out,Log Out,Log Out-fr,#RibbitWelcomeMobile,text,
-common.toggle-navigation,Toggle navigation,Toggle navigation-fr,#MPButtonBar,text,
-common.create,Create,Create-fr,#CreateBtnWrapper,text,
-profile.createbtnwrapper.toggle-dropdown,Toggle Dropdown,Toggle Dropdown-fr,#CreateBtnWrapper,text,
-common.discussion-thread,Discussion Thread,Discussion Thread-fr,#HLCreateDiscussionThread,text,
-common.library-entry,Library Entry,Library Entry-fr,#HLCreateLibraryEntry,text,
-common.blog-post,Blog Post,Blog Post-fr,#HLCreateBlogPost,text,
-common.actions,Actions,Actions-fr,#MainCopy_ctl02_upnlProfileImage,text,
-common.change-picture,Change Picture,Change Picture-fr,#MainCopy_ctl02_ManageDropDown1_lnkEditPicture,text,
-common.restore-default-image,Restore Default Image,Restore Default Image-fr,#MainCopy_ctl02_ManageDropDown1_lnkDeletePicture,text,
-profile.maincopy.contentwrapper.contact-details,Contact Details,Contact Details-fr,#MainCopy_ContentWrapper,text,
-profile.maincopy.ctl10.pnleditcontactinfo.edit-contact-information,Edit Contact Information,Edit Contact Information-fr,#MainCopy_ctl10_pnlEditContactInfo,text,
-profile.maincopy.ctl10.emailaddresslabel.email-address,Email Address,Email Address-fr,#MainCopy_ctl10_EmailAddressLabel,text,
-profile.maincopy.ctl10.requiredfieldvalidatoremailaddress.email-address-is-required,Email address is required,Email address is required-fr,#MainCopy_ctl10_RequiredFieldValidatorEmailAddress,text,
-profile.maincopy.ctl10.regularexpressionvalidatoremailaddress.enter-a-valid-email,Enter a valid email address,Enter a valid email address-fr,#MainCopy_ctl10_RegularExpressionValidatorEmailAddress,text,
-profile.maincopy.ctl10.lblcompanyname.company-name,Company Name,Company Name-fr,#MainCopy_ctl10_lblCompanyName,text,
-profile.maincopy.ctl10.lbltitle.job-title,Job Title,Job Title-fr,#MainCopy_ctl10_lblTitle,text,
-profile.maincopy.ctl10.departmentlabel.department,Department,Department-fr,#MainCopy_ctl10_DepartmentLabel,text,
-profile.maincopy.ctl10.lbladdress1.address-1,Address 1,Address 1-fr,#MainCopy_ctl10_lblAddress1,text,
-profile.maincopy.ctl10.lbladdress2.address-2,Address 2,Address 2-fr,#MainCopy_ctl10_lblAddress2,text,
-profile.maincopy.ctl10.lblcity.city,City,City-fr,#MainCopy_ctl10_lblCity,text,
-profile.lblcountry.country,Country,Country-fr,#lblCountry,text,
-profile.maincopy.ctl10.uccountrystateprovincelist.ddlcountry.country,(Country),(Country)-fr,#MainCopy_ctl10_ucCountryStateProvinceList_ddlCountry,text,
-profile.maincopy.ctl10.lblpostalcode.postal-code,Postal Code,Postal Code-fr,#MainCopy_ctl10_lblPostalCode,text,
-profile.maincopy.ctl10.websiteurllabel.website-url,Website URL,Website URL-fr,#MainCopy_ctl10_WebsiteUrlLabel,text,
-profile.maincopy.ctl10.websiteurlerrorlabel.invalid-url,Invalid Url,Invalid Url-fr,#MainCopy_ctl10_WebsiteUrlErrorLabel,text,
-profile.enterpasswordmodal.enter-password,Enter Password,Enter Password-fr,#EnterPasswordModal,text,
-profile.enterpasswordmodal.confirm-password,Confirm Password,Confirm Password-fr,#EnterPasswordModal,text,
-profile.react.widget.react.widget.contentitemreact3bfbf068efd04f25aa9d3382f534e2d3.ribbons,Ribbons,Ribbons-fr,#react-widget-react-widget-ContentItemReact3bfbf068efd04f25aa9d3382f534e2d3,text,
-profile.react.widget.react.widget.contentitemreact3bfbf068efd04f25aa9d3382f534e2d3.staff,Staff,Staff-fr,#react-widget-react-widget-ContentItemReact3bfbf068efd04f25aa9d3382f534e2d3,text,
-profile.react.widget.react.widget.contentitemreactd02ca730700e4968b1c302fd9921d031.badges,Badges,Badges-fr,#react-widget-react-widget-ContentItemReactd02ca730700e4968b1c302fd9921d031,text,
-profile.react.widget.react.widget.contentitemreactd02ca730700e4968b1c302fd9921d031.profile-starter-badge,Profile Starter badge,Profile Starter badge-fr,#react-widget-react-widget-ContentItemReactd02ca730700e4968b1c302fd9921d031,text,
-profile.react.widget.react.widget.contentitemreactd02ca730700e4968b1c302fd9921d031.profile-expert-badge,Profile Expert badge,Profile Expert badge-fr,#react-widget-react-widget-ContentItemReactd02ca730700e4968b1c302fd9921d031,text,
-profile.editusernamemodal.edit-user-name,Edit User Name,Edit User Name-fr,#Edit user name modal,text,
-profile.maincopy.ctl21.lblprefix.prefix,Prefix,Prefix-fr,#MainCopy_ctl21_lblPrefix,text,
-profile.maincopy.ctl21.lblfirstname.first-name,First Name,First Name-fr,#MainCopy_ctl21_lblFirstName,text,
-profile.maincopy.ctl21.reqvalidatefirstname.please-enter-first-name,Please enter first name,Please enter first name-fr,#MainCopy_ctl21_ReqvalidateFirstName,text,
-profile.maincopy.ctl21.lbllastname.last-name,Last Name,Last Name-fr,#MainCopy_ctl21_lblLastName,text,
-profile.maincopy.ctl21.lblsuffix.suffix,Suffix,Suffix-fr,#MainCopy_ctl21_lblSuffix,text,
-profile.maincopy.ctl21.lbldesignation.designation,Designation,Designation-fr,#MainCopy_ctl21_lblDesignation,text,
-profile.maincopy.ctl21.lblpronouns.pronouns,Pronouns,Pronouns-fr,#MainCopy_ctl21_lblPronouns,text,
-common.cancel,Cancel,Cancel-fr,#MainCopy_ctl21_lnkCancel,text,
-profile.maincopy.ctl27.profilelink.my-profile,My Profile,My Profile-fr,#MainCopy_ctl27_ProfileLink,text,
-profile.maincopy.ctl27.connectionslink.my-connections,My Connections,My Connections-fr,#MainCopy_ctl27_ConnectionsLink,text,
-profile.maincopy.ctl27.contactslink.contacts,Contacts,Contacts-fr,#MainCopy_ctl27_ContactsLink,text,
-profile.maincopy.ctl27.networkslink.networks,Networks,Networks-fr,#MainCopy_ctl27_NetworksLink,text,
-profile.maincopy.ctl27.communitieslink.communities,Communities,Communities-fr,#MainCopy_ctl27_CommunitiesLink,text,
-profile.maincopy.ctl27.followinglink.following,Following,Following-fr,#MainCopy_ctl27_FollowingLink,text,
-profile.maincopy.ctl27.contributionslink.my-contributions,My Contributions,My Contributions-fr,#MainCopy_ctl27_ContributionsLink,text,
-profile.maincopy.ctl27.summarylink.my-summary,My Summary,My Summary-fr,#MainCopy_ctl27_SummaryLink,text,
-profile.maincopy.ctl27.achievementslink.my-achievements,My Achievements,My Achievements-fr,#MainCopy_ctl27_AchievementsLink,text,
-profile.maincopy.ctl27.listofcontributionslink.my-list-of-contributions,My List of Contributions,My List of Contributions-fr,#MainCopy_ctl27_ListOfContributionsLink,text,
-profile.maincopy.ctl27.accountlink.my-account,My Account,My Account-fr,#MainCopy_ctl27_AccountLink,text,
-profile.maincopy.ctl27.changepasswordlink.change-password,Change Password,Change Password-fr,#MainCopy_ctl27_ChangePasswordLink,text,
-profile.maincopy.ctl27.privacysettingslink.privacy-settings,Privacy Settings,Privacy Settings-fr,#MainCopy_ctl27_PrivacySettingsLink,text,
-profile.maincopy.ctl27.emailpreferenceslink.email-preferences,Email Preferences,Email Preferences-fr,#MainCopy_ctl27_EmailPreferencesLink,text,
-profile.maincopy.ctl27.rssfeedslink.rss-feeds,RSS Feeds,RSS Feeds-fr,#MainCopy_ctl27_RSSFeedsLink,text,
-profile.maincopy.ctl27.subscriptionslink.community-notifications,Community Notifications,Community Notifications-fr,#MainCopy_ctl27_SubscriptionsLink,text,
-profile.maincopy.ctl27.discussionsignaturelink.discussion-signature,Discussion Signature,Discussion Signature-fr,#MainCopy_ctl27_DiscussionSignatureLink,text,
-profile.maincopy.ctl27.disableaccountlink.disable-my-account,Disable My Account,Disable My Account-fr,#MainCopy_ctl27_DisableAccountLink,text,
-profile.maincopy.ctl27.inboxlink.my-inbox,My Inbox,My Inbox-fr,#MainCopy_ctl27_InboxLink,text,
-profile.maincopy.ctl27.pnldisablemyaccount.you-are-disabling-your,You are disabling your account on Prosper Canada Community. You will be logged out of the system and will no longer be able to log back in. Please contact,You are disabling your account on Prosper Canada Community. You will be logged out of the system and will no longer be able to log back in. Please contact-fr,#MainCopy_ctl27_pnlDisableMyAccount,text,
-profile.maincopy.ctl27.pnldisablemyaccount.if-you-have-any,if you have any questions.,if you have any questions.-fr,#MainCopy_ctl27_pnlDisableMyAccount,text,
-profile.maincopy.ctl27.pnldisablemyaccount.reason-for-disabling-account,Reason for disabling account,Reason for disabling account-fr,#MainCopy_ctl27_pnlDisableMyAccount,text,
-profile.maincopy.ctl27.pnldisablemyaccount.at-least-two-words,At least two words are required.,At least two words are required.-fr,#MainCopy_ctl27_pnlDisableMyAccount,text,
-profile.maincopy.ctl29.titletext.bio,Bio,Bio-fr,#MainCopy_ctl29_TitleText,text,
-profile.maincopy.ctl29.htmleditor.edit-bio,Edit Bio,Edit Bio-fr,#MainCopy_ctl29_HtmlEditor,text,
-profile.maincopy.ctl32.titletext.education,Education,Education-fr,#MainCopy_ctl32_TitleText,text,
-profile.maincopy.ctl32.additem.add,Add,Add-fr,#MainCopy_ctl32_AddItem,text,
-profile.maincopy.ctl32.additempanel.add-new-education,Add New Education,Add New Education-fr,#MainCopy_ctl32_AddItemPanel,text,
-profile.lblstate.state-province,State/Province,State/Province-fr,#lblState,text,
-profile.maincopy.ctl32.uceducationeditoradd.lblschool.school,School,School-fr,#MainCopy_ctl32_ucEducationEditorAdd_lblSchool,text,
-profile.maincopy.ctl32.uceducationeditoradd.requiredfieldvalidator1.please-enter-school-name,Please enter school name.,Please enter school name.-fr,#MainCopy_ctl32_ucEducationEditorAdd_RequiredFieldValidator1,text,
-profile.maincopy.ctl32.uceducationeditoradd.lbldegree.degree,Degree,Degree-fr,#MainCopy_ctl32_ucEducationEditorAdd_lblDegree,text,
-profile.maincopy.ctl32.uceducationeditoradd.lbldegreeyear.degree-year,Degree Year,Degree Year-fr,#MainCopy_ctl32_ucEducationEditorAdd_lblDegreeYear,text,
-profile.maincopy.ctl32.uceducationeditoradd.rangevalidator1.please-enter-a-valid,Please enter a valid year,Please enter a valid year-fr,#MainCopy_ctl32_ucEducationEditorAdd_RangeValidator1,text,
-profile.maincopy.ctl32.uceducationeditoradd.lblfstudy.field-s-of-study,Field(s) of Study,Field(s) of Study-fr,#MainCopy_ctl32_ucEducationEditorAdd_lblFStudy,text,
-profile.maincopy.ctl32.uceducationeditoradd.lbldates.dates-attended,Dates Attended,Dates Attended-fr,#MainCopy_ctl32_ucEducationEditorAdd_lblDates,text,
-profile.maincopy.ctl32.uceducationeditoradd.ucyearlistfromto.cvfromtovalues.end-year-must-be,End year must be greater than or equal to start year,End year must be greater than or equal to start year-fr,#MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_cvFromToValues,text,
-profile.ctl00.maincopy.ctl32.edititemdetails.ctl00.pnlediteducationmodal.edit-existing-education,Edit Existing Education,Edit Existing Education-fr,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal,text,
-profile.maincopy.ctl35.titletext.honors-and-awards,Honors and Awards,Honors and Awards-fr,#MainCopy_ctl35_TitleText,text,
-profile.maincopy.ctl35.additempanel.add-new-honors-and,Add New Honors And Awards,Add New Honors And Awards-fr,#MainCopy_ctl35_AddItemPanel,text,
-profile.maincopy.ctl35.acronylabel.acronym,Acronym,Acronym-fr,#MainCopy_ctl35_AcronyLabel,text,
-profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.pnledithornorandawards.edit-existing-honors-and,Edit Existing Honors And Awards,Edit Existing Honors And Awards-fr,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_pnlEditHornorAndAwards,text,
-profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.label1.award,Award,Award-fr,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label1,text,
-profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.requiredfieldvalidator2.please-enter-award,Please enter award,Please enter award-fr,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_RequiredFieldValidator2,text,
-profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.label2.award-organization-and-acronym,Award Organization and Acronym,Award Organization and Acronym-fr,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label2,text,
-profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.label3.year-s,Year(s),Year(s)-fr,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label3,text,
-profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.yearsvalidatorrepeat.enter-comma-separated-years,Enter comma separated years only,Enter comma separated years only-fr,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_YearsValidatorRepeat,text,
-profile.searchtoggleicon.searchtoggle@aria-label,searchToggle,searchToggle-fr,#SearchToggleIcon,attr,aria-label
-common.search-box@aria-label,Search Box,Search Box-fr,#SearchControl_SearchTerm,attr,aria-label
-common.search@aria-label,search,search-fr,#SearchControl_SearchButton,attr,aria-label
-profile.maincopy.ctl21.btnedit.edit-user-name@aria-label,Edit User Name,Edit User Name-fr,#MainCopy_ctl21_btnEdit,attr,aria-label
-common.close@aria-label,Close,Close-fr,,attr,aria-label
-profile.el.actions-collapsed-press-space@aria-label,"Actions, collapsed, press space to expand.","Actions, collapsed, press space to expand.-fr",,attr,aria-label
-profile.maincopy.ctl10.lnkeditcontact.edit-contact-details@aria-label,edit contact details,edit contact details-fr,#MainCopy_ctl10_lnkEditContact,attr,aria-label
-profile.el.staff@aria-label,Staff,Staff-fr,,attr,aria-label
-profile.maincopy.ctl27.connectionslink.my-connections-collapsed-use@aria-label,"My Connections, collapsed, use ALT + ARROW keys","My Connections, collapsed, use ALT + ARROW keys-fr",#MainCopy_ctl27_ConnectionsLink,attr,aria-label
-profile.maincopy.ctl27.contributionslink.my-contributions-collapsed-use@aria-label,"My Contributions, collapsed, use ALT + ARROW keys","My Contributions, collapsed, use ALT + ARROW keys-fr",#MainCopy_ctl27_ContributionsLink,attr,aria-label
-profile.maincopy.ctl29.lnkbtn.edit.edit-bio-information@aria-label,edit bio information,edit bio information-fr,#MainCopy_ctl29_lnkBtn_Edit,attr,aria-label
-profile.maincopy.ctl10.uccountrystateprovincelist.ddlcountry.select-a-country@title,Select a Country,Select a Country-fr,#MainCopy_ctl10_ucCountryStateProvinceList_ddlCountry,attr,title
-profile.maincopy.ctl10.uccountrystateprovincelist.ddlstate.select-a-state@title,Select a State,Select a State-fr,#MainCopy_ctl10_ucCountryStateProvinceList_ddlState,attr,title
-profile.el.assigned-to-staff-members@title,Assigned to staff members of the organization.,Assigned to staff members of the organization.-fr,,attr,title
-profile.el.profile-starter@title,Profile Starter,Profile Starter-fr,,attr,title
-profile.el.profile-expert@title,Profile Expert,Profile Expert-fr,,attr,title
-profile.maincopy.ctl21.txtprefix.prefix@title,Prefix,Prefix-fr,#MainCopy_ctl21_txtPrefix,attr,title
-profile.maincopy.ctl21.txtfirstname.first-name@title,First Name,First Name-fr,#MainCopy_ctl21_txtFirstName,attr,title
-profile.maincopy.ctl21.txtlastname.last-name@title,Last Name,Last Name-fr,#MainCopy_ctl21_txtLastName,attr,title
-profile.maincopy.ctl21.txtsuffix.suffix@title,Suffix,Suffix-fr,#MainCopy_ctl21_txtSuffix,attr,title
-profile.maincopy.ctl21.txtdesignation.designation@title,Designation,Designation-fr,#MainCopy_ctl21_txtDesignation,attr,title
-profile.maincopy.ctl21.txtpronouns.pronouns@title,Pronouns,Pronouns-fr,#MainCopy_ctl21_txtPronouns,attr,title
-profile.maincopy.ctl32.uceducationeditoradd.txtcity.city@title,City,City-fr,#MainCopy_ctl32_ucEducationEditorAdd_txtCity,attr,title
-profile.maincopy.ctl32.uceducationeditoradd.txtschool.name-of-the-school@title,Name of the School,Name of the School-fr,#MainCopy_ctl32_ucEducationEditorAdd_txtSchool,attr,title
-profile.maincopy.ctl32.uceducationeditoradd.txtdegree.name-of-the-degree@title,Name of the Degree,Name of the Degree-fr,#MainCopy_ctl32_ucEducationEditorAdd_txtDegree,attr,title
-profile.maincopy.ctl32.uceducationeditoradd.degreeyeartextbox.degree-year@title,Degree Year,Degree Year-fr,#MainCopy_ctl32_ucEducationEditorAdd_DegreeYearTextBox,attr,title
-profile.maincopy.ctl32.uceducationeditoradd.txtfstudy.field-of-study@title,Field of Study,Field of Study-fr,#MainCopy_ctl32_ucEducationEditorAdd_txtFStudy,attr,title
-profile.maincopy.ctl32.uceducationeditoradd.txtdissertation.dissertation@title,Dissertation,Dissertation-fr,#MainCopy_ctl32_ucEducationEditorAdd_txtDissertation,attr,title
-profile.maincopy.ctl32.uceducationeditoradd.txtadvisor.advisor@title,Advisor,Advisor-fr,#MainCopy_ctl32_ucEducationEditorAdd_txtAdvisor,attr,title
-profile.ctl00.maincopy.ctl32.edititemdetails.ctl00.edit.edit@title,Edit,Edit-fr,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_Edit,attr,title
-profile.ctl00.maincopy.ctl32.edititemdetails.ctl00.delete.delete@title,Delete,Delete-fr,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_Delete,attr,title
-profile.maincopy.ctl29.tmcesummary.tinymcecontent.bsmediaobjectmodal.hypuploadthumbnail.select-image@title,select image,select image-fr,#MainCopy_ctl29_tmceSummary_TinyMCEContent-bsMediaObjectModal-hypUploadThumbnail,attr,title
-profile.el.change@title,Change,Change-fr,,attr,title
-common.save@value,Save,Save-fr,#MainCopy_ctl10_btnSave,attr,value
-common.cancel@value,Cancel,Cancel-fr,#MainCopy_ctl10_lnkCancel,attr,value
-common.submit@value,Submit,Submit-fr,#MainCopy_ctl10_EnterPasswordModal_SubmitEnterPasswordBtn,attr,value
+profile.tabs.my-profile,My Profile,Mon profil,#MainCopy_ctl27_ProfileLink,text,
+profile.tabs.my-connections,My Connections,Mes connexions,#MainCopy_ctl27_ConnectionsLink,text,
+profile.tabs.my-connections@aria-label,My Connections,Mes connexions,#MainCopy_ctl27_ConnectionsLink,attr,aria-label
+profile.tabs.contacts,Contacts,Contacts,#MainCopy_ctl27_ContactsLink,text,
+profile.tabs.networks,Networks,Réseaux,#MainCopy_ctl27_NetworksLink,text,
+profile.tabs.communities,Communities,Communautés,#MainCopy_ctl27_CommunitiesLink,text,
+profile.tabs.following,Following,Abonnements,#MainCopy_ctl27_FollowingLink,text,
+profile.tabs.my-contributions,My Contributions,Mes contributions,#MainCopy_ctl27_ContributionsLink,text,
+profile.tabs.my-contributions@aria-label,My Contributions,Mes contributions,#MainCopy_ctl27_ContributionsLink,attr,aria-label
+profile.tabs.my-summary,My Summary,Mon résumé,#MainCopy_ctl27_SummaryLink,text,
+profile.tabs.my-achievements,My Achievements,Mes réalisations,#MainCopy_ctl27_AchievementsLink,text,
+profile.tabs.my-list-of-contributions,My List of Contributions,Ma liste de contributions,#MainCopy_ctl27_ListOfContributionsLink,text,
+profile.tabs.my-account,My Account,Mon compte,#MainCopy_ctl27_AccountLink,text,
+profile.tabs.my-account@aria-label,My Account,Mon compte,#MainCopy_ctl27_AccountLink,attr,aria-label
+profile.tabs.change-password,Change Password,Changer le mot de passe,#MainCopy_ctl27_ChangePasswordLink,text,
+profile.tabs.privacy-settings,Privacy Settings,Paramètres de confidentialité,#MainCopy_ctl27_PrivacySettingsLink,text,
+profile.tabs.email-preferences,Email Preferences,Préférences de courriel,#MainCopy_ctl27_EmailPreferencesLink,text,
+profile.tabs.rss-feeds,RSS Feeds,Flux RSS,#MainCopy_ctl27_RSSFeedsLink,text,
+profile.tabs.community-notifications,Community Notifications,Notifications de la communauté,#MainCopy_ctl27_SubscriptionsLink,text,
+profile.tabs.discussion-signature,Discussion Signature,Signature des discussions,#MainCopy_ctl27_DiscussionSignatureLink,text,
+profile.tabs.disable-my-account,Disable My Account,Désactiver mon compte,#MainCopy_ctl27_DisableAccountLink,text,
+profile.tabs.my-inbox,My Inbox,Ma boîte de réception,#MainCopy_ctl27_InboxLink,text,
+profile.tabs.my-inbox@aria-label,My Inbox,Ma boîte de réception,#MainCopy_ctl27_InboxLink,attr,aria-label
+profile.tabs.admin,Admin,Admin,#MainCopy_ctl27_AdminLink,text,
+modal.disable.header,Disable My Account,Désactiver mon compte,#disableMyAccountModalTitle,text,
+modal.disable.warning,You are disabling your account on Prosper Canada Community. You will be logged out of the system and will no longer be able to log back in. Please contact gelward@prospercanada.org if you have any questions.,Vous désactivez votre compte sur la communauté de Prospérité Canada. Vous serez déconnecté et ne pourrez plus vous reconnecter. Veuillez contacter gelward@prospercanada.org si vous avez des questions.,#MainCopy_ctl27_pnlDisableMyAccount .modal-body .bg-warning,text,
+modal.disable.reason,Reason for disabling account,Raison de la désactivation du compte,label[for='textareaDisableMyAccountReason'],text,
+modal.disable.btn-primary,Disable My Account,Désactiver mon compte,.btn-disable-my-account,text,
+modal.disable.btn-cancel,Cancel,Annuler,#MainCopy_ctl27_pnlDisableMyAccount .modal-footer .btn.btn-default,text,
+section.bio,Bio,Biographie,#MainCopy_ctl29_TitleText,text,
+section.education,Education,Éducation,#MainCopy_ctl32_TitleText,text,
+section.education.add,Add,Ajouter,#MainCopy_ctl32_AddItem,text,
+section.honors-awards,Honors and Awards,Distinctions et prix,#MainCopy_ctl35_TitleText,text,
+section.honors-awards.add,Add,Ajouter,#MainCopy_ctl35_AddItem,text,

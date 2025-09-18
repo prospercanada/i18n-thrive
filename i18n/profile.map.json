@@ -1,646 +1,176 @@
 [
   {
-    "selector": "#navskiplink",
-    "type": "text",
-    "key": "profile.navskiplink.skip-main-navigation-press"
-  },
-  {
-    "selector": "#RibbitWelcomeMobile",
-    "type": "text",
-    "key": "common.inbox"
-  },
-  {
-    "selector": "#RibbitWelcomeMobile",
-    "type": "text",
-    "key": "common.profile"
-  },
-  {
-    "selector": "#RibbitWelcomeMobile",
-    "type": "text",
-    "key": "common.my-communities"
-  },
-  {
-    "selector": "#RibbitWelcomeMobile",
-    "type": "text",
-    "key": "common.followed-content"
-  },
-  {
-    "selector": "#RibbitWelcomeMobile",
-    "type": "text",
-    "key": "common.log-out"
-  },
-  {
-    "selector": "#MPButtonBar",
-    "type": "text",
-    "key": "common.toggle-navigation"
-  },
-  {
-    "selector": "#CreateBtnWrapper",
-    "type": "text",
-    "key": "common.create"
-  },
-  {
-    "selector": "#CreateBtnWrapper",
-    "type": "text",
-    "key": "profile.createbtnwrapper.toggle-dropdown"
-  },
-  {
-    "selector": "#HLCreateDiscussionThread",
-    "type": "text",
-    "key": "common.discussion-thread"
-  },
-  {
-    "selector": "#HLCreateLibraryEntry",
-    "type": "text",
-    "key": "common.library-entry"
-  },
-  {
-    "selector": "#HLCreateBlogPost",
-    "type": "text",
-    "key": "common.blog-post"
-  },
-  {
-    "selector": "#MainCopy_ctl02_upnlProfileImage",
-    "type": "text",
-    "key": "common.actions"
-  },
-  {
-    "selector": "#MainCopy_ctl02_ManageDropDown1_lnkEditPicture",
-    "type": "text",
-    "key": "common.change-picture"
-  },
-  {
-    "selector": "#MainCopy_ctl02_ManageDropDown1_lnkDeletePicture",
-    "type": "text",
-    "key": "common.restore-default-image"
-  },
-  {
-    "selector": "#MainCopy_ContentWrapper",
-    "type": "text",
-    "key": "profile.maincopy.contentwrapper.contact-details"
-  },
-  {
-    "selector": "#MainCopy_ctl10_pnlEditContactInfo",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.pnleditcontactinfo.edit-contact-information"
-  },
-  {
-    "selector": "#MainCopy_ctl10_EmailAddressLabel",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.emailaddresslabel.email-address"
-  },
-  {
-    "selector": "#MainCopy_ctl10_RequiredFieldValidatorEmailAddress",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.requiredfieldvalidatoremailaddress.email-address-is-required"
-  },
-  {
-    "selector": "#MainCopy_ctl10_RegularExpressionValidatorEmailAddress",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.regularexpressionvalidatoremailaddress.enter-a-valid-email"
-  },
-  {
-    "selector": "#MainCopy_ctl10_lblCompanyName",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.lblcompanyname.company-name"
-  },
-  {
-    "selector": "#MainCopy_ctl10_lblTitle",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.lbltitle.job-title"
-  },
-  {
-    "selector": "#MainCopy_ctl10_DepartmentLabel",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.departmentlabel.department"
-  },
-  {
-    "selector": "#MainCopy_ctl10_lblAddress1",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.lbladdress1.address-1"
-  },
-  {
-    "selector": "#MainCopy_ctl10_lblAddress2",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.lbladdress2.address-2"
-  },
-  {
-    "selector": "#MainCopy_ctl10_lblCity",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.lblcity.city"
-  },
-  {
-    "selector": "#lblCountry",
-    "type": "text",
-    "key": "profile.lblcountry.country"
-  },
-  {
-    "selector": "#MainCopy_ctl10_ucCountryStateProvinceList_ddlCountry",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.uccountrystateprovincelist.ddlcountry.country"
-  },
-  {
-    "selector": "#MainCopy_ctl10_lblPostalCode",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.lblpostalcode.postal-code"
-  },
-  {
-    "selector": "#MainCopy_ctl10_WebsiteUrlLabel",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.websiteurllabel.website-url"
-  },
-  {
-    "selector": "#MainCopy_ctl10_WebsiteUrlErrorLabel",
-    "type": "text",
-    "key": "profile.maincopy.ctl10.websiteurlerrorlabel.invalid-url"
-  },
-  {
-    "selector": "#EnterPasswordModal",
-    "type": "text",
-    "key": "profile.enterpasswordmodal.enter-password"
-  },
-  {
-    "selector": "#EnterPasswordModal",
-    "type": "text",
-    "key": "profile.enterpasswordmodal.confirm-password"
-  },
-  {
-    "selector": "#react-widget-react-widget-ContentItemReact3bfbf068efd04f25aa9d3382f534e2d3",
-    "type": "text",
-    "key": "profile.react.widget.react.widget.contentitemreact3bfbf068efd04f25aa9d3382f534e2d3.ribbons"
-  },
-  {
-    "selector": "#react-widget-react-widget-ContentItemReact3bfbf068efd04f25aa9d3382f534e2d3",
-    "type": "text",
-    "key": "profile.react.widget.react.widget.contentitemreact3bfbf068efd04f25aa9d3382f534e2d3.staff"
-  },
-  {
-    "selector": "#react-widget-react-widget-ContentItemReactd02ca730700e4968b1c302fd9921d031",
-    "type": "text",
-    "key": "profile.react.widget.react.widget.contentitemreactd02ca730700e4968b1c302fd9921d031.badges"
-  },
-  {
-    "selector": "#react-widget-react-widget-ContentItemReactd02ca730700e4968b1c302fd9921d031",
-    "type": "text",
-    "key": "profile.react.widget.react.widget.contentitemreactd02ca730700e4968b1c302fd9921d031.profile-starter-badge"
-  },
-  {
-    "selector": "#react-widget-react-widget-ContentItemReactd02ca730700e4968b1c302fd9921d031",
-    "type": "text",
-    "key": "profile.react.widget.react.widget.contentitemreactd02ca730700e4968b1c302fd9921d031.profile-expert-badge"
-  },
-  {
-    "selector": "#Edit user name modal",
-    "type": "text",
-    "key": "profile.editusernamemodal.edit-user-name"
-  },
-  {
-    "selector": "#MainCopy_ctl21_lblPrefix",
-    "type": "text",
-    "key": "profile.maincopy.ctl21.lblprefix.prefix"
-  },
-  {
-    "selector": "#MainCopy_ctl21_lblFirstName",
-    "type": "text",
-    "key": "profile.maincopy.ctl21.lblfirstname.first-name"
-  },
-  {
-    "selector": "#MainCopy_ctl21_ReqvalidateFirstName",
-    "type": "text",
-    "key": "profile.maincopy.ctl21.reqvalidatefirstname.please-enter-first-name"
-  },
-  {
-    "selector": "#MainCopy_ctl21_lblLastName",
-    "type": "text",
-    "key": "profile.maincopy.ctl21.lbllastname.last-name"
-  },
-  {
-    "selector": "#MainCopy_ctl21_lblSuffix",
-    "type": "text",
-    "key": "profile.maincopy.ctl21.lblsuffix.suffix"
-  },
-  {
-    "selector": "#MainCopy_ctl21_lblDesignation",
-    "type": "text",
-    "key": "profile.maincopy.ctl21.lbldesignation.designation"
-  },
-  {
-    "selector": "#MainCopy_ctl21_lblPronouns",
-    "type": "text",
-    "key": "profile.maincopy.ctl21.lblpronouns.pronouns"
-  },
-  {
-    "selector": "#MainCopy_ctl21_lnkCancel",
-    "type": "text",
-    "key": "common.cancel"
-  },
-  {
     "selector": "#MainCopy_ctl27_ProfileLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.profilelink.my-profile"
+    "key": "profile.tabs.my-profile"
   },
   {
     "selector": "#MainCopy_ctl27_ConnectionsLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.connectionslink.my-connections"
+    "key": "profile.tabs.my-connections"
+  },
+  {
+    "selector": "#MainCopy_ctl27_ConnectionsLink",
+    "type": "attr",
+    "key": "profile.tabs.my-connections@aria-label",
+    "attr": "aria-label"
   },
   {
     "selector": "#MainCopy_ctl27_ContactsLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.contactslink.contacts"
+    "key": "profile.tabs.contacts"
   },
   {
     "selector": "#MainCopy_ctl27_NetworksLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.networkslink.networks"
+    "key": "profile.tabs.networks"
   },
   {
     "selector": "#MainCopy_ctl27_CommunitiesLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.communitieslink.communities"
+    "key": "profile.tabs.communities"
   },
   {
     "selector": "#MainCopy_ctl27_FollowingLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.followinglink.following"
+    "key": "profile.tabs.following"
   },
   {
     "selector": "#MainCopy_ctl27_ContributionsLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.contributionslink.my-contributions"
+    "key": "profile.tabs.my-contributions"
+  },
+  {
+    "selector": "#MainCopy_ctl27_ContributionsLink",
+    "type": "attr",
+    "key": "profile.tabs.my-contributions@aria-label",
+    "attr": "aria-label"
   },
   {
     "selector": "#MainCopy_ctl27_SummaryLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.summarylink.my-summary"
+    "key": "profile.tabs.my-summary"
   },
   {
     "selector": "#MainCopy_ctl27_AchievementsLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.achievementslink.my-achievements"
+    "key": "profile.tabs.my-achievements"
   },
   {
     "selector": "#MainCopy_ctl27_ListOfContributionsLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.listofcontributionslink.my-list-of-contributions"
+    "key": "profile.tabs.my-list-of-contributions"
   },
   {
     "selector": "#MainCopy_ctl27_AccountLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.accountlink.my-account"
+    "key": "profile.tabs.my-account"
+  },
+  {
+    "selector": "#MainCopy_ctl27_AccountLink",
+    "type": "attr",
+    "key": "profile.tabs.my-account@aria-label",
+    "attr": "aria-label"
   },
   {
     "selector": "#MainCopy_ctl27_ChangePasswordLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.changepasswordlink.change-password"
+    "key": "profile.tabs.change-password"
   },
   {
     "selector": "#MainCopy_ctl27_PrivacySettingsLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.privacysettingslink.privacy-settings"
+    "key": "profile.tabs.privacy-settings"
   },
   {
     "selector": "#MainCopy_ctl27_EmailPreferencesLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.emailpreferenceslink.email-preferences"
+    "key": "profile.tabs.email-preferences"
   },
   {
     "selector": "#MainCopy_ctl27_RSSFeedsLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.rssfeedslink.rss-feeds"
+    "key": "profile.tabs.rss-feeds"
   },
   {
     "selector": "#MainCopy_ctl27_SubscriptionsLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.subscriptionslink.community-notifications"
+    "key": "profile.tabs.community-notifications"
   },
   {
     "selector": "#MainCopy_ctl27_DiscussionSignatureLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.discussionsignaturelink.discussion-signature"
+    "key": "profile.tabs.discussion-signature"
   },
   {
     "selector": "#MainCopy_ctl27_DisableAccountLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.disableaccountlink.disable-my-account"
+    "key": "profile.tabs.disable-my-account"
   },
   {
     "selector": "#MainCopy_ctl27_InboxLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.inboxlink.my-inbox"
+    "key": "profile.tabs.my-inbox"
   },
   {
-    "selector": "#MainCopy_ctl27_pnlDisableMyAccount",
-    "type": "text",
-    "key": "profile.maincopy.ctl27.pnldisablemyaccount.you-are-disabling-your"
+    "selector": "#MainCopy_ctl27_InboxLink",
+    "type": "attr",
+    "key": "profile.tabs.my-inbox@aria-label",
+    "attr": "aria-label"
   },
   {
-    "selector": "#MainCopy_ctl27_pnlDisableMyAccount",
+    "selector": "#MainCopy_ctl27_AdminLink",
     "type": "text",
-    "key": "profile.maincopy.ctl27.pnldisablemyaccount.if-you-have-any"
+    "key": "profile.tabs.admin"
   },
   {
-    "selector": "#MainCopy_ctl27_pnlDisableMyAccount",
+    "selector": "#disableMyAccountModalTitle",
     "type": "text",
-    "key": "profile.maincopy.ctl27.pnldisablemyaccount.reason-for-disabling-account"
+    "key": "modal.disable.header"
   },
   {
-    "selector": "#MainCopy_ctl27_pnlDisableMyAccount",
+    "selector": "#MainCopy_ctl27_pnlDisableMyAccount .modal-body .bg-warning",
     "type": "text",
-    "key": "profile.maincopy.ctl27.pnldisablemyaccount.at-least-two-words"
+    "key": "modal.disable.warning"
+  },
+  {
+    "selector": "label[for='textareaDisableMyAccountReason']",
+    "type": "text",
+    "key": "modal.disable.reason"
+  },
+  {
+    "selector": ".btn-disable-my-account",
+    "type": "text",
+    "key": "modal.disable.btn-primary"
+  },
+  {
+    "selector": "#MainCopy_ctl27_pnlDisableMyAccount .modal-footer .btn.btn-default",
+    "type": "text",
+    "key": "modal.disable.btn-cancel"
   },
   {
     "selector": "#MainCopy_ctl29_TitleText",
     "type": "text",
-    "key": "profile.maincopy.ctl29.titletext.bio"
-  },
-  {
-    "selector": "#MainCopy_ctl29_HtmlEditor",
-    "type": "text",
-    "key": "profile.maincopy.ctl29.htmleditor.edit-bio"
+    "key": "section.bio"
   },
   {
     "selector": "#MainCopy_ctl32_TitleText",
     "type": "text",
-    "key": "profile.maincopy.ctl32.titletext.education"
+    "key": "section.education"
   },
   {
     "selector": "#MainCopy_ctl32_AddItem",
     "type": "text",
-    "key": "profile.maincopy.ctl32.additem.add"
-  },
-  {
-    "selector": "#MainCopy_ctl32_AddItemPanel",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.additempanel.add-new-education"
-  },
-  {
-    "selector": "#lblState",
-    "type": "text",
-    "key": "profile.lblstate.state-province"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblSchool",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.lblschool.school"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_RequiredFieldValidator1",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.requiredfieldvalidator1.please-enter-school-name"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblDegree",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.lbldegree.degree"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblDegreeYear",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.lbldegreeyear.degree-year"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_RangeValidator1",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.rangevalidator1.please-enter-a-valid"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblFStudy",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.lblfstudy.field-s-of-study"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblDates",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.lbldates.dates-attended"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_cvFromToValues",
-    "type": "text",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.ucyearlistfromto.cvfromtovalues.end-year-must-be"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal",
-    "type": "text",
-    "key": "profile.ctl00.maincopy.ctl32.edititemdetails.ctl00.pnlediteducationmodal.edit-existing-education"
+    "key": "section.education.add"
   },
   {
     "selector": "#MainCopy_ctl35_TitleText",
     "type": "text",
-    "key": "profile.maincopy.ctl35.titletext.honors-and-awards"
+    "key": "section.honors-awards"
   },
   {
-    "selector": "#MainCopy_ctl35_AddItemPanel",
+    "selector": "#MainCopy_ctl35_AddItem",
     "type": "text",
-    "key": "profile.maincopy.ctl35.additempanel.add-new-honors-and"
-  },
-  {
-    "selector": "#MainCopy_ctl35_AcronyLabel",
-    "type": "text",
-    "key": "profile.maincopy.ctl35.acronylabel.acronym"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_pnlEditHornorAndAwards",
-    "type": "text",
-    "key": "profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.pnledithornorandawards.edit-existing-honors-and"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label1",
-    "type": "text",
-    "key": "profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.label1.award"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_RequiredFieldValidator2",
-    "type": "text",
-    "key": "profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.requiredfieldvalidator2.please-enter-award"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label2",
-    "type": "text",
-    "key": "profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.label2.award-organization-and-acronym"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label3",
-    "type": "text",
-    "key": "profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.label3.year-s"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_YearsValidatorRepeat",
-    "type": "text",
-    "key": "profile.ctl00.maincopy.ctl35.edititemdetails.ctl00.yearsvalidatorrepeat.enter-comma-separated-years"
-  },
-  {
-    "selector": "#SearchToggleIcon",
-    "type": "attr",
-    "key": "profile.searchtoggleicon.searchtoggle@aria-label",
-    "attr": "aria-label"
-  },
-  {
-    "selector": "#SearchControl_SearchTerm",
-    "type": "attr",
-    "key": "common.search-box@aria-label",
-    "attr": "aria-label"
-  },
-  {
-    "selector": "#SearchControl_SearchButton",
-    "type": "attr",
-    "key": "common.search@aria-label",
-    "attr": "aria-label"
-  },
-  {
-    "selector": "#MainCopy_ctl21_btnEdit",
-    "type": "attr",
-    "key": "profile.maincopy.ctl21.btnedit.edit-user-name@aria-label",
-    "attr": "aria-label"
-  },
-  {
-    "selector": "#MainCopy_ctl10_lnkEditContact",
-    "type": "attr",
-    "key": "profile.maincopy.ctl10.lnkeditcontact.edit-contact-details@aria-label",
-    "attr": "aria-label"
-  },
-  {
-    "selector": "#MainCopy_ctl27_ConnectionsLink",
-    "type": "attr",
-    "key": "profile.maincopy.ctl27.connectionslink.my-connections-collapsed-use@aria-label",
-    "attr": "aria-label"
-  },
-  {
-    "selector": "#MainCopy_ctl27_ContributionsLink",
-    "type": "attr",
-    "key": "profile.maincopy.ctl27.contributionslink.my-contributions-collapsed-use@aria-label",
-    "attr": "aria-label"
-  },
-  {
-    "selector": "#MainCopy_ctl29_lnkBtn_Edit",
-    "type": "attr",
-    "key": "profile.maincopy.ctl29.lnkbtn.edit.edit-bio-information@aria-label",
-    "attr": "aria-label"
-  },
-  {
-    "selector": "#MainCopy_ctl10_ucCountryStateProvinceList_ddlCountry",
-    "type": "attr",
-    "key": "profile.maincopy.ctl10.uccountrystateprovincelist.ddlcountry.select-a-country@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl10_ucCountryStateProvinceList_ddlState",
-    "type": "attr",
-    "key": "profile.maincopy.ctl10.uccountrystateprovincelist.ddlstate.select-a-state@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl21_txtPrefix",
-    "type": "attr",
-    "key": "profile.maincopy.ctl21.txtprefix.prefix@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl21_txtFirstName",
-    "type": "attr",
-    "key": "profile.maincopy.ctl21.txtfirstname.first-name@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl21_txtLastName",
-    "type": "attr",
-    "key": "profile.maincopy.ctl21.txtlastname.last-name@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl21_txtSuffix",
-    "type": "attr",
-    "key": "profile.maincopy.ctl21.txtsuffix.suffix@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl21_txtDesignation",
-    "type": "attr",
-    "key": "profile.maincopy.ctl21.txtdesignation.designation@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl21_txtPronouns",
-    "type": "attr",
-    "key": "profile.maincopy.ctl21.txtpronouns.pronouns@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_txtCity",
-    "type": "attr",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.txtcity.city@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_txtSchool",
-    "type": "attr",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.txtschool.name-of-the-school@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_txtDegree",
-    "type": "attr",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.txtdegree.name-of-the-degree@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_DegreeYearTextBox",
-    "type": "attr",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.degreeyeartextbox.degree-year@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_txtFStudy",
-    "type": "attr",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.txtfstudy.field-of-study@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_txtDissertation",
-    "type": "attr",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.txtdissertation.dissertation@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_txtAdvisor",
-    "type": "attr",
-    "key": "profile.maincopy.ctl32.uceducationeditoradd.txtadvisor.advisor@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_Edit",
-    "type": "attr",
-    "key": "profile.ctl00.maincopy.ctl32.edititemdetails.ctl00.edit.edit@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_Delete",
-    "type": "attr",
-    "key": "profile.ctl00.maincopy.ctl32.edititemdetails.ctl00.delete.delete@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl29_tmceSummary_TinyMCEContent-bsMediaObjectModal-hypUploadThumbnail",
-    "type": "attr",
-    "key": "profile.maincopy.ctl29.tmcesummary.tinymcecontent.bsmediaobjectmodal.hypuploadthumbnail.select-image@title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl10_btnSave",
-    "type": "attr",
-    "key": "common.save@value",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl10_lnkCancel",
-    "type": "attr",
-    "key": "common.cancel@value",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl10_EnterPasswordModal_SubmitEnterPasswordBtn",
-    "type": "attr",
-    "key": "common.submit@value",
-    "attr": "value"
+    "key": "section.honors-awards.add"
   }
 ]
