@@ -1,4 +1,3 @@
-/*! ThriveI18n v1.1 - live switching */
 (function () {
   const STORE_KEY = "preferredLang";
   const ATTRS = ["aria-label", "title", "alt", "placeholder", "value"];
@@ -6,8 +5,10 @@
   const state = {
     lang: "en",
     catalogs: {},
-    opts: null,
+    opts: null, // { manifestUrl, namespaces, observeMutations }
     observer: null,
+    ready: false, // flips true after init finishes first load
+    pending: [], // queued languages before ready
   };
 
   function firstTextNode(el) {
@@ -66,13 +67,15 @@
   }
 
   async function loadAndApply(lang) {
+    if (!state?.opts?.manifestUrl) {
+      throw new Error("ThriveI18n not initialized: missing opts.manifestUrl");
+    }
     state.lang = lang === "fr" ? "fr" : "en";
     localStorage.setItem(STORE_KEY, state.lang);
-    const { manifestUrl, namespaces, observeMutations } = state.opts;
 
-    // Always load the catalog for the current lang (including EN),
-    // so switching back to EN restores strings without reload.
+    const { manifestUrl, namespaces, observeMutations } = state.opts;
     const tmap = await loadCatalogs(manifestUrl, namespaces, state.lang);
+
     state.catalogs = tmap;
     applyAll(tmap);
 
@@ -88,9 +91,22 @@
       { namespaces: ["profile"], observeMutations: true },
       opts || {}
     );
+
+    // initial language (persisted or default)
     const initial = (localStorage.getItem(STORE_KEY) || "en").toLowerCase();
     await loadAndApply(initial);
-    // Also react to cross-tab changes
+
+    state.ready = true;
+
+    // flush any queued toggles
+    if (state.pending.length) {
+      const queued = state.pending.splice(0);
+      for (const lang of queued) {
+        await loadAndApply(lang);
+      }
+    }
+
+    // react to cross-tab changes
     window.addEventListener("storage", (e) => {
       if (e.key === STORE_KEY && e.newValue && e.newValue !== state.lang) {
         loadAndApply(e.newValue);
@@ -98,19 +114,32 @@
     });
   }
 
-  // Public API
+  // Safe toggle: queue if not ready yet
   async function setLangNoReload(next) {
+    if (!state.ready) {
+      state.pending.push(next);
+      // cosmetic: reflect intent immediately
+      document.documentElement.setAttribute(
+        "lang",
+        next === "fr" ? "fr" : "en"
+      );
+      return;
+    }
     await loadAndApply(next);
+    document.documentElement.setAttribute("lang", next === "fr" ? "fr" : "en");
   }
+
   function t(key) {
     return state.catalogs[key] ?? key;
   }
+
   function fmtNumber(n, o) {
     return new Intl.NumberFormat(
       state.lang === "fr" ? "fr-CA" : "en-CA",
       o
     ).format(n);
   }
+
   function fmtDate(d, o) {
     const dt = d instanceof Date ? d : new Date(d);
     return new Intl.DateTimeFormat(
@@ -119,5 +148,30 @@
     ).format(dt);
   }
 
-  window.ThriveI18n = { init, setLangNoReload, t, fmtNumber, fmtDate };
+  // Optional: tiny debug snapshot
+  function __debug() {
+    return {
+      lang: state.lang,
+      ready: state.ready,
+      pending: [...state.pending],
+      opts: state.opts && {
+        ...state.opts,
+        manifestUrl: state.opts.manifestUrl,
+      },
+      hasObserver: !!state.observer,
+      catalogKeys: Object.keys(state.catalogs).length,
+    };
+  }
+
+  window.ThriveI18n = {
+    init,
+    setLangNoReload,
+    t,
+    fmtNumber,
+    fmtDate,
+    __debug,
+    get ready() {
+      return state.ready;
+    },
+  };
 })();
