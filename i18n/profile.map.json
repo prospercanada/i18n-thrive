@@ -189,16 +189,6 @@
     "key": "profile.contact.heading"
   },
   {
-    "selector": "#ContentItemReacte5f0aa62bd41459b8ae29387a0fd5451 h2",
-    "type": "text",
-    "key": "XX.profile.ribbons.heading"
-  },
-  {
-    "selector": "#ContentItemReacte0c229080e094067ad58ae6986bdc343 h2",
-    "type": "text",
-    "key": "XX.profile.badges.heading"
-  },
-  {
     "selector": ".RibbonsBadges.ContentUserControl .widget-heading h2",
     "type": "text",
     "key": "profile.ribbons.heading"
@@ -311,103 +301,103 @@
     "attr": "value"
   },
   {
-    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal .modal-header",
+    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal.modal-header",
     "type": "text",
     "key": "profile.education.editTitle"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel .modal-header",
+    "selector": "#MainCopy_ctl32_AddItemPanel .modal-header",
     "type": "text",
     "key": "profile.education.addTitle"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblCity",
+    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_ucEducationEditorEdit_lblCity",
     "type": "text",
     "key": "profile.education.city.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #lblCountry",
+    "selector": "#lblCountry",
     "type": "text",
     "key": "profile.education.country.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #lblState",
+    "selector": "#lblState",
     "type": "text",
     "key": "profile.education.state.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblSchool",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblSchool",
     "type": "text",
     "key": "profile.education.school.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_RequiredFieldValidator1",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_RequiredFieldValidator1",
     "type": "text",
     "key": "profile.education.school.required"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblDegree",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblDegree",
     "type": "text",
     "key": "profile.education.degree.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblDegreeYear",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblDegreeYear",
     "type": "text",
     "key": "profile.education.degreeYear.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_RangeValidator1",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_RangeValidator1",
     "type": "text",
     "key": "profile.education.degreeYear.invalid"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblFStudy",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblFStudy",
     "type": "text",
     "key": "profile.education.field.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblDates",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblDates",
     "type": "text",
     "key": "profile.education.dates.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel label[for=MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlFrom]",
+    "selector": "label[for=MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlFrom]",
     "type": "text",
     "key": "profile.education.dates.from"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel label[for=MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlTo]",
+    "selector": "label[for=MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlTo]",
     "type": "text",
     "key": "profile.education.dates.to"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_cvFromToValues",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_cvFromToValues",
     "type": "text",
     "key": "profile.education.dates.invalid"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblDissertation",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblDissertation",
     "type": "text",
     "key": "profile.education.dissertation.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_ucEducationEditorAdd_lblAdvisor",
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblAdvisor",
     "type": "text",
     "key": "profile.education.advisor.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel label[for=MainCopy_ctl32_ucEducationEditorAdd_chkIsHighestDegree]",
+    "selector": "label[for=MainCopy_ctl32_ucEducationEditorAdd_chkIsHighestDegree]",
     "type": "text",
     "key": "profile.education.highestDegree.label"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_SaveTop",
+    "selector": "#MainCopy_ctl32_SaveTop",
     "type": "attr",
     "key": "profile.education.save",
     "attr": "value"
   },
   {
-    "selector": "#MainCopy_ctl32_EditItemListPanel #MainCopy_ctl32_CancelTop",
+    "selector": "#MainCopy_ctl32_CancelTop",
     "type": "attr",
     "key": "profile.education.cancel",
     "attr": "value"
@@ -418,13 +408,13 @@
     "key": "profile.bio.editTitle"
   },
   {
-    "selector": "#MainCopy_ctl29_HtmlEditor #MainCopy_ctl29_Btn_Save",
+    "selector": "#MainCopy_ctl29_pnlSummaryDisplay #MainCopy_ctl29_Btn_Save",
     "type": "attr",
     "key": "profile.bio.save",
     "attr": "value"
   },
   {
-    "selector": "#MainCopy_ctl29_HtmlEditor #MainCopy_ctl29_lnkCancel",
+    "selector": "#MainCopy_ctl29_pnlSummaryDisplay #MainCopy_ctl29_lnkCancel",
     "type": "text",
     "key": "profile.bio.cancel"
   },
@@ -439,27 +429,27 @@
     "key": "profile.awards.addTitle"
   },
   {
-    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_Label1",
+    "selector": "#MainCopy_ctl35_AwardName",
     "type": "text",
     "key": "profile.awards.award.label"
   },
   {
-    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_RequiredFieldValidator1",
+    "selector": "#MainCopy_ctl35_RequiredFieldValidator1",
     "type": "text",
     "key": "profile.awards.award.required"
   },
   {
-    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_Label2",
+    "selector": "#MainCopy_ctl35_Label2",
     "type": "text",
     "key": "profile.awards.orgAcronym.label"
   },
   {
-    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_AcronyLabel",
+    "selector": "#MainCopy_ctl35_AcronyLabel",
     "type": "text",
     "key": "profile.awards.acronym.sronly"
   },
   {
-    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_Label3",
+    "selector": "#MainCopy_ctl35_Label3",
     "type": "text",
     "key": "profile.awards.years.label"
   },
@@ -469,13 +459,13 @@
     "key": "profile.awards.years.invalid"
   },
   {
-    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_SaveTop",
+    "selector": "#MainCopy_ctl35_SaveTop",
     "type": "attr",
     "key": "profile.awards.save",
     "attr": "value"
   },
   {
-    "selector": "#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_CancelTop",
+    "selector": "#MainCopy_ctl35_CancelTop",
     "type": "attr",
     "key": "profile.awards.cancel",
     "attr": "value"
