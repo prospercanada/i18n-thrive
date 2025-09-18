@@ -1,23 +1,49 @@
-/*! ThriveI18n v1.0 - simple runtime */
+/*! ThriveI18n v1.1 - live switching */
 (function () {
   const STORE_KEY = "preferredLang";
-  const DEFAULT_LANG = "en";
   const ATTRS = ["aria-label", "title", "alt", "placeholder", "value"];
 
   const state = {
-    lang: null,
+    lang: "en",
     catalogs: {},
+    opts: null,
+    observer: null,
   };
 
-  function getLang() {
-    const v = (localStorage.getItem(STORE_KEY) || DEFAULT_LANG).toLowerCase();
-    return v === "fr" ? "fr" : "en";
+  function firstTextNode(el) {
+    const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
+      acceptNode(n) {
+        return n.nodeValue && n.nodeValue.trim() ? 1 : 2;
+      },
+    });
+    return w.nextNode();
   }
 
-  function setLang(next) {
-    const v = next === "fr" ? "fr" : "en";
-    localStorage.setItem(STORE_KEY, v);
-    location.reload();
+  function applyToElement(el, tmap) {
+    const key = el.getAttribute("data-i18n");
+    if (key && tmap[key] != null) {
+      if (el.hasAttribute("data-i18n-html")) el.innerHTML = tmap[key];
+      else {
+        const tn = firstTextNode(el);
+        if (tn) tn.nodeValue = tmap[key];
+        else el.textContent = tmap[key];
+      }
+    }
+    const map = el.getAttribute("data-i18n-attr");
+    if (map) {
+      map.split(",").forEach((pair) => {
+        const [attr, k] = pair.split(":").map((s) => s.trim());
+        if (ATTRS.includes(attr) && tmap[k] != null)
+          el.setAttribute(attr, tmap[k]);
+      });
+    }
+  }
+
+  function applyAll(tmap) {
+    if (!tmap) return;
+    document
+      .querySelectorAll("[data-i18n],[data-i18n-attr]")
+      .forEach((el) => applyToElement(el, tmap));
   }
 
   async function loadJSON(url) {
@@ -26,93 +52,72 @@
     return r.json();
   }
 
-  function firstTextNode(el) {
-    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
-      acceptNode(n) {
-        return n.nodeValue && n.nodeValue.trim()
-          ? NodeFilter.FILTER_ACCEPT
-          : NodeFilter.FILTER_REJECT;
-      },
-    });
-    return walker.nextNode();
-  }
-
-  function applyToElement(el, tmap) {
-    const key = el.getAttribute("data-i18n");
-    if (key && tmap[key] != null) {
-      if (el.hasAttribute("data-i18n-html")) {
-        el.innerHTML = tmap[key]; // you opted-in for raw HTML
-      } else {
-        const tn = firstTextNode(el);
-        if (tn) tn.nodeValue = tmap[key];
-        else el.textContent = tmap[key]; // fallback
-      }
-    }
-
-    const map = el.getAttribute("data-i18n-attr");
-    if (map) {
-      map.split(",").forEach((pair) => {
-        const [attr, k] = pair.split(":").map((s) => s.trim());
-        if (!attr || !ATTRS.includes(attr)) return;
-        if (tmap[k] != null) el.setAttribute(attr, tmap[k]);
-      });
-    }
-  }
-
-  function applyAll(tmap) {
-    document
-      .querySelectorAll("[data-i18n],[data-i18n-attr]")
-      .forEach((el) => applyToElement(el, tmap));
-  }
-
-  async function init({
-    manifestUrl,
-    namespaces = [],
-    observeMutations = false,
-  }) {
-    state.lang = getLang();
-    if (state.lang === "en") return; // nothing to do
-
+  async function loadCatalogs(manifestUrl, namespaces, lang) {
     const manifest = await loadJSON(manifestUrl);
-    const files = [];
+    const base = new URL(manifestUrl, location.origin);
+    const urls = (namespaces || [])
+      .map((ns) => manifest[`${ns}.${lang}`])
+      .filter(Boolean)
+      .map((rel) => new URL(rel, base).toString());
+    const parts = await Promise.all(
+      urls.map((u) => fetch(u, { cache: "no-store" }).then((r) => r.json()))
+    );
+    return Object.assign({}, ...parts);
+  }
 
-    for (const ns of namespaces) {
-      const file = manifest[`${ns}.${state.lang}`];
-      if (file) {
-        const base = new URL(manifestUrl, location.origin);
-        files.push(new URL(file, base).toString());
-      }
-    }
+  async function loadAndApply(lang) {
+    state.lang = lang === "fr" ? "fr" : "en";
+    localStorage.setItem(STORE_KEY, state.lang);
+    const { manifestUrl, namespaces, observeMutations } = state.opts;
 
-    const catalogs = await Promise.all(files.map(loadJSON));
-    const tmap = Object.assign({}, ...catalogs);
+    // Always load the catalog for the current lang (including EN),
+    // so switching back to EN restores strings without reload.
+    const tmap = await loadCatalogs(manifestUrl, namespaces, state.lang);
     state.catalogs = tmap;
-
     applyAll(tmap);
 
     if (observeMutations) {
-      const obs = new MutationObserver(() => applyAll(tmap));
-      obs.observe(document.body, { childList: true, subtree: true });
+      if (state.observer) state.observer.disconnect();
+      state.observer = new MutationObserver(() => applyAll(state.catalogs));
+      state.observer.observe(document.body, { childList: true, subtree: true });
     }
   }
 
+  async function init(opts) {
+    state.opts = Object.assign(
+      { namespaces: ["profile"], observeMutations: true },
+      opts || {}
+    );
+    const initial = (localStorage.getItem(STORE_KEY) || "en").toLowerCase();
+    await loadAndApply(initial);
+    // Also react to cross-tab changes
+    window.addEventListener("storage", (e) => {
+      if (e.key === STORE_KEY && e.newValue && e.newValue !== state.lang) {
+        loadAndApply(e.newValue);
+      }
+    });
+  }
+
+  // Public API
+  async function setLangNoReload(next) {
+    await loadAndApply(next);
+  }
   function t(key) {
     return state.catalogs[key] ?? key;
   }
-
-  function fmtNumber(n, opts) {
+  function fmtNumber(n, o) {
     return new Intl.NumberFormat(
       state.lang === "fr" ? "fr-CA" : "en-CA",
-      opts
+      o
     ).format(n);
   }
-
-  function fmtDate(d, opts) {
+  function fmtDate(d, o) {
+    const dt = d instanceof Date ? d : new Date(d);
     return new Intl.DateTimeFormat(
       state.lang === "fr" ? "fr-CA" : "en-CA",
-      opts
-    ).format(d);
+      o
+    ).format(dt);
   }
 
-  window.ThriveI18n = { init, getLang, setLang, t, fmtNumber, fmtDate };
+  window.ThriveI18n = { init, setLangNoReload, t, fmtNumber, fmtDate };
 })();
