@@ -58,7 +58,7 @@ profile.contact.postal.label,Postal Code,Code postal,#MainCopy_ctl10_pnlEditCont
 profile.contact.website.label,Website URL,Adresse du site Web,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_WebsiteUrlLabel,text,
 profile.contact.save,Save,Enregistrer,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_btnSave,attr,value
 profile.contact.cancel,Cancel,Annuler,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lnkCancel,attr,value
-profile.education.editTitle,Edit Existing Education,Modifier une formation existante,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal.modal-header,text,
+profile.education.editTitle,Edit Existing Education,Modifier une formation existante,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal .modal-header,text,
 profile.education.addTitle,Add New Education,Ajouter une nouvelle formation,#MainCopy_ctl32_AddItemPanel .modal-header,text,
 profile.education.city.label,City,Ville,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_ucEducationEditorEdit_lblCity,text,
 profile.education.country.label,Country,Pays, #lblCountry,text,
@@ -83,11 +83,11 @@ profile.bio.save,Save,Enregistrer,#MainCopy_ctl29_pnlSummaryDisplay #MainCopy_ct
 profile.bio.cancel,Cancel,Annuler,#MainCopy_ctl29_pnlSummaryDisplay #MainCopy_ctl29_lnkCancel,text,
 profile.awards.editTitle,Edit Existing Honors And Awards,Modifier une distinction ou un prix,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_pnlEditHornorAndAwards .modal-header,text,
 profile.awards.addTitle,Add New Honors And Awards,Ajouter une distinction ou un prix,#MainCopy_ctl35_AddItemPanel .modal-header,text,
-profile.awards.award.label,Award,Distinction ou prix,#MainCopy_ctl35_AwardName,text,
+profile.awards.award.label,Award,Distinction ou prix,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label1,text,
 profile.awards.award.required,Please enter award,Veuillez entrer une distinction,#MainCopy_ctl35_RequiredFieldValidator1,text,
-profile.awards.orgAcronym.label,Award Organization and Acronym,Organisme remettant le prix et sigle,#MainCopy_ctl35_Label2,text,
+profile.awards.orgAcronym.label,Award Organization and Acronym,Organisme remettant le prix et sigle,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label2,text,
 profile.awards.acronym.sronly,Acronym,Sigle,#MainCopy_ctl35_AcronyLabel,text,
-profile.awards.years.label,Year(s),Année(s),#MainCopy_ctl35_Label3,text,
+profile.awards.years.label,Year(s),Année(s),#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label3,text,
 profile.awards.years.invalid,Enter comma separated years only,Entrez uniquement des années séparées par des virgules,#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_YearsValidatorSingle,text,
-profile.awards.save,Save,Enregistrer,#MainCopy_ctl35_SaveTop,attr,value
-profile.awards.cancel,Cancel,Annuler,#MainCopy_ctl35_CancelTop,attr,value
+profile.awards.save,Save,Enregistrer,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom,attr,value
+profile.awards.cancel,Cancel,Annuler,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_CancelBottom,attr,value
