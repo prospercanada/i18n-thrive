@@ -19,5 +19,10 @@
     "type": "attr",
     "key": "communities.exploreAll.title",
     "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_UpdatePanel1",
+    "type": "text",
+    "key": "communities.noResults"
   }
 ]
