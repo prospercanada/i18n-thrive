@@ -1,4 +1,5 @@
 {
+  "communities.count.one": "{count} au total",
   "communities.exploreAll.btn": "Explorer toutes les communautés",
   "communities.exploreAll.title": "Explorer toutes les communautés",
   "communities.noResults": "Aucun résultat trouvé"

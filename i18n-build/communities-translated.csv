@@ -1,4 +1,5 @@
 key,en,fr,selector,type,attr
+communities.count.one,{count} total,{count} au total,,,
 communities.noResults,No Results Found,Aucun résultat trouvé,#MainCopy_ctl29_AllCommunitiesContainer,text,
 communities.exploreAll.btn,Explore All Communities,Explorer toutes les communautés,#MainCopy_ctl29_AllCommunities,text,
 communities.exploreAll.title,Explore All Communities,Explorer toutes les communautés,#MainCopy_ctl29_AllCommunities,attr,title
