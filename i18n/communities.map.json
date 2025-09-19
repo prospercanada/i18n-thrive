@@ -1,12 +1,23 @@
 [
   {
+    "selector": "#MainCopy_ctl29_lbCommunityCount .Count.text-muted",
+    "type": "text",
+    "key": "communities.count.zero"
+  },
+  {
     "selector": "#MainCopy_ctl29_AllCommunitiesContainer",
     "type": "text",
     "key": "communities.noResults"
   },
   {
-    "selector": "#MainCopy_ctl29_lbCommunityCount .Count.text-muted",
+    "selector": "#MainCopy_ctl29_AllCommunities",
     "type": "text",
-    "key": "communities.count.zero"
+    "key": "communities.exploreAll.btn"
+  },
+  {
+    "selector": "#MainCopy_ctl29_AllCommunities",
+    "type": "attr",
+    "key": "communities.exploreAll.title",
+    "attr": "title"
   }
 ]

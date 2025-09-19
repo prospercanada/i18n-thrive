@@ -6,6 +6,7 @@
   "scripts": {
     "i18n:build:profile": "node scripts/build-from-csv.mjs i18n-build/profile-translated.csv i18n profile",
     "i18n:build:connections": "node scripts/build-from-csv.mjs i18n-build/connections-translated.csv i18n connections",
+    "i18n:build:communities": "node scripts/build-from-csv.mjs i18n-build/communities-translated.csv i18n communities",
     "i18n:build:all": "node scripts/build-all.mjs",
     "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\""
   },
