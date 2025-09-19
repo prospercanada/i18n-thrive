@@ -565,11 +565,6 @@
     "key": "profile.name.pronouns.label"
   },
   {
-    "selector": "[id='Edit user name modal'] .modal-header",
-    "type": "text",
-    "key": "profile.name.editTitle"
-  },
-  {
     "selector": "#EnterPasswordModal .modal-title",
     "type": "text",
     "key": "profile.password.modalTitle"
@@ -617,5 +612,22 @@
     "selector": "#MainCopy_ctl32_ucEducationEditorAdd_ucCountryStateProvinceList_StateProvinceRow #lblState",
     "type": "text",
     "key": "profile.education.state.label"
+  },
+  {
+    "selector": "#MainCopy_ctl21_pnlEditName .modal-title",
+    "type": "text",
+    "key": "profile.name.editTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl21_btnSave",
+    "type": "attr",
+    "key": "profile.name.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl21_lnkCancel",
+    "type": "attr",
+    "key": "profile.name.cancel",
+    "attr": "value"
   }
 ]
