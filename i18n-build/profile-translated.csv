@@ -103,7 +103,6 @@ profile.awards.noItem,List past accolades and recognition,Énumérez vos distinc
 profile.awards.org.label,Award Organization and Acronym,Organisme de remise de prix et acronyme,#MainCopy_ctl35_Label2,text,
 profile.awards.year.label,Year(s),Année(s),#MainCopy_ctl35_Label3,text,
 profile.awards.save,Save,Enregistrer,#MainCopy_ctl35_SaveTop,attr,value
-profile.name.editTitle,Edit User Name,Modifier le nom d’utilisateur,[id="Edit user name modal"] .modal-header,text,
 profile.name.prefix.label,Prefix,Préfixe,#MainCopy_ctl21_lblPrefix,text,
 profile.name.firstName.label,First Name,Prénom,#MainCopy_ctl21_lblFirstName,text,
 profile.name.lastName.label,Last Name,Nom de famille,#MainCopy_ctl21_lblLastName,text,

@@ -535,11 +535,6 @@
     "attr": "value"
   },
   {
-    "selector": "[id=Edit user name modal] .modal-header",
-    "type": "text",
-    "key": "profile.name.editTitle"
-  },
-  {
     "selector": "#MainCopy_ctl21_lblPrefix",
     "type": "text",
     "key": "profile.name.prefix.label"
