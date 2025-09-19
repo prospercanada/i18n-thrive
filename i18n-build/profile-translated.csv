@@ -109,4 +109,10 @@ profile.name.lastName.label,Last Name,Nom de famille,#MainCopy_ctl21_lblLastName
 profile.name.suffix.label,Suffix,Suffixe,#MainCopy_ctl21_lblSuffix,text,
 profile.name.designation.label,Designation,Désignation,#MainCopy_ctl21_lblDesignation,text,
 profile.name.pronouns.label,Pronouns,Pronoms,#MainCopy_ctl21_lblPronouns,text,
-
+profile.name.editTitle,Edit User Name,Modifier le nom d’utilisateur,[id='Edit user name modal'] .modal-header,text,
+profile.password.modalTitle,Enter Password,Entrer le mot de passe,#EnterPasswordModal .modal-title,text,
+profile.password.enter.label,Enter Password,Entrer le mot de passe,#EnterPasswordModal .modal-body label[for="MainCopy_ctl10_EnterPasswordModal_Password"],text,
+profile.password.confirm.label,Confirm Password,Confirmer le mot de passe,#EnterPasswordModal .modal-body label[for="MainCopy_ctl10_EnterPasswordModal_ConfirmPassword"],text,
+profile.password.submit,Submit,Valider,#MainCopy_ctl10_EnterPasswordModal_SubmitEnterPasswordBtn,attr,value
+profile.password.cancel,Cancel,Annuler,#MainCopy_ctl10_EnterPasswordModal_CancelEnterPasswordBtn,attr,value
+profile.email.change,Change,Modifier,#MainCopy_ctl10_ChangeEmailBtn,attr,value

@@ -563,5 +563,43 @@
     "selector": "#MainCopy_ctl21_lblPronouns",
     "type": "text",
     "key": "profile.name.pronouns.label"
+  },
+  {
+    "selector": "[id='Edit user name modal'] .modal-header",
+    "type": "text",
+    "key": "profile.name.editTitle"
+  },
+  {
+    "selector": "#EnterPasswordModal .modal-title",
+    "type": "text",
+    "key": "profile.password.modalTitle"
+  },
+  {
+    "selector": "#EnterPasswordModal .modal-body label[for=MainCopy_ctl10_EnterPasswordModal_Password]",
+    "type": "text",
+    "key": "profile.password.enter.label"
+  },
+  {
+    "selector": "#EnterPasswordModal .modal-body label[for=MainCopy_ctl10_EnterPasswordModal_ConfirmPassword]",
+    "type": "text",
+    "key": "profile.password.confirm.label"
+  },
+  {
+    "selector": "#MainCopy_ctl10_EnterPasswordModal_SubmitEnterPasswordBtn",
+    "type": "attr",
+    "key": "profile.password.submit",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl10_EnterPasswordModal_CancelEnterPasswordBtn",
+    "type": "attr",
+    "key": "profile.password.cancel",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl10_ChangeEmailBtn",
+    "type": "attr",
+    "key": "profile.email.change",
+    "attr": "value"
   }
 ]
