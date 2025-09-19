@@ -116,3 +116,6 @@ profile.password.confirm.label,Confirm Password,Confirmer le mot de passe,#Enter
 profile.password.submit,Submit,Valider,#MainCopy_ctl10_EnterPasswordModal_SubmitEnterPasswordBtn,attr,value
 profile.password.cancel,Cancel,Annuler,#MainCopy_ctl10_EnterPasswordModal_CancelEnterPasswordBtn,attr,value
 profile.email.change,Change,Modifier,#MainCopy_ctl10_ChangeEmailBtn,attr,value
+profile.education.city.label,City,Ville,#MainCopy_ctl32_ucEducationEditorAdd_lblCity,text,
+profile.education.country.label,Country,Pays,#MainCopy_ctl32_ucEducationEditorAdd_ucCountryStateProvinceList_ddlCountry,attr,title
+profile.education.state.label,State/Province,Province/Territoire,#MainCopy_ctl32_ucEducationEditorAdd_ucCountryStateProvinceList_StateProvinceRow #lblState,text,

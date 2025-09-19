@@ -601,5 +601,21 @@
     "type": "attr",
     "key": "profile.email.change",
     "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_lblCity",
+    "type": "text",
+    "key": "profile.education.city.label"
+  },
+  {
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_ucCountryStateProvinceList_ddlCountry",
+    "type": "attr",
+    "key": "profile.education.country.label",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl32_ucEducationEditorAdd_ucCountryStateProvinceList_StateProvinceRow #lblState",
+    "type": "text",
+    "key": "profile.education.state.label"
   }
 ]
