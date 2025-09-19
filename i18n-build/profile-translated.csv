@@ -91,20 +91,3 @@ profile.awards.years.label,Year(s),Année(s),#ctl00_MainCopy_ctl35_EditItemDetai
 profile.awards.years.invalid,Enter comma separated years only,Entrez uniquement des années séparées par des virgules,#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_YearsValidatorSingle,text,
 profile.awards.save,Save,Enregistrer,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom,attr,value
 profile.awards.cancel,Cancel,Annuler,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_CancelBottom,attr,value
-profile.bio.add,Add,Ajouter,#MainCopy_ctl29_lnkInsert,text,
-profile.education.add,Add,Ajouter,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_AddEducation,text,
-profile.awards.add,Add,Ajouter,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_AddHonorsAndAwards,text,
-profile.education.noItem,Share where and when you received your education,Indiquez où et quand vous avez suivi votre formation,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_NoItem p,text,
-profile.awards.noItem,List past accolades and recognition,Énumérez vos distinctions et reconnaissances antérieures,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_NoItem p,text,
-profile.awards.award.label,Award,Prix,#MainCopy_ctl35_Label1,text,
-profile.awards.org.label,Award Organization and Acronym,Organisme de remise de prix et acronyme,#MainCopy_ctl35_Label2,text,
-profile.awards.year.label,Year(s),Année(s),#MainCopy_ctl35_Label3,text,
-profile.awards.save,Save,Enregistrer,#MainCopy_ctl35_SaveTop,attr,value
-profile.awards.cancel,Cancel,Annuler,#MainCopy_ctl35_CancelTop,attr,value
-profile.name.editTitle,Edit User Name,Modifier le nom d’utilisateur,[id="Edit user name modal"] .modal-header,text,
-profile.name.prefix.label,Prefix,Préfixe,#MainCopy_ctl21_lblPrefix,text,
-profile.name.firstName.label,First Name,Prénom,#MainCopy_ctl21_lblFirstName,text,
-profile.name.lastName.label,Last Name,Nom de famille,#MainCopy_ctl21_lblLastName,text,
-profile.name.suffix.label,Suffix,Suffixe,#MainCopy_ctl21_lblSuffix,text,
-profile.name.designation.label,Designation,Désignation,#MainCopy_ctl21_lblDesignation,text,
-profile.name.pronouns.label,Pronouns,Pronoms,#MainCopy_ctl21_lblPronouns,text,
