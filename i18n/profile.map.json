@@ -469,5 +469,29 @@
     "type": "attr",
     "key": "profile.awards.cancel",
     "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl35_SaveTop",
+    "type": "attr",
+    "key": "profile.awards.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom",
+    "type": "attr",
+    "key": "profile.awards.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl35_CancelTop",
+    "type": "attr",
+    "key": "profile.awards.cancel",
+    "attr": "value"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_CancelBottom",
+    "type": "attr",
+    "key": "profile.awards.cancel",
+    "attr": "value"
   }
 ]

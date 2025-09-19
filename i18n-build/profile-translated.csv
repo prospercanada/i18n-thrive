@@ -91,3 +91,8 @@ profile.awards.years.label,Year(s),Année(s),#ctl00_MainCopy_ctl35_EditItemDetai
 profile.awards.years.invalid,Enter comma separated years only,Entrez uniquement des années séparées par des virgules,#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_YearsValidatorSingle,text,
 profile.awards.save,Save,Enregistrer,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom,attr,value
 profile.awards.cancel,Cancel,Annuler,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_CancelBottom,attr,value
+profile.awards.save,Save,Enregistrer,#MainCopy_ctl35_SaveTop,attr,value
+profile.awards.save,Save,Enregistrer,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom,attr,value
+profile.awards.cancel,Cancel,Annuler,#MainCopy_ctl35_CancelTop,attr,value
+profile.awards.cancel,Cancel,Annuler,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_CancelBottom,attr,value
+
