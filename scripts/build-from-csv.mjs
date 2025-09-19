@@ -1,143 +1,101 @@
 // scripts/build-from-csv.mjs
-import fs from "node:fs/promises";
+// Usage: node scripts/build-from-csv.mjs path/to/file.csv [outDir=i18n] [namespace]
+import fs from "node:fs";
 import path from "node:path";
 
-const ROOT = path.resolve(process.cwd());
-const INPUT = path.join(ROOT, "i18n-build", "profile-translated.csv");
-const OUT_DIR = path.join(ROOT, "i18n");
+const [, , csvPath, outDir = "i18n", nsArg] = process.argv;
+if (!csvPath) throw new Error("Usage: node scripts/build-from-csv.mjs <csvPath> [outDir] [namespace]");
 
-const FILES = {
-  en: path.join(OUT_DIR, "profile.en.json"),
-  fr: path.join(OUT_DIR, "profile.fr.json"),
-  map: path.join(OUT_DIR, "profile.map.json"),
-  manifest: path.join(OUT_DIR, "manifest.json"),
-};
+let csv = fs.readFileSync(csvPath, "utf8");
+// strip BOM
+if (csv.charCodeAt(0) === 0xfeff) csv = csv.slice(1);
+csv = csv.trim();
 
-function csvParse(text) {
-  // simple CSV parser (handles quotes)
-  const lines = text.replace(/\r\n?/g, "\n").split("\n").filter(Boolean);
-  const header = splitCSV(lines.shift());
-  const rows = lines.map((line) => {
-    const cols = splitCSV(line);
-    const obj = {};
-    header.forEach((h, i) => (obj[h.trim()] = (cols[i] ?? "").trim()));
-    return obj;
-  });
-  return rows;
+const lines = csv.split(/\r?\n/);
+const header = (lines[0] || "").trim().toLowerCase();
 
-  function splitCSV(line) {
-    const out = [];
-    let cur = "";
-    let q = false;
-    for (let i = 0; i < line.length; i++) {
-      const c = line[i];
-      if (q) {
-        if (c === '"') {
-          if (line[i + 1] === '"') {
-            cur += '"';
-            i++;
-          } else {
-            q = false;
-          }
-        } else {
-          cur += c;
-        }
-      } else {
-        if (c === '"') q = true;
-        else if (c === ",") {
-          out.push(cur);
-          cur = "";
-        } else cur += c;
-      }
+// auto-skip header if it looks like one
+const body = /^key\s*,\s*en\s*,\s*fr\s*,\s*selector\s*,\s*type\s*,\s*attr$/.test(header)
+  ? lines.slice(1)
+  : lines;
+
+// CSV fields: key,en,fr,selector,type,attr
+function parseLine(line) {
+  // normalize smart quotes in selectors (" ” → ")
+  line = line.replace(/[“”]/g, '"');
+  // robust split with quoted fields
+  const re = /("([^"]|"")*"|[^,]*)(?:,|$)/g;
+  const cells = [];
+  let m;
+  while ((m = re.exec(line)) && cells.length < 6) {
+    let v = m[1] ?? "";
+    if (v.startsWith('"') && v.endsWith('"')) v = v.slice(1, -1).replace(/""/g, '"');
+    cells.push(v.trim());
+  }
+  while (cells.length < 6) cells.push("");
+  return cells;
+}
+
+const en = {};
+const fr = {};
+const map = [];
+const seenKey = new Map();       // detect key-text conflicts
+const seenMapRow = new Set();    // dedupe identical map rows
+
+function assertConsistent(dict, key, val, lang) {
+  if (!key) return;
+  const prev = dict[key];
+  if (prev != null && prev !== val) {
+    throw new Error(`Key conflict for "${key}" (${lang}):\n - "${prev}" vs "${val}"`);
+  }
+  dict[key] = val;
+}
+
+for (const raw of body) {
+  if (!raw || !raw.trim() || raw.trim().startsWith("#")) continue; // allow comments
+
+  const [key, enText, frText, selector, type, attr] = parseLine(raw);
+
+  // catalog consistency
+  if (key) {
+    if (enText) assertConsistent(en, key, enText, "en");
+    if (frText) assertConsistent(fr, key, frText, "fr");
+  }
+
+  // map row validation
+  if (selector && type) {
+    const t = type.toLowerCase();
+    if (t !== "text" && t !== "attr") {
+      throw new Error(`Invalid type "${type}" for key "${key}" (expected "text" or "attr")`);
     }
-    out.push(cur);
-    return out;
-  }
-}
-
-function clean(s) {
-  return (s || "").replace(/\s+/g, " ").trim();
-}
-
-async function main() {
-  await fs.mkdir(OUT_DIR, { recursive: true });
-
-  const csv = await fs.readFile(INPUT, "utf8");
-  const rows = csvParse(csv);
-
-  // validate headers
-  const required = ["key", "en", "fr", "selector", "type", "attr"];
-  const missing = required.filter((h) => !(h in rows[0]));
-  if (missing.length) {
-    throw new Error(`CSV missing headers: ${missing.join(", ")}`);
-  }
-
-  // build catalogs + map
-  const en = {};
-  const fr = {};
-  const map = [];
-
-  const dupCheck = new Set();
-
-  for (const r of rows) {
-    const key = r.key;
-    const sel = r.selector;
-    const type = (r.type || "text").toLowerCase();
-    const attr = r.attr || "";
-
-    if (!key || !sel) continue;
-
-    // enforce uniqueness of (selector,type,attr) → key
-    const sig = `${sel}|${type}|${attr}`;
-    if (dupCheck.has(sig) === false) dupCheck.add(sig);
-    else {
-      // If you want to fail hard on duplicates, uncomment the next line:
-      // throw new Error(`Duplicate selector/type/attr: ${sig}`);
+    if (t === "attr" && !attr) {
+      throw new Error(`Missing 'attr' for attr-type key "${key}" (selector: ${selector})`);
     }
-
-    en[key] = clean(r.en);
-    fr[key] = clean(r.fr);
-
-    map.push({
-      selector: sel,
-      type,
-      key,
-      ...(type === "attr" && attr ? { attr } : {}),
-    });
+    const rowSig = JSON.stringify({ selector, type: t, key, attr: t === "attr" ? attr : undefined });
+    if (!seenMapRow.has(rowSig)) {
+      seenMapRow.add(rowSig);
+      map.push(JSON.parse(rowSig));
+    }
   }
-
-  // sort keys for stable diffs
-  const sortKeys = (obj) =>
-    Object.fromEntries(Object.entries(obj).sort(([a], [b]) => a.localeCompare(b)));
-  const enSorted = sortKeys(en);
-  const frSorted = sortKeys(fr);
-
-  // write files
-  await fs.writeFile(FILES.en, JSON.stringify(enSorted, null, 2), "utf8");
-  await fs.writeFile(FILES.fr, JSON.stringify(frSorted, null, 2), "utf8");
-  await fs.writeFile(FILES.map, JSON.stringify(map, null, 2), "utf8");
-
-  // update manifest
-  let manifest = {};
-  try {
-    const m = await fs.readFile(FILES.manifest, "utf8");
-    manifest = JSON.parse(m);
-  } catch (_) {}
-
-  manifest["profile.en"] = "profile.en.json";
-  manifest["profile.fr"] = "profile.fr.json";
-  manifest["profile.map"] = "profile.map.json";
-
-  await fs.writeFile(FILES.manifest, JSON.stringify(manifest, null, 2), "utf8");
-
-  console.log("✅ Wrote:");
-  console.log(" -", path.relative(ROOT, FILES.en));
-  console.log(" -", path.relative(ROOT, FILES.fr));
-  console.log(" -", path.relative(ROOT, FILES.map));
-  console.log(" -", path.relative(ROOT, FILES.manifest));
 }
 
-main().catch((e) => {
-  console.error("❌ Build failed:", e);
-  process.exit(1);
-});
+// stable sort for clean diffs
+const sortObj = (o) => Object.fromEntries(Object.entries(o).sort(([a], [b]) => a.localeCompare(b)));
+const enSorted = sortObj(en);
+const frSorted = sortObj(fr);
+
+const filename = path.basename(csvPath);
+const nsGuess =
+  nsArg ||
+  filename.replace(/-translated\.csv$/i, "").replace(/\.csv$/i, ""); // profile-translated.csv -> profile
+const namespace = nsGuess;
+
+fs.mkdirSync(outDir, { recursive: true });
+fs.writeFileSync(path.join(outDir, `${namespace}.en.json`), JSON.stringify(enSorted, null, 2) + "\n");
+fs.writeFileSync(path.join(outDir, `${namespace}.fr.json`), JSON.stringify(frSorted, null, 2) + "\n");
+fs.writeFileSync(path.join(outDir, `${namespace}.map.json`), JSON.stringify(map, null, 2) + "\n");
+
+console.log(`Wrote:
+ - ${path.join(outDir, `${namespace}.en.json`)}
+ - ${path.join(outDir, `${namespace}.fr.json`)}
+ - ${path.join(outDir, `${namespace}.map.json`)}`);

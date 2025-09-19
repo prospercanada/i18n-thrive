@@ -1,0 +1,27 @@
+[
+  {
+    "selector": "#MainCopy_ctl29_h2Title",
+    "type": "text",
+    "key": "connections.title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_FindContacts_NoDataMe",
+    "type": "text",
+    "key": "connections.linkSocial"
+  },
+  {
+    "selector": "#MainCopy_ctl29_FindContacts_searchDirectory",
+    "type": "text",
+    "key": "connections.searchDirectory"
+  },
+  {
+    "selector": "[id^='FindContactsByLikeness']",
+    "type": "text",
+    "key": "connections.peopleYouMayKnow"
+  },
+  {
+    "selector": ".HLLandingControl.HL-contact-suggestions .alert.alert-default.text-muted",
+    "type": "text",
+    "key": "connections.noSuggestions"
+  }
+]

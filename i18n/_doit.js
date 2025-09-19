@@ -1,7 +1,8 @@
 // --- config
 const I18N_OPTS = {
   manifestUrl: "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
-  namespaces: ["profile"],
+  // namespaces: ["profile"],
+  namespaces: ["profile", "connections"], // load only what you need
 };
 const ON_PEOPLE_PAGE = () =>
   /^\/people\/[^/]+\/?$/.test(location.pathname) ||

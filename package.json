@@ -1,0 +1,23 @@
+{
+  "name": "thrive-i18n",
+  "version": "1.0.0",
+  "description": "exclude footer, aria, alt,TinyMCEConten",
+  "main": "index.js",
+  "scripts": {
+    "i18n:build:profile": "node scripts/build-from-csv.mjs i18n-build/profile-translated.csv i18n profile",
+    "i18n:build:connections": "node scripts/build-from-csv.mjs i18n-build/connections-translated.csv i18n connections",
+    "i18n:build:all": "node scripts/build-all.mjs",
+    "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prospercanada/i18n-thrive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prospercanada/i18n-thrive/issues"
+  },
+  "homepage": "https://github.com/prospercanada/i18n-thrive#readme"
+}

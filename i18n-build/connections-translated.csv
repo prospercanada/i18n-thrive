@@ -1,0 +1,6 @@
+key,en,fr,selector,type,attr
+connections.title,Contacts,Contacts,#MainCopy_ctl29_h2Title,text,
+connections.linkSocial,Link to other social media accounts,Lier d’autres comptes de médias sociaux,#MainCopy_ctl29_FindContacts_NoDataMe,text,
+connections.searchDirectory,Search Directory,Rechercher dans l’annuaire,#MainCopy_ctl29_FindContacts_searchDirectory,text,
+connections.peopleYouMayKnow,People You May Know,Personnes que vous pourriez connaître,[id^='FindContactsByLikeness'],text,
+connections.noSuggestions,"Currently, there are no suggestions.","Aucune suggestion pour le moment.",.HLLandingControl.HL-contact-suggestions .alert.alert-default.text-muted,text,

@@ -1,5 +1,8 @@
 {
   "profile.en": "profile.en.json",
   "profile.fr": "profile.fr.json",
-  "profile.map": "profile.map.json"
+  "profile.map": "profile.map.json",
+  "connections.en": "connections.en.json",
+  "connections.fr": "connections.fr.json",
+  "connections.map": "connections.map.json"
 }
