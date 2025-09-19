@@ -7,5 +7,8 @@
   "connections.map": "connections.map.json",
   "communities.en": "communities.en.json",
   "communities.fr": "communities.fr.json",
-  "communities.map": "communities.map.json"
+  "communities.map": "communities.map.json",
+  "following.en": "following.en.json",
+  "following.fr": "following.fr.json",
+  "following.map": "following.map.json"
 }

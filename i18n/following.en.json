@@ -1,0 +1,8 @@
+{
+  "following.filter.all": "All",
+  "following.filter.blogs": "Blogs",
+  "following.filter.library": "Library Entries",
+  "following.filter.questions": "Questions",
+  "following.filter.threads": "Discussion Threads",
+  "following.title": "Followed Content"
+}

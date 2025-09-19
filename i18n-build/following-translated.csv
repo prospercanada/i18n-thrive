@@ -1,0 +1,7 @@
+key,en,fr,selector,type,attr
+following.title,Followed Content,Contenu suivi,#MainCopy_ContentWrapper .TitleText,text,
+following.filter.all,All,Tout,[id^='FollowedContent_'][id$='-type-filter'] option[value=""],text,
+following.filter.blogs,Blogs,Billets,[id^='FollowedContent_'][id$='-type-filter'] option[value="blog"],text,
+following.filter.threads,Discussion Threads,Fils de discussion,[id^='FollowedContent_'][id$='-type-filter'] option[value="MessageThread"],text,
+following.filter.library,Library Entries,Éléments de la bibliothèque,[id^='FollowedContent_'][id$='-type-filter'] option[value="LibraryEntry"],text,
+following.filter.questions,Questions,Questions,[id^='FollowedContent_'][id$='-type-filter'] option[value="ContributedContent"],text,

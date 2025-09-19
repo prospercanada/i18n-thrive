@@ -1,62 +1,5 @@
 const dbg = (m, o) => console.log("[i18n]", m, o ?? "");
 
-// NEW START
-
-// --- dynamic formatter helpers (reuse for any counters)
-function formatCount(keyBase, count) {
-  const k = count === 1 ? `${keyBase}.one` : `${keyBase}.other`;
-  const tpl = ThriveI18n.t(k) || ThriveI18n.t(`${keyBase}.other`) || "{count}";
-  return tpl.replace("{count}", String(count));
-}
-function updateCountAt(selector, keyBase) {
-  const el = document.querySelector(selector);
-  if (!el) return;
-  const m = (el.textContent || "").match(/\d+/);
-  if (!m) return;
-  const n = parseInt(m[0], 10);
-  el.textContent = formatCount(keyBase, n);
-}
-
-// --- page-specific extras
-function runCommunitiesNodeExtras() {
-  // counts like "0 total" → "{count} au total"
-  updateCountAt(
-    "#MainCopy_ctl29_lbCommunityCount .Count.text-muted",
-    "communities.count"
-  );
-}
-
-function runFollowingConnectionsExtras() {
-  // refresh the filter dropdown UI if Bootstrap-Select is active
-  refreshSelectpicker("[id^='FollowedContent_'][id$='-type-filter']");
-}
-
-// Optional: add more pages later
-const pageExtras = [
-  {
-    test: (p) => /^\/profile\/connections\/communitiesnode(?:\/|$)/.test(p),
-    run: runCommunitiesNodeExtras,
-  },
-  {
-    test: (p) =>
-      /^\/profile\/connections\/following-connections(?:\/|$)/.test(p),
-    run: runFollowingConnectionsExtras,
-  },
-];
-
-// const pageExtras = [
-//   {
-//     test: (p) => /^\/profile\/connections\/communitiesnode(?:\/|$)/.test(p),
-//     run: runCommunitiesNodeExtras,
-//   },
-// ];
-
-function runExtrasForPath(pathname = location.pathname) {
-  for (const { test, run } of pageExtras) {
-    if (test(pathname)) run();
-  }
-}
-// NEW END
 
 function pickNamespaces(path) {
   // always include base profile strings
@@ -131,9 +74,6 @@ async function reI18n() {
     await ThriveI18n.setLangNoReload(lang);
     document.documentElement.setAttribute("lang", lang);
     dbg("reI18n applied", { lang, namespaces });
-
-    // ➜ run page-specific extras after partial postbacks
-    runExtrasForPath();
   } catch (e) {
     console.error("[i18n] reI18n error", e);
   }
@@ -200,9 +140,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   await ThriveI18n.setLangNoReload(initial);
   document.documentElement.setAttribute("lang", initial);
   dbg("init complete", { initial, namespaces });
-
-  // ➜ run page-specific extras on first paint
-  runExtrasForPath();
 
   installWebFormsHooks(); // <-- call it once here
 });

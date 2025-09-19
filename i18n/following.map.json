@@ -1,0 +1,32 @@
+[
+  {
+    "selector": "#MainCopy_ContentWrapper .TitleText",
+    "type": "text",
+    "key": "following.title"
+  },
+  {
+    "selector": "[id^='FollowedContent_'][id$='-type-filter'] option[value=\"\"]",
+    "type": "text",
+    "key": "following.filter.all"
+  },
+  {
+    "selector": "[id^='FollowedContent_'][id$='-type-filter'] option[value=\"blog\"]",
+    "type": "text",
+    "key": "following.filter.blogs"
+  },
+  {
+    "selector": "[id^='FollowedContent_'][id$='-type-filter'] option[value=\"MessageThread\"]",
+    "type": "text",
+    "key": "following.filter.threads"
+  },
+  {
+    "selector": "[id^='FollowedContent_'][id$='-type-filter'] option[value=\"LibraryEntry\"]",
+    "type": "text",
+    "key": "following.filter.library"
+  },
+  {
+    "selector": "[id^='FollowedContent_'][id$='-type-filter'] option[value=\"ContributedContent\"]",
+    "type": "text",
+    "key": "following.filter.questions"
+  }
+]

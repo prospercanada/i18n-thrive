@@ -1,5 +1,5 @@
 key,en,fr,selector,type,attr
-communities.count.zero,"0 total","0 au total",#MainCopy_ctl29_lbCommunityCount .Count.text-muted,text,
+communities.count.zero,"{count} total","{count} au total",#MainCopy_ctl29_lbCommunityCount .Count.text-muted,text,
 communities.noResults,No Results Found,Aucun résultat trouvé,#MainCopy_ctl29_AllCommunitiesContainer,text,
 communities.exploreAll.btn,Explore All Communities,Explorer toutes les communautés,#MainCopy_ctl29_AllCommunities,text,
 communities.exploreAll.title,Explore All Communities,Explorer toutes les communautés,#MainCopy_ctl29_AllCommunities,attr,title
