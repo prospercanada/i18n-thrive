@@ -469,5 +469,92 @@
     "type": "attr",
     "key": "profile.awards.cancel",
     "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl29_lnkInsert",
+    "type": "text",
+    "key": "profile.bio.add"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_AddEducation",
+    "type": "text",
+    "key": "profile.education.add"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_AddHonorsAndAwards",
+    "type": "text",
+    "key": "profile.awards.add"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_NoItem p",
+    "type": "text",
+    "key": "profile.education.noItem"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_NoItem p",
+    "type": "text",
+    "key": "profile.awards.noItem"
+  },
+  {
+    "selector": "#MainCopy_ctl35_Label1",
+    "type": "text",
+    "key": "profile.awards.award.label"
+  },
+  {
+    "selector": "#MainCopy_ctl35_Label2",
+    "type": "text",
+    "key": "profile.awards.org.label"
+  },
+  {
+    "selector": "#MainCopy_ctl35_Label3",
+    "type": "text",
+    "key": "profile.awards.year.label"
+  },
+  {
+    "selector": "#MainCopy_ctl35_SaveTop",
+    "type": "attr",
+    "key": "profile.awards.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl35_CancelTop",
+    "type": "attr",
+    "key": "profile.awards.cancel",
+    "attr": "value"
+  },
+  {
+    "selector": "[id=Edit user name modal] .modal-header",
+    "type": "text",
+    "key": "profile.name.editTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl21_lblPrefix",
+    "type": "text",
+    "key": "profile.name.prefix.label"
+  },
+  {
+    "selector": "#MainCopy_ctl21_lblFirstName",
+    "type": "text",
+    "key": "profile.name.firstName.label"
+  },
+  {
+    "selector": "#MainCopy_ctl21_lblLastName",
+    "type": "text",
+    "key": "profile.name.lastName.label"
+  },
+  {
+    "selector": "#MainCopy_ctl21_lblSuffix",
+    "type": "text",
+    "key": "profile.name.suffix.label"
+  },
+  {
+    "selector": "#MainCopy_ctl21_lblDesignation",
+    "type": "text",
+    "key": "profile.name.designation.label"
+  },
+  {
+    "selector": "#MainCopy_ctl21_lblPronouns",
+    "type": "text",
+    "key": "profile.name.pronouns.label"
   }
 ]
