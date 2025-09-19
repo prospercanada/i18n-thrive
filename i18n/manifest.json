@@ -4,5 +4,8 @@
   "profile.map": "profile.map.json",
   "connections.en": "connections.en.json",
   "connections.fr": "connections.fr.json",
-  "connections.map": "connections.map.json"
+  "connections.map": "connections.map.json",
+  "communities.en": "communities.en.json",
+  "communities.fr": "communities.fr.json",
+  "communities.map": "communities.map.json"
 }

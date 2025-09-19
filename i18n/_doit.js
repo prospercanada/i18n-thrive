@@ -1,77 +1,157 @@
-// --- config
-const I18N_OPTS = {
-  manifestUrl: "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
-  // namespaces: ["profile"],
-  namespaces: ["profile", "connections"], // load only what you need
-};
-const ON_PEOPLE_PAGE = () =>
-  /^\/people\/[^/]+\/?$/.test(location.pathname) ||
-  /^\/profile(?:\/|$)/.test(location.pathname);
-
 const dbg = (m, o) => console.log("[i18n]", m, o ?? "");
 
-// --- helper: re-attach hooks and re-apply current language
+
+function pickNamespaces(path) {
+  // always include base profile strings
+  const base = ["profile"];
+
+  // connections
+  if (/^\/profile\/connections\/contacts(?:\/|$)/.test(path))
+    return [...base, "connections"];
+  if (/^\/profile\/connections\/communitiesnode(?:\/|$)/.test(path))
+    return [...base, "communities"]; // <-- name your ns "communities"
+  if (/^\/profile\/connections\/following-connections(?:\/|$)/.test(path))
+    return [...base, "following"];
+
+  // contributions
+  if (/^\/profile\/contributions\/contributions-summary(?:\/|$)/.test(path))
+    return [...base, "contribSummary"];
+  if (
+    /^\/profile\/contributions\/contributions-achievements(?:\/|$)/.test(path)
+  )
+    return [...base, "contribAchievements"];
+  if (/^\/profile\/contributions\/contributions-list(?:\/|$)/.test(path))
+    return [...base, "contribList"];
+
+  // my account (use one ns per sub-section or a single "account" ns with keys grouped)
+  if (/^\/profile\/myaccount\/changepassword(?:\/|$)/.test(path))
+    return [...base, "accountChangePassword"];
+  if (/^\/profile\/myaccount\/mysignature(?:\/|$)/.test(path))
+    return [...base, "accountSignature"];
+  if (/^\/profile\/myaccount\/inbox(?:\/|$)/.test(path))
+    return [...base, "accountInbox"];
+
+  // settings with section=...
+  if (/^\/profile\/myaccount\/my-settings(?:\/|$)/.test(path)) {
+    const sec = new URL(location.href).searchParams.get("section") || "";
+    if (sec === "privacy") return [...base, "accountSettingsPrivacy"];
+    if (sec === "email") return [...base, "accountSettingsEmail"];
+    if (sec === "rssfeeds") return [...base, "accountSettingsRss"];
+    if (sec === "subscriptions")
+      return [...base, "accountSettingsSubscriptions"];
+    return [...base, "accountSettings"]; // default tab
+  }
+
+  // the base profile page (bio, education, awards, etc.)
+  if (/^\/profile(?:\/|$)/.test(path)) return base;
+
+  // others: no i18n
+  return [];
+}
+
+// 2) re-attach hooks + re-apply current lang (used after partial postbacks)
 async function reI18n() {
+  const namespaces = pickNamespaces(location.pathname);
+  if (!namespaces.length) return;
+
+  const I18N_OPTS = {
+    manifestUrl:
+      "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
+    namespaces,
+  };
+
   try {
-    // attach hooks (safe to call repeatedly)
-    await ThriveI18nBootstrap({ ...I18N_OPTS, onlyIf: ON_PEOPLE_PAGE });
+    // re-attach data-i18n/data-i18n-attr (idempotent)
+    await ThriveI18nBootstrap(I18N_OPTS);
+
+    // figure out current lang and re-apply
     const lang =
       ThriveI18n.__debug?.().lang ||
       localStorage.getItem("preferredLang") ||
       document.documentElement.getAttribute("lang") ||
       "en";
+
     await ThriveI18n.setLangNoReload(lang);
-    dbg("reI18n applied", { lang });
+    document.documentElement.setAttribute("lang", lang);
+    dbg("reI18n applied", { lang, namespaces });
   } catch (e) {
     console.error("[i18n] reI18n error", e);
   }
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-  // 1) bootstrap once
-  await ThriveI18nBootstrap({ ...I18N_OPTS, onlyIf: ON_PEOPLE_PAGE });
+// 3) install WebForms hooks ONCE (retry until PRM exists; fallback to __doPostBack)
+function installWebFormsHooks() {
+  let installed = false;
 
-  // 2) init once
-  await ThriveI18n.init({ ...I18N_OPTS, observeMutations: true });
-  dbg("init", ThriveI18n.__debug?.());
-
-  // 3) hook WebForms partial postbacks (UpdatePanel)
-  try {
+  function wire() {
+    if (installed) return true;
     if (window.Sys?.WebForms?.PageRequestManager) {
       const prm = Sys.WebForms.PageRequestManager.getInstance();
-      prm.add_endRequest(() => {
-        dbg("endRequest → re-i18n");
-        setTimeout(reI18n, 0); // let WF swap DOM first
-      });
-      // Also fires on some async loads
+      prm.add_endRequest(() => setTimeout(reI18n, 0));
       window.Sys?.Application?.add_load?.(() => setTimeout(reI18n, 0));
-      dbg("PageRequestManager hook installed");
-    } else {
-      dbg("PageRequestManager not found (no UpdatePanel?)");
+      installed = true;
+      dbg("WebForms PRM hook installed");
+      return true;
     }
-  } catch (e) {
-    console.warn("[i18n] PRM hook failed", e);
+    return false;
   }
 
-  // 4) optional safety net for other dynamic DOM swaps
-  let throttle = null;
-  const mo = new MutationObserver(() => {
-    clearTimeout(throttle);
-    throttle = setTimeout(() => {
-      const lang = ThriveI18n.__debug?.().lang || "en";
-      ThriveI18n.setLangNoReload(lang);
-    }, 150);
-  });
-  mo.observe(document.body, { childList: true, subtree: true });
+  if (wire()) return;
+
+  const iv = setInterval(() => {
+    if (wire()) clearInterval(iv);
+  }, 200);
+  setTimeout(() => clearInterval(iv), 8000);
+
+  if (typeof window.__doPostBack === "function") {
+    const orig = window.__doPostBack;
+    window.__doPostBack = function () {
+      const r = orig.apply(this, arguments);
+      setTimeout(reI18n, 0);
+      return r;
+    };
+    dbg("Fallback __doPostBack patch installed");
+  }
+}
+
+// 4) initial boot on DOM ready
+document.addEventListener("DOMContentLoaded", async () => {
+  const namespaces = pickNamespaces(location.pathname);
+  if (!namespaces.length) {
+    dbg("skip i18n (no namespaces for this page)");
+    return;
+  }
+
+  const I18N_OPTS = {
+    manifestUrl:
+      "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
+    namespaces,
+  };
+
+  await ThriveI18nBootstrap(I18N_OPTS);
+  await ThriveI18n.init({ ...I18N_OPTS, observeMutations: true });
+
+  // set initial lang (persisted choice wins)
+  const initial = (
+    localStorage.getItem("preferredLang") ||
+    document.documentElement.getAttribute("lang") ||
+    "en"
+  ).toLowerCase();
+  await ThriveI18n.setLangNoReload(initial);
+  document.documentElement.setAttribute("lang", initial);
+  dbg("init complete", { initial, namespaces });
+
+  installWebFormsHooks(); // <-- call it once here
 });
 
-// 5) language toggle
+// 5) (optional) language toggle
 document.addEventListener("click", async (e) => {
   const a = e.target.closest("[data-toggle-lang]");
   if (!a) return;
   e.preventDefault();
-  const next = a.getAttribute("data-toggle-lang"); // "en" | "fr"
+  const next = a.getAttribute("data-toggle-lang");
   try {
+    localStorage.setItem("preferredLang", next);
     await ThriveI18n.setLangNoReload(next);
     document.documentElement.setAttribute("lang", next);
     dbg("toggled", next);
@@ -79,121 +159,3 @@ document.addEventListener("click", async (e) => {
     console.error("[i18n] toggle error", err);
   }
 });
-
-/// LAST WORKING COPY BELOW
-// // --- globals (optional cosmetic hint if clicked early)
-// window.__i18nQueuedLang = null;
-
-// function isPeoplePage() {
-//   return (
-//     /^\/people\/[^/]+\/?$/.test(location.pathname) ||
-//     /^\/profile(?:\/|$)/.test(location.pathname)
-//   );
-// }
-// function dbg(msg, obj) {
-//   console.log("[i18n]", msg, obj ?? "");
-// }
-
-// // Re-run bootstrap + apply current language (idempotent)
-// // webforms
-// async function reI18n() {
-//   try {
-//     await ThriveI18nBootstrap({
-//       manifestUrl:
-//         "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
-//       namespaces: ["profile"], // add more if you load more
-//     });
-//     const lang =
-//       ThriveI18n.__debug?.().lang ||
-//       localStorage.getItem("preferredLang") ||
-//       "en";
-//     await ThriveI18n.setLangNoReload(lang);
-//     dbg("reI18n applied", { lang });
-//   } catch (e) {
-//     console.error("[i18n] reI18n error", e);
-//   }
-// }
-
-// document.addEventListener("DOMContentLoaded", async () => {
-//   await ThriveI18nBootstrap({
-//     manifestUrl:
-//       "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
-//     namespaces: ["profile"], // or ["profile","common"] etc.
-//     onlyIf: isPeoplePage,
-//   });
-
-//   // Then init translations
-//   await ThriveI18n.init({
-//     manifestUrl:
-//       "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
-//     namespaces: ["profile"],
-//     observeMutations: true,
-//   });
-// });
-
-// // webforms
-// document.addEventListener("DOMContentLoaded", async () => {
-//   // 1) Attach hooks from map(s)
-//   await ThriveI18nBootstrap({
-//     manifestUrl:
-//       "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
-//     namespaces: ["profile"],
-//     onlyIf: isPeoplePage,
-//   });
-
-//   // 2) Init translations
-//   await ThriveI18n.init({
-//     manifestUrl:
-//       "https://prospercanada.github.io/i18n-thrive/i18n/manifest.json",
-//     namespaces: ["profile"],
-//     observeMutations: true, // re-apply to new nodes, once hooks exist
-//   });
-
-//   // 3) Hook WebForms partial postbacks (UpdatePanel)
-//   try {
-//     if (window.Sys?.WebForms?.PageRequestManager) {
-//       const prm = Sys.WebForms.PageRequestManager.getInstance();
-//       // after every async postback, re-attach hooks and re-apply language
-//       prm.add_endRequest(function () {
-//         dbg("endRequest — re-i18n");
-//         // give WF a tick to finish DOM swaps
-//         setTimeout(reI18n, 0);
-//       });
-//       dbg("PageRequestManager hook installed");
-//     } else {
-//       dbg("PageRequestManager not found (no UpdatePanel?)");
-//     }
-//   } catch (e) {
-//     console.warn("[i18n] PRM hook failed", e);
-//   }
-
-//   // 4) Optional fallback: catch other dynamic swaps
-//   let t = null;
-//   const mo = new MutationObserver(() => {
-//     clearTimeout(t);
-//     t = setTimeout(() => {
-//       // Lightweight: just re-apply current lang (hooks stick if already attached)
-//       const lang = ThriveI18n.__debug?.().lang || "en";
-//       ThriveI18n.setLangNoReload(lang);
-//     }, 150);
-//   });
-//   mo.observe(document.body, { childList: true, subtree: true });
-// });
-
-// // Global language toggle
-// document.addEventListener("click", async (e) => {
-//   const a = e.target.closest("[data-toggle-lang]");
-//   if (!a) return;
-
-//   e.preventDefault();
-//   const next = a.getAttribute("data-toggle-lang"); // "en" or "fr"
-
-//   try {
-//     await ThriveI18n.setLangNoReload(next);
-//     document.documentElement.setAttribute("lang", next);
-//     console.log("[i18n] toggled to", next);
-//     dbg("toggled", next); // webforms
-//   } catch (err) {
-//     console.error("[i18n] toggle error", err);
-//   }
-// });
