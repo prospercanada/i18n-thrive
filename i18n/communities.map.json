@@ -1,10 +1,5 @@
 [
   {
-    "selector": "#MainCopy_ctl29_lbCommunityCount .Count.text-muted",
-    "type": "text",
-    "key": "communities.count.zero"
-  },
-  {
     "selector": "#MainCopy_ctl29_AllCommunitiesContainer",
     "type": "text",
     "key": "communities.noResults"

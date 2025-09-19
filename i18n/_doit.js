@@ -3,6 +3,15 @@ const dbg = (m, o) => console.log("[i18n]", m, o ?? "");
 // NEW START
 
 // --- dynamic formatter helpers (reuse for any counters)
+
+// function refreshSelectpicker(selector) {
+//   try {
+//     if (window.jQuery && jQuery.fn.selectpicker) {
+//       jQuery(selector).selectpicker("refresh");
+//     }
+//   } catch (_) {}
+// }
+
 function formatCount(keyBase, count) {
   const k = count === 1 ? `${keyBase}.one` : `${keyBase}.other`;
   const tpl = ThriveI18n.t(k) || ThriveI18n.t(`${keyBase}.other`) || "{count}";
@@ -26,10 +35,10 @@ function runCommunitiesNodeExtras() {
   );
 }
 
-function runFollowingConnectionsExtras() {
-  // refresh the filter dropdown UI if Bootstrap-Select is active
-  refreshSelectpicker("[id^='FollowedContent_'][id$='-type-filter']");
-}
+// function runFollowingConnectionsExtras() {
+//   // refresh the filter dropdown UI if Bootstrap-Select is active
+//   refreshSelectpicker("[id^='FollowedContent_'][id$='-type-filter']");
+// }
 
 // Optional: add more pages later
 const pageExtras = [
@@ -37,11 +46,11 @@ const pageExtras = [
     test: (p) => /^\/profile\/connections\/communitiesnode(?:\/|$)/.test(p),
     run: runCommunitiesNodeExtras,
   },
-  {
-    test: (p) =>
-      /^\/profile\/connections\/following-connections(?:\/|$)/.test(p),
-    run: runFollowingConnectionsExtras,
-  },
+  // {
+  //   test: (p) =>
+  //     /^\/profile\/connections\/following-connections(?:\/|$)/.test(p),
+  //   run: runFollowingConnectionsExtras,
+  // },
 ];
 
 // const pageExtras = [
