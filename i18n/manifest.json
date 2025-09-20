@@ -34,5 +34,8 @@
   "accountSettingsSubscriptions.map": "accountSettingsSubscriptions.map.json",
   "accountSignature.en": "accountSignature.en.json",
   "accountSignature.fr": "accountSignature.fr.json",
-  "accountSignature.map": "accountSignature.map.json"
+  "accountSignature.map": "accountSignature.map.json",
+  "accountInbox.en": "accountInbox.en.json",
+  "accountInbox.fr": "accountInbox.fr.json",
+  "accountInbox.map": "accountInbox.map.json"
 }

@@ -16,6 +16,7 @@
     "i18n:build:accountSettingsRss": "node scripts/build-from-csv.mjs i18n-build/accountSettingsRss-translated.csv i18n accountSettingsRss",
     "i18n:build:accountSettingsSubscriptions": "node scripts/build-from-csv.mjs i18n-build/accountSettingsSubscriptions-translated.csv i18n accountSettingsSubscriptions",
     "i18n:build:accountSignature": "node scripts/build-from-csv.mjs i18n-build/accountSignature-translated.csv i18n accountSignature",
+    "i18n:build:accountInbox": "node scripts/build-from-csv.mjs i18n-build/accountInbox-translated.csv i18n accountInbox",
     "i18n:build:all": "node scripts/build-all.mjs",
     "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\""
   },

@@ -1,0 +1,61 @@
+[
+  {
+    "selector": "ul.nav.nav-pills li:nth-child(1) a:last-of-type",
+    "type": "text",
+    "key": "inbox.nav.inbox"
+  },
+  {
+    "selector": "ul.nav.nav-pills li:nth-child(2) a:last-of-type",
+    "type": "text",
+    "key": "inbox.nav.sent"
+  },
+  {
+    "selector": "ul.nav.nav-pills li:nth-child(3) a:last-of-type",
+    "type": "text",
+    "key": "inbox.nav.requests"
+  },
+  {
+    "selector": "ul.nav.nav-pills li:nth-child(4) a:last-of-type",
+    "type": "text",
+    "key": "inbox.nav.invites"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_lblSearchText",
+    "type": "text",
+    "key": "inbox.search.label"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_txtsearch",
+    "type": "attr",
+    "key": "inbox.search.placeholder",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_btnSearch .glyphicon-search",
+    "type": "attr",
+    "key": "inbox.search.iconAria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#btnCompose",
+    "type": "text",
+    "key": "inbox.compose.button"
+  },
+  {
+    "selector": "#btnCompose",
+    "type": "attr",
+    "key": "inbox.compose.buttonAria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": ".bg-warning",
+    "type": "text",
+    "key": "inbox.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll",
+    "type": "attr",
+    "key": "inbox.bulk.toggleSelectAll",
+    "attr": "title"
+  }
+]

@@ -1,0 +1,16 @@
+key,en,fr,selector,type,attr
+inbox.nav.inbox,Inbox,Boîte de réception,ul.nav.nav-pills li:nth-child(1) a:last-of-type,text,
+inbox.nav.sent,Sent Items,Éléments envoyés,ul.nav.nav-pills li:nth-child(2) a:last-of-type,text,
+inbox.nav.requests,Contact Requests,Demandes de contact,ul.nav.nav-pills li:nth-child(3) a:last-of-type,text,
+inbox.nav.invites,Community Invitations,Invitations de la communauté,ul.nav.nav-pills li:nth-child(4) a:last-of-type,text,
+
+inbox.search.label,Search,Recherche,#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_lblSearchText,text,
+inbox.search.placeholder,Search,Rechercher,#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_txtsearch,attr,placeholder
+inbox.search.iconAria,Search,Rechercher,#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_btnSearch .glyphicon-search,attr,aria-label
+
+inbox.compose.button,Compose,Nouveau message,#btnCompose,text,
+inbox.compose.buttonAria,Compose,Nouveau message,#btnCompose,attr,aria-label
+
+inbox.empty,No Messages,Aucun message,.bg-warning,text,
+
+inbox.bulk.toggleSelectAll,Select All,Sélectionner tout,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll,attr,title

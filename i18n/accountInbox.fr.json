@@ -1,0 +1,13 @@
+{
+  "inbox.bulk.toggleSelectAll": "Sélectionner tout",
+  "inbox.compose.button": "Nouveau message",
+  "inbox.compose.buttonAria": "Nouveau message",
+  "inbox.empty": "Aucun message",
+  "inbox.nav.inbox": "Boîte de réception",
+  "inbox.nav.invites": "Invitations de la communauté",
+  "inbox.nav.requests": "Demandes de contact",
+  "inbox.nav.sent": "Éléments envoyés",
+  "inbox.search.iconAria": "Rechercher",
+  "inbox.search.label": "Recherche",
+  "inbox.search.placeholder": "Rechercher"
+}
