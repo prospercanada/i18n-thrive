@@ -1,0 +1,5 @@
+key,en,fr,selector,type,attr
+# Contributions → List
+contribList.noData,Nothing has yet been shared.,Rien n’a encore été partagé,.NoDataBadSearch,text,
+contribList.search.label,search criteria = ,critères de recherche = ,#SearchCriteriaLabel,text,
+contribList.search.value.ALL,ALL,TOUT,#SearchTerm,text,

@@ -9,6 +9,9 @@
     "i18n:build:communities": "node scripts/build-from-csv.mjs i18n-build/communities-translated.csv i18n communities",
     "i18n:build:following": "node scripts/build-from-csv.mjs i18n-build/following-translated.csv i18n following",
     "i18n:build:contribSummary": "node scripts/build-from-csv.mjs i18n-build/contribSummary-translated.csv i18n contribSummary",
+    "i18n:build:contribList": "node scripts/build-from-csv.mjs i18n-build/contribList-translated.csv i18n contribList",
+    "i18n:build:accountChangePassword": "node scripts/build-from-csv.mjs i18n-build/accountChangePassword-translated.csv i18n accountChangePassword",
+    "i18n:build:accountSettingsPrivacy": "node scripts/build-from-csv.mjs i18n-build/accountSettingsPrivacy-translated.csv i18n accountSettingsPrivacy",
     "i18n:build:all": "node scripts/build-all.mjs",
     "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\""
   },

@@ -1,0 +1,17 @@
+[
+  {
+    "selector": ".NoDataBadSearch",
+    "type": "text",
+    "key": "contribList.noData"
+  },
+  {
+    "selector": "#SearchCriteriaLabel",
+    "type": "text",
+    "key": "contribList.search.label"
+  },
+  {
+    "selector": "#SearchTerm",
+    "type": "text",
+    "key": "contribList.search.value.ALL"
+  }
+]

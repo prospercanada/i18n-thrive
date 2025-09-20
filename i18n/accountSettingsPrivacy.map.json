@@ -1,0 +1,167 @@
+[
+  {
+    "selector": "#MainCopy_ctl29_PrivacyUpdatePanel h2",
+    "type": "text",
+    "key": "accountSettingsPrivacy.title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_PrivacyUpdatePanel .row .col-md-12 p:nth-of-type(1)",
+    "type": "text",
+    "key": "accountSettingsPrivacy.intro.1"
+  },
+  {
+    "selector": "label[for=\"cbPrivacyIncludeInMemberDirectory\"]",
+    "type": "text",
+    "key": "accountSettingsPrivacy.include.label"
+  },
+  {
+    "selector": "#MainCopy_ctl29_PrivacySettings_IncludeInMemberDirectory + .bootstrap-switch .bootstrap-switch-handle-on",
+    "type": "text",
+    "key": "accountSettingsPrivacy.include.yes"
+  },
+  {
+    "selector": "#MainCopy_ctl29_PrivacySettings_IncludeInMemberDirectory + .bootstrap-switch .bootstrap-switch-handle-off",
+    "type": "text",
+    "key": "accountSettingsPrivacy.include.no"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl00_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.picture"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl01_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.company"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl02_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.job"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl03_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.address"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl05_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.country"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl06_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.website"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl07_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.phone1"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl08_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.phone2"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl09_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.email"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl10_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.sendMessage"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl11_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.addAsContact"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl12_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.bio"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl13_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.education"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl14_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.jobHistory"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl15_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.myDocuments"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl16_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.mentorStatus"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl17_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.menteeStatus"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl18_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.digitalRibbon"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl19_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.honors"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl20_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.groups"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl21_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.social"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl22_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.vcard"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl23_ucRdBtnChildList_lblheading",
+    "type": "text",
+    "key": "accountSettingsPrivacy.volunteer"
+  },
+  {
+    "selector": ".privacySettingSelect option[value=\"1\"]",
+    "type": "text",
+    "key": "accountSettingsPrivacy.opt.contacts"
+  },
+  {
+    "selector": ".privacySettingSelect option[value=\"2\"]",
+    "type": "text",
+    "key": "accountSettingsPrivacy.opt.members"
+  },
+  {
+    "selector": ".privacySettingSelect option[value=\"3\"]",
+    "type": "text",
+    "key": "accountSettingsPrivacy.opt.public"
+  },
+  {
+    "selector": ".privacySettingSelect option[value=\"4\"]",
+    "type": "text",
+    "key": "accountSettingsPrivacy.opt.onlyMe"
+  },
+  {
+    "selector": ".privacySettingSelect option[value=\"4\"]",
+    "type": "text",
+    "key": "accountSettingsPrivacy.opt.nobody"
+  }
+]

@@ -13,5 +13,11 @@
   "following.map": "following.map.json",
   "contribSummary.en": "contribSummary.en.json",
   "contribSummary.fr": "contribSummary.fr.json",
-  "contribSummary.map": "contribSummary.map.json"
+  "contribSummary.map": "contribSummary.map.json",
+  "contribList.en": "contribList.en.json",
+  "contribList.fr": "contribList.fr.json",
+  "contribList.map": "contribList.map.json",
+  "accountChangePassword.en": "accountChangePassword.en.json",
+  "accountChangePassword.fr": "accountChangePassword.fr.json",
+  "accountChangePassword.map": "accountChangePassword.map.json"
 }
