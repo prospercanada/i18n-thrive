@@ -37,5 +37,8 @@
   "accountSignature.map": "accountSignature.map.json",
   "accountInbox.en": "accountInbox.en.json",
   "accountInbox.fr": "accountInbox.fr.json",
-  "accountInbox.map": "accountInbox.map.json"
+  "accountInbox.map": "accountInbox.map.json",
+  "networkMembers.en": "networkMembers.en.json",
+  "networkMembers.fr": "networkMembers.fr.json",
+  "networkMembers.map": "networkMembers.map.json"
 }

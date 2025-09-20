@@ -1,0 +1,69 @@
+key,en,fr,selector,type,attr
+directory.form.heading,(Member Directory),(Annuaire des membres),#MainCopy_ContentWrapper h2:first-of-type,text,
+directory.firstname.label,First Name,Prénom,#MainCopy_ctl02_FirstNameLabel,text,
+directory.firstname.title,First Name,Prénom,#MainCopy_ctl02_FindFirstName,attr,title
+directory.lastname.label,Last Name,Nom de famille,#MainCopy_ctl02_LastNameLabel,text,
+directory.lastname.title,Last Name,Nom de famille,#MainCopy_ctl02_FindLastName,attr,title
+directory.company.label,Company Name,Nom de l’entreprise,#MainCopy_ctl02_CompanyNameLabel,text,
+directory.company.title,Company Name,Nom de l’entreprise,#MainCopy_ctl02_FindCompanyName,attr,title
+directory.email.label,Email Address,Adresse courriel,#MainCopy_ctl02_Label5,text,
+directory.email.title,Email Address,Adresse courriel,#MainCopy_ctl02_EmailAddress,attr,title
+# directory.email.validator,Please enter additional criteria for the email address. These values are not allowed: @,%,.,com,org,.com,.org,Veuillez entrer des critères supplémentaires pour l’adresse courriel. Les valeurs suivantes ne sont pas autorisées : @,%,.,com,org,.com,.org,#MainCopy_ctl02_EmailAddressCharacterValidator,text,
+
+directory.city.label,City,Ville,#MainCopy_ctl04_CityLabel,text,
+directory.city.placeholder,Enter a full or partial city name,Entrez un nom de ville complet ou partiel,#MainCopy_ctl04_FindCity,attr,placeholder
+directory.city.title,Enter a full or partial city name,Entrez un nom de ville complet ou partiel,#MainCopy_ctl04_FindCity,attr,title
+
+directory.country.label,Country,Pays,#MainCopy_ctl04_ucCountryStateProvinceList_CountryRow #lblCountry,text,
+directory.country.title,Select a Country,Sélectionnez un pays,#MainCopy_ctl04_ucCountryStateProvinceList_ddlCountry,attr,title
+directory.country.placeholder,(Country),(Pays),#MainCopy_ctl04_ucCountryStateProvinceList_ddlCountry option[value=""],text,
+
+directory.state.label,State/Province,État/Province,#MainCopy_ctl04_ucCountryStateProvinceList_StateProvinceRow #lblState,text,
+directory.state.title,Select a State,Sélectionnez un État/une province,#MainCopy_ctl04_ucCountryStateProvinceList_ddlState,attr,title
+directory.state.placeholder,(State/Province),(État/Province),#MainCopy_ctl04_ucCountryStateProvinceList_ddlState option[value=""],text,
+
+directory.communityType.label,Community Type,Type de communauté,#MainCopy_ctl06_GroupType,text,
+directory.communityType.placeholder,(select),(sélectionner),#MainCopy_ctl06_CommunityType option[value=""],text,
+directory.communityType.title,Community Type,Type de communauté,#MainCopy_ctl06_CommunityType,attr,title
+
+directory.communityName.label,Community Name,Nom de la communauté,#MainCopy_ctl06_GroupName,text,
+directory.communityName.placeholder,(select),(sélectionner),#MainCopy_ctl06_CommunityName option[value=""],text,
+directory.communityName.title,Community Name,Nom de la communauté,#MainCopy_ctl06_CommunityName,attr,title
+
+directory.search.find,Find Members,Trouver des membres,#MainCopy_ctl09_FindContacts,attr,value
+directory.search.clear,Clear All,Effacer tout,#MainCopy_ctl09_ClearSearchResults,attr,value
+directory.search.clear.title,Clear All,Effacer tout,#MainCopy_ctl09_ClearSearchResults,attr,title
+
+directory.send.subject.label,Subject,Objet,#MainCopy_ctl09_SubjectLabel,text,
+directory.send.subject.title,Subject,Objet,#MainCopy_ctl09_SubjectTextBox,attr,title
+directory.send.subject.required,Subject cannot be empty,L’objet ne peut pas être vide,#MainCopy_ctl09_SubjectValidatorLabel,text,
+directory.send.message.label,Message,Message,#MainCopy_ctl09_MessageLabel,text,
+directory.send.message.required,Please enter a message,Veuillez saisir un message,#MainCopy_ctl09_MessageEmptyLabel,text,
+directory.send.button,Send,Envoyer,#MainCopy_ctl09_SendMessageSubmitLink,attr,value
+directory.send.cancel,Cancel,Annuler,#MainCopy_ctl09_SendMessageCancelLink,attr,value
+directory.send.progressLabel,Sending message ...,Envoi du message…,#MainCopy_ctl09_SendMessageProgressLabel,text
+directory.send.progressAlt,Processing,En cours,#MainCopy_ctl09_SendMessageProgressImage,attr,alt
+directory.send.progressTitle,Processing,En cours,#MainCopy_ctl09_SendMessageProgressImage,attr,title
+
+directory.invite.modal.title,Send Invitation,Envoyer une invitation,#MainCopy_ctl09_AddFriendModalPopup ~ .ui-dialog-titlebar .ui-dialog-title,text,
+directory.invite.body,(invitation text placeholder),(texte d’invitation),#MainCopy_ctl09_lblMailText,text,
+directory.invite.send,Send,Envoyer,#MainCopy_ctl09_AddFriendSubmitLink,attr,value
+directory.invite.cancel,Cancel,Annuler,#MainCopy_ctl09_AddFriendCancelLink,attr,value
+directory.invite.working,Working...,Traitement…,#MainCopy_ctl09_AddFriendProgress .col-md-12,text
+directory.invite.progressAlt,Processing,En cours,#MainCopy_ctl09_AddFriendProgressImage,attr,alt
+directory.invite.progressTitle,Processing,En cours,#MainCopy_ctl09_AddFriendProgressImage,attr,title
+
+directory.remove.modal.title,Remove,Retirer,#MainCopy_ctl09_RemoveFriendModalPopup ~ .ui-dialog-titlebar .ui-dialog-title,text,
+directory.remove.message,(remove confirmation text),(texte de confirmation de retrait),#MainCopy_ctl09_RemoveFriendMessage,text,
+directory.remove.remove,Remove,Retirer,#MainCopy_ctl09_RemoveFriendSubmitLink,attr,value
+directory.remove.cancel,Cancel,Annuler,#MainCopy_ctl09_RemoveFriendCancelLink,attr,value
+directory.remove.working,Working...,Traitement…,#MainCopy_ctl09_RemoveFriendProgress .col-md-12,text
+directory.remove.progressAlt,Processing,En cours,#MainCopy_ctl09_RemoveFriendProgressImage,attr,alt
+directory.remove.progressTitle,Processing,En cours,#MainCopy_ctl09_RemoveFriendProgressImage,attr,title
+
+directory.export.title,Export Options,Options d’exportation,#ExportOptions,attr,title
+directory.export.choose,Choose a file format,Choisissez un format de fichier,#ExportOptions .row.form-group .col-md-12:first-child,text,
+directory.export.excelLabel,Excel file,Fichier Excel,#MainCopy_ctl09_ExportExcelRadio ~ label,text,
+directory.export.csvLabel,CSV file,Fichier CSV,#MainCopy_ctl09_ExportCSVRadio ~ label,text
+directory.export.excelTitle,Excel Format,Format Excel,#MainCopy_ctl09_ExportExcelRadio,attr,title
+directory.export.csvTitle,CSV Formt,Format CSV,#MainCopy_ctl09_ExportCSVRadio,attr,title
