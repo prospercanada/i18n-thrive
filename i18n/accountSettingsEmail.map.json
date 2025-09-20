@@ -5,6 +5,12 @@
     "key": "emailPreferences.heading"
   },
   {
+    "selector": "#MainCopy_ctl29_EmailUpdatePanel p:first-of-type",
+    "type": "attr",
+    "key": "emailPreferences.intro",
+    "attr": "innerHTML"
+  },
+  {
     "selector": "#MainCopy_ctl29_pnlLinkToEditEmail p:first-of-type",
     "type": "text",
     "key": "emailPreferences.primaryAddressNotice"
@@ -30,6 +36,11 @@
     "key": "emailPreferences.community.heading"
   },
   {
+    "selector": "#MainCopy_ctl29_cbCommunityEmails ~ p:first-of-type",
+    "type": "text",
+    "key": "emailPreferences.community.desc"
+  },
+  {
     "selector": "#MainCopy_ctl29_lbtnManageOptOutList",
     "type": "text",
     "key": "emailPreferences.community.manageOptOut"
@@ -43,6 +54,11 @@
     "selector": ".row-border-bottom:nth-of-type(3) h3",
     "type": "text",
     "key": "emailPreferences.participation.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_pSocialEmailDescription",
+    "type": "text",
+    "key": "emailPreferences.participation.desc"
   },
   {
     "selector": ".row-border-bottom:nth-of-type(4) h3",
