@@ -1,0 +1,34 @@
+key,en,fr,selector,type,attr
+commNotif.heading,Community Notifications,Notifications de la communauté,#MainCopy_ctl29_MyCommunityNotifications_h3CommNotif,text,
+commNotif.desc,Community notification will be delivered to your primary address:,Les notifications de la communauté seront envoyées à votre adresse principale :,#MainCopy_ctl29_MyCommunityNotifications_pCommNotifDesc,text,
+commNotif.primaryAddressLabel,(primary address box),(boîte d’adresse principale),#MainCopy_ctl29_MyCommunityNotifications_CommunityNotificationsUpdatePanel .primary-address .alert,attr,title
+commNotif.overrideDesc,To receive specific community notifications at an address other than your primary, set override(s) where desired.,Pour recevoir certaines notifications de la communauté à une adresse autre que votre adresse principale, définissez des dérogations (overrides) au besoin.,#MainCopy_ctl29_MyCommunityNotifications_pOverrideDesc,text,
+
+commNotif.weekly.title,Weekly Consolidated Community Digest:,Bulletin communautaire hebdomadaire consolidé :,#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest,text,
+commNotif.weekly.popoverTitle,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-original-title
+commNotif.weekly.popoverBody,Offers a comprehensive view of all activity from the preceding week for the communities you specify in a single email. This includes announcements, blogs, discussions, library entries, new members and volunteer opportunities.,Offre un aperçu complet, en un seul courriel, de toute l’activité de la semaine précédente pour les communautés que vous indiquez. Comprend les annonces, blogues, discussions, éléments de la bibliothèque, nouveaux membres et occasions de bénévolat.,#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-content
+commNotif.weekly.deliverOn,Deliver on,Envoyer le,#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigDeliverOn,text,
+commNotif.weekly.to,to,à,#MainCopy_ctl29_MyCommunityNotifications_pnlCommNotifWeeklyConDig .weekly-email-container span.text-muted:first-child,text,
+commNotif.weekly.toPrimary,your primary address.,votre adresse principale.,#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigEmailEnd,text,
+commNotif.weekly.change,change,modifier,#MainCopy_ctl29_MyCommunityNotifications_hypCommNotifWeeklyConDigChange,text,
+
+commNotif.weekly.modal.title,Override Email Address for Weekly Consolidated Digest,Remplacer l’adresse courriel pour le bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail .modal-title,text,
+commNotif.weekly.modal.desc,Enter the email address at which you wish to receive the weekly consolidated digests. Remove the address to receive the digests at your primary email address.,Entrez l’adresse courriel à laquelle vous souhaitez recevoir les bulletins hebdomadaires consolidés. Supprimez l’adresse pour les recevoir à votre adresse principale.,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pOverrideWeeklyConDigest,text,
+commNotif.weekly.modal.label,Override email address,Adresse courriel de remplacement,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail label[for="MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_tbCommNotifWeeklyConDigestChangeEmail"],text,
+commNotif.weekly.modal.placeholder,enter email address,entrer l’adresse courriel,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_tbCommNotifWeeklyConDigestChangeEmail,attr,placeholder
+commNotif.weekly.modal.noteLabel,Note:,Remarque :,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pnlCommNotifWeeklConDigNote .alert-info,text,
+commNotif.weekly.modal.noteText,Leave email address blank and save to remove this override.,Laissez le champ vide et enregistrez pour supprimer cette dérogation.,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pnlCommNotifWeeklConDigNote .alert-info + text(),text,
+commNotif.weekly.modal.save,Save,Enregistrer,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_lnkCommNotifWeeklyConChangeEmail,text,
+commNotif.weekly.modal.close,Close,Fermer,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail button.btn-default,text,
+
+commNotif.weekly.day.su,Sunday,dimanche,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="0"],text,
+commNotif.weekly.day.mo,Monday,lundi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="1"],text,
+commNotif.weekly.day.tu,Tuesday,mardi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="2"],text,
+commNotif.weekly.day.we,Wednesday,mercredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="3"],text,
+commNotif.weekly.day.th,Thursday,jeudi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="4"],text,
+commNotif.weekly.day.fr,Friday,vendredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="5"],text,
+commNotif.weekly.day.sa,Saturday,samedi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="6"],text,
+
+commNotif.discussion.title,Discussion Email:,Courriel de discussion :,#MainCopy_ctl29_MyCommunityNotifications_strDiscussionEmail,text,
+commNotif.discussion.popoverTitle,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp,attr,data-original-title
+commNotif.discussion.popoverBody,Offers discussion posts from a single community. Can be delivered to you by email in real-time or aggregated in a single daily email. Configure the frequency and delivery details of discussion notifications for each community below.,Diffuse les publications de discussion d’une seule communauté. Peut être envoyé en temps réel par c

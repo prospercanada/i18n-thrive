@@ -1,0 +1,20 @@
+{
+  "rss.blogs.all": "All Blogs",
+  "rss.blogs.contacts": "My Contacts' Blogs",
+  "rss.blogs.legend": "Blogs subscribed through RSS",
+  "rss.blogs.placeholder": "Add a Blogger",
+  "rss.copyLink": "Copy Link",
+  "rss.copyPaste": "Copy and paste your Feed link in any of the Feed Readers of your choice",
+  "rss.discussions.legend": "discussions subscribed through RSS",
+  "rss.discussions.placeholder": "Add a discussion",
+  "rss.glossary.checkbox": "Subscribe to feeds for Glossary",
+  "rss.glossary.legend": "Subscribe to Glossary feeds",
+  "rss.heading": "RSS Feeds",
+  "rss.library.legend": "libraries subscribed through RSS",
+  "rss.library.placeholder": "Add a Library",
+  "rss.openNew": "Open Link in New Window",
+  "rss.tab.blogs": "Blogs",
+  "rss.tab.discussions": "Discussions",
+  "rss.tab.glossary": "Glossary",
+  "rss.tab.library": "Library"
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "selector": "#MainCopy_ctl29_ManageRSSUpdatePanel h2",
+    "type": "text",
+    "key": "rss.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_tbpEG a",
+    "type": "text",
+    "key": "rss.tab.discussions"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_tbpRL a",
+    "type": "text",
+    "key": "rss.tab.library"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_tbpBlogs a",
+    "type": "text",
+    "key": "rss.tab.blogs"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_tbpGlossary a",
+    "type": "text",
+    "key": "rss.tab.glossary"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_SubscribedThroughRSSText",
+    "type": "text",
+    "key": "rss.discussions.legend"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_ulDiscussions input",
+    "type": "attr",
+    "key": "rss.discussions.placeholder",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_LibrariesSubscribedText",
+    "type": "text",
+    "key": "rss.library.legend"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_ulLibraries input",
+    "type": "attr",
+    "key": "rss.library.placeholder",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_BlogsSubscribedText",
+    "type": "text",
+    "key": "rss.blogs.legend"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_lblAllBlogs",
+    "type": "text",
+    "key": "rss.blogs.all"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_lblContactBlogs",
+    "type": "text",
+    "key": "rss.blogs.contacts"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_ulBlogs input",
+    "type": "attr",
+    "key": "rss.blogs.placeholder",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_SubscribeToGlossaryFeedsHeader",
+    "type": "text",
+    "key": "rss.glossary.legend"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_lblGlossaryCheckbox",
+    "type": "text",
+    "key": "rss.glossary.checkbox"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_CopyPasteFeedLink",
+    "type": "text",
+    "key": "rss.copyPaste"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_hypCopyLink",
+    "type": "text",
+    "key": "rss.copyLink"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ManageRSS_hypOpenNew",
+    "type": "text",
+    "key": "rss.openNew"
+  }
+]

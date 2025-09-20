@@ -23,7 +23,16 @@
   "accountSettingsPrivacy.en": "accountSettingsPrivacy.en.json",
   "accountSettingsPrivacy.fr": "accountSettingsPrivacy.fr.json",
   "accountSettingsPrivacy.map": "accountSettingsPrivacy.map.json",
-  "emailPreferences.en": "emailPreferences.en.json",
-  "emailPreferences.fr": "emailPreferences.fr.json",
-  "emailPreferences.map": "emailPreferences.map.json"
+  "accountSettingsEmail.en": "emailPreferences.en.json",
+  "accountSettingsEmail.fr": "emailPreferences.fr.json",
+  "accountSettingsEmail.map": "emailPreferences.map.json",
+  "accountSettingsRss.en": "emailPreferences.en.json",
+  "accountSettingsRss.fr": "emailPreferences.fr.json",
+  "accountSettingsRss.map": "emailPreferences.map.json",
+  "accountSettingsSubscriptions.en": "accountSettingsSubscriptions.en.json",
+  "accountSettingsSubscriptions.fr": "accountSettingsSubscriptions.fr.json",
+  "accountSettingsSubscriptions.map": "accountSettingsSubscriptions.map.json",
+  "accountSignature.en": "accountSignature.en.json",
+  "accountSignature.fr": "accountSignature.fr.json",
+  "accountSignature.map": "accountSignature.map.json"
 }

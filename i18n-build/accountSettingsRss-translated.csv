@@ -1,0 +1,19 @@
+key,en,fr,selector,type,attr
+rss.heading,RSS Feeds,Fils RSS,#MainCopy_ctl29_ManageRSSUpdatePanel h2,text,
+rss.tab.discussions,Discussions,Discussions,#MainCopy_ctl29_ManageRSS_tbpEG a,text,
+rss.tab.library,Library,Bibliothèque,#MainCopy_ctl29_ManageRSS_tbpRL a,text,
+rss.tab.blogs,Blogs,Blogs,#MainCopy_ctl29_ManageRSS_tbpBlogs a,text,
+rss.tab.glossary,Glossary,Glossaire,#MainCopy_ctl29_ManageRSS_tbpGlossary a,text,
+rss.discussions.legend,discussions subscribed through RSS,discussions abonnés via RSS,#MainCopy_ctl29_ManageRSS_SubscribedThroughRSSText,text,
+rss.discussions.placeholder,Add a discussion,Ajouter une discussion,#MainCopy_ctl29_ManageRSS_ulDiscussions input,attr,placeholder
+rss.library.legend,libraries subscribed through RSS,bibliothèques abonnées via RSS,#MainCopy_ctl29_ManageRSS_LibrariesSubscribedText,text,
+rss.library.placeholder,Add a Library,Ajouter une bibliothèque,#MainCopy_ctl29_ManageRSS_ulLibraries input,attr,placeholder
+rss.blogs.legend,Blogs subscribed through RSS,Blogs abonnés via RSS,#MainCopy_ctl29_ManageRSS_BlogsSubscribedText,text,
+rss.blogs.all,All Blogs,Tous les blogs,#MainCopy_ctl29_ManageRSS_lblAllBlogs,text,
+rss.blogs.contacts,My Contacts' Blogs,Blogs de mes contacts,#MainCopy_ctl29_ManageRSS_lblContactBlogs,text,
+rss.blogs.placeholder,Add a Blogger,Ajouter un blogueur,#MainCopy_ctl29_ManageRSS_ulBlogs input,attr,placeholder
+rss.glossary.legend,Subscribe to Glossary feeds,S’abonner aux fils du glossaire,#MainCopy_ctl29_ManageRSS_SubscribeToGlossaryFeedsHeader,text,
+rss.glossary.checkbox,Subscribe to feeds for Glossary,S’abonner aux fils pour le glossaire,#MainCopy_ctl29_ManageRSS_lblGlossaryCheckbox,text,
+rss.copyPaste,Copy and paste your Feed link in any of the Feed Readers of your choice,Copiez et collez votre lien de fil dans le lecteur de fils de votre choix,#MainCopy_ctl29_ManageRSS_CopyPasteFeedLink,text,
+rss.copyLink,Copy Link,Copier le lien,#MainCopy_ctl29_ManageRSS_hypCopyLink,text,
+rss.openNew,Open Link in New Window,Ouvrir le lien dans une nouvelle fenêtre,#MainCopy_ctl29_ManageRSS_hypOpenNew,text,

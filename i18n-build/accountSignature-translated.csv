@@ -1,0 +1,6 @@
+key,en,fr,selector,type,attr
+profile.bio.heading,Biography,Biographie,#MainCopy_ctl29_TitleText,text,
+profile.signature.label,Default Signature,Signature par défaut,label[for="MainCopy_ctl29_Signature1_txtSignature"],text,
+profile.signature.variables,Available Variables:,Variables disponibles :,.well > .row > .col-md-6 + .col-md-6 .row:first-child .col-md-12,text,
+profile.signature.save,Save,Enregistrer,#MainCopy_ctl29_Signature1_SaveButton,attr,value
+profile.signature.useDefault,Use Default Template,Utiliser le modèle par défaut,#MainCopy_ctl29_Signature1_btnDefaultSignature,attr,value

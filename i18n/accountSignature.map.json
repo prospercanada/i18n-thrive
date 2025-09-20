@@ -1,0 +1,29 @@
+[
+  {
+    "selector": "#MainCopy_ctl29_TitleText",
+    "type": "text",
+    "key": "profile.bio.heading"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl29_Signature1_txtSignature\"]",
+    "type": "text",
+    "key": "profile.signature.label"
+  },
+  {
+    "selector": ".well > .row > .col-md-6 + .col-md-6 .row:first-child .col-md-12",
+    "type": "text",
+    "key": "profile.signature.variables"
+  },
+  {
+    "selector": "#MainCopy_ctl29_Signature1_SaveButton",
+    "type": "attr",
+    "key": "profile.signature.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl29_Signature1_btnDefaultSignature",
+    "type": "attr",
+    "key": "profile.signature.useDefault",
+    "attr": "value"
+  }
+]
