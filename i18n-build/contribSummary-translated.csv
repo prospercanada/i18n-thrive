@@ -1,0 +1,19 @@
+key,en,fr,selector,type,attr
+contribSummary.nodata.title,you have not yet created any content,Vous n’avez pas encore créé de contenu,.hl-no-data strong,text,
+contribSummary.nodata.subtitle,feel free to post to a discussion,N’hésitez pas à publier dans une discussion,.hl-no-data p,text,
+
+# Right column headings
+contribSummary.h3.achievements,Achievements,Succès,.MVCContent .col-md-4 > h3:nth-of-type(1),text,
+contribSummary.h3.points,Points,Points,.MVCContent .col-md-4 > h3:nth-of-type(2),text,
+
+# Link title
+contribSummary.achievements.linkTitle,View Achievements,Afficher les succès,.achievements a,attr,title
+
+# Points labels (order-based)
+contribSummary.points.engagement,Engagement,Engagement,.points .inline:nth-of-type(1) .data > div,text,
+contribSummary.points.contributions,Contributions,Contributions,.points .inline:nth-of-type(2) .data > div,text,
+contribSummary.points.reputation,Reputation,Réputation,.points .inline:nth-of-type(3) .data > div,text,
+
+# RUNTIME-ONLY (no selector): achievements progress line
+contribSummary.ach.progress.one,{done} of {total} achieved,{done} sur {total} atteint,,,
+contribSummary.ach.progress.other,{done} of {total} achieved,{done} sur {total} atteints,,,

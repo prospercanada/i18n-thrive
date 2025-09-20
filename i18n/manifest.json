@@ -10,5 +10,8 @@
   "communities.map": "communities.map.json",
   "following.en": "following.en.json",
   "following.fr": "following.fr.json",
-  "following.map": "following.map.json"
+  "following.map": "following.map.json",
+  "contribSummary.en": "contribSummary.en.json",
+  "contribSummary.fr": "contribSummary.fr.json",
+  "contribSummary.map": "contribSummary.map.json"
 }

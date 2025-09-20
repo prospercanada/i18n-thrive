@@ -1,0 +1,12 @@
+{
+  "contribSummary.ach.progress.one": "{done} of {total} achieved",
+  "contribSummary.ach.progress.other": "{done} of {total} achieved",
+  "contribSummary.achievements.linkTitle": "View Achievements",
+  "contribSummary.h3.achievements": "Achievements",
+  "contribSummary.h3.points": "Points",
+  "contribSummary.nodata.subtitle": "feel free to post to a discussion",
+  "contribSummary.nodata.title": "you have not yet created any content",
+  "contribSummary.points.contributions": "Contributions",
+  "contribSummary.points.engagement": "Engagement",
+  "contribSummary.points.reputation": "Reputation"
+}

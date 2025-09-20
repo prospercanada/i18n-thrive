@@ -29,10 +29,11 @@ function updateCountAt(selector, keyBase) {
 // --- page-specific extras
 function runCommunitiesNodeExtras() {
   // counts like "0 total" → "{count} au total"
-  updateCountAt(
-    "#MainCopy_ctl29_lbCommunityCount .Count.text-muted",
-    "communities.count"
-  );
+  console.log("runCommunitiesNodeExtras called");
+  // updateCountAt(
+  //   "#MainCopy_ctl29_lbCommunityCount .Count.text-muted",
+  //   "communities.count"
+  // );
 }
 
 // function runFollowingConnectionsExtras() {
@@ -62,7 +63,10 @@ const pageExtras = [
 
 function runExtrasForPath(pathname = location.pathname) {
   for (const { test, run } of pageExtras) {
-    if (test(pathname)) run();
+    if (test(pathname)) {
+      console.log("RUN FOR", pathname);
+      run();
+    }
   }
 }
 // NEW END
@@ -211,6 +215,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   dbg("init complete", { initial, namespaces });
 
   // ➜ run page-specific extras on first paint
+  console.log("calling runExtrasForPath");
   runExtrasForPath();
 
   installWebFormsHooks(); // <-- call it once here
