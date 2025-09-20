@@ -19,5 +19,11 @@
   "contribList.map": "contribList.map.json",
   "accountChangePassword.en": "accountChangePassword.en.json",
   "accountChangePassword.fr": "accountChangePassword.fr.json",
-  "accountChangePassword.map": "accountChangePassword.map.json"
+  "accountChangePassword.map": "accountChangePassword.map.json",
+  "accountSettingsPrivacy.en": "accountSettingsPrivacy.en.json",
+  "accountSettingsPrivacy.fr": "accountSettingsPrivacy.fr.json",
+  "accountSettingsPrivacy.map": "accountSettingsPrivacy.map.json",
+  "emailPreferences.en": "emailPreferences.en.json",
+  "emailPreferences.fr": "emailPreferences.fr.json",
+  "emailPreferences.map": "emailPreferences.map.json"
 }

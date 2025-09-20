@@ -1,0 +1,89 @@
+[
+  {
+    "selector": "#MainCopy_ctl29_EmailUpdatePanel h2",
+    "type": "text",
+    "key": "emailPreferences.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_pnlLinkToEditEmail p:first-of-type",
+    "type": "text",
+    "key": "emailPreferences.primaryAddressNotice"
+  },
+  {
+    "selector": "#MainCopy_ctl29_hlChangeEmail",
+    "type": "text",
+    "key": "emailPreferences.change"
+  },
+  {
+    "selector": "#MainCopy_ctl29_pnlLinkToEditEmail ~ .row-border-bottom:nth-of-type(1) h3",
+    "type": "text",
+    "key": "emailPreferences.system.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_pSystemEmailDescription",
+    "type": "text",
+    "key": "emailPreferences.system.desc"
+  },
+  {
+    "selector": ".row-border-bottom:nth-of-type(2) h3",
+    "type": "text",
+    "key": "emailPreferences.community.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_lbtnManageOptOutList",
+    "type": "text",
+    "key": "emailPreferences.community.manageOptOut"
+  },
+  {
+    "selector": ".row-border-bottom:nth-of-type(2) .text-muted",
+    "type": "text",
+    "key": "emailPreferences.community.note"
+  },
+  {
+    "selector": ".row-border-bottom:nth-of-type(3) h3",
+    "type": "text",
+    "key": "emailPreferences.participation.heading"
+  },
+  {
+    "selector": ".row-border-bottom:nth-of-type(4) h3",
+    "type": "text",
+    "key": "emailPreferences.promotional.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_pPromotionalEmailDescription",
+    "type": "text",
+    "key": "emailPreferences.promotional.desc"
+  },
+  {
+    "selector": ".row-border-bottom:nth-of-type(5) h3",
+    "type": "text",
+    "key": "emailPreferences.newsletter.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_pNewsletterEmailDescription",
+    "type": "text",
+    "key": "emailPreferences.newsletter.desc"
+  },
+  {
+    "selector": "#MainCopy_ctl29_modalOptOutList .modal-title",
+    "type": "text",
+    "key": "emailPreferences.optOut.modalTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl29_modalOptOutList .modal-body p",
+    "type": "text",
+    "key": "emailPreferences.optOut.modalDesc"
+  },
+  {
+    "selector": "#MainCopy_ctl29_modalOptOutList_btnSaveOptOutList",
+    "type": "attr",
+    "key": "emailPreferences.optOut.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl29_modalOptOutList_btnCloseOptOutList",
+    "type": "attr",
+    "key": "emailPreferences.optOut.close",
+    "attr": "value"
+  }
+]

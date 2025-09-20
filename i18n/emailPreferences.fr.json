@@ -1,0 +1,19 @@
+{
+  "emailPreferences.change": "Changer",
+  "emailPreferences.community.heading": "Courriels de la communauté",
+  "emailPreferences.community.manageOptOut": "Gérer la liste de désabonnement",
+  "emailPreferences.community.note": "REMARQUE : Les paramètres des discussions et des résumés consolidés se trouvent sur la page Notifications de la communauté.",
+  "emailPreferences.heading": "Préférences de courriel",
+  "emailPreferences.newsletter.desc": "Le Bulletin intelligent est un courriel périodique qui contient du contenu hautement personnalisé provenant de la communauté et d’autres sources.",
+  "emailPreferences.newsletter.heading": "Bulletin intelligent",
+  "emailPreferences.optOut.close": "Fermer",
+  "emailPreferences.optOut.modalDesc": "Sélectionnez les communautés dont vous ne souhaitez pas recevoir les courriels.",
+  "emailPreferences.optOut.modalTitle": "Courriels de communauté – Liste de désabonnement",
+  "emailPreferences.optOut.save": "Enregistrer",
+  "emailPreferences.participation.heading": "Courriels de participation",
+  "emailPreferences.primaryAddressNotice": "Les notifications et communications par courriel seront envoyées à l’adresse indiquée ci-dessous.",
+  "emailPreferences.promotional.desc": "Courriels qui font la promotion d’achats ou de produits (p. ex. achat du livre d’un conférencier de la conférence annuelle).",
+  "emailPreferences.promotional.heading": "Courriels promotionnels",
+  "emailPreferences.system.desc": "Courriels nécessaires pour confirmer la participation de l’utilisateur. Les utilisateurs ne peuvent pas se désabonner de ces courriels.",
+  "emailPreferences.system.heading": "Courriels système"
+}

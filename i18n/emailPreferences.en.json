@@ -1,0 +1,19 @@
+{
+  "emailPreferences.change": "Change",
+  "emailPreferences.community.heading": "Community Emails",
+  "emailPreferences.community.manageOptOut": "Manage Opt-out List",
+  "emailPreferences.community.note": "NOTE: Discussion and consolidated digest settings are on the Community Notifications page.",
+  "emailPreferences.heading": "Email Preferences",
+  "emailPreferences.newsletter.desc": "Smart Newsletter is a periodic email that contains highly personalized content from community and other sources.",
+  "emailPreferences.newsletter.heading": "Smart Newsletter",
+  "emailPreferences.optOut.close": "Close",
+  "emailPreferences.optOut.modalDesc": "Select communities for which you would not like to receive emails.",
+  "emailPreferences.optOut.modalTitle": "Community Email - Opt-out List",
+  "emailPreferences.optOut.save": "Save",
+  "emailPreferences.participation.heading": "Participation Emails",
+  "emailPreferences.primaryAddressNotice": "Email notifications and communications will be delivered to the email address below.",
+  "emailPreferences.promotional.desc": "Emails that promote the outcome of purchase (ex: purchase the book of an annual conference speaker).",
+  "emailPreferences.promotional.heading": "Promotional Emails",
+  "emailPreferences.system.desc": "Emails required to confirm user participation. Users cannot opt-out of these emails.",
+  "emailPreferences.system.heading": "System Emails"
+}
