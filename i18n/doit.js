@@ -102,14 +102,29 @@ function pickNamespaces(path) {
     return [...base, "accountInbox"];
 
   // settings with section=...
+  // if (/^\/profile\/myaccount\/my-settings(?:\/|$)/.test(path)) {
+  //   const sec = new URL(location.href).searchParams.get("section") || "";
+  //   console.log("XXX section is ", sec);
+  //   if (sec === "privacy") return [...base, "accountSettingsPrivacy"];
+  //   if (sec === "email") return [...base, "accountSettingsEmail"];
+  //   if (sec === "rssfeeds") return [...base, "accountSettingsRss"];
+  //   if (sec === "subscriptions")
+  //     return [...base, "accountSettingsSubscriptions"];
+  //   return [...base, "accountSettings"]; // default tab
+  // }
+
   if (/^\/profile\/myaccount\/my-settings(?:\/|$)/.test(path)) {
     const sec = new URL(location.href).searchParams.get("section") || "";
-    if (sec === "privacy") return [...base, "accountSettingsPrivacy"];
-    if (sec === "email") return [...base, "accountSettingsEmail"];
-    if (sec === "rssfeeds") return [...base, "accountSettingsRss"];
-    if (sec === "subscriptions")
-      return [...base, "accountSettingsSubscriptions"];
-    return [...base, "accountSettings"]; // default tab
+    const key = sec.trim().toLowerCase();
+    console.log("XXX section is ", key);
+    const map = {
+      privacy: "accountSettingsPrivacy",
+      email: "accountSettingsEmail",
+      rssfeeds: "accountSettingsRss",
+      subscriptions: "accountSettingsSubscriptions",
+    };
+
+    return [...base, map[key] || "accountSettings"]; // default tab
   }
 
   // the base profile page (bio, education, awards, etc.)
