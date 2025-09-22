@@ -1,0 +1,20 @@
+{
+  "contact.address.html": "60 St. Clair Avenue East, Suite 700<br>Toronto Ontario M4T 1N5<br>Canada<br>Phone: 416-665-2828<br>Toll Free: 1-877-568-1571<br>FAX: 416-665-1661",
+  "contact.email.label": "Your Email Address",
+  "contact.email.required": "Please enter your email address",
+  "contact.email.title": "Your Email Address",
+  "contact.firstName.label": "Your First Name",
+  "contact.firstName.required": "Please enter your first name",
+  "contact.firstName.title": "Your First Name",
+  "contact.form.heading": "Send Us A Message",
+  "contact.lastName.label": "Your Last Name",
+  "contact.lastName.required": "Please enter your last name",
+  "contact.lastName.title": "Your Last Name",
+  "contact.message.aria": "Your Message",
+  "contact.message.label": "Message",
+  "contact.phone.label": "Your Phone Number (optional)",
+  "contact.phone.title": "Your Phone Number (optional)",
+  "contact.send.button": "Send",
+  "contact.subject.label": "Subject",
+  "contact.subject.title": "Subject"
+}

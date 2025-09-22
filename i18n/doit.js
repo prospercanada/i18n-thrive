@@ -149,7 +149,7 @@ function pickNamespaces(currentUrlOrPath) {
   const path = (url.pathname || "/").replace(/\/{2,}/g, "/");
   const section = (url.searchParams.get("section") || "").trim().toLowerCase();
 
-  const base = ["nav","profile"];
+  const base = ["nav", "profile", "footer"];
 
   // connections
   if (/^\/profile\/connections\/contacts(?:\/|$)/i.test(path))
@@ -191,10 +191,16 @@ function pickNamespaces(currentUrlOrPath) {
   if (/^\/network\/members(?:\/|$)/i.test(path))
     return [...base, "networkMembers"];
 
-  // catch-all for the base profile page (bio, education, awards, etc.)
+  // top-level static pages (add as needed)
+  if (/^\/contactus(?:\/|$)/i.test(path)) return [...base, "contactus"];
+  // if (/^\/termsandconditions(?:\/|$)/i.test(path)) return [...base, "terms"];
+  // if (/^\/home(?:\/|$)/i.test(path)) return [...base, "home"];
+
+  // base profile page (bio, education, awards, etc.)
   if (/^\/profile(?:\/|$)/i.test(path)) return base;
 
-  return [];
+  // default: still include global bundles
+  return base;
 }
 
 // 2) re-attach hooks + re-apply current lang (used after partial postbacks)

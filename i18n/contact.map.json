@@ -1,0 +1,100 @@
+[
+  {
+    "selector": ".section3 .panel.panel-form address, .row.panel.panel-form address",
+    "type": "attr",
+    "key": "contact.address.html",
+    "attr": "innerHTML"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EmailForm h2",
+    "type": "text",
+    "key": "contact.form.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EmailForm label[for=\"MainCopy_ctl06_FirstName\"]",
+    "type": "text",
+    "key": "contact.firstName.label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_FirstNameRequiredValidator",
+    "type": "text",
+    "key": "contact.firstName.required"
+  },
+  {
+    "selector": "#MainCopy_ctl06_FirstName",
+    "type": "attr",
+    "key": "contact.firstName.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EmailForm label[for=\"MainCopy_ctl06_LastName\"]",
+    "type": "text",
+    "key": "contact.lastName.label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_LastNameRequiredfieldvalidator",
+    "type": "text",
+    "key": "contact.lastName.required"
+  },
+  {
+    "selector": "#MainCopy_ctl06_LastName",
+    "type": "attr",
+    "key": "contact.lastName.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EmailForm label[for=\"MainCopy_ctl06_FromEmailAddress\"]",
+    "type": "text",
+    "key": "contact.email.label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_FromEmailAddressRequiredfieldvalidator",
+    "type": "text",
+    "key": "contact.email.required"
+  },
+  {
+    "selector": "#MainCopy_ctl06_FromEmailAddress",
+    "type": "attr",
+    "key": "contact.email.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EmailForm label[for=\"MainCopy_ctl06_Phone\"]",
+    "type": "text",
+    "key": "contact.phone.label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_Phone",
+    "type": "attr",
+    "key": "contact.phone.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EmailForm label[for=\"MainCopy_ctl06_Subject\"]",
+    "type": "text",
+    "key": "contact.subject.label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_Subject",
+    "type": "attr",
+    "key": "contact.subject.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EmailForm label[for=\"MainCopy_ctl06_Comments\"]",
+    "type": "text",
+    "key": "contact.message.label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_Comments",
+    "type": "attr",
+    "key": "contact.message.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_SendButton",
+    "type": "attr",
+    "key": "contact.send.button",
+    "attr": "value"
+  }
+]

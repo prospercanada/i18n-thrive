@@ -46,5 +46,8 @@
   "header.map": "header.map.json",
   "footer.en": "footer.en.json",
   "footer.fr": "footer.fr.json",
-  "footer.map": "footer.map.json"
+  "footer.map": "footer.map.json",
+  "contact.en": "footer.en.json",
+  "contact.fr": "footer.fr.json",
+  "contact.map": "footer.map.json"
 }
