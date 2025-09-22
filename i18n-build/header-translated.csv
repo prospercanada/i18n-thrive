@@ -1,0 +1,27 @@
+key,en,fr,selector,type,attr
+nav.logo.desktop.alt,Prosper Canada logo. This will take you to the homepage,Logo de Prosper Canada. Ceci vous mènera à la page d’accueil,#NavLogo_DesktopLogoDiv img,attr,alt
+nav.logo.mobile.alt,Prosper Canada logo. This will take you to the homepage,Logo de Prosper Canada. Ceci vous mènera à la page d’accueil,#NavLogo_PhoneLogoDiv img,attr,alt
+
+nav.toggle.sronly,Toggle navigation,Basculer la navigation,#MPButtonBar .navbar-toggle .sr-only,text,
+
+search.toggle.aria,searchToggle,basculer la recherche,#SearchToggleIcon,attr,aria-label
+search.input.aria,Search Box,Boîte de recherche,#SearchControl_SearchTerm,attr,aria-label
+search.input.placeholder,Search,Rechercher,#SearchControl_SearchTerm,attr,placeholder
+search.input.title,search,recherche,#SearchControl_SearchTerm,attr,title
+search.button.aria,search,rechercher,#SearchControl_SearchButton,attr,aria-label
+
+profile.menu.inbox,Inbox,Boîte de réception,a[qa-id="inbox-link"],text,
+profile.menu.profile,Profile,Profil,a[qa-id="profile-link"],text,
+profile.menu.myCommunities,My Communities,Mes communautés,a[qa-id="my-communities-link"],text,
+profile.menu.followed,Followed Content,Contenu suivi,a[qa-id="followed-content-link"],text,
+profile.menu.logout,Log Out,Fermer la session,a[qa-id="logout-link"],text,
+
+create.button,Create,Créer,#CreateBtnWrapper [qa-id="btnThriveCreate"],text,
+create.button.sronly,Toggle Dropdown,Basculer le menu,#CreateBtnWrapper [qa-id="btnThriveCreate"] .sr-only,text,
+create.menu.discussion,Discussion Thread,Fil de discussion,#HLCreateDiscussionThread,text,
+create.menu.library,Library Entry,Élément de la bibliothèque,#HLCreateLibraryEntry,text,
+
+topnav.memberHome,Member home,Accueil des membres,.nav.navbar-nav a[href="/home"] span,text,
+topnav.mediaKit,Media Kit,Trousse médiatique,.nav.navbar-nav a[href="/media-kit"] span,text,
+topnav.advisory,Advisory Committee,Comité consultatif,.nav.navbar-nav a[href="/advisory-committee"] span,text,
+topnav.funding,Funding Information,Renseignements sur le financement,.nav.navbar-nav a[href="/apply"] span,text,

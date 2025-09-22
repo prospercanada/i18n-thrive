@@ -40,5 +40,11 @@
   "accountInbox.map": "accountInbox.map.json",
   "networkMembers.en": "networkMembers.en.json",
   "networkMembers.fr": "networkMembers.fr.json",
-  "networkMembers.map": "networkMembers.map.json"
+  "networkMembers.map": "networkMembers.map.json",
+  "header.en": "header.en.json",
+  "header.fr": "header.fr.json",
+  "header.map": "header.map.json",
+  "footer.en": "footer.en.json",
+  "footer.fr": "footer.fr.json",
+  "footer.map": "footer.map.json"
 }

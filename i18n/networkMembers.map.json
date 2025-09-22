@@ -327,5 +327,10 @@
     "selector": ".ui-dialog[aria-describedby=\"dialog-alert-noDataDialog\"] .ui-dialog-buttonpane .btn.btn-default",
     "type": "text",
     "key": "dialog.noData.return"
+  },
+  {
+    "selector": "#PageTitleH1",
+    "type": "text",
+    "key": "directory.page.title"
   }
 ]

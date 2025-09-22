@@ -36,6 +36,7 @@
   "directory.invite.working": "Working...",
   "directory.lastname.label": "Last Name",
   "directory.lastname.title": "Last Name",
+  "directory.page.title": "Member Directory",
   "directory.remove.cancel": "Cancel",
   "directory.remove.message": "(remove confirmation text)",
   "directory.remove.modal.title": "Remove",

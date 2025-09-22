@@ -149,7 +149,7 @@ function pickNamespaces(currentUrlOrPath) {
   const path = (url.pathname || "/").replace(/\/{2,}/g, "/");
   const section = (url.searchParams.get("section") || "").trim().toLowerCase();
 
-  const base = ["profile"];
+  const base = ["nav","profile"];
 
   // connections
   if (/^\/profile\/connections\/contacts(?:\/|$)/i.test(path))

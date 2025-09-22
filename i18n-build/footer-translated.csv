@@ -1,0 +1,11 @@
+key,en,fr,selector,type,attr
+footer.logo.alt,Prosper Canada Logo,Logo de Prosper Canada,#MPFooter .footer-logo img,attr,alt
+
+footer.contact.heading,Contact Us,Communiquez avec nous,#MPFooter a[href="/contactus"],text,
+footer.address.html,"60 St Clair Ave E #700<br>Toronto, ON M4T 1N5","60, avenue St. Clair E., bureau 700<br>Toronto (Ont.) M4T 1N5",#MPFooter .lang-en .section3 .HtmlContent p,attr,innerHTML
+footer.address.html.fr,"60 St Clair Ave E #700<br>Toronto, ON M4T 1N5","60, avenue St. Clair E., bureau 700<br>Toronto (Ont.) M4T 1N5",#MPFooter .lang-fr .section7 .HtmlContent p,attr,innerHTML
+
+footer.privacy.heading,Privacy & Terms,Politique de confidentialité et conditions d’utilisation,#MPFooter a[href*="/termsandconditions"],text,
+
+footer.copyright.html,"Copyright 2025<br>All rights reserved","Copyright 2025<br>Tous droits réservés",#MPFooter .lang-en .section4 .HtmlContent p,attr,innerHTML
+footer.copyright.html.fr,"Copyright 2025<br>All rights reserved","Copyright 2025<br>Tous droits réservés",#MPFooter .lang-fr .section8 .HtmlContent p,attr,innerHTML

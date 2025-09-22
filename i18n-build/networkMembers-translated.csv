@@ -71,3 +71,5 @@ directory.export.csvTitle,CSV Formt,Format CSV,#MainCopy_ctl09_ExportCSVRadio,at
 dialog.noData.title,No Data Found,Aucune donnée trouvée,.ui-dialog[aria-describedby="dialog-alert-noDataDialog"] .ui-dialog-title,text,
 dialog.noData.message,No Contacts Found,Aucun contact trouvé,#dialog-alert-noDataDialog p span:last-child,text,
 dialog.noData.return,return to search options,retour aux options de recherche,.ui-dialog[aria-describedby="dialog-alert-noDataDialog"] .ui-dialog-buttonpane .btn.btn-default,text,
+
+directory.page.title,Member Directory,Annuaire des membres,#PageTitleH1,text,

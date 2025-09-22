@@ -1,0 +1,114 @@
+[
+  {
+    "selector": "#NavLogo_DesktopLogoDiv img",
+    "type": "attr",
+    "key": "nav.logo.desktop.alt",
+    "attr": "alt"
+  },
+  {
+    "selector": "#NavLogo_PhoneLogoDiv img",
+    "type": "attr",
+    "key": "nav.logo.mobile.alt",
+    "attr": "alt"
+  },
+  {
+    "selector": "#MPButtonBar .navbar-toggle .sr-only",
+    "type": "text",
+    "key": "nav.toggle.sronly"
+  },
+  {
+    "selector": "#SearchToggleIcon",
+    "type": "attr",
+    "key": "search.toggle.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#SearchControl_SearchTerm",
+    "type": "attr",
+    "key": "search.input.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#SearchControl_SearchTerm",
+    "type": "attr",
+    "key": "search.input.placeholder",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "#SearchControl_SearchTerm",
+    "type": "attr",
+    "key": "search.input.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#SearchControl_SearchButton",
+    "type": "attr",
+    "key": "search.button.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "a[qa-id=\"inbox-link\"]",
+    "type": "text",
+    "key": "profile.menu.inbox"
+  },
+  {
+    "selector": "a[qa-id=\"profile-link\"]",
+    "type": "text",
+    "key": "profile.menu.profile"
+  },
+  {
+    "selector": "a[qa-id=\"my-communities-link\"]",
+    "type": "text",
+    "key": "profile.menu.myCommunities"
+  },
+  {
+    "selector": "a[qa-id=\"followed-content-link\"]",
+    "type": "text",
+    "key": "profile.menu.followed"
+  },
+  {
+    "selector": "a[qa-id=\"logout-link\"]",
+    "type": "text",
+    "key": "profile.menu.logout"
+  },
+  {
+    "selector": "#CreateBtnWrapper [qa-id=\"btnThriveCreate\"]",
+    "type": "text",
+    "key": "create.button"
+  },
+  {
+    "selector": "#CreateBtnWrapper [qa-id=\"btnThriveCreate\"] .sr-only",
+    "type": "text",
+    "key": "create.button.sronly"
+  },
+  {
+    "selector": "#HLCreateDiscussionThread",
+    "type": "text",
+    "key": "create.menu.discussion"
+  },
+  {
+    "selector": "#HLCreateLibraryEntry",
+    "type": "text",
+    "key": "create.menu.library"
+  },
+  {
+    "selector": ".nav.navbar-nav a[href=\"/home\"] span",
+    "type": "text",
+    "key": "topnav.memberHome"
+  },
+  {
+    "selector": ".nav.navbar-nav a[href=\"/media-kit\"] span",
+    "type": "text",
+    "key": "topnav.mediaKit"
+  },
+  {
+    "selector": ".nav.navbar-nav a[href=\"/advisory-committee\"] span",
+    "type": "text",
+    "key": "topnav.advisory"
+  },
+  {
+    "selector": ".nav.navbar-nav a[href=\"/apply\"] span",
+    "type": "text",
+    "key": "topnav.funding"
+  }
+]
