@@ -114,6 +114,35 @@
     return Object.assign({}, ...parts);
   }
 
+  // add near your other helpers
+  // NEW
+  async function installMaps(manifestUrl, namespaces) {
+    const manifest = await loadJSON(manifestUrl);
+    const base = new URL(manifestUrl, location.origin);
+
+    // Find all .map.json entries for the requested namespaces
+    const mapUrls = (namespaces || [])
+      .map((ns) => manifest[`${ns}.map`]) // ← manifest must expose this key
+      .filter(Boolean)
+      .map((rel) => new URL(rel, base).toString());
+
+    // Load and flatten all map rows
+    const maps = (await Promise.all(mapUrls.map(loadJSON))).flat();
+
+    // Apply each row by *adding* data-i18n / data-i18n-attr to matching nodes
+    maps.forEach((row) => {
+      document.querySelectorAll(row.selector).forEach((el) => {
+        if (row.type === "text") {
+          el.setAttribute("data-i18n", row.key);
+        } else if (row.type === "attr") {
+          const pair = `${row.attr}:${row.key}`;
+          const prev = el.getAttribute("data-i18n-attr");
+          el.setAttribute("data-i18n-attr", prev ? `${prev},${pair}` : pair);
+        }
+      });
+    });
+  }
+
   async function loadAndApply(lang) {
     if (!state?.opts?.manifestUrl) {
       throw new Error("ThriveI18n not initialized: missing opts.manifestUrl");
@@ -122,6 +151,11 @@
     localStorage.setItem(STORE_KEY, state.lang);
 
     const { manifestUrl, namespaces, observeMutations } = state.opts;
+
+    // 1) Ensure DOM has data-i18n & data-i18n-attr per map.json
+    await installMaps(manifestUrl, namespaces); // NEW
+
+    // 2) Load catalogs and translate
     const tmap = await loadCatalogs(manifestUrl, namespaces, state.lang);
 
     state.catalogs = tmap;
