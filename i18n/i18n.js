@@ -1,7 +1,7 @@
 (function () {
   const STORE_KEY = "preferredLang";
   const ATTRS = ["aria-label", "title", "alt", "placeholder", "value"];
-  const isAllowedAttr = (a) => ATTRS.includes(a) || a.startsWith("data-"); /// NEW
+  // const isAllowedAttr = (a) => ATTRS.includes(a) || a.startsWith("data-"); /// NEW
   const state = {
     lang: "en",
     catalogs: {},
@@ -34,9 +34,9 @@
     if (map) {
       map.split(",").forEach((pair) => {
         const [attr, k] = pair.split(":").map((s) => s.trim());
-        /// NEW if (ATTRS.includes(attr) && tmap[k] != null)
-        if (isAllowedAttr(attr) && tmap[k] != null)
-          /// NEW
+        if (ATTRS.includes(attr) && tmap[k] != null)
+          // if (isAllowedAttr(attr) && tmap[k] != null)   /// NEW
+
           el.setAttribute(attr, tmap[k]);
       });
     }
@@ -50,23 +50,24 @@
   //   });
   // }
 
-  function applyI18nTextAttr(tmap) {
-    document.querySelectorAll("[data-i18n-text]").forEach((el) => {
-      const k = el.getAttribute("data-i18n-text");
-      if (k && tmap[k] != null) {
-        const tn = firstTextNode(el);
-        if (tn) tn.nodeValue = tmap[k];
-        else el.textContent = tmap[k];
-      }
-    });
-  }
+  // <-- new ???????????????????????????
+  // function applyI18nTextAttr(tmap) {
+  //   document.querySelectorAll("[data-i18n-text]").forEach((el) => {
+  //     const k = el.getAttribute("data-i18n-text");
+  //     if (k && tmap[k] != null) {
+  //       const tn = firstTextNode(el);
+  //       if (tn) tn.nodeValue = tmap[k];
+  //       else el.textContent = tmap[k];
+  //     }
+  //   });
+  // }
   function applyAll(tmap) {
     if (!tmap) return;
     document
       .querySelectorAll("[data-i18n],[data-i18n-attr]")
       .forEach((el) => applyToElement(el, tmap));
 
-    applyI18nTextAttr(tmap); // <-- new ???????????????????????????
+    // applyI18nTextAttr(tmap); // <-- new ???????????????????????????
   }
 
   async function loadJSON(url) {

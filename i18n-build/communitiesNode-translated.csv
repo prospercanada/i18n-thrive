@@ -4,9 +4,9 @@ communities.title,Communities,Communautés,#MainCopy_ctl29_TitleText,text,
 # comm.btn.docs.title,last library updated {n} days ago,dernière bibliothèque mise à jour il y a {n} jours,a[qa-attribute="community-documents-count-btn"],attr,title
 # comm.btn.mem.title,last person joined {n} days ago,dernière personne inscrite il y a {n} jours,a[qa-attribute="community-members-count-btn"],attr,title
 
-# comm.btn.disc.title,"Discussions","Discussions",a[qa-attribute="community-discussions-count-btn"],attr,textnode
-# comm.btn.docs.title,"Libraries","Bibliothèques",a[qa-attribute="community-documents-count-btn"],attr,textnode
-# comm.btn.mem.title,"Members","Membres",a[qa-attribute="community-members-count-btn"],attr,textnode
+# comm.btn.disc.title,"Discussions","Discussions",a[qa-attribute="community-discussions-count-btn"],attr,title
+# comm.btn.docs.title,"Libraries","Bibliothèques",a[qa-attribute="community-documents-count-btn"],attr,title
+# comm.btn.mem.title,"Members","Membres",a[qa-attribute="community-members-count-btn"],attr,title
 
 comm.btn.disc.label,"Discussions ","Discussions ",,,
 comm.btn.docs.label,"Libraries ","Bibliothèques ",,,
