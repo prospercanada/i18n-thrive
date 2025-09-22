@@ -67,3 +67,7 @@ directory.export.excelLabel,Excel file,Fichier Excel,#MainCopy_ctl09_ExportExcel
 directory.export.csvLabel,CSV file,Fichier CSV,#MainCopy_ctl09_ExportCSVRadio ~ label,text
 directory.export.excelTitle,Excel Format,Format Excel,#MainCopy_ctl09_ExportExcelRadio,attr,title
 directory.export.csvTitle,CSV Formt,Format CSV,#MainCopy_ctl09_ExportCSVRadio,attr,title
+
+dialog.noData.title,No Data Found,Aucune donnée trouvée,.ui-dialog[aria-describedby="dialog-alert-noDataDialog"] .ui-dialog-title,text,
+dialog.noData.message,No Contacts Found,Aucun contact trouvé,#dialog-alert-noDataDialog p span:last-child,text,
+dialog.noData.return,return to search options,retour aux options de recherche,.ui-dialog[aria-describedby="dialog-alert-noDataDialog"] .ui-dialog-buttonpane .btn.btn-default,text,

@@ -312,5 +312,20 @@
     "type": "attr",
     "key": "directory.export.csvTitle",
     "attr": "title"
+  },
+  {
+    "selector": ".ui-dialog[aria-describedby=\"dialog-alert-noDataDialog\"] .ui-dialog-title",
+    "type": "text",
+    "key": "dialog.noData.title"
+  },
+  {
+    "selector": "#dialog-alert-noDataDialog p span:last-child",
+    "type": "text",
+    "key": "dialog.noData.message"
+  },
+  {
+    "selector": ".ui-dialog[aria-describedby=\"dialog-alert-noDataDialog\"] .ui-dialog-buttonpane .btn.btn-default",
+    "type": "text",
+    "key": "dialog.noData.return"
   }
 ]

@@ -1,4 +1,7 @@
 {
+  "dialog.noData.message": "Aucun contact trouvé",
+  "dialog.noData.return": "retour aux options de recherche",
+  "dialog.noData.title": "Aucune donnée trouvée",
   "directory.city.label": "Ville",
   "directory.city.placeholder": "Entrez un nom de ville complet ou partiel",
   "directory.city.title": "Entrez un nom de ville complet ou partiel",
