@@ -195,9 +195,23 @@ function pickNamespaces(currentUrlOrPath) {
       rssfeeds: "accountSettingsRss",
       subscriptions: "accountSettingsSubscriptions",
     };
-    console.log("SECTION IS ", section);
-    return [...base, map[section] || "accountSettings"];
+    const specific = map[section];
+    // include both generic and specific (if present), and dedupe
+    return Array.from(
+      new Set([...base, specific].filter(Boolean))
+    );
   }
+
+  // if (/^\/profile\/myaccount\/my-settings(?:\/|$)/i.test(path)) {
+  //   const map = {
+  //     privacy: "accountSettingsPrivacy",
+  //     email: "accountSettingsEmail",
+  //     rssfeeds: "accountSettingsRss",
+  //     subscriptions: "accountSettingsSubscriptions",
+  //   };
+  //   console.log("SECTION IS ", section);
+  //   return [...base, map[section] || "accountSettings"];
+  // }
 
   // directory
   if (/^\/network\/members(?:\/|$)/i.test(path))
