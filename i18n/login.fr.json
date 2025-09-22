@@ -1,0 +1,9 @@
+{
+  "login.button": "Connexion",
+  "login.email.label": "Courriel",
+  "login.forgot.link": "Avez-vous oublié votre mot de passe ?",
+  "login.panel.title": "Membres — Connectez-vous ici",
+  "login.password.label": "Mot de passe",
+  "login.remember.label": "Rester connecté pendant 5 jours",
+  "login.signup.link": "Nouvel utilisateur / Inscrivez-vous maintenant"
+}

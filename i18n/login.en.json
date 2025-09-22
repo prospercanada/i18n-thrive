@@ -1,0 +1,9 @@
+{
+  "login.button": "Login",
+  "login.email.label": "Email",
+  "login.forgot.link": "Did You Forget Your Password?",
+  "login.panel.title": "Members - Login here",
+  "login.password.label": "Password",
+  "login.remember.label": "Stay signed in for 5 days",
+  "login.signup.link": "New User/Register Now"
+}

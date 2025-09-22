@@ -1,0 +1,38 @@
+[
+  {
+    "selector": "#MainCopy_ctl07_LoginSectionH2",
+    "type": "text",
+    "key": "login.panel.title"
+  },
+  {
+    "selector": "#MainCopy_ctl07_LoginUserNameLabel",
+    "type": "text",
+    "key": "login.email.label"
+  },
+  {
+    "selector": "#MainCopy_ctl07_LoginPasswordLabel",
+    "type": "text",
+    "key": "login.password.label"
+  },
+  {
+    "selector": "#MainCopy_ctl07_signupLabel",
+    "type": "text",
+    "key": "login.signup.link"
+  },
+  {
+    "selector": "#MainCopy_ctl07_ForgotPassword",
+    "type": "text",
+    "key": "login.forgot.link"
+  },
+  {
+    "selector": "#MainCopy_ctl07_Remember + label",
+    "type": "text",
+    "key": "login.remember.label"
+  },
+  {
+    "selector": "#MainCopy_ctl07_LoginRecaptchaButton",
+    "type": "attr",
+    "key": "login.button",
+    "attr": "value"
+  }
+]

@@ -18,3 +18,12 @@ inbox.bulk.toggleSelectAll,Select All,Sélectionner tout,#MainCopy_ctl29_ucInbox
 inbox.invites.empty,You have no pending community Request(s),Vous n’avez aucune demande de communauté en attente,#MainCopy_ctl29_ucInboxTab_ucInvitation_lblNoCommunities,text,
 inbox.requests.heading,Contact Requests,Demandes de contact,#MainCopy_ctl29_ucInboxTab_ucFriendRequests_lblMainHead,text,
 inbox.requests.empty,You have no pending contact requests,Vous n’avez aucune demande de contact en attente,#MainCopy_ctl29_ucInboxTab_ucFriendRequests_lblNofriends,text,
+
+inbox.bulk.toggleSelectAll.aria,select all emails,sélectionner tous les courriels,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll,attr,aria-label
+inbox.bulk.toggleSelectAll.title,Select All,Sélectionner tout,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll,attr,title
+inbox.bulk.allLabel,All,Tout,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_pnlOptions .chk-all .btn-group,text,
+
+inbox.actions.markRead,Mark as Read,Marquer comme lu,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_MarkRead,text,
+inbox.actions.toggleDropdown.sronly,Toggle Dropdown,Basculer le menu,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_pnlOptions .dropdown-toggle .sr-only,text,
+inbox.actions.markUnread,Mark as Unread,Marquer comme non lu,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_MarkUnread,text,
+inbox.actions.deleteSelected,Delete Selected Messages,Supprimer les messages sélectionnés,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_DeleteSelected,text,

@@ -57,5 +57,57 @@
     "type": "attr",
     "key": "inbox.bulk.toggleSelectAll",
     "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucInvitation_lblNoCommunities",
+    "type": "text",
+    "key": "inbox.invites.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucFriendRequests_lblMainHead",
+    "type": "text",
+    "key": "inbox.requests.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucFriendRequests_lblNofriends",
+    "type": "text",
+    "key": "inbox.requests.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll",
+    "type": "attr",
+    "key": "inbox.bulk.toggleSelectAll.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll",
+    "type": "attr",
+    "key": "inbox.bulk.toggleSelectAll.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_pnlOptions .chk-all .btn-group",
+    "type": "text",
+    "key": "inbox.bulk.allLabel"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_MarkRead",
+    "type": "text",
+    "key": "inbox.actions.markRead"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_pnlOptions .dropdown-toggle .sr-only",
+    "type": "text",
+    "key": "inbox.actions.toggleDropdown.sronly"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_MarkUnread",
+    "type": "text",
+    "key": "inbox.actions.markUnread"
+  },
+  {
+    "selector": "#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_DeleteSelected",
+    "type": "text",
+    "key": "inbox.actions.deleteSelected"
   }
 ]

@@ -2,5 +2,8 @@
   "communities.count.one": "{count} total",
   "communities.exploreAll.btn": "Explore All Communities",
   "communities.exploreAll.title": "Explore All Communities",
-  "communities.noResults": "No Results Found"
+  "communities.noResults": "No Results Found",
+  "community.stats.discussions": "Discussions",
+  "community.stats.libraries": "Libraries",
+  "community.stats.members": "Members"
 }

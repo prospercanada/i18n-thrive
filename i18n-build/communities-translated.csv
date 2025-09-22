@@ -4,3 +4,7 @@ communities.noResults,No Results Found,Aucun résultat trouvé,#MainCopy_ctl29_A
 communities.exploreAll.btn,Explore All Communities,Explorer toutes les communautés,#MainCopy_ctl29_AllCommunities,text,
 communities.exploreAll.title,Explore All Communities,Explorer toutes les communautés,#MainCopy_ctl29_AllCommunities,attr,title
 communities.noResults,No Results Found,Aucun résultat trouvé,#MainCopy_ctl29_UpdatePanel1,text,
+
+community.stats.discussions,Discussions,Discussions,a[qa-attribute="community-discussions-count-btn"],text,
+community.stats.libraries,Libraries,Bibliothèques,a[qa-attribute="community-documents-count-btn"],text,
+community.stats.members,Members,Membres,a[qa-attribute="community-members-count-btn"],text,

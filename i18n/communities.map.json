@@ -19,5 +19,20 @@
     "selector": "#MainCopy_ctl29_UpdatePanel1",
     "type": "text",
     "key": "communities.noResults"
+  },
+  {
+    "selector": "a[qa-attribute=\"community-discussions-count-btn\"]",
+    "type": "text",
+    "key": "community.stats.discussions"
+  },
+  {
+    "selector": "a[qa-attribute=\"community-documents-count-btn\"]",
+    "type": "text",
+    "key": "community.stats.libraries"
+  },
+  {
+    "selector": "a[qa-attribute=\"community-members-count-btn\"]",
+    "type": "text",
+    "key": "community.stats.members"
   }
 ]

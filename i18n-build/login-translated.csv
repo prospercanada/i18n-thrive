@@ -1,0 +1,8 @@
+key,en,fr,selector,type,attr
+login.panel.title,Members - Login here,Membres — Connectez-vous ici,#MainCopy_ctl07_LoginSectionH2,text,
+login.email.label,Email,Courriel,#MainCopy_ctl07_LoginUserNameLabel,text,
+login.password.label,Password,Mot de passe,#MainCopy_ctl07_LoginPasswordLabel,text,
+login.signup.link,New User/Register Now,Nouvel utilisateur / Inscrivez-vous maintenant,#MainCopy_ctl07_signupLabel,text,
+login.forgot.link,Did You Forget Your Password?,Avez-vous oublié votre mot de passe ?,#MainCopy_ctl07_ForgotPassword,text,
+login.remember.label,Stay signed in for 5 days,Rester connecté pendant 5 jours,#MainCopy_ctl07_Remember + label,text,
+login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
