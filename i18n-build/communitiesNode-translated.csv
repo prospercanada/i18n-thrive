@@ -5,7 +5,9 @@ communities.title,Communities,Communautés,#MainCopy_ctl29_TitleText,text,
 # comm.btn.docs.title,"Libraries&nbsp;","Bibliothèques&nbsp;",a[qa-attribute="community-documents-count-btn"],attr,data-i18n-text
 # comm.btn.mem.title,"Members&nbsp;","Membres&nbsp;",a[qa-attribute="community-members-count-btn"],attr,data-i18n-text
 
+comm.btn.disc.title,"Discussions&nbsp;","Discussions&nbsp;",a[qa-attribute="community-discussions-count-btn"],attr,data-i18n-text
 comm.btn.docs.title,"Libraries&nbsp;","Bibliothèques&nbsp;",a[qa-attribute="community-documents-count-btn"],attr,data-i18n-text
+comm.btn.mem.title,"Members&nbsp;","Membres&nbsp;",a[qa-attribute="community-members-count-btn"],attr,data-i18n-text
 
 
 
