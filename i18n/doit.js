@@ -71,68 +71,129 @@ function runExtrasForPath(pathname = location.pathname) {
 }
 // NEW END
 
-function pickNamespaces(path) {
-  // always include base profile strings
+// function pickNamespaces(path) {
+//   // always include base profile strings
+//   const base = ["profile"];
+
+//   // connections
+//   if (/^\/profile\/connections\/contacts(?:\/|$)/.test(path))
+//     return [...base, "connections"];
+//   if (/^\/profile\/connections\/communitiesnode(?:\/|$)/.test(path))
+//     return [...base, "communities"]; // <-- name your ns "communities"
+//   if (/^\/profile\/connections\/following-connections(?:\/|$)/.test(path))
+//     return [...base, "following"];
+
+//   // contributions
+//   if (/^\/profile\/contributions\/contributions-summary(?:\/|$)/.test(path))
+//     return [...base, "contribSummary"];
+//   if (
+//     /^\/profile\/contributions\/contributions-achievements(?:\/|$)/.test(path)
+//   )
+//     return [...base, "contribAchievements"];
+//   if (/^\/profile\/contributions\/contributions-list(?:\/|$)/.test(path))
+//     return [...base, "contribList"];
+
+//   // my account (use one ns per sub-section or a single "account" ns with keys grouped)
+//   if (/^\/profile\/myaccount\/changepassword(?:\/|$)/.test(path))
+//     return [...base, "accountChangePassword"];
+//   if (/^\/profile\/myaccount\/mysignature(?:\/|$)/.test(path))
+//     return [...base, "accountSignature"];
+//   if (/^\/profile\/myaccount\/inbox(?:\/|$)/.test(path))
+//     return [...base, "accountInbox"];
+
+//   // settings with section=...
+//   // if (/^\/profile\/myaccount\/my-settings(?:\/|$)/.test(path)) {
+//   //   const sec = new URL(location.href).searchParams.get("section") || "";
+//   //   console.log("XXX section is ", sec);
+//   //   if (sec === "privacy") return [...base, "accountSettingsPrivacy"];
+//   //   if (sec === "email") return [...base, "accountSettingsEmail"];
+//   //   if (sec === "rssfeeds") return [...base, "accountSettingsRss"];
+//   //   if (sec === "subscriptions")
+//   //     return [...base, "accountSettingsSubscriptions"];
+//   //   return [...base, "accountSettings"]; // default tab
+//   // }
+
+//   if (/^\/profile\/myaccount\/my-settings(?:\/|$)/.test(path)) {
+//     const sec = new URL(location.href).searchParams.get("section") || "";
+//     const key = sec.trim().toLowerCase();
+//     // console.log("XXX section is ", key);
+//     const map = {
+//       privacy: "accountSettingsPrivacy",
+//       email: "accountSettingsEmail",
+//       rssfeeds: "accountSettingsRss",
+//       subscriptions: "accountSettingsSubscriptions",
+//     };
+
+//     return [...base, map[key] || "accountSettings"]; // default tab
+//   }
+
+//   // the base profile page (bio, education, awards, etc.)
+//   if (/^\/profile(?:\/|$)/.test(path)) return base;
+
+//   if (/^\/network\/members(?:\/|$)/.test(path))
+//     return [...base, "networkMembers"];
+//   // others: no i18n
+//   return [];
+// }
+
+function pickNamespaces(currentUrlOrPath) {
+  // normalize to pathname and params
+  const url =
+    typeof currentUrlOrPath === "string"
+      ? new URL(currentUrlOrPath, location.origin)
+      : currentUrlOrPath instanceof URL
+      ? currentUrlOrPath
+      : new URL(location.href);
+
+  // collapse duplicate slashes; ensure leading slash
+  const path = (url.pathname || "/").replace(/\/{2,}/g, "/");
+  const section = (url.searchParams.get("section") || "").trim().toLowerCase();
+
   const base = ["profile"];
 
   // connections
-  if (/^\/profile\/connections\/contacts(?:\/|$)/.test(path))
+  if (/^\/profile\/connections\/contacts(?:\/|$)/i.test(path))
     return [...base, "connections"];
-  if (/^\/profile\/connections\/communitiesnode(?:\/|$)/.test(path))
-    return [...base, "communities"]; // <-- name your ns "communities"
-  if (/^\/profile\/connections\/following-connections(?:\/|$)/.test(path))
+  if (/^\/profile\/connections\/communities(?:\/|$)/i.test(path))
+    return [...base, "communities"]; // was "communitiesnode"?
+  if (/^\/profile\/connections\/following-connections(?:\/|$)/i.test(path))
     return [...base, "following"];
 
   // contributions
-  if (/^\/profile\/contributions\/contributions-summary(?:\/|$)/.test(path))
+  if (/^\/profile\/contributions\/contributions-summary(?:\/|$)/i.test(path))
     return [...base, "contribSummary"];
   if (
-    /^\/profile\/contributions\/contributions-achievements(?:\/|$)/.test(path)
+    /^\/profile\/contributions\/contributions-achievements(?:\/|$)/i.test(path)
   )
     return [...base, "contribAchievements"];
-  if (/^\/profile\/contributions\/contributions-list(?:\/|$)/.test(path))
+  if (/^\/profile\/contributions\/contributions-list(?:\/|$)/i.test(path))
     return [...base, "contribList"];
 
-  // my account (use one ns per sub-section or a single "account" ns with keys grouped)
-  if (/^\/profile\/myaccount\/changepassword(?:\/|$)/.test(path))
+  // my account
+  if (/^\/profile\/myaccount\/changepassword(?:\/|$)/i.test(path))
     return [...base, "accountChangePassword"];
-  if (/^\/profile\/myaccount\/mysignature(?:\/|$)/.test(path))
+  if (/^\/profile\/myaccount\/mysignature(?:\/|$)/i.test(path))
     return [...base, "accountSignature"];
-  if (/^\/profile\/myaccount\/inbox(?:\/|$)/.test(path))
+  if (/^\/profile\/myaccount\/inbox(?:\/|$)/i.test(path))
     return [...base, "accountInbox"];
 
-  // settings with section=...
-  // if (/^\/profile\/myaccount\/my-settings(?:\/|$)/.test(path)) {
-  //   const sec = new URL(location.href).searchParams.get("section") || "";
-  //   console.log("XXX section is ", sec);
-  //   if (sec === "privacy") return [...base, "accountSettingsPrivacy"];
-  //   if (sec === "email") return [...base, "accountSettingsEmail"];
-  //   if (sec === "rssfeeds") return [...base, "accountSettingsRss"];
-  //   if (sec === "subscriptions")
-  //     return [...base, "accountSettingsSubscriptions"];
-  //   return [...base, "accountSettings"]; // default tab
-  // }
-
-  if (/^\/profile\/myaccount\/my-settings(?:\/|$)/.test(path)) {
-    const sec = new URL(location.href).searchParams.get("section") || "";
-    const key = sec.trim().toLowerCase();
-    console.log("XXX section is ", key);
+  if (/^\/profile\/myaccount\/my-settings(?:\/|$)/i.test(path)) {
     const map = {
       privacy: "accountSettingsPrivacy",
       email: "accountSettingsEmail",
       rssfeeds: "accountSettingsRss",
       subscriptions: "accountSettingsSubscriptions",
     };
-
-    return [...base, map[key] || "accountSettings"]; // default tab
+    return [...base, map[section] || "accountSettings"];
   }
 
-  // the base profile page (bio, education, awards, etc.)
-  if (/^\/profile(?:\/|$)/.test(path)) return base;
-
-  if (/^\/network\/members(?:\/|$)/.test(path))
+  // directory
+  if (/^\/network\/members(?:\/|$)/i.test(path))
     return [...base, "networkMembers"];
-  // others: no i18n
+
+  // catch-all for the base profile page (bio, education, awards, etc.)
+  if (/^\/profile(?:\/|$)/i.test(path)) return base;
+
   return [];
 }
 

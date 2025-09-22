@@ -14,3 +14,7 @@ inbox.compose.buttonAria,Compose,Nouveau message,#btnCompose,attr,aria-label
 inbox.empty,No Messages,Aucun message,.bg-warning,text,
 
 inbox.bulk.toggleSelectAll,Select All,Sélectionner tout,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll,attr,title
+
+inbox.invites.empty,You have no pending community Request(s),Vous n’avez aucune demande de communauté en attente,#MainCopy_ctl29_ucInboxTab_ucInvitation_lblNoCommunities,text,
+inbox.requests.heading,Contact Requests,Demandes de contact,#MainCopy_ctl29_ucInboxTab_ucFriendRequests_lblMainHead,text,
+inbox.requests.empty,You have no pending contact requests,Vous n’avez aucune demande de contact en attente,#MainCopy_ctl29_ucInboxTab_ucFriendRequests_lblNofriends,text,
