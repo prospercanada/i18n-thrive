@@ -1,6 +1,13 @@
 (function () {
   const STORE_KEY = "preferredLang";
-  const ATTRS = ["aria-label", "title", "alt", "placeholder", "value"];
+  const ATTRS = [
+    "aria-label",
+    "title",
+    "alt",
+    "placeholder",
+    "value",
+    "data-i18n-text",
+  ]; // NEW    "data-i18n-text",
   // const isAllowedAttr = (a) => ATTRS.includes(a) || a.startsWith("data-"); /// NEW
   const state = {
     lang: "en",
@@ -31,13 +38,31 @@
       }
     }
     const map = el.getAttribute("data-i18n-attr");
+    // NEW REMOVED THIS
+    // if (map) {
+    //   map.split(",").forEach((pair) => {
+    //     const [attr, k] = pair.split(":").map((s) => s.trim());
+    //     if (ATTRS.includes(attr) && tmap[k] != null)
+    //       // if (isAllowedAttr(attr) && tmap[k] != null)   /// NEW
+
+    //       el.setAttribute(attr, tmap[k]);
+    //   });
+    // }
+
+    // NEW
     if (map) {
       map.split(",").forEach((pair) => {
         const [attr, k] = pair.split(":").map((s) => s.trim());
-        if (ATTRS.includes(attr) && tmap[k] != null)
-          // if (isAllowedAttr(attr) && tmap[k] != null)   /// NEW
+        if (!ATTRS.includes(attr) || tmap[k] == null) return;
 
+        if (attr === "data-i18n-text") {
+          const txt = tmap[k].replace(/&nbsp;/g, "\u00A0");
+          const tn = firstTextNode(el);
+          if (tn) tn.nodeValue = txt;
+          else el.insertBefore(document.createTextNode(txt), el.firstChild);
+        } else {
           el.setAttribute(attr, tmap[k]);
+        }
       });
     }
   }
