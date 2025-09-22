@@ -156,6 +156,7 @@ function pickNamespaces(currentUrlOrPath) {
       ? currentUrlOrPath
       : new URL(location.href);
 
+  console.log("url ", url);
   // collapse duplicate slashes; ensure leading slash
   const path = (url.pathname || "/").replace(/\/{2,}/g, "/");
   // const section = (url.searchParams.get("section") || "").trim().toLowerCase();
@@ -197,9 +198,7 @@ function pickNamespaces(currentUrlOrPath) {
     };
     const specific = map[section];
     // include both generic and specific (if present), and dedupe
-    return Array.from(
-      new Set([...base, specific].filter(Boolean))
-    );
+    return Array.from(new Set([...base, specific].filter(Boolean)));
   }
 
   // if (/^\/profile\/myaccount\/my-settings(?:\/|$)/i.test(path)) {
@@ -240,7 +239,9 @@ function pickNamespaces(currentUrlOrPath) {
 
 // 2) re-attach hooks + re-apply current lang (used after partial postbacks)
 async function reI18n() {
-  const namespaces = pickNamespaces(location.pathname);
+  console.log("reI18n pickNamespaces ", location.href);
+  // const namespaces = pickNamespaces(location.pathname);
+  const namespaces = pickNamespaces(new URL(location.href));
   if (!namespaces.length) return;
 
   const I18N_OPTS = {
@@ -308,7 +309,9 @@ function installWebFormsHooks() {
 
 // 4) initial boot on DOM ready
 document.addEventListener("DOMContentLoaded", async () => {
-  const namespaces = pickNamespaces(location.pathname);
+  console.log("DOMContentLoaded pickNamespaces ", location.href);
+  // const namespaces = pickNamespaces(location.pathname);
+  const namespaces = pickNamespaces(new URL(location.href));
   if (!namespaces.length) {
     dbg("skip i18n (no namespaces for this page)");
     return;
