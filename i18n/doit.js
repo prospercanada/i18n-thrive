@@ -137,9 +137,11 @@ function runExtrasForPath(pathname = location.pathname) {
 // }
 
 function getParamCI(url, name) {
+  console.log("PARAM ", url, name);
   // case-insensitive query param getter
   const target = name.toLowerCase();
   for (const [k, v] of url.searchParams.entries()) {
+    console.log("c ", k, v);
     if (k.toLowerCase() === target) return v;
   }
   return null;
