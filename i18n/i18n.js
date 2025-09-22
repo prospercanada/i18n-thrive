@@ -40,11 +40,21 @@
     }
   }
 
+  function applyLeadingTextAll(tmap) {
+    document.querySelectorAll("[data-i18n-text]").forEach((el) => {
+      const k = el.getAttribute("data-i18n-text");
+      if (k && tmap[k] != null) setLeadingLabel(el, tmap[k]);
+    });
+  }
+
+  // <-- new ???????????????????????????
   function applyAll(tmap) {
     if (!tmap) return;
     document
       .querySelectorAll("[data-i18n],[data-i18n-attr]")
       .forEach((el) => applyToElement(el, tmap));
+
+    applyLeadingTextAll(tmap); // <-- new ???????????????????????????
   }
 
   async function loadJSON(url) {
