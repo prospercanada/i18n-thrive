@@ -61,5 +61,8 @@
   "addLibrary.map": "addLibrary.map.json",
   "eventsCalendar.en": "eventsCalendar.en.json",
   "eventsCalendar.fr": "eventsCalendar.fr.json",
-  "eventsCalendar.map": "eventsCalendar.map.json"
+  "eventsCalendar.map": "eventsCalendar.map.json",
+  "communitiesNode.en": "communitiesNode.en.json",
+  "communitiesNode.fr": "communitiesNode.fr.json",
+  "communitiesNode.map": "communitiesNode.map.json"
 }

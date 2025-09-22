@@ -156,7 +156,7 @@ function pickNamespaces(currentUrlOrPath) {
       ? currentUrlOrPath
       : new URL(location.href);
 
-  console.log("url ", url);
+  // console.log("url ", url);
   // collapse duplicate slashes; ensure leading slash
   const path = (url.pathname || "/").replace(/\/{2,}/g, "/");
   // const section = (url.searchParams.get("section") || "").trim().toLowerCase();
@@ -168,6 +168,8 @@ function pickNamespaces(currentUrlOrPath) {
     return [...base, "connections"];
   if (/^\/profile\/connections\/communities(?:\/|$)/i.test(path))
     return [...base, "communities"]; // was "communitiesnode"?
+  if (/^\/profile\/connections\/communitiesnode(?:\/|$)/i.test(path))
+    return [...base, "communitiesNode"];
   if (/^\/profile\/connections\/following-connections(?:\/|$)/i.test(path))
     return [...base, "following"];
 

@@ -7,6 +7,7 @@
     "i18n:build:profile": "node scripts/build-from-csv.mjs i18n-build/profile-translated.csv i18n profile",
     "i18n:build:connections": "node scripts/build-from-csv.mjs i18n-build/connections-translated.csv i18n connections",
     "i18n:build:communities": "node scripts/build-from-csv.mjs i18n-build/communities-translated.csv i18n communities",
+    "i18n:build:communitiesNode": "node scripts/build-from-csv.mjs i18n-build/communitiesNode-translated.csv i18n communitiesNode",
     "i18n:build:following": "node scripts/build-from-csv.mjs i18n-build/following-translated.csv i18n following",
     "i18n:build:contribSummary": "node scripts/build-from-csv.mjs i18n-build/contribSummary-translated.csv i18n contribSummary",
     "i18n:build:contribList": "node scripts/build-from-csv.mjs i18n-build/contribList-translated.csv i18n contribList",

@@ -1,0 +1,25 @@
+[
+  {
+    "selector": "#MainCopy_ctl29_TitleText",
+    "type": "text",
+    "key": "communities.title"
+  },
+  {
+    "selector": "a[qa-attribute=\"community-discussions-count-btn\"]",
+    "type": "attr",
+    "key": "comm.btn.disc.label",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "a[qa-attribute=\"community-documents-count-btn\"]",
+    "type": "attr",
+    "key": "comm.btn.docs.label",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "a[qa-attribute=\"community-members-count-btn\"]",
+    "type": "attr",
+    "key": "comm.btn.mem.label",
+    "attr": "data-i18n-text"
+  }
+]
