@@ -1,6 +1,6 @@
 {
-  "comm.btn.disc.label": "Discussions",
-  "comm.btn.docs.label": "libraries",
-  "comm.btn.mem.label": "Members",
+  "comm.btn.disc.title": "Discussions",
+  "comm.btn.docs.title": "Libraries",
+  "comm.btn.mem.title": "Members",
   "communities.title": "Communities"
 }
