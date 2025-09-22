@@ -1,9 +1,6 @@
 {
-  "comm.btn.disc.attachKey": "comm.btn.disc.label",
-  "comm.btn.disc.label": "Discussions",
-  "comm.btn.docs.attachKey": "comm.btn.docs.label",
-  "comm.btn.docs.label": "Bibliothèques",
-  "comm.btn.mem.attachKey": "comm.btn.mem.label",
-  "comm.btn.mem.label": "Membres",
+  "comm.btn.disc.title": "Discussions&nbsp;",
+  "comm.btn.docs.title": "Bibliothèques&nbsp;",
+  "comm.btn.mem.title": "Membres&nbsp;",
   "communities.title": "Communautés"
 }

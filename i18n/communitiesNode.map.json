@@ -7,19 +7,19 @@
   {
     "selector": "a[qa-attribute=\"community-discussions-count-btn\"]",
     "type": "attr",
-    "key": "comm.btn.disc.attachKey",
+    "key": "comm.btn.disc.title",
     "attr": "data-i18n-text"
   },
   {
     "selector": "a[qa-attribute=\"community-documents-count-btn\"]",
     "type": "attr",
-    "key": "comm.btn.docs.attachKey",
+    "key": "comm.btn.docs.title",
     "attr": "data-i18n-text"
   },
   {
     "selector": "a[qa-attribute=\"community-members-count-btn\"]",
     "type": "attr",
-    "key": "comm.btn.mem.attachKey",
+    "key": "comm.btn.mem.title",
     "attr": "data-i18n-text"
   }
 ]
