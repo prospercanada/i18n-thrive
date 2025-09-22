@@ -55,5 +55,8 @@
   "login.map": "login.map.json",
   "postMessage.en": "postMessage.en.json",
   "postMessage.fr": "postMessage.fr.json",
-  "postMessage.map": "postMessage.map.json"
+  "postMessage.map": "postMessage.map.json",
+  "addLibrary.en": "addLibrary.en.json",
+  "addLibrary.fr": "addLibrary.fr.json",
+  "addLibrary.map": "addLibrary.map.json"
 }

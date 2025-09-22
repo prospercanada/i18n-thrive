@@ -1,0 +1,146 @@
+[
+  {
+    "selector": "#PageTitleH1",
+    "type": "text",
+    "key": "page_title"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl02_DocumentName\"]",
+    "type": "text",
+    "key": "title_label"
+  },
+  {
+    "selector": "#documentNameHelp",
+    "type": "text",
+    "key": "title_help"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl02_LibraryList\"]",
+    "type": "text",
+    "key": "library_label"
+  },
+  {
+    "selector": "#libraryListHelp",
+    "type": "text",
+    "key": "library_help"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl02_DocumentDescription\"]",
+    "type": "text",
+    "key": "description_label"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl02_DocumentTypeList\"]",
+    "type": "text",
+    "key": "entrytype_label"
+  },
+  {
+    "selector": "#documentTypeListHelp",
+    "type": "text",
+    "key": "documenttype_help"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl02_OwnerId\"]",
+    "type": "text",
+    "key": "owner_label"
+  },
+  {
+    "selector": "#MainCopy_ctl02_OwnerLookupButton",
+    "type": "attr",
+    "key": "owner_lookup",
+    "attr": "value"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl02_btnFeaturedImage\"]",
+    "type": "text",
+    "key": "custom_thumbnail_label"
+  },
+  {
+    "selector": "#MainCopy_ctl02_btnFeaturedImage",
+    "type": "text",
+    "key": "select_image_link"
+  },
+  {
+    "selector": "#MainCopy_ctl02_btnClearFeaturedImage",
+    "type": "attr",
+    "key": "clear_featured_image_aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#MainCopy_ctl02_pnlFeaturedImage .font-size-xs",
+    "type": "text",
+    "key": "thumbnail_note"
+  },
+  {
+    "selector": "#MainCopy_ctl02_addEntryWizard_NextButton",
+    "type": "attr",
+    "key": "next_button",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl02_addEntryWizard_CancelButton",
+    "type": "attr",
+    "key": "cancel_button",
+    "attr": "value"
+  },
+  {
+    "selector": "#NextUp",
+    "type": "text",
+    "key": "next_up_hint"
+  },
+  {
+    "selector": "#MainCopy_ctl02_DocumentTypeList option[value=\"0\"]",
+    "type": "text",
+    "key": "doctype_option_placeholder"
+  },
+  {
+    "selector": "#MainCopy_ctl02_DocumentTypeList option[value=\"8ed90289-4b6c-4cc7-9987-5a7a7079649d\"]",
+    "type": "text",
+    "key": "doctype_option_copyright"
+  },
+  {
+    "selector": "#MainCopy_ctl02_DocumentTypeList option[value=\"498f2423-be16-4c97-8f40-53278e7375ee\"]",
+    "type": "text",
+    "key": "doctype_option_hyperlink"
+  },
+  {
+    "selector": "#MainCopy_ctl02_DocumentTypeList option[value=\"2fb2211c-f5c4-4af2-b889-50c0b7669e06\"]",
+    "type": "text",
+    "key": "doctype_option_upload"
+  },
+  {
+    "selector": "#MainCopy_ctl02_DocumentTypeList option[value=\"c49385fd-27a8-4db2-84f8-c86d5bd30226\"]",
+    "type": "text",
+    "key": "doctype_option_webinar"
+  },
+  {
+    "selector": "#MainCopy_ctl02_DocumentTypeList option[value=\"01c2a344-e4d2-4567-ae9b-9a86ddcae74a\"]",
+    "type": "text",
+    "key": "doctype_option_youtube"
+  },
+  {
+    "selector": "#MainCopy_ctl02_LibraryList option[value=\"0\"]",
+    "type": "text",
+    "key": "library_option_placeholder"
+  },
+  {
+    "selector": "#MainCopy_ctl02_LibraryList option[value=\"13418e01-3834-4e90-9fe5-0198d33a7d8c\"]",
+    "type": "text",
+    "key": "library_option_prosper"
+  },
+  {
+    "selector": "#MainCopy_ctl02_LibraryList option[value=\"d82937d1-7fde-473d-9d3f-0199356a391c\"]",
+    "type": "text",
+    "key": "library_option_resilient"
+  },
+  {
+    "selector": "#MainCopy_ctl02_LibraryList option[value=\"84d87020-8e94-4a28-8e47-0198ae5c7e45\"]",
+    "type": "text",
+    "key": "library_option_sandbox"
+  },
+  {
+    "selector": "#MainCopy_ctl02_LibraryList option[value=\"aaa63bc5-7d90-4f9a-a26d-0192c57bb406\"]",
+    "type": "text",
+    "key": "library_option_techtidbits"
+  }
+]

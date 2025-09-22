@@ -1,0 +1,29 @@
+key,en,fr,selector,type,attr
+page_title,Add to a Library,Ajouter à une bibliothèque,#PageTitleH1,text,
+title_label,Title,Titre,label[for="MainCopy_ctl02_DocumentName"],text,
+title_help,Name is a required field. Please enter a name.,Le nom est obligatoire. Veuillez saisir un nom.,#documentNameHelp,text,
+library_label,Library,Bibliothèque,label[for="MainCopy_ctl02_LibraryList"],text,
+library_help,Library is a required field. Please select a library.,La bibliothèque est obligatoire. Veuillez en sélectionner une.,#libraryListHelp,text,
+description_label,Description,Description,label[for="MainCopy_ctl02_DocumentDescription"],text,
+entrytype_label,Entry Type,Type d’entrée,label[for="MainCopy_ctl02_DocumentTypeList"],text,
+documenttype_help,Document type is a required field. Please select a type.,Le type de document est obligatoire. Veuillez sélectionner un type.,#documentTypeListHelp,text,
+owner_label,Owner,Propriétaire,label[for="MainCopy_ctl02_OwnerId"],text,
+owner_lookup,Lookup,Rechercher,#MainCopy_ctl02_OwnerLookupButton,attr,value
+custom_thumbnail_label,Custom Thumbnail,Vignette personnalisée,label[for="MainCopy_ctl02_btnFeaturedImage"],text,
+select_image_link,Select Image,Sélectionner une image,#MainCopy_ctl02_btnFeaturedImage,text,
+clear_featured_image_aria,Clear Featured Image,Effacer la vignette personnalisée,#MainCopy_ctl02_btnClearFeaturedImage,attr,aria-label
+thumbnail_note,"A thumbnail will be auto-generated for your entry based on the entry type. This custom option is to select your own image to show alongside your entry. Landscape images measuring at least 1200px x 600px are ideal.","Une vignette sera générée automatiquement pour votre entrée selon le type sélectionné. Cette option personnalisée permet de choisir votre propre image à afficher avec votre entrée. Les images au format paysage d’au moins 1200 px × 600 px sont idéales.",#MainCopy_ctl02_pnlFeaturedImage .font-size-xs,text,
+next_button,Next,Suivant,#MainCopy_ctl02_addEntryWizard_NextButton,attr,value
+cancel_button,Cancel,Annuler,#MainCopy_ctl02_addEntryWizard_CancelButton,attr,value
+next_up_hint,(Next up: Webinar Details),(À venir : détails du webinaire),#NextUp,text,
+doctype_option_placeholder,[Select Type],[Sélectionner le type],#MainCopy_ctl02_DocumentTypeList option[value="0"],text,
+doctype_option_copyright,Copyright Licensed File(s),Fichier(s) sous licence,#MainCopy_ctl02_DocumentTypeList option[value="8ed90289-4b6c-4cc7-9987-5a7a7079649d"],text,
+doctype_option_hyperlink,Hyperlink,Lien hypertexte,#MainCopy_ctl02_DocumentTypeList option[value="498f2423-be16-4c97-8f40-53278e7375ee"],text,
+doctype_option_upload,Standard File Upload,Téléversement de fichier standard,#MainCopy_ctl02_DocumentTypeList option[value="2fb2211c-f5c4-4af2-b889-50c0b7669e06"],text,
+doctype_option_webinar,Webinar,Webinaire,#MainCopy_ctl02_DocumentTypeList option[value="c49385fd-27a8-4db2-84f8-c86d5bd30226"],text,
+doctype_option_youtube,YouTube Video,Vidéo YouTube,#MainCopy_ctl02_DocumentTypeList option[value="01c2a344-e4d2-4567-ae9b-9a86ddcae74a"],text,
+library_option_placeholder,[Select library],[Sélectionner une bibliothèque],#MainCopy_ctl02_LibraryList option[value="0"],text,
+library_option_prosper,Prosper Internal,Prosper – Interne,#MainCopy_ctl02_LibraryList option[value="13418e01-3834-4e90-9fe5-0198d33a7d8c"],text,
+library_option_resilient,Resilient Futures Network,Réseau des futurs résilients,#MainCopy_ctl02_LibraryList option[value="d82937d1-7fde-473d-9d3f-0199356a391c"],text,
+library_option_sandbox,Sandbox Community,Communauté Sandbox,#MainCopy_ctl02_LibraryList option[value="84d87020-8e94-4a28-8e47-0198ae5c7e45"],text,
+library_option_techtidbits,Tech tidbits and help,Conseils techniques et aide,#MainCopy_ctl02_LibraryList option[value="aaa63bc5-7d90-4f9a-a26d-0192c57bb406"],text

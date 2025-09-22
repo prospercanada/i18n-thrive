@@ -194,6 +194,14 @@ function pickNamespaces(currentUrlOrPath) {
   // top-level static pages (add as needed)
   if (/^\/contactus(?:\/|$)/i.test(path)) return [...base, "contactus"];
   if (/^\/login(?:\/|$)/i.test(path)) return [...base, "login"];
+
+  if (/^\/participate\/postmessage(?:\/|$)/i.test(path)) {
+    return [...base, "postMessage"];
+  }
+  if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path)) {
+    return [...base,  "addLibrary"];
+  }
+
   // if (/^\/termsandconditions(?:\/|$)/i.test(path)) return [...base, "terms"];
   // if (/^\/home(?:\/|$)/i.test(path)) return [...base, "home"];
 
