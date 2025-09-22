@@ -199,22 +199,22 @@
     "key": "profile.badges.heading"
   },
   {
-    "selector": "[aria-describedby=dialog-confirm-deleteprofileimage] #ui-id-1",
+    "selector": "[aria-describedby=\"dialog-confirm-deleteprofileimage\"] #ui-id-1",
     "type": "text",
     "key": "profile.dialog.deleteTitle"
   },
   {
-    "selector": "[aria-describedby=dialog-confirm-deleteprofileimage] #dialog-confirm-deleteprofileimage-message",
+    "selector": "[aria-describedby=\"dialog-confirm-deleteprofileimage\"] #dialog-confirm-deleteprofileimage-message",
     "type": "text",
     "key": "profile.dialog.deleteMessage"
   },
   {
-    "selector": "Oui",
-    "type": "supprimer cette image.",
+    "selector": "[aria-describedby=\"dialog-confirm-deleteprofileimage\"] .ui-dialog-buttonset .btn.btn-primary",
+    "type": "text",
     "key": "profile.dialog.deleteYes"
   },
   {
-    "selector": "[aria-describedby=dialog-confirm-deleteprofileimage] .ui-dialog-buttonset .btn.btn-default",
+    "selector": "[aria-describedby=\"dialog-confirm-deleteprofileimage\"] .ui-dialog-buttonset .btn.btn-default",
     "type": "text",
     "key": "profile.dialog.cancel"
   },
@@ -361,12 +361,12 @@
     "key": "profile.education.dates.label"
   },
   {
-    "selector": "label[for=MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlFrom]",
+    "selector": "label[for=\"MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlFrom\"]",
     "type": "text",
     "key": "profile.education.dates.from"
   },
   {
-    "selector": "label[for=MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlTo]",
+    "selector": "label[for=\"MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlTo\"]",
     "type": "text",
     "key": "profile.education.dates.to"
   },
@@ -386,7 +386,7 @@
     "key": "profile.education.advisor.label"
   },
   {
-    "selector": "label[for=MainCopy_ctl32_ucEducationEditorAdd_chkIsHighestDegree]",
+    "selector": "label[for=\"MainCopy_ctl32_ucEducationEditorAdd_chkIsHighestDegree\"]",
     "type": "text",
     "key": "profile.education.highestDegree.label"
   },
@@ -477,12 +477,6 @@
     "attr": "value"
   },
   {
-    "selector": "#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom",
-    "type": "attr",
-    "key": "profile.awards.save",
-    "attr": "value"
-  },
-  {
     "selector": "#MainCopy_ctl35_CancelTop",
     "type": "attr",
     "key": "profile.awards.cancel",
@@ -529,12 +523,6 @@
     "key": "profile.awards.year.label"
   },
   {
-    "selector": "#MainCopy_ctl35_SaveTop",
-    "type": "attr",
-    "key": "profile.awards.save",
-    "attr": "value"
-  },
-  {
     "selector": "#MainCopy_ctl21_lblPrefix",
     "type": "text",
     "key": "profile.name.prefix.label"
@@ -570,12 +558,12 @@
     "key": "profile.password.modalTitle"
   },
   {
-    "selector": "#EnterPasswordModal .modal-body label[for=MainCopy_ctl10_EnterPasswordModal_Password]",
+    "selector": "#EnterPasswordModal .modal-body label[for=\"MainCopy_ctl10_EnterPasswordModal_Password\"]",
     "type": "text",
     "key": "profile.password.enter.label"
   },
   {
-    "selector": "#EnterPasswordModal .modal-body label[for=MainCopy_ctl10_EnterPasswordModal_ConfirmPassword]",
+    "selector": "#EnterPasswordModal .modal-body label[for=\"MainCopy_ctl10_EnterPasswordModal_ConfirmPassword\"]",
     "type": "text",
     "key": "profile.password.confirm.label"
   },
@@ -629,5 +617,148 @@
     "type": "attr",
     "key": "profile.name.cancel",
     "attr": "value"
+  },
+  {
+    "selector": "button[id*=\"_ContactCommunications_ContactRequest\"]",
+    "type": "text",
+    "key": "add_contact_btn_text"
+  },
+  {
+    "selector": "button[id*=\"_ContactCommunications_ContactRequest\"]",
+    "type": "attr",
+    "key": "add_contact_btn_aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "a[id*=\"_ContactCommunications_SendMessageBtn\"]",
+    "type": "text",
+    "key": "send_msg_btn_text_row"
+  },
+  {
+    "selector": "a[id*=\"_ContactCommunications_SendMessageBtn\"]",
+    "type": "attr",
+    "key": "send_msg_btn_title_row",
+    "attr": "title"
+  },
+  {
+    "selector": "a[id*=\"_ContactCommunications_SendMessageBtn\"]",
+    "type": "attr",
+    "key": "send_msg_btn_aria_row",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "a[id*=\"_ResendRequestSmall\"]",
+    "type": "text",
+    "key": "resend_small_text"
+  },
+  {
+    "selector": "a[id*=\"_ResendRequestSmall\"]",
+    "type": "attr",
+    "key": "resend_small_title",
+    "attr": "title"
+  },
+  {
+    "selector": "a[id*=\"_ResendRequestSmall\"]",
+    "type": "attr",
+    "key": "resend_small_aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "a[id*=\"_cancelContactRequestSmall\"]",
+    "type": "text",
+    "key": "cancel_small_text"
+  },
+  {
+    "selector": "a[id*=\"_cancelContactRequestSmall\"]",
+    "type": "attr",
+    "key": "cancel_small_title",
+    "attr": "title"
+  },
+  {
+    "selector": "a[id*=\"_cancelContactRequestSmall\"]",
+    "type": "attr",
+    "key": "cancel_small_aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "span[id*=\"_AcceptDeclineRequestTextSmall\"]",
+    "type": "text",
+    "key": "pending_text"
+  },
+  {
+    "selector": "input[id^=\"MainCopy_ctl29_FindContacts_Contacts_SendMessageButton_\"]",
+    "type": "attr",
+    "key": "list_send_msg_value",
+    "attr": "value"
+  },
+  {
+    "selector": "input[id^=\"MainCopy_ctl29_FindContacts_Contacts_SendMessageButton_\"]",
+    "type": "attr",
+    "key": "list_send_msg_title",
+    "attr": "title"
+  },
+  {
+    "selector": "a.add-contact",
+    "type": "text",
+    "key": "add_contact_link_text"
+  },
+  {
+    "selector": "a.add-contact",
+    "type": "attr",
+    "key": "add_contact_link_title",
+    "attr": "title"
+  },
+  {
+    "selector": "a.add-contact",
+    "type": "attr",
+    "key": "add_contact_link_aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "a.ignore-contact",
+    "type": "text",
+    "key": "ignore_contact_text"
+  },
+  {
+    "selector": "a.ignore-contact",
+    "type": "attr",
+    "key": "ignore_contact_title",
+    "attr": "title"
+  },
+  {
+    "selector": "a.ignore-contact",
+    "type": "attr",
+    "key": "ignore_contact_aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#modal-send-message .modal-header",
+    "type": "text",
+    "key": "modal_header_prefix"
+  },
+  {
+    "selector": "#message-subject-label",
+    "type": "text",
+    "key": "modal_subject_label"
+  },
+  {
+    "selector": "#message-body-label",
+    "type": "text",
+    "key": "modal_body_label"
+  },
+  {
+    "selector": "#modal-send-message #Send",
+    "type": "text",
+    "key": "modal_send_btn"
+  },
+  {
+    "selector": "#modal-send-message #Cancel",
+    "type": "text",
+    "key": "modal_cancel_btn"
+  },
+  {
+    "selector": "#modal-send-message #error-msg",
+    "type": "text",
+    "key": "modal_error_text"
   }
 ]

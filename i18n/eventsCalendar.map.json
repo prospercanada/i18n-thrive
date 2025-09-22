@@ -1,0 +1,166 @@
+[
+  {
+    "selector": "#MainCopy_ctl06_ShowFilter",
+    "type": "attr",
+    "key": "calendar_toggle_filter_title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_ShowFilter",
+    "type": "attr",
+    "key": "calendar_toggle_filter_value",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl06_FilteringOnPrompt",
+    "type": "text",
+    "key": "calendar_filtering_on_label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_FilteringOnValue",
+    "type": "text",
+    "key": "calendar_filtering_on_value"
+  },
+  {
+    "selector": "#MainCopy_ctl06_SearchLabel",
+    "type": "text",
+    "key": "calendar_keywords_label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_SearchLabel",
+    "type": "attr",
+    "key": "calendar_keywords_title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EventsInLabel",
+    "type": "text",
+    "key": "calendar_location_label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EventsInLabel",
+    "type": "attr",
+    "key": "calendar_location_title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_LocationList option[value=\"All\"]",
+    "type": "text",
+    "key": "calendar_location_option_all"
+  },
+  {
+    "selector": "#MainCopy_ctl06_LocationList option[value=\"CA_Canada_c\"]",
+    "type": "text",
+    "key": "calendar_location_option_ca"
+  },
+  {
+    "selector": "#MainCopy_ctl06_LocationList option[value=\"CA_ON_Ontario_s\"]",
+    "type": "text",
+    "key": "calendar_location_option_on"
+  },
+  {
+    "selector": "#MainCopy_ctl06_CommunityLabel",
+    "type": "text",
+    "key": "calendar_community_label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_CommunityLabel",
+    "type": "attr",
+    "key": "calendar_community_title",
+    "attr": "title"
+  },
+  {
+    "selector": "#CommunityList",
+    "type": "attr",
+    "key": "calendar_community_select_title",
+    "attr": "title"
+  },
+  {
+    "selector": "#CommunityList",
+    "type": "attr",
+    "key": "calendar_community_data_emptytext",
+    "attr": "data-emptytext"
+  },
+  {
+    "selector": "#CommunityList",
+    "type": "attr",
+    "key": "calendar_community_data_searchph",
+    "attr": "data-searchplaceholdertext"
+  },
+  {
+    "selector": "#CommunityList",
+    "type": "attr",
+    "key": "calendar_community_data_status_no",
+    "attr": "data-statusnoresulttext"
+  },
+  {
+    "selector": "#CommunityList",
+    "type": "attr",
+    "key": "calendar_community_data_status_find",
+    "attr": "data-statussearchingtext"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EventTypeLabel",
+    "type": "text",
+    "key": "calendar_eventtype_label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EventTypeLabel",
+    "type": "attr",
+    "key": "calendar_eventtype_title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EventTypeList option[value=\"00000000-0000-0000-0000-000000000000\"]",
+    "type": "text",
+    "key": "calendar_eventtype_option_all"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EventTypeList option[value=\"f307e2ac-871a-4b55-9fa0-0b3c22eaabf4\"]",
+    "type": "text",
+    "key": "calendar_eventtype_option_comm_event"
+  },
+  {
+    "selector": "#MainCopy_ctl06_EventTypeList option[value=\"bf8abdd1-fdd4-458a-9c8f-6923522fe1a3\"]",
+    "type": "text",
+    "key": "calendar_eventtype_option_webinar"
+  },
+  {
+    "selector": "#MainCopy_ctl06_ShowEventsFromLabel",
+    "type": "text",
+    "key": "calendar_prevmonths_label"
+  },
+  {
+    "selector": "#MainCopy_ctl06_ShowEventsFromLabel",
+    "type": "attr",
+    "key": "calendar_prevmonths_title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_SearchButton",
+    "type": "attr",
+    "key": "calendar_apply_filter_value",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl06_SearchButton",
+    "type": "attr",
+    "key": "calendar_apply_filter_title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl06_ddlResultsPerPage option[value=\"20\"]",
+    "type": "text",
+    "key": "calendar_results_per_page_20"
+  },
+  {
+    "selector": "#MainCopy_ctl06_ddlResultsPerPage option[value=\"50\"]",
+    "type": "text",
+    "key": "calendar_results_per_page_50"
+  },
+  {
+    "selector": "#MainCopy_ctl06_ddlResultsPerPage option[value=\"9999999\"]",
+    "type": "text",
+    "key": "calendar_results_per_page_all"
+  }
+]

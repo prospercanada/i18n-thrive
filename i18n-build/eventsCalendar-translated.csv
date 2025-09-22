@@ -1,0 +1,38 @@
+key,en,fr,selector,type,attr
+calendar_toggle_filter_title,Hide Filter,Masquer le filtre,#MainCopy_ctl06_ShowFilter,attr,title
+calendar_toggle_filter_value,Hide Filter,Masquer le filtre,#MainCopy_ctl06_ShowFilter,attr,value
+calendar_filtering_on_label,Filtering On:,Filtre activé :,#MainCopy_ctl06_FilteringOnPrompt,text,
+calendar_filtering_on_value,Community,Communauté,#MainCopy_ctl06_FilteringOnValue,text,
+
+calendar_keywords_label,Keywords,Mots-clés,#MainCopy_ctl06_SearchLabel,text,
+calendar_keywords_title,Keywords,Mots-clés,#MainCopy_ctl06_SearchLabel,attr,title
+
+calendar_location_label,Location,Emplacement,#MainCopy_ctl06_EventsInLabel,text,
+calendar_location_title,Location,Emplacement,#MainCopy_ctl06_EventsInLabel,attr,title
+calendar_location_option_all,All,Tout,#MainCopy_ctl06_LocationList option[value="All"],text,
+calendar_location_option_ca,Canada,Canada,#MainCopy_ctl06_LocationList option[value="CA_Canada_c"],text,
+calendar_location_option_on,Ontario,Ontario,#MainCopy_ctl06_LocationList option[value="CA_ON_Ontario_s"],text,
+
+calendar_community_label,Community,Communauté,#MainCopy_ctl06_CommunityLabel,text,
+calendar_community_title,Community,Communauté,#MainCopy_ctl06_CommunityLabel,attr,title
+calendar_community_select_title,Select Community,Sélectionner une communauté,#CommunityList,attr,title
+calendar_community_data_emptytext,All,Tout,#CommunityList,attr,data-emptytext
+calendar_community_data_searchph,Search for a community,Rechercher une communauté,#CommunityList,attr,data-searchplaceholdertext
+calendar_community_data_status_no,No communities found,Aucune communauté trouvée,#CommunityList,attr,data-statusnoresulttext
+calendar_community_data_status_find,Searching for communities,Recherche de communautés,#CommunityList,attr,data-statussearchingtext
+
+calendar_eventtype_label,Type of Event,Type d’événement,#MainCopy_ctl06_EventTypeLabel,text,
+calendar_eventtype_title,Type of Event,Type d’événement,#MainCopy_ctl06_EventTypeLabel,attr,title
+calendar_eventtype_option_all,All,Tous,#MainCopy_ctl06_EventTypeList option[value="00000000-0000-0000-0000-000000000000"],text,
+calendar_eventtype_option_comm_event,Community Event,Événement communautaire,#MainCopy_ctl06_EventTypeList option[value="f307e2ac-871a-4b55-9fa0-0b3c22eaabf4"],text,
+calendar_eventtype_option_webinar,Webinar,Webinaire,#MainCopy_ctl06_EventTypeList option[value="bf8abdd1-fdd4-458a-9c8f-6923522fe1a3"],text,
+
+calendar_prevmonths_label,Show events from previous months,Afficher les événements des mois précédents,#MainCopy_ctl06_ShowEventsFromLabel,text,
+calendar_prevmonths_title,Show events from previous months,Afficher les événements des mois précédents,#MainCopy_ctl06_ShowEventsFromLabel,attr,title
+
+calendar_apply_filter_value,Apply Filter,Appliquer le filtre,#MainCopy_ctl06_SearchButton,attr,value
+calendar_apply_filter_title,Apply Filter,Appliquer le filtre,#MainCopy_ctl06_SearchButton,attr,title
+
+calendar_results_per_page_20,20 per page,20 par page,#MainCopy_ctl06_ddlResultsPerPage option[value="20"],text,
+calendar_results_per_page_50,50 per page,50 par page,#MainCopy_ctl06_ddlResultsPerPage option[value="50"],text,
+calendar_results_per_page_all,All,Tous,#MainCopy_ctl06_ddlResultsPerPage option[value="9999999"],text,

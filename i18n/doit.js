@@ -226,6 +226,9 @@ function pickNamespaces(currentUrlOrPath) {
   if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path)) {
     return [...base, "addLibrary"];
   }
+  if (/^\/events\/calendar(?:\/|$)/i.test(path)) {
+    return [...base, "eventsCalendar"];
+  }
 
   // if (/^\/termsandconditions(?:\/|$)/i.test(path)) return [...base, "terms"];
   // if (/^\/home(?:\/|$)/i.test(path)) return [...base, "home"];

@@ -58,5 +58,8 @@
   "postMessage.map": "postMessage.map.json",
   "addLibrary.en": "addLibrary.en.json",
   "addLibrary.fr": "addLibrary.fr.json",
-  "addLibrary.map": "addLibrary.map.json"
+  "addLibrary.map": "addLibrary.map.json",
+  "eventsCalendar.en": "eventsCalendar.en.json",
+  "eventsCalendar.fr": "eventsCalendar.fr.json",
+  "eventsCalendar.map": "eventsCalendar.map.json"
 }

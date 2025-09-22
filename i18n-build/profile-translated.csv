@@ -40,7 +40,8 @@ profile.ribbons.heading,Ribbons,Rubans,.RibbonsBadges.ContentUserControl .widget
 profile.badges.heading,Badges,Badges,.RibbonsBadges.ContentUserControl .widget-heading h2,text,
 profile.dialog.deleteTitle,Delete this image?,Supprimer cette image ?,[aria-describedby="dialog-confirm-deleteprofileimage"] #ui-id-1,text,
 profile.dialog.deleteMessage,Are you sure you want to remove this image?,Voulez-vous vraiment supprimer cette image?,[aria-describedby="dialog-confirm-deleteprofileimage"] #dialog-confirm-deleteprofileimage-message,text,
-profile.dialog.deleteYes,Yes, delete this image.,Oui, supprimer cette image.,[aria-describedby="dialog-confirm-deleteprofileimage"] .ui-dialog-buttonset .btn.btn-primary,text,
+profile.dialog.deleteYes,"Yes, delete this image.","Oui, supprimer cette image.","[aria-describedby=""dialog-confirm-deleteprofileimage""] .ui-dialog-buttonset .btn.btn-primary",text,
+
 profile.dialog.cancel,Cancel,Annuler,[aria-describedby="dialog-confirm-deleteprofileimage"] .ui-dialog-buttonset .btn.btn-default,text,
 profile.contact.editTitle,Edit Contact Information,Modifier les coordonnées,#MainCopy_ctl10_pnlEditContactInfo .modal-header,text,
 profile.contact.email.label,Email Address,Adresse courriel,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_EmailAddressLabel,text,
@@ -121,3 +122,32 @@ profile.education.state.label,State/Province,Province/Territoire,#MainCopy_ctl32
 profile.name.editTitle,Edit User Name,Modifier le nom d’utilisateur,#MainCopy_ctl21_pnlEditName .modal-title,text,
 profile.name.save,Save,Enregistrer,#MainCopy_ctl21_btnSave,attr,value
 profile.name.cancel,Cancel,Annuler,#MainCopy_ctl21_lnkCancel,attr,value
+
+
+
+add_contact_btn_text,Add as Contact,Demander comme contact,button[id*="_ContactCommunications_ContactRequest"],text,
+add_contact_btn_aria,Add as Contact,Demander comme contact,button[id*="_ContactCommunications_ContactRequest"],attr,aria-label
+send_msg_btn_text_row,Send Message,Envoyer un message,a[id*="_ContactCommunications_SendMessageBtn"],text,
+send_msg_btn_title_row,Send Message,Envoyer un message,a[id*="_ContactCommunications_SendMessageBtn"],attr,title
+send_msg_btn_aria_row,Send Message,Envoyer un message,a[id*="_ContactCommunications_SendMessageBtn"],attr,aria-label
+resend_small_text,Resend,Renvoyer,a[id*="_ResendRequestSmall"],text,
+resend_small_title,Resend,Renvoyer,a[id*="_ResendRequestSmall"],attr,title
+resend_small_aria,Resend,Renvoyer,a[id*="_ResendRequestSmall"],attr,aria-label
+cancel_small_text,Cancel,Annuler,a[id*="_cancelContactRequestSmall"],text,
+cancel_small_title,Cancel,Annuler,a[id*="_cancelContactRequestSmall"],attr,title
+cancel_small_aria,Cancel,Annuler,a[id*="_cancelContactRequestSmall"],attr,aria-label
+pending_text,Contact Request Pending,Demande de contact en attente,span[id*="_AcceptDeclineRequestTextSmall"],text,
+list_send_msg_value,Send Message,Envoyer un message,input[id^="MainCopy_ctl29_FindContacts_Contacts_SendMessageButton_"],attr,value
+list_send_msg_title,Send Message,Envoyer un message,input[id^="MainCopy_ctl29_FindContacts_Contacts_SendMessageButton_"],attr,title
+add_contact_link_text,Request Contact,Demander comme contact,a.add-contact,text,
+add_contact_link_title,Request Contact,Demander comme contact,a.add-contact,attr,title
+add_contact_link_aria,Request Contact,Demander comme contact,a.add-contact,attr,aria-label
+ignore_contact_text,Ignore,Ignorer,a.ignore-contact,text,
+ignore_contact_title,Ignore,Ignorer,a.ignore-contact,attr,title
+ignore_contact_aria,Ignore,Ignorer,a.ignore-contact,attr,aria-label
+modal_header_prefix,Message to,Message à,#modal-send-message .modal-header,text,
+modal_subject_label,Subject,Objet,#message-subject-label,text,
+modal_body_label,Message,Message,#message-body-label,text,
+modal_send_btn,Send,Envoyer,#modal-send-message #Send,text,
+modal_cancel_btn,Cancel,Annuler,#modal-send-message #Cancel,text,
+modal_error_text,Cannot send message. Data required.,Impossible d’envoyer le message. Données requises.,#modal-send-message #error-msg,text,
