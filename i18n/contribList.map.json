@@ -13,5 +13,25 @@
     "selector": "#SearchTerm",
     "type": "text",
     "key": "contribList.search.value.ALL"
+  },
+  {
+    "selector": "#MainCopy_ctl29_FilterOptionDropDown option[value=\"all\"]",
+    "type": "text",
+    "key": "filter_option_all"
+  },
+  {
+    "selector": "#MainCopy_ctl29_FilterOptionDropDown option[value=\"published\"]",
+    "type": "text",
+    "key": "filter_option_published"
+  },
+  {
+    "selector": "#MainCopy_ctl29_FilterOptionDropDown option[value=\"draft\"]",
+    "type": "text",
+    "key": "filter_option_draft"
+  },
+  {
+    "selector": "#MainCopy_ctl29_FilterOptionDropDown option[value=\"scheduled\"]",
+    "type": "text",
+    "key": "filter_option_scheduled"
   }
 ]

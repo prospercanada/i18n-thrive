@@ -1,5 +1,9 @@
 {
   "contribList.noData": "Rien n’a encore été partagé",
   "contribList.search.label": "critères de recherche =",
-  "contribList.search.value.ALL": "TOUT"
+  "contribList.search.value.ALL": "TOUT",
+  "filter_option_all": "Afficher tous les éléments",
+  "filter_option_draft": "Afficher les brouillons",
+  "filter_option_published": "Afficher les éléments publiés",
+  "filter_option_scheduled": "Afficher les éléments planifiés"
 }

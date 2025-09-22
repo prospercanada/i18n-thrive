@@ -1,5 +1,9 @@
 {
   "contribList.noData": "Nothing has yet been shared.",
   "contribList.search.label": "search criteria =",
-  "contribList.search.value.ALL": "ALL"
+  "contribList.search.value.ALL": "ALL",
+  "filter_option_all": "View all items",
+  "filter_option_draft": "View draft items",
+  "filter_option_published": "View published items",
+  "filter_option_scheduled": "View scheduled items"
 }

@@ -136,6 +136,15 @@ function runExtrasForPath(pathname = location.pathname) {
 //   return [];
 // }
 
+function getParamCI(url, name) {
+  // case-insensitive query param getter
+  const target = name.toLowerCase();
+  for (const [k, v] of url.searchParams.entries()) {
+    if (k.toLowerCase() === target) return v;
+  }
+  return null;
+}
+
 function pickNamespaces(currentUrlOrPath) {
   // normalize to pathname and params
   const url =
@@ -147,8 +156,8 @@ function pickNamespaces(currentUrlOrPath) {
 
   // collapse duplicate slashes; ensure leading slash
   const path = (url.pathname || "/").replace(/\/{2,}/g, "/");
-  const section = (url.searchParams.get("section") || "").trim().toLowerCase();
-
+  // const section = (url.searchParams.get("section") || "").trim().toLowerCase();
+  const section = (getParamCI(url, "section") || "").trim().toLowerCase();
   const base = ["nav", "profile", "footer"];
 
   // connections
@@ -184,6 +193,7 @@ function pickNamespaces(currentUrlOrPath) {
       rssfeeds: "accountSettingsRss",
       subscriptions: "accountSettingsSubscriptions",
     };
+    console.log("SECTION IS ", section);
     return [...base, map[section] || "accountSettings"];
   }
 
@@ -199,7 +209,7 @@ function pickNamespaces(currentUrlOrPath) {
     return [...base, "postMessage"];
   }
   if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path)) {
-    return [...base,  "addLibrary"];
+    return [...base, "addLibrary"];
   }
 
   // if (/^\/termsandconditions(?:\/|$)/i.test(path)) return [...base, "terms"];
