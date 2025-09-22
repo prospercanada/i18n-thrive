@@ -56,7 +56,7 @@
         if (!ATTRS.includes(attr) || tmap[k] == null) return;
 
         if (attr === "data-i18n-text") {
-          const txt = tmap[k].replace(/&nbsp;/g, "\u00A0");
+          const txt = tmap[k].replace(/&nbsp;/g, "\u00A0"); // decode &nbsp;
           const tn = firstTextNode(el);
           if (tn) tn.nodeValue = txt;
           else el.insertBefore(document.createTextNode(txt), el.firstChild);
@@ -130,7 +130,12 @@
     if (observeMutations) {
       if (state.observer) state.observer.disconnect();
       state.observer = new MutationObserver(() => applyAll(state.catalogs));
-      state.observer.observe(document.body, { childList: true, subtree: true });
+      state.observer.observe(document.body, {
+        childList: true,
+        subtree: true,
+        attributes: true, // NEW
+        attributeFilter: ["data-i18n", "data-i18n-attr", "data-i18n-text"], // NEW
+      });
     }
   }
 
