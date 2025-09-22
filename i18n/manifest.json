@@ -52,5 +52,8 @@
   "contact.map": "footer.map.json",
   "login.en": "login.en.json",
   "login.fr": "login.fr.json",
-  "login.map": "login.map.json"
+  "login.map": "login.map.json",
+  "postMessage.en": "postMessage.en.json",
+  "postMessage.fr": "postMessage.fr.json",
+  "postMessage.map": "postMessage.map.json"
 }

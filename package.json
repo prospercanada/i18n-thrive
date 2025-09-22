@@ -21,6 +21,7 @@
     "i18n:build:header": "node scripts/build-from-csv.mjs i18n-build/header-translated.csv i18n header",
     "i18n:build:footer": "node scripts/build-from-csv.mjs i18n-build/footer-translated.csv i18n footer",
     "i18n:build:contact": "node scripts/build-from-csv.mjs i18n-build/contact-translated.csv i18n contact",
+    "i18n:build:postMessage": "node scripts/build-from-csv.mjs i18n-build/postMessage-translated.csv i18n postMessage",
     "i18n:build:login": "node scripts/build-from-csv.mjs i18n-build/login-translated.csv i18n login",
     "i18n:build:all": "node scripts/build-all.mjs",
     "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\""

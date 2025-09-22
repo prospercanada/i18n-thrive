@@ -1,0 +1,173 @@
+[
+  {
+    "selector": "#PageTitleH1",
+    "type": "text",
+    "key": "postMessage.title"
+  },
+  {
+    "selector": "#ddlSubListContainer label.control-label",
+    "type": "text",
+    "key": "postMessage.postToCommunity"
+  },
+  {
+    "selector": "#MainCopy_ctl03_ddlSublist option[value=\"\"]",
+    "type": "text",
+    "key": "postMessage.selectCommunity"
+  },
+  {
+    "selector": "#MainCopy_ctl03_ddlSublist + .bootstrap-select button",
+    "type": "attr",
+    "key": "postMessage.selectCommunity.btn",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl03_ddlSublist + .bootstrap-select .filter-option",
+    "type": "text",
+    "key": "postMessage.selectCommunity.btnLabel"
+  },
+  {
+    "selector": "#ddlSubListContainer .help-block span",
+    "type": "text",
+    "key": "postMessage.selectCommunity.error"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_Label1",
+    "type": "text",
+    "key": "postMessage.subject.label"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_TinyMCEEditor_GeneratePreviewLabel",
+    "type": "text",
+    "key": "postMessage.editor.previewToggle"
+  },
+  {
+    "selector": "#toggle-signature-btn",
+    "type": "text",
+    "key": "postMessage.signature.toggle"
+  },
+  {
+    "selector": "#edit-signature-link",
+    "type": "text",
+    "key": "postMessage.signature.edit"
+  },
+  {
+    "selector": "#anonymous-no-signature .panel-body span.text-muted",
+    "type": "text",
+    "key": "postMessage.signature.anonymousNote"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_fjUploader_UploadButton",
+    "type": "text",
+    "key": "postMessage.attach.add"
+  },
+  {
+    "selector": ".edit-attachment-details .text-muted",
+    "type": "text",
+    "key": "postMessage.attach.note"
+  },
+  {
+    "selector": ".edit-attachment-details .attachment-library-link",
+    "type": "text",
+    "key": "postMessage.attach.editDetails"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_fjUploader_pnlDiscussionModal .modal-title",
+    "type": "text",
+    "key": "postMessage.attach.modal.title"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_fjUploader_tbDiscussionName ~ label.control-label",
+    "type": "text",
+    "key": "postMessage.attach.modal.name"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_fjUploader_tbDiscussionDescription ~ label.control-label",
+    "type": "text",
+    "key": "postMessage.attach.modal.description"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_fjUploader_ddlDiscussionFolders ~ label.control-label",
+    "type": "text",
+    "key": "postMessage.attach.modal.folder"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_fjUploader_hypDiscussionEditSave",
+    "type": "text",
+    "key": "postMessage.attach.modal.save"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_fjUploader_pnlDiscussionModal .modal-footer .btn-default",
+    "type": "text",
+    "key": "postMessage.attach.modal.cancel"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity .modal-title",
+    "type": "text",
+    "key": "postMessage.required.modal.title"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity_spnSelectCommunity",
+    "type": "text",
+    "key": "postMessage.required.modal.lead"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity .li-communitynamesingular",
+    "type": "text",
+    "key": "postMessage.required.modal.communityName"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity .li-subject",
+    "type": "text",
+    "key": "postMessage.required.modal.subject"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity .modal-footer .btn-default",
+    "type": "text",
+    "key": "postMessage.required.modal.ok"
+  },
+  {
+    "selector": "#SchedulePostDatePickerTitle",
+    "type": "text",
+    "key": "postMessage.schedule.modal.title"
+  },
+  {
+    "selector": "#modal-schedule-post .modal-body > p:first-of-type",
+    "type": "text",
+    "key": "postMessage.schedule.modal.lead"
+  },
+  {
+    "selector": "#modal-schedule-post .modal-footer .btn-primary",
+    "type": "text",
+    "key": "postMessage.schedule.modal.save"
+  },
+  {
+    "selector": "#modal-schedule-post .modal-footer .btn-default",
+    "type": "text",
+    "key": "postMessage.schedule.modal.cancel"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_BtnSave",
+    "type": "text",
+    "key": "postMessage.actions.post"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_btnSchedule",
+    "type": "text",
+    "key": "postMessage.actions.schedule"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_BtnSaveAsDraft",
+    "type": "text",
+    "key": "postMessage.actions.saveDraft"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_BtnDeleteDraft",
+    "type": "text",
+    "key": "postMessage.actions.deleteDraft"
+  },
+  {
+    "selector": "#MainCopy_ctl03_PostMessageContributedContent_BtnCancel",
+    "type": "text",
+    "key": "postMessage.actions.cancel"
+  }
+]
