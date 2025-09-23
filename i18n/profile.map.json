@@ -149,11 +149,6 @@
     "key": "modal.disable.btn-cancel"
   },
   {
-    "selector": "#MainCopy_ctl29_TitleText",
-    "type": "text",
-    "key": "section.bio"
-  },
-  {
     "selector": "#MainCopy_ctl32_TitleText",
     "type": "text",
     "key": "section.education"

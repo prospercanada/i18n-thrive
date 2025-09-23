@@ -28,7 +28,7 @@ modal.disable.warning,You are disabling your account on Prosper Canada Community
 modal.disable.reason,Reason for disabling account,Raison de la désactivation du compte,label[for='textareaDisableMyAccountReason'],text,
 modal.disable.btn-primary,Disable My Account,Désactiver mon compte,.btn-disable-my-account,text,
 modal.disable.btn-cancel,Cancel,Annuler,#MainCopy_ctl27_pnlDisableMyAccount .modal-footer .btn.btn-default,text,
-section.bio,Bio,Biographie,#MainCopy_ctl29_TitleText,text,
+# section.bio,Bio,Biographie,#MainCopy_ctl29_TitleText,text,
 section.education,Education,Éducation,#MainCopy_ctl32_TitleText,text,
 section.education.add,Add,Ajouter,#MainCopy_ctl32_AddItem,text,
 section.honors-awards,Honors and Awards,Distinctions et prix,#MainCopy_ctl35_TitleText,text,
