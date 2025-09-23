@@ -5,5 +5,7 @@
   "filter_option_all": "Afficher tous les éléments",
   "filter_option_draft": "Afficher les brouillons",
   "filter_option_published": "Afficher les éléments publiés",
-  "filter_option_scheduled": "Afficher les éléments planifiés"
+  "filter_option_scheduled": "Afficher les éléments planifiés",
+  "search.result.foundin.label": "Trouvé dans",
+  "search.result.postedby.label": "Publié par"
 }

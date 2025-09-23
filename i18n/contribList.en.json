@@ -5,5 +5,7 @@
   "filter_option_all": "View all items",
   "filter_option_draft": "View draft items",
   "filter_option_published": "View published items",
-  "filter_option_scheduled": "View scheduled items"
+  "filter_option_scheduled": "View scheduled items",
+  "search.result.foundin.label": "Found In",
+  "search.result.postedby.label": "Posted By"
 }
