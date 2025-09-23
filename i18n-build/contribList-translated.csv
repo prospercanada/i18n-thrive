@@ -9,5 +9,10 @@ filter_option_published,View published items,Afficher les éléments publiés,#M
 filter_option_draft,View draft items,Afficher les brouillons,#MainCopy_ctl29_FilterOptionDropDown option[value="draft"],text,
 filter_option_scheduled,View scheduled items,Afficher les éléments planifiés,#MainCopy_ctl29_FilterOptionDropDown option[value="scheduled"],text,
 
-search.result.foundin.label,Found In,Trouvé dans,span[id*="SearchResult_FoundInIn_"] > span,text,
-search.result.postedby.label,Posted By,Publié par,span[id*="SearchResult_PostedBy_"] > span,text,
+# search.result.foundin.label,Found In,Trouvé dans,span[id*="SearchResult_FoundInIn_"] > span,text,
+# search.result.postedby.label,Posted By,Publié par,span[id*="SearchResult_PostedBy_"] > span,text,
+
+
+search.result.postedby.label,Posted By,Publié par,span[id^="MainCopy_ctl29_SearchResult_PostedBy_"] > span,text,
+search.result.foundin.label,Found In,Trouvé dans,span[id^="MainCopy_ctl29_SearchResult_FoundInIn_"] > span,text,
+

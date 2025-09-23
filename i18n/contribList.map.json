@@ -35,13 +35,13 @@
     "key": "filter_option_scheduled"
   },
   {
-    "selector": "span[id*=\"SearchResult_FoundInIn_\"] > span",
-    "type": "text",
-    "key": "search.result.foundin.label"
-  },
-  {
-    "selector": "span[id*=\"SearchResult_PostedBy_\"] > span",
+    "selector": "span[id^=\"MainCopy_ctl29_SearchResult_PostedBy_\"] > span",
     "type": "text",
     "key": "search.result.postedby.label"
+  },
+  {
+    "selector": "span[id^=\"MainCopy_ctl29_SearchResult_FoundInIn_\"] > span",
+    "type": "text",
+    "key": "search.result.foundin.label"
   }
 ]
