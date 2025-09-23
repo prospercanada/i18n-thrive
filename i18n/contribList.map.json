@@ -1,5 +1,10 @@
 [
   {
+    "selector": "#MainCopy_ctl29_TitleText",
+    "type": "text",
+    "key": "section.bio"
+  },
+  {
     "selector": ".NoDataBadSearch",
     "type": "text",
     "key": "contribList.noData"

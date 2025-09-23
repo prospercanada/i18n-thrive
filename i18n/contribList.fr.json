@@ -7,5 +7,6 @@
   "filter_option_published": "Afficher les éléments publiés",
   "filter_option_scheduled": "Afficher les éléments planifiés",
   "search.result.foundin.label": "Trouvé dans",
-  "search.result.postedby.label": "Publié par"
+  "search.result.postedby.label": "Publié par",
+  "section.bio": "Participations"
 }

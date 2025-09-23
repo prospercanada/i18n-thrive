@@ -7,5 +7,6 @@
   "filter_option_published": "View published items",
   "filter_option_scheduled": "View scheduled items",
   "search.result.foundin.label": "Found In",
-  "search.result.postedby.label": "Posted By"
+  "search.result.postedby.label": "Posted By",
+  "section.bio": "Contributions"
 }
