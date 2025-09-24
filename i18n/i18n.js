@@ -143,6 +143,29 @@
     });
   }
 
+  function attachMaps(entries, root = document) {
+    for (const e of entries || []) {
+      const { selector, type, attr, key } = e || {};
+      if (!selector || !key) continue;
+
+      const nodes = root.querySelectorAll(selector); // ALL matches in the new subtree
+      if (!nodes.length) continue;
+
+      nodes.forEach((el) => {
+        if (type === "text") {
+          el.setAttribute("data-i18n", key);
+        } else if (type === "attr" && attr) {
+          const existing = el.getAttribute("data-i18n-attr") || "";
+          const pair = `${attr}:${key}`;
+          el.setAttribute(
+            "data-i18n-attr",
+            existing ? existing + "," + pair : pair
+          );
+        }
+      });
+    }
+  }
+
   async function loadAndApply(lang) {
     if (!state?.opts?.manifestUrl) {
       throw new Error("ThriveI18n not initialized: missing opts.manifestUrl");
@@ -199,7 +222,8 @@
           for (const root of added) {
             for (const ns of state.opts.namespaces) {
               const map = await getMap(state.opts.manifestUrl, ns);
-              if (map) attach(map, root); // ← tag inside this new subtree
+              // if (map) attach(map, root); // ← tag inside this new subtree
+              if (map) attachMaps(map, root); // ← tag inside this new subtree
             }
           }
         }
