@@ -164,7 +164,11 @@
     const DEBUG_I18N = true; // NEW
 
     if (observeMutations) {
-      if (state.observer) state.observer.disconnect();
+      console.log("loadAndApply ", observeMutations);
+      if (state.observer) {
+        console.log("state.observer.disconnect() ");
+        state.observer.disconnect();
+      }
 
       // NEW begin
       let raf = 0,
