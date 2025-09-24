@@ -171,6 +171,7 @@
         burstId = 0;
 
       const onMutate = (mutationList) => {
+        console.log("CALLED MUTATION");
         if (DEBUG_I18N) {
           console.groupCollapsed(
             `%c[i18n] mutations #${burstId + 1}`,
