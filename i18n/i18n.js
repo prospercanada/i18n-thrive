@@ -159,6 +159,7 @@
     const tmap = await loadCatalogs(manifestUrl, namespaces, state.lang);
 
     state.catalogs = tmap;
+    console.log("state.catalogs ", state.catalogs);
     applyAll(tmap);
 
     const DEBUG_I18N = true; // NEW
@@ -198,6 +199,7 @@
           raf = 0;
           burstId++;
           if (DEBUG_I18N) console.time(`[i18n] applyAll #${burstId}`);
+          console.log("state.catalogs ", state.catalogs);
           applyAll(state.catalogs);
           if (DEBUG_I18N) console.timeEnd(`[i18n] applyAll #${burstId}`);
         });
