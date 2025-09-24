@@ -174,7 +174,8 @@ function pickNamespaces(currentUrlOrPath) {
   if (/^\/profile\/connections\/communitiesnode(?:\/|$)/i.test(path))
     return [...base, "communitiesNode"];
   if (/^\/profile\/connections\/following-connections(?:\/|$)/i.test(path))
-    return [...base, "following"];
+    console.log("PATH ", path);
+  return [...base, "following"];
 
   // contributions
   if (/^\/profile\/contributions\/contributions-summary(?:\/|$)/i.test(path))
