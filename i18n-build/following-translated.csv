@@ -14,3 +14,4 @@ followFilter.library,Library Entries,Éléments de bibliothèque,"select[id^='Fo
 followFilter.questions,Questions,Questions,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='4'] a > span.text",text,
 
 followedList.postedBy,Posted By,Publié par,"[id^="FollowedContent_"][id$="-followed-list"] table tbody tr td:nth-of-type(2) > div:nth-of-type(2) > span:first-of-type",text,
+followedList.postedByv2,Posted By,Publié par,"#FollowedContent_a3bdb13544a04586a6116d4561c7fe29-followed-list > div:nth-child(1) > table > tbody > tr > td:nth-child(2) > div:nth-child(2) > span",text,
