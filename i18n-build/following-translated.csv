@@ -13,4 +13,4 @@ followFilter.discussions,Discussion Threads,Fils de discussion,"select[id^='Foll
 followFilter.library,Library Entries,Éléments de bibliothèque,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='3'] a > span.text",text,
 followFilter.questions,Questions,Questions,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='4'] a > span.text",text,
 
-followedList.postedBy,Posted By,Publié par,"[id^='FollowedContent_'][id$='-followed-list'] table tbody tr td:nth-of-type(2) > div:first-of-type + div + div > span:first-of-type",text,
+followedList.postedBy,Posted By,Publié par,"[id^="FollowedContent_"][id$="-followed-list"] table tbody tr td:nth-of-type(2) > div:nth-of-type(2) > span:first-of-type",text,

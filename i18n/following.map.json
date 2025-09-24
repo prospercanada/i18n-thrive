@@ -5,28 +5,33 @@
     "key": "following.title"
   },
   {
-    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='0'] span.text",
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='0'] a > span.text",
     "type": "text",
     "key": "followFilter.all"
   },
   {
-    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='1'] span.text",
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='1'] a > span.text",
     "type": "text",
     "key": "followFilter.blogs"
   },
   {
-    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='2'] span.text",
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='2'] a > span.text",
     "type": "text",
     "key": "followFilter.discussions"
   },
   {
-    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='3'] span.text",
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='3'] a > span.text",
     "type": "text",
     "key": "followFilter.library"
   },
   {
-    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='4'] span.text",
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='4'] a > span.text",
     "type": "text",
     "key": "followFilter.questions"
+  },
+  {
+    "selector": "[id^=\"FollowedContent_\"][id$=\"-followed-list\"] table tbody tr td:nth-of-type(2) > div:nth-of-type(2) > span:first-of-type",
+    "type": "text",
+    "key": "followedList.postedBy"
   }
 ]
