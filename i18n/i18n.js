@@ -161,13 +161,50 @@
     state.catalogs = tmap;
     applyAll(tmap);
 
+    const DEBUG_I18N = true; // NEW
+
     if (observeMutations) {
       if (state.observer) state.observer.disconnect();
-      state.observer = new MutationObserver(() => applyAll(state.catalogs));
+
+      // NEW begin
+      let raf = 0,
+        burstId = 0;
+
+      const onMutate = (mutationList) => {
+        if (DEBUG_I18N) {
+          console.groupCollapsed(
+            `%c[i18n] mutations #${burstId + 1}`,
+            "color:#0a7"
+          );
+          for (const m of mutationList) {
+            console.log(m.type, {
+              target: m.target,
+              attributeName: m.attributeName,
+              added: m.addedNodes?.length || 0,
+              removed: m.removedNodes?.length || 0,
+              value: m.type === "characterData" ? m.target?.data : undefined,
+            });
+          }
+          console.groupEnd();
+        }
+
+        if (raf) return;
+        raf = requestAnimationFrame(() => {
+          raf = 0;
+          burstId++;
+          if (DEBUG_I18N) console.time(`[i18n] applyAll #${burstId}`);
+          applyAll(state.catalogs);
+          if (DEBUG_I18N) console.timeEnd(`[i18n] applyAll #${burstId}`);
+        });
+      };
+      // NEW END
+      // state.observer = new MutationObserver(() => applyAll(state.catalogs)); // NEW REMOVED
+      state.observer = new MutationObserver(onMutate); // NEW
       state.observer.observe(document.body, {
         childList: true,
         subtree: true,
         attributes: true, // NEW
+        // characterData: true, // <-- catch text-node edits
         attributeFilter: ["data-i18n", "data-i18n-attr", "data-i18n-text"], // NEW
       });
     }
