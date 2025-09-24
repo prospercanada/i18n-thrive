@@ -162,7 +162,7 @@
     console.log("state.catalogs ", state.catalogs);
     applyAll(tmap);
 
-    const DEBUG_I18N = true; // NEW
+    // const DEBUG_I18N = true; // NEW
 
     if (observeMutations) {
       console.log("loadAndApply ", observeMutations);
@@ -171,42 +171,78 @@
         state.observer.disconnect();
       }
 
-      // NEW begin
-      let raf = 0,
-        burstId = 0;
+      // Keep a cached manifest + namespace→map lookup
 
-      const onMutate = (mutationList) => {
-        console.log("CALLED MUTATION");
-        if (DEBUG_I18N) {
-          console.groupCollapsed(
-            `%c[i18n] mutations #${burstId + 1}`,
-            "color:#0a7"
-          );
-          for (const m of mutationList) {
-            console.log(m.type, {
-              target: m.target,
-              attributeName: m.attributeName,
-              added: m.addedNodes?.length || 0,
-              removed: m.removedNodes?.length || 0,
-              value: m.type === "characterData" ? m.target?.data : undefined,
-            });
+      // ANOTHER TRY START
+      let _manifest,
+        _mapsByNs = {};
+      async function getMap(manifestUrl, ns) {
+        if (!_manifest) _manifest = await loadJSON(manifestUrl);
+        const mapFile = _manifest[`${ns}.map`];
+        if (!mapFile) return null;
+        if (!_mapsByNs[ns]) {
+          const base = new URL(manifestUrl, location.origin);
+          _mapsByNs[ns] = await loadJSON(new URL(mapFile, base).toString());
+        }
+        return _mapsByNs[ns];
+      }
+
+      // In your observer callback:
+      state.observer = new MutationObserver(async (list) => {
+        const added = list
+          .flatMap((m) =>
+            m.type === "childList" ? Array.from(m.addedNodes) : []
+          )
+          .filter((n) => n.nodeType === 1); // Elements only
+
+        if (added.length) {
+          for (const root of added) {
+            for (const ns of state.opts.namespaces) {
+              const map = await getMap(state.opts.manifestUrl, ns);
+              if (map) attach(map, root); // ← tag inside this new subtree
+            }
           }
-          console.groupEnd();
         }
 
-        if (raf) return;
-        raf = requestAnimationFrame(() => {
-          raf = 0;
-          burstId++;
-          if (DEBUG_I18N) console.time(`[i18n] applyAll #${burstId}`);
-          console.log("state.catalogs ", state.catalogs);
-          applyAll(state.catalogs);
-          if (DEBUG_I18N) console.timeEnd(`[i18n] applyAll #${burstId}`);
-        });
-      };
-      // NEW END
-      // state.observer = new MutationObserver(() => applyAll(state.catalogs)); // NEW REMOVED
-      state.observer = new MutationObserver(onMutate); // NEW
+        applyAll(state.catalogs); // ← now translation sticks again
+      });
+      // ANOTHER TRY END
+      // // NEW begin
+      // let raf = 0,
+      //   burstId = 0;
+
+      // const onMutate = (mutationList) => {
+      //   console.log("CALLED MUTATION");
+      //   if (DEBUG_I18N) {
+      //     console.groupCollapsed(
+      //       `%c[i18n] mutations #${burstId + 1}`,
+      //       "color:#0a7"
+      //     );
+      //     for (const m of mutationList) {
+      //       console.log(m.type, {
+      //         target: m.target,
+      //         attributeName: m.attributeName,
+      //         added: m.addedNodes?.length || 0,
+      //         removed: m.removedNodes?.length || 0,
+      //         value: m.type === "characterData" ? m.target?.data : undefined,
+      //       });
+      //     }
+      //     console.groupEnd();
+      //   }
+
+      //   if (raf) return;
+      //   raf = requestAnimationFrame(() => {
+      //     raf = 0;
+      //     burstId++;
+      //     if (DEBUG_I18N) console.time(`[i18n] applyAll #${burstId}`);
+      //     console.log("state.catalogs ", state.catalogs);
+      //     applyAll(state.catalogs);
+      //     if (DEBUG_I18N) console.timeEnd(`[i18n] applyAll #${burstId}`);
+      //   });
+      // };
+      // // NEW END
+      // state.observer = new MutationObserver(() => applyAll(state.catalogs)); // ORIGINAL
+      // state.observer = new MutationObserver(onMutate); // NEW // ANOTHER TRY
       state.observer.observe(document.body, {
         childList: true,
         subtree: true,

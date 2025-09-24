@@ -396,7 +396,7 @@ function installWebFormsHooks() {
 
 // 4) initial boot on DOM ready
 document.addEventListener("DOMContentLoaded", async () => {
-  console.log("DOMContentLoaded pickNamespaces ", location.href);
+  dbg("DOMContentLoaded", { initial, namespaces });
   // const namespaces = pickNamespaces(location.pathname);
   const namespaces = pickNamespaces(new URL(location.href));
   if (!namespaces.length) {
@@ -424,9 +424,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   dbg("init complete", { initial, namespaces });
 
   // ➜ run page-specific extras on first paint
-  console.log("calling runExtrasForPath");
   runExtrasForPath();
-
   installWebFormsHooks(); // <-- call it once here
 });
 
