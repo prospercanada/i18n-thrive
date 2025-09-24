@@ -1,6 +1,6 @@
 key,en,fr,selector,type,attr
 
-section.bio,Contributions,Participations,#MainCopy_ctl29_TitleText,text,
+section.contribution,Contributions,Participations,#MainCopy_ctl29_TitleText,text,
 
 # Contributions → List
 contribList.noData,Nothing has yet been shared.,Rien n’a encore été partagé,.NoDataBadSearch,text,
