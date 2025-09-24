@@ -396,7 +396,7 @@ function installWebFormsHooks() {
 
 // 4) initial boot on DOM ready
 document.addEventListener("DOMContentLoaded", async () => {
-  dbg("DOMContentLoaded", { initial, namespaces });
+  dbg("DOMContentLoaded");
   // const namespaces = pickNamespaces(location.pathname);
   const namespaces = pickNamespaces(new URL(location.href));
   if (!namespaces.length) {
