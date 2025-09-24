@@ -3,5 +3,30 @@
     "selector": "#MainCopy_ContentWrapper .TitleText",
     "type": "text",
     "key": "following.title"
+  },
+  {
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='0'] span.text",
+    "type": "text",
+    "key": "followFilter.all"
+  },
+  {
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='1'] span.text",
+    "type": "text",
+    "key": "followFilter.blogs"
+  },
+  {
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='2'] span.text",
+    "type": "text",
+    "key": "followFilter.discussions"
+  },
+  {
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='3'] span.text",
+    "type": "text",
+    "key": "followFilter.library"
+  },
+  {
+    "selector": "select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='4'] span.text",
+    "type": "text",
+    "key": "followFilter.questions"
   }
 ]

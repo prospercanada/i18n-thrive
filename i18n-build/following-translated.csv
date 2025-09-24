@@ -5,3 +5,10 @@ following.title,Followed Content,Contenu suivi,#MainCopy_ContentWrapper .TitleTe
 # following.filter.threads,Discussion Threads,Fils de discussion,[id^='FollowedContent_'][id$='-type-filter'] option[value="MessageThread"],text,
 # following.filter.library,Library Entries,Éléments de la bibliothèque,[id^='FollowedContent_'][id$='-type-filter'] option[value="LibraryEntry"],text,
 # following.filter.questions,Questions,Questions,[id^='FollowedContent_'][id$='-type-filter'] option[value="ContributedContent"],text,
+
+
+followFilter.all,All,Tous,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='0'] span.text",text,
+followFilter.blogs,Blogs,Blogues,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='1'] span.text",text,
+followFilter.discussions,Discussion Threads,Fils de discussion,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='2'] span.text",text,
+followFilter.library,Library Entries,Éléments de bibliothèque,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='3'] span.text",text,
+followFilter.questions,Questions,Questions,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='4'] span.text",text,
