@@ -1,6 +1,7 @@
 {
   "followedList.postedBy": "Publié par",
-  "followedList.postedByv2": "Publié par",
+  "followedList.typeLabel": "Billet de blogue",
+  "followedList.typeMeta": "Dans",
   "followFilter.all": "Tous",
   "followFilter.blogs": "Blogues",
   "followFilter.discussions": "Fils de discussion",

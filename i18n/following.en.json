@@ -1,6 +1,7 @@
 {
   "followedList.postedBy": "Posted By",
-  "followedList.postedByv2": "Posted By",
+  "followedList.typeLabel": "Blog Entry",
+  "followedList.typeMeta": "In",
   "followFilter.all": "All",
   "followFilter.blogs": "Blogs",
   "followFilter.discussions": "Discussion Threads",

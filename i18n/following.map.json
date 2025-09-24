@@ -35,8 +35,13 @@
     "key": "followedList.postedBy"
   },
   {
-    "selector": "#FollowedContent_a3bdb13544a04586a6116d4561c7fe29-followed-list > div:nth-child(1) > table > tbody > tr > td:nth-child(2) > div:nth-child(2) > span",
+    "selector": "[id^='FollowedContent_'][id$='-followed-list'] table tbody tr td:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)",
     "type": "text",
-    "key": "followedList.postedByv2"
+    "key": "followedList.typeLabel"
+  },
+  {
+    "selector": "[id^='FollowedContent_'][id$='-followed-list'] table tbody tr td:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(3)",
+    "type": "text",
+    "key": "followedList.typeMeta"
   }
 ]
