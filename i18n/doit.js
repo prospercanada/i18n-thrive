@@ -225,10 +225,13 @@ function pickNamespaces(currentUrlOrPath) {
   if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path)) add("addLibrary");
   if (/^\/events\/calendar(?:\/|$)/i.test(path)) add("eventsCalendar");
 
-  if (/^\/communities\/?$/i.test(path)) {
-    out.add("community"); // or "communitiesTabs" if you prefer that name
+  // if (/^\/communities\/?$/i.test(path)) {
+  //   out.add("community"); // or "communitiesTabs" if you prefer that name
+  // }
+  if (/^\/communities\/[^/]+(?:\/|$)/i.test(path)) {
+    out.add("community");
   }
-
+  // if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
   // Always return the collected set (includes "profile" when applicable)
   return Array.from(out);
 }
