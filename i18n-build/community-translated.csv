@@ -1,14 +1,37 @@
 key,en,fr,selector,type,attr
-comm.tabs.home,Community Home,Accueil de la communauté,#CommunityTabsContainer li:first-child > a,attr,data-i18n-text
-comm.tabs.discussions,Discussion,Discussions,a[data-tab="discussions"],attr,data-i18n-text
-comm.tabs.library,Library,Bibliothèque,a[data-tab="resources"],attr,data-i18n-text
-comm.tabs.events,Events,Événements,a[data-tab="events"],attr,data-i18n-text
-comm.tabs.members,Members,Membres,a[data-tab="members"],attr,data-i18n-text
 
-communityHome.latestDiscussions,Latest Discussions,Dernières discussions,#MainCopy_ctl09_TitleText,attr,data-i18n-text
+key,en,fr,selector,type,attr
+comm.tabs.home,Community Home ,Accueil de la communauté ,#CommunityTabsContainer li:first-child > a,attr,data-i18n-text
+comm.tabs.discussions,Discussion ,Discussions ,a[data-tab="discussions"],attr,data-i18n-text
+comm.tabs.library,Library ,Bibliothèque ,a[data-tab="resources"],attr,data-i18n-text
+comm.tabs.events,Events ,Événements ,a[data-tab="events"],attr,data-i18n-text
+comm.tabs.members,Members ,Membres ,a[data-tab="members"],attr,data-i18n-text
+
+# comm.tabs.home,Community Home,Accueil de la communauté,#CommunityTabsContainer li:first-child > a,attr,data-i18n-text
+# comm.tabs.discussions,Discussion,Discussions,a[data-tab="discussions"],attr,data-i18n-text
+# comm.tabs.library,Library,Bibliothèque,a[data-tab="resources"],attr,data-i18n-text
+# comm.tabs.events,Events,Événements,a[data-tab="events"],attr,data-i18n-text
+# comm.tabs.members,Members,Membres,a[data-tab="members"],attr,data-i18n-text
+
+communityHome.latestDiscussions,Latest Discussions ,Dernières discussions ,#MainCopy_ctl09_TitleText,attr,data-i18n-text
 communityHome.postMessage,Post a Message,Publier un message,#MainCopy_ctl09_PostMessage,attr,value
 communityHome.postMessage.title,Post a Message,Publier un message,#MainCopy_ctl09_PostMessage,attr,title
-communityHome.announcements,Announcements,Annonces,#MainCopy_ctl12_TitleText,attr,data-i18n-text
+communityHome.announcements,Announcements ,Annonces ,#MainCopy_ctl12_TitleText,attr,data-i18n-text
 communityHome.add,Add,Ajouter,#MainCopy_ctl12_Add,attr,data-i18n-text
 communityHome.add.title,Add Announcement,Ajouter une annonce,#MainCopy_ctl12_Add,attr,title
+
+communityHome.moreDiscussions,View more discussions,Voir plus de discussions,#MainCopy_ctl09_MoreLink,attr,data-i18n-text
+communityHome.moreDiscussions.title,View more discussions,Voir plus de discussions,#MainCopy_ctl09_MoreLink,attr,title
+
+communityHome.moreLibrary,View more library entries,Voir plus d’éléments de la bibliothèque,#MainCopy_ctl14_MoreLink,attr,data-i18n-text
+communityHome.moreLibrary.title,View more library entries,Voir plus d’éléments de la bibliothèque,#MainCopy_ctl14_MoreLink,attr,title
+
+communityHome.moreAnnouncements,View more announcements,Voir plus d’annonces,#MainCopy_ctl12_MoreLink,attr,data-i18n-text
+communityHome.moreAnnouncements.title,View more announcements,Voir plus d’annonces,#MainCopy_ctl12_MoreLink,attr,title
+
+announcements.reindex.title,reindex,réindexer,#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Reindex,attr,title
+announcements.edit.title,edit,modifier,#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Edit,attr,title
+
+announcements.deleteConfirm,Are you sure you want to remove this item?,Voulez-vous vraiment supprimer cet élément ?,#dialog-confirm-deleteannouncement [id$='deleteannouncement-message'],attr,data-i18n-text
+
 
