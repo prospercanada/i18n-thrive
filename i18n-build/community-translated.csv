@@ -1,9 +1,9 @@
 key,en,fr,selector,type,attr
-comm.tabs.home,Community Home ,Accueil de la communauté ,#CommunityTabsContainer li:first-child > a,attr,data-i18n-text
-comm.tabs.discussions,Discussion ,Discussions ,a[data-tab="discussions"],attr,data-i18n-text
-comm.tabs.library,Library ,Bibliothèque ,a[data-tab="resources"],attr,data-i18n-text
-comm.tabs.events,Events ,Événements ,a[data-tab="events"],attr,data-i18n-text
-comm.tabs.members,Members,Membres,a[data-tab="members"],attr,data-i18n-text
+comm.tabs.home,"Community Home ","Accueil de la communauté ",#CommunityTabsContainer li:first-child > a,attr,data-i18n-text
+comm.tabs.discussions,"Discussion ","Discussions ",a[data-tab="discussions"],attr,data-i18n-text
+comm.tabs.library,"Library ,"Bibliothèque ",a[data-tab="resources"],attr,data-i18n-text
+comm.tabs.events,"Events ","Événements ",a[data-tab="events"],attr,data-i18n-text
+comm.tabs.members,"Members ","Membres ",a[data-tab="members"],attr,data-i18n-text
 
 comm.latestDiscussions,Latest Discussions ,Dernières discussions ,#MainCopy_ctl09_TitleText,attr,data-i18n-text
 comm.postMessage,Post a Message,Publier un message,#MainCopy_ctl09_PostMessage,attr,value
@@ -26,4 +26,11 @@ comm.edit.title,edit,modifier,#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Edit,
 
 comm.deleteConfirm,Are you sure you want to remove this item?,Voulez-vous vraiment supprimer cet élément ?,#dialog-confirm-deleteannouncement [id$='deleteannouncement-message'],attr,data-i18n-text
 
-
+comm.ann.add.heading,Add New Announcement,Ajouter une nouvelle annonce,#MainCopy_ctl12_AddHeadingTitle,attr,data-i18n-text
+comm.ann.add.label.text,Text,Texte,#MainCopy_ctl12_AnnouncementTextLabel,attr,data-i18n-text
+comm.ann.add.label.title,Title,Titre,#MainCopy_ctl12_AnnouncementTitleLabel,attr,data-i18n-text
+comm.ann.add.label.url,URL,URL,#MainCopy_ctl12_URLText,attr,data-i18n-text
+comm.ann.add.label.urlText,URL Text,Texte du lien,#MainCopy_ctl12_URLName,attr,data-i18n-text
+comm.ann.add.label.newWindow,Open in a New Window,Ouvrir dans une nouvelle fenêtre,label[for="MainCopy_ctl12_CheckURL"],attr,data-i18n-text
+comm.ann.add.save,Save,Enregistrer,#MainCopy_ctl12_Save,attr,value
+comm.ann.add.cancel,Cancel,Annuler,#MainCopy_ctl12_Cancel,attr,value

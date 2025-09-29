@@ -118,5 +118,53 @@
     "type": "attr",
     "key": "comm.deleteConfirm",
     "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_AddHeadingTitle",
+    "type": "attr",
+    "key": "comm.ann.add.heading",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_AnnouncementTextLabel",
+    "type": "attr",
+    "key": "comm.ann.add.label.text",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_AnnouncementTitleLabel",
+    "type": "attr",
+    "key": "comm.ann.add.label.title",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_URLText",
+    "type": "attr",
+    "key": "comm.ann.add.label.url",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_URLName",
+    "type": "attr",
+    "key": "comm.ann.add.label.urlText",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl12_CheckURL\"]",
+    "type": "attr",
+    "key": "comm.ann.add.label.newWindow",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_Save",
+    "type": "attr",
+    "key": "comm.ann.add.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl12_Cancel",
+    "type": "attr",
+    "key": "comm.ann.add.cancel",
+    "attr": "value"
   }
 ]

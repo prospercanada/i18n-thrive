@@ -1,6 +1,14 @@
 {
   "comm.add": "Add",
   "comm.add.title": "Add Announcement",
+  "comm.ann.add.cancel": "Cancel",
+  "comm.ann.add.heading": "Add New Announcement",
+  "comm.ann.add.label.newWindow": "Open in a New Window",
+  "comm.ann.add.label.text": "Text",
+  "comm.ann.add.label.title": "Title",
+  "comm.ann.add.label.url": "URL",
+  "comm.ann.add.label.urlText": "URL Text",
+  "comm.ann.add.save": "Save",
   "comm.announcements": "Announcements",
   "comm.deleteConfirm": "Are you sure you want to remove this item?",
   "comm.edit.title": "edit",
@@ -17,6 +25,6 @@
   "comm.tabs.discussions": "Discussion",
   "comm.tabs.events": "Events",
   "comm.tabs.home": "Community Home",
-  "comm.tabs.library": "Library",
+  "comm.tabs.library": "\"Library",
   "comm.tabs.members": "Members"
 }
