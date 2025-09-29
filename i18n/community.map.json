@@ -32,37 +32,91 @@
   {
     "selector": "#MainCopy_ctl09_TitleText",
     "type": "attr",
-    "key": "communityHome.latestDiscussions",
+    "key": "comm.latestDiscussions",
     "attr": "data-i18n-text"
   },
   {
     "selector": "#MainCopy_ctl09_PostMessage",
     "type": "attr",
-    "key": "communityHome.postMessage",
+    "key": "comm.postMessage",
     "attr": "value"
   },
   {
     "selector": "#MainCopy_ctl09_PostMessage",
     "type": "attr",
-    "key": "communityHome.postMessage.title",
+    "key": "comm.postMessage.title",
     "attr": "title"
   },
   {
     "selector": "#MainCopy_ctl12_TitleText",
     "type": "attr",
-    "key": "communityHome.announcements",
+    "key": "comm.announcements",
     "attr": "data-i18n-text"
   },
   {
     "selector": "#MainCopy_ctl12_Add",
     "type": "attr",
-    "key": "communityHome.add",
+    "key": "comm.add",
     "attr": "data-i18n-text"
   },
   {
     "selector": "#MainCopy_ctl12_Add",
     "type": "attr",
-    "key": "communityHome.add.title",
+    "key": "comm.add.title",
     "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl09_MoreLink",
+    "type": "attr",
+    "key": "comm.moreDiscussions",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl09_MoreLink",
+    "type": "attr",
+    "key": "comm.moreDiscussions.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl14_MoreLink",
+    "type": "attr",
+    "key": "comm.moreLibrary",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl14_MoreLink",
+    "type": "attr",
+    "key": "comm.moreLibrary.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_MoreLink",
+    "type": "attr",
+    "key": "comm.moreAnnouncements",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_MoreLink",
+    "type": "attr",
+    "key": "comm.moreAnnouncements.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Reindex",
+    "type": "attr",
+    "key": "comm.reindex.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Edit",
+    "type": "attr",
+    "key": "comm.edit.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#dialog-confirm-deleteannouncement [id$='deleteannouncement-message']",
+    "type": "attr",
+    "key": "comm.deleteConfirm",
+    "attr": "data-i18n-text"
   }
 ]
