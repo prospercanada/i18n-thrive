@@ -18,3 +18,5 @@ followedList.postedBy,Posted By,Publié par,"[id^="FollowedContent_"][id$="-foll
 
 followedList.typeMeta,Blog ,Billet de blogue ,"[id^='FollowedContent_'][id$='-followed-list'] table tbody tr td:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(1)",text,
 followedList.typeLabel,In, Dans,"[id^='FollowedContent_'][id$='-followed-list'] table tbody tr td:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)",text,
+
+followedList.noData,No Data Found,Aucune donnée trouvée,"[id^='FollowedContent_'] .row.hl-no-data .col-md-11",text,

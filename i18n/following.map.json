@@ -43,5 +43,10 @@
     "selector": "[id^='FollowedContent_'][id$='-followed-list'] table tbody tr td:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)",
     "type": "text",
     "key": "followedList.typeLabel"
+  },
+  {
+    "selector": "[id^='FollowedContent_'] .row.hl-no-data .col-md-11",
+    "type": "text",
+    "key": "followedList.noData"
   }
 ]

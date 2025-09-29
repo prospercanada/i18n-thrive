@@ -147,6 +147,13 @@ function getParamCI(url, name) {
   return null;
 }
 
+// helper to add one or more ns
+const add = (ns) => {
+  if (!ns) return;
+  if (Array.isArray(ns)) ns.forEach((n) => n && out.add(n));
+  else out.add(ns);
+};
+
 function pickNamespaces(currentUrlOrPath) {
   // normalize to pathname and params
   const url =
@@ -159,43 +166,44 @@ function pickNamespaces(currentUrlOrPath) {
   // collapse duplicate slashes; ensure leading slash
   const rawPath = (url.pathname || "/").replace(/\/{2,}/g, "/");
 
-  // 💡 Support the microsite prefix: /sandboxmicrosite/...
-  // If present, strip it so the rest of your regexes work unchanged.
+  // Support microsite prefix
   const path = rawPath.replace(/^\/sandboxmicrosite(?=\/|$)/i, "") || "/";
 
   const section = (getParamCI(url, "section") || "").trim().toLowerCase();
-  const base = ["nav", "profile", "footer"];
+
+  // base (no "profile" here)
+  const base = ["nav", "footer"];
+  const out = new Set(base);
+
+  // Add "profile" only for /profile...
+  if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
 
   // connections
   if (/^\/profile\/connections\/contacts(?:\/|$)/i.test(path))
-    return [...base, "connections"];
+    add("connections");
   if (/^\/profile\/connections\/communities(?:\/|$)/i.test(path))
-    return [...base, "communities"];
+    add("communities");
   if (/^\/profile\/connections\/communitiesnode(?:\/|$)/i.test(path))
-    return [...base, "communitiesNode"];
-  // console.log("PATH IS", path);
-  if (/^\/profile\/connections\/following-connections(?:\/|$)/i.test(path)) {
-    // console.log("PATH ", path);
-    return [...base, "following"];
-  }
+    add("communitiesNode");
+  if (/^\/profile\/connections\/following-connections(?:\/|$)/i.test(path))
+    add("following");
 
   // contributions
   if (/^\/profile\/contributions\/contributions-summary(?:\/|$)/i.test(path))
-    return [...base, "contribSummary"];
+    add("contribSummary");
   if (
     /^\/profile\/contributions\/contributions-achievements(?:\/|$)/i.test(path)
   )
-    return [...base, "contribAchievements"];
+    add("contribAchievements");
   if (/^\/profile\/contributions\/contributions-list(?:\/|$)/i.test(path))
-    return [...base, "contribList"];
+    add("contribList");
 
   // my account
   if (/^\/profile\/myaccount\/changepassword(?:\/|$)/i.test(path))
-    return [...base, "accountChangePassword"];
+    add("accountChangePassword");
   if (/^\/profile\/myaccount\/mysignature(?:\/|$)/i.test(path))
-    return [...base, "accountSignature"];
-  if (/^\/profile\/myaccount\/inbox(?:\/|$)/i.test(path))
-    return [...base, "accountInbox"];
+    add("accountSignature");
+  if (/^\/profile\/myaccount\/inbox(?:\/|$)/i.test(path)) add("accountInbox");
 
   if (/^\/profile\/myaccount\/my-settings(?:\/|$)/i.test(path)) {
     const map = {
@@ -204,30 +212,108 @@ function pickNamespaces(currentUrlOrPath) {
       rssfeeds: "accountSettingsRss",
       subscriptions: "accountSettingsSubscriptions",
     };
-    const specific = map[section];
-    return Array.from(new Set([...base, specific].filter(Boolean)));
+    add(map[section]);
   }
 
   // directory
-  if (/^\/network\/members(?:\/|$)/i.test(path))
-    return [...base, "networkMembers"];
+  if (/^\/network\/members(?:\/|$)/i.test(path)) add("networkMembers");
 
-  // top-level static pages (add as needed)
-  if (/^\/contactus(?:\/|$)/i.test(path)) return [...base, "contactus"];
-  if (/^\/login(?:\/|$)/i.test(path)) return [...base, "login"];
-  if (/^\/participate\/postmessage(?:\/|$)/i.test(path))
-    return [...base, "postMessage"];
-  if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path))
-    return [...base, "addLibrary"];
-  if (/^\/events\/calendar(?:\/|$)/i.test(path))
-    return [...base, "eventsCalendar"];
+  // top-level static pages
+  if (/^\/contactus(?:\/|$)/i.test(path)) add("contactus");
+  if (/^\/login(?:\/|$)/i.test(path)) add("login");
+  if (/^\/participate\/postmessage(?:\/|$)/i.test(path)) add("postMessage");
+  if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path)) add("addLibrary");
+  if (/^\/events\/calendar(?:\/|$)/i.test(path)) add("eventsCalendar");
 
-  // base profile page (bio, education, awards, etc.)
-  if (/^\/profile(?:\/|$)/i.test(path)) return base;
+  if (/^\/communities\/?$/i.test(path)) {
+    out.add("community"); // or "communitiesTabs" if you prefer that name
+  }
 
-  // default: still include global bundles
-  return base;
+  // Always return the collected set (includes "profile" when applicable)
+  return Array.from(out);
 }
+
+// function pickNamespaces(currentUrlOrPath) {
+//   // normalize to pathname and params
+//   const url =
+//     typeof currentUrlOrPath === "string"
+//       ? new URL(currentUrlOrPath, location.origin)
+//       : currentUrlOrPath instanceof URL
+//       ? currentUrlOrPath
+//       : new URL(location.href);
+
+//   // collapse duplicate slashes; ensure leading slash
+//   const rawPath = (url.pathname || "/").replace(/\/{2,}/g, "/");
+
+//   // 💡 Support the microsite prefix: /sandboxmicrosite/...
+//   // If present, strip it so the rest of your regexes work unchanged.
+//   const path = rawPath.replace(/^\/sandboxmicrosite(?=\/|$)/i, "") || "/";
+
+//   const section = (getParamCI(url, "section") || "").trim().toLowerCase();
+//   const base = ["nav", "profile", "footer"];
+
+//   // connections
+//   if (/^\/profile\/connections\/contacts(?:\/|$)/i.test(path))
+//     return [...base, "connections"];
+//   if (/^\/profile\/connections\/communities(?:\/|$)/i.test(path))
+//     return [...base, "communities"];
+//   if (/^\/profile\/connections\/communitiesnode(?:\/|$)/i.test(path))
+//     return [...base, "communitiesNode"];
+//   // console.log("PATH IS", path);
+//   if (/^\/profile\/connections\/following-connections(?:\/|$)/i.test(path)) {
+//     // console.log("PATH ", path);
+//     return [...base, "following"];
+//   }
+
+//   // contributions
+//   if (/^\/profile\/contributions\/contributions-summary(?:\/|$)/i.test(path))
+//     return [...base, "contribSummary"];
+//   if (
+//     /^\/profile\/contributions\/contributions-achievements(?:\/|$)/i.test(path)
+//   )
+//     return [...base, "contribAchievements"];
+//   if (/^\/profile\/contributions\/contributions-list(?:\/|$)/i.test(path))
+//     return [...base, "contribList"];
+
+//   // my account
+//   if (/^\/profile\/myaccount\/changepassword(?:\/|$)/i.test(path))
+//     return [...base, "accountChangePassword"];
+//   if (/^\/profile\/myaccount\/mysignature(?:\/|$)/i.test(path))
+//     return [...base, "accountSignature"];
+//   if (/^\/profile\/myaccount\/inbox(?:\/|$)/i.test(path))
+//     return [...base, "accountInbox"];
+
+//   if (/^\/profile\/myaccount\/my-settings(?:\/|$)/i.test(path)) {
+//     const map = {
+//       privacy: "accountSettingsPrivacy",
+//       email: "accountSettingsEmail",
+//       rssfeeds: "accountSettingsRss",
+//       subscriptions: "accountSettingsSubscriptions",
+//     };
+//     const specific = map[section];
+//     return Array.from(new Set([...base, specific].filter(Boolean)));
+//   }
+
+//   // directory
+//   if (/^\/network\/members(?:\/|$)/i.test(path))
+//     return [...base, "networkMembers"];
+
+//   // top-level static pages (add as needed)
+//   if (/^\/contactus(?:\/|$)/i.test(path)) return [...base, "contactus"];
+//   if (/^\/login(?:\/|$)/i.test(path)) return [...base, "login"];
+//   if (/^\/participate\/postmessage(?:\/|$)/i.test(path))
+//     return [...base, "postMessage"];
+//   if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path))
+//     return [...base, "addLibrary"];
+//   if (/^\/events\/calendar(?:\/|$)/i.test(path))
+//     return [...base, "eventsCalendar"];
+
+//   // base profile page (bio, education, awards, etc.)
+//   if (/^\/profile(?:\/|$)/i.test(path)) return base;
+
+//   // default: still include global bundles
+//   return base;
+// }
 
 // function pickNamespaces(currentUrlOrPath) {
 //   // normalize to pathname and params

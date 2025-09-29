@@ -1,0 +1,6 @@
+key,en,fr,selector,type,attr
+comm.tabs.home,Community Home,Accueil de la communauté,#CommunityTabsContainer li:first-child > a,attr,data-i18n-text
+comm.tabs.discussions,Discussion,Discussions,a[data-tab="discussions"],attr,data-i18n-text
+comm.tabs.library,Library,Bibliothèque,a[data-tab="resources"],attr,data-i18n-text
+comm.tabs.events,Events,Événements,a[data-tab="events"],attr,data-i18n-text
+comm.tabs.members,Members,Membres,a[data-tab="members"],attr,data-i18n-text

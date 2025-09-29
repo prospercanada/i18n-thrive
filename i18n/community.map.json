@@ -1,0 +1,32 @@
+[
+  {
+    "selector": "#CommunityTabsContainer li:first-child > a",
+    "type": "attr",
+    "key": "comm.tabs.home",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "a[data-tab=\"discussions\"]",
+    "type": "attr",
+    "key": "comm.tabs.discussions",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "a[data-tab=\"resources\"]",
+    "type": "attr",
+    "key": "comm.tabs.library",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "a[data-tab=\"events\"]",
+    "type": "attr",
+    "key": "comm.tabs.events",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "a[data-tab=\"members\"]",
+    "type": "attr",
+    "key": "comm.tabs.members",
+    "attr": "data-i18n-text"
+  }
+]

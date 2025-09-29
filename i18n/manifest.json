@@ -64,5 +64,8 @@
   "eventsCalendar.map": "eventsCalendar.map.json",
   "communitiesNode.en": "communitiesNode.en.json",
   "communitiesNode.fr": "communitiesNode.fr.json",
-  "communitiesNode.map": "communitiesNode.map.json"
+  "communitiesNode.map": "communitiesNode.map.json",
+  "community.en": "community.en.json",
+  "community.fr": "community.fr.json",
+  "community.map": "community.map.json"
 }
