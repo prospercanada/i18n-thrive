@@ -3,5 +3,11 @@
   "comm.tabs.events": "Événements",
   "comm.tabs.home": "Accueil de la communauté",
   "comm.tabs.library": "Bibliothèque",
-  "comm.tabs.members": "Membres"
+  "comm.tabs.members": "Membres",
+  "communityHome.add": "Ajouter",
+  "communityHome.add.title": "Ajouter une annonce",
+  "communityHome.announcements": "Annonces",
+  "communityHome.latestDiscussions": "Dernières discussions",
+  "communityHome.postMessage": "Publier un message",
+  "communityHome.postMessage.title": "Publier un message"
 }

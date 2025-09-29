@@ -1,7 +1,1 @@
 key,en,fr,selector,type,attr
-communityHome.latestDiscussions,Latest Discussions,Dernières discussions,#MainCopy_ctl09_TitleText,attr,data-i18n-text
-communityHome.postMessage,Post a Message,Publier un message,#MainCopy_ctl09_PostMessage,attr,value
-communityHome.postMessage.title,Post a Message,Publier un message,#MainCopy_ctl09_PostMessage,attr,title
-communityHome.announcements,Announcements,Annonces,#MainCopy_ctl12_TitleText,attr,data-i18n-text
-communityHome.add,Add,Ajouter,#MainCopy_ctl12_Add,attr,data-i18n-text
-communityHome.add.title,Add Announcement,Ajouter une annonce,#MainCopy_ctl12_Add,attr,title

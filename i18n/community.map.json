@@ -28,5 +28,41 @@
     "type": "attr",
     "key": "comm.tabs.members",
     "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl09_TitleText",
+    "type": "attr",
+    "key": "communityHome.latestDiscussions",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl09_PostMessage",
+    "type": "attr",
+    "key": "communityHome.postMessage",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl09_PostMessage",
+    "type": "attr",
+    "key": "communityHome.postMessage.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_TitleText",
+    "type": "attr",
+    "key": "communityHome.announcements",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_Add",
+    "type": "attr",
+    "key": "communityHome.add",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_Add",
+    "type": "attr",
+    "key": "communityHome.add.title",
+    "attr": "title"
   }
 ]
