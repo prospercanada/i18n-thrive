@@ -27,6 +27,7 @@
     "i18n:build:eventsCalendar": "node scripts/build-from-csv.mjs i18n-build/eventsCalendar-translated.csv i18n eventsCalendar",
     "i18n:build:login": "node scripts/build-from-csv.mjs i18n-build/login-translated.csv i18n login",
     "i18n:build:community": "node scripts/build-from-csv.mjs i18n-build/community-translated.csv i18n community",
+    "i18n:build:communityHome": "node scripts/build-from-csv.mjs i18n-build/communityHome-translated.csv i18n communityHome",
     "i18n:build:all": "node scripts/build-all.mjs",
     "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\""
   },

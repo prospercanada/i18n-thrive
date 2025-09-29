@@ -182,15 +182,15 @@
     const tmap = await loadCatalogs(manifestUrl, namespaces, state.lang);
 
     state.catalogs = tmap;
-    console.log("state.catalogs ", state.catalogs);
+    // console.log("state.catalogs ", state.catalogs);
     applyAll(tmap);
 
     // const DEBUG_I18N = true; // NEW
 
     if (observeMutations) {
-      console.log("loadAndApply ", observeMutations);
+      // console.log("loadAndApply ", observeMutations);
       if (state.observer) {
-        console.log("state.observer.disconnect() ");
+        // console.log("state.observer.disconnect() ");
         state.observer.disconnect();
       }
 

@@ -67,5 +67,8 @@
   "communitiesNode.map": "communitiesNode.map.json",
   "community.en": "community.en.json",
   "community.fr": "community.fr.json",
-  "community.map": "community.map.json"
+  "community.map": "community.map.json",
+  "communityHome.en": "communityHome.en.json",
+  "communityHome.fr": "communityHome.fr.json",
+  "communitHomey.map": "communityHome.map.json"
 }
