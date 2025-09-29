@@ -246,6 +246,9 @@ function pickNamespaces(currentUrlOrPath) {
   )
     out.add("communityEvents");
 
+  if (/^\/communities\/community-home\/community-members(?:\/|$)/i.test(path))
+    out.add("communityMembers");
+
   // if (/^\/communities\/community-home\/librarydocuments(?:\/|$)/i.test(path)) {
   //   out.add("communityLibrary");
   // }

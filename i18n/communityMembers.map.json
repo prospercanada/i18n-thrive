@@ -1,0 +1,146 @@
+[
+  {
+    "selector": "#MainCopy_ctl10_FirstNameLabel",
+    "type": "attr",
+    "key": "members.find.firstName",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl10_LastNameLabel",
+    "type": "attr",
+    "key": "members.find.lastName",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl10_CompanyNameLabel",
+    "type": "attr",
+    "key": "members.find.company",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl10_Label5",
+    "type": "attr",
+    "key": "members.find.email",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl10_FindFirstName",
+    "type": "attr",
+    "key": "members.find.firstName.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl10_FindLastName",
+    "type": "attr",
+    "key": "members.find.lastName.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl10_FindCompanyName",
+    "type": "attr",
+    "key": "members.find.company.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl10_EmailAddress",
+    "type": "attr",
+    "key": "members.find.email.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_FindContacts",
+    "type": "attr",
+    "key": "members.actions.find",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ClearSearchResults",
+    "type": "attr",
+    "key": "members.actions.clear",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ClearSearchResults",
+    "type": "attr",
+    "key": "members.actions.clear.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions",
+    "type": "attr",
+    "key": "members.sort.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"Name_AZ\"]",
+    "type": "attr",
+    "key": "members.sort.nameAZ",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"Name_ZA\"]",
+    "type": "attr",
+    "key": "members.sort.nameZA",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"Company_AZ\"]",
+    "type": "attr",
+    "key": "members.sort.companyAZ",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"Company_ZA\"]",
+    "type": "attr",
+    "key": "members.sort.companyZA",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"City_AZ\"]",
+    "type": "attr",
+    "key": "members.sort.cityAZ",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"City_ZA\"]",
+    "type": "attr",
+    "key": "members.sort.cityZA",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"State_AZ\"]",
+    "type": "attr",
+    "key": "members.sort.stateAZ",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"State_ZA\"]",
+    "type": "attr",
+    "key": "members.sort.stateZA",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"Country_AZ\"]",
+    "type": "attr",
+    "key": "members.sort.countryAZ",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_SortOptions option[value=\"Country_ZA\"]",
+    "type": "attr",
+    "key": "members.sort.countryZA",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ResultsPerPage",
+    "type": "attr",
+    "key": "members.perPage.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ResultsPerPage option[value=\"20\"]",
+    "type": "attr",
+    "key": "members.perPage.showAll",
+    "attr": "data-i18n-text"
+  }
+]

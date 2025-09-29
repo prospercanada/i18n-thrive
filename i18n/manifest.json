@@ -76,5 +76,7 @@
   "communityLibrary.map": "communityLibrary.map.json",
   "communityEvents.en": "communityEvents.en.json",
   "communityEvents.fr": "communityEvents.fr.json",
-  "communityEvents.map": "communityEvents.map.json"
+  "communityMembers.en": "communityMembers.map.json",
+  "communityMembers.fr": "communityMembers.fr.json",
+  "communityMembers.map": "communityMembers.map.json"
 }

@@ -1,0 +1,37 @@
+key,en,fr,selector,type,attr
+# --- Field labels ---
+members.find.firstName,First Name,Prénom,#MainCopy_ctl10_FirstNameLabel,attr,data-i18n-text
+members.find.lastName,Last Name,Nom,#MainCopy_ctl10_LastNameLabel,attr,data-i18n-text
+members.find.company,Company Name,Organisation,#MainCopy_ctl10_CompanyNameLabel,attr,data-i18n-text
+members.find.email,Email Address,Adresse courriel,#MainCopy_ctl10_Label5,attr,data-i18n-text
+
+# --- Input titles (tooltips) ---
+members.find.firstName.title,First Name,Prénom,#MainCopy_ctl10_FindFirstName,attr,title
+members.find.lastName.title,Last Name,Nom,#MainCopy_ctl10_FindLastName,attr,title
+members.find.company.title,Company Name,Organisation,#MainCopy_ctl10_FindCompanyName,attr,title
+members.find.email.title,Email Address,Adresse courriel,#MainCopy_ctl10_EmailAddress,attr,title
+
+# --- Email validator/help text ---
+# members.find.email.validator,Please enter additional criteria for the email address. These values are not allowed: @,%,.,com,org,.com,.org,Veuillez saisir des critères supplémentaires pour l’adresse courriel. Les valeurs suivantes ne sont pas autorisées : @, %, ., com, org, .com, .org,#MainCopy_ctl10_EmailAddressCharacterValidator,attr,data-i18n-text
+
+# --- Action buttons ---
+members.actions.find,Find Members,Rechercher des membres,#MainCopy_ctl12_FindContacts,attr,value
+members.actions.clear,Clear All,Effacer tout,#MainCopy_ctl12_ClearSearchResults,attr,value
+members.actions.clear.title,Clear All,Effacer tout,#MainCopy_ctl12_ClearSearchResults,attr,title
+
+# --- Sort select (label is implicit via title) ---
+members.sort.title,Display Options,Options d’affichage,#MainCopy_ctl12_SortOptions,attr,title
+members.sort.nameAZ,Name A-Z,Nom A–Z,#MainCopy_ctl12_SortOptions option[value="Name_AZ"],attr,data-i18n-text
+members.sort.nameZA,Name Z-A,Nom Z–A,#MainCopy_ctl12_SortOptions option[value="Name_ZA"],attr,data-i18n-text
+members.sort.companyAZ,Company A-Z,Organisation A–Z,#MainCopy_ctl12_SortOptions option[value="Company_AZ"],attr,data-i18n-text
+members.sort.companyZA,Company Z-A,Organisation Z–A,#MainCopy_ctl12_SortOptions option[value="Company_ZA"],attr,data-i18n-text
+members.sort.cityAZ,City A-Z,Ville A–Z,#MainCopy_ctl12_SortOptions option[value="City_AZ"],attr,data-i18n-text
+members.sort.cityZA,City Z-A,Ville Z–A,#MainCopy_ctl12_SortOptions option[value="City_ZA"],attr,data-i18n-text
+members.sort.stateAZ,State A-Z,Province/État A–Z,#MainCopy_ctl12_SortOptions option[value="State_AZ"],attr,data-i18n-text
+members.sort.stateZA,State Z-A,Province/État Z–A,#MainCopy_ctl12_SortOptions option[value="State_ZA"],attr,data-i18n-text
+members.sort.countryAZ,Country A-Z,Pays A–Z,#MainCopy_ctl12_SortOptions option[value="Country_AZ"],attr,data-i18n-text
+members.sort.countryZA,Country Z-A,Pays Z–A,#MainCopy_ctl12_SortOptions option[value="Country_ZA"],attr,data-i18n-text
+
+# --- Results per page ---
+members.perPage.title,Results Per Page,Résultats par page,#MainCopy_ctl12_ResultsPerPage,attr,title
+members.perPage.showAll,Show All,Afficher tout,#MainCopy_ctl12_ResultsPerPage option[value="20"],attr,data-i18n-text
