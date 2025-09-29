@@ -1,0 +1,128 @@
+[
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value=\"1\"]",
+    "type": "attr",
+    "key": "communityDigest.sort.mru",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value=\"2\"]",
+    "type": "attr",
+    "key": "communityDigest.sort.lru",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value=\"3\"]",
+    "type": "attr",
+    "key": "communityDigest.sort.mostReplies",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value=\"4\"]",
+    "type": "attr",
+    "key": "communityDigest.sort.leastReplies",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value=\"5\"]",
+    "type": "attr",
+    "key": "communityDigest.sort.subjectAZ",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value=\"6\"]",
+    "type": "attr",
+    "key": "communityDigest.sort.subjectZA",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionsSortBy\"] .filter-option",
+    "type": "attr",
+    "key": "communityDigest.sort.current",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionsSortBy\"]",
+    "type": "attr",
+    "key": "communityDigest.sort.current.title",
+    "attr": "title"
+  },
+  {
+    "selector": "button[data-id$=\"contributionsSortBy\"] + .dropdown-menu .inner li[data-original-index=\"0\"] .text",
+    "type": "attr",
+    "key": "communityDigest.sort.menu.mru",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionsSortBy\"] + .dropdown-menu .inner li[data-original-index=\"1\"] .text",
+    "type": "attr",
+    "key": "communityDigest.sort.menu.lru",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionsSortBy\"] + .dropdown-menu .inner li[data-original-index=\"2\"] .text",
+    "type": "attr",
+    "key": "communityDigest.sort.menu.mostReplies",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionsSortBy\"] + .dropdown-menu .inner li[data-original-index=\"3\"] .text",
+    "type": "attr",
+    "key": "communityDigest.sort.menu.leastReplies",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionsSortBy\"] + .dropdown-menu .inner li[data-original-index=\"4\"] .text",
+    "type": "attr",
+    "key": "communityDigest.sort.menu.subjectAZ",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionsSortBy\"] + .dropdown-menu .inner li[data-original-index=\"5\"] .text",
+    "type": "attr",
+    "key": "communityDigest.sort.menu.subjectZA",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value=\"10\"]",
+    "type": "attr",
+    "key": "communityDigest.perPage.10",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value=\"25\"]",
+    "type": "attr",
+    "key": "communityDigest.perPage.25",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value=\"50\"]",
+    "type": "attr",
+    "key": "communityDigest.perPage.50",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value=\"100\"]",
+    "type": "attr",
+    "key": "communityDigest.perPage.100",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionResultsPerPage\"] .filter-option",
+    "type": "attr",
+    "key": "communityDigest.perPage.current",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "button[data-id$=\"contributionResultsPerPage\"]",
+    "type": "attr",
+    "key": "communityDigest.perPage.current.title",
+    "attr": "title"
+  },
+  {
+    "selector": "button[data-id$=\"contributionResultsPerPage\"] + .dropdown-menu .inner li[data-original-index=\"0\"] .text",
+    "type": "attr",
+    "key": "communityDigest.perPage.menu.10",
+    "attr": "data-i18n-text"
+  }
+]

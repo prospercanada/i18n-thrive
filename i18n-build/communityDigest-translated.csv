@@ -1,0 +1,34 @@
+key,en,fr,selector,type,attr
+# --- Sort by ---
+communityDigest.sort.mru,Most Recently Updated,Plus récemment mis à jour,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="1"],attr,data-i18n-text
+communityDigest.sort.lru,Least Recently Updated,Le moins récemment mis à jour,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="2"],attr,data-i18n-text
+communityDigest.sort.mostReplies,Most Replies,Le plus de réponses,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="3"],attr,data-i18n-text
+communityDigest.sort.leastReplies,Least Replies,Le moins de réponses,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="4"],attr,data-i18n-text
+communityDigest.sort.subjectAZ,Thread Subject A-Z,Sujet de fil A–Z,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="5"],attr,data-i18n-text
+communityDigest.sort.subjectZA,Thread Subject Z-A,Sujet de fil Z–A,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="6"],attr,data-i18n-text
+
+# Visible Bootstrap-Select button (current choice) — text + title
+communityDigest.sort.current,Most Recently Updated,Plus récemment mis à jour,button[data-id$="contributionsSortBy"] .filter-option,attr,data-i18n-text
+communityDigest.sort.current.title,Most Recently Updated,Plus récemment mis à jour,button[data-id$="contributionsSortBy"],attr,title
+
+# Dropdown menu (the cloned list inside the bootstrap-select)
+communityDigest.sort.menu.mru,Most Recently Updated,Plus récemment mis à jour,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="0"] .text,attr,data-i18n-text
+communityDigest.sort.menu.lru,Least Recently Updated,Le moins récemment mis à jour,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="1"] .text,attr,data-i18n-text
+communityDigest.sort.menu.mostReplies,Most Replies,Le plus de réponses,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="2"] .text,attr,data-i18n-text
+communityDigest.sort.menu.leastReplies,Least Replies,Le moins de réponses,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="3"] .text,attr,data-i18n-text
+communityDigest.sort.menu.subjectAZ,Thread Subject A-Z,Sujet de fil A–Z,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="4"] .text,attr,data-i18n-text
+communityDigest.sort.menu.subjectZA,Thread Subject Z-A,Sujet de fil Z–A,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="5"] .text,attr,data-i18n-text
+
+# --- Results per page ---
+communityDigest.perPage.10,10 per page,10 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="10"],attr,data-i18n-text
+communityDigest.perPage.25,25 per page,25 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="25"],attr,data-i18n-text
+communityDigest.perPage.50,50 per page,50 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="50"],attr,data-i18n-text
+communityDigest.perPage.100,100 per page,100 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="100"],attr,data-i18n-text
+
+# Visible Bootstrap-Select button (current page size) — text + title
+communityDigest.perPage.current,10 per page,10 par page,button[data-id$="contributionResultsPerPage"] .filter-option,attr,data-i18n-text
+communityDigest.perPage.current.title,10 per page,10 par page,button[data-id$="contributionResultsPerPage"],attr,title
+
+# Dropdown menu (page size)
+communityDigest.perPage.menu.10,10 per page,10 par page,button[data-id$="contributionResultsPerPage"] + .dropdown-menu .inner li[data-original-index="0"] .text,attr,data-i18n-text
+communityDigest.perPage.menu.25,25 per page,25 par page,button[data-id$="contributionResultsPerPage"] + .dropdown-menu .inner li[data-original-index="1"] .
