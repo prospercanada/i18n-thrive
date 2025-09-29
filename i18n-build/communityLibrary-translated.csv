@@ -1,0 +1,14 @@
+key,en,fr,selector,type,attr
+library.entry.more.trigger,Additional Actions,Actions supplémentaires,[qa-id="library-entry-ellipsis"] button.icon-btn[aria-label],attr,aria-label
+library.entry.more.trigger.title,Additional Actions,Actions supplémentaires,[qa-id="library-entry-ellipsis"] button.icon-btn[title],attr,title
+
+library.entry.more.viewEntry,View Entry Page,Voir la page de l’entrée,.dropdown-menu[role="menu"] a.dropdown-item[href*="viewdocument"],attr,data-i18n-text
+library.entry.more.edit,Edit,Modifier,.dropdown-menu[role="menu"] a.dropdown-item[href*="/participate/add-new-entry"],attr,data-i18n-text
+
+library.entry.more.pin,Pin,Épingler,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(1),attr,data-i18n-text
+library.entry.more.copyLink,Copy Permalink,Copier le permalien,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(2),attr,data-i18n-text
+library.entry.more.markInappropriate,Mark as Inappropriate,Signaler comme inapproprié,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(3),attr,data-i18n-text
+library.entry.more.follow,Follow,Suivre,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(4),attr,data-i18n-text
+library.entry.more.reindex,Reindex,Réindexer,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(5),attr,data-i18n-text
+
+library.entry.more.delete,Delete,Supprimer,.dropdown-menu[role="menu"] .dropdown-divider + button.dropdown-item,attr,data-i18n-text

@@ -1,0 +1,21 @@
+{
+  "events.add.btn": "Add Event",
+  "events.add.btn.title": "Add Event",
+  "events.add.split.title": "Add Event",
+  "events.empty.heading": "Add an Event",
+  "events.empty.helper": "Create an event to display here.",
+  "events.type.chapter": "Chapter Meeting (No Registration)",
+  "events.type.committee": "Committee Meeting (No Registration)",
+  "events.type.communityEvent": "Community Event (No Registration)",
+  "events.type.communityWorkshop": "Community Workshop (No Registration)",
+  "events.type.conference": "Conference (No Registration)",
+  "events.type.execRetreat": "Executive Retreat (No Registration)",
+  "events.type.memberTraining": "Member Training (No Registration)",
+  "events.type.profDev": "Professional Development (No Registration)",
+  "events.type.seminar": "Seminar (No Registration)",
+  "events.type.simpleMeeting": "Simple Meeting (No Registration)",
+  "events.type.symposium": "Symposium (No Registration)",
+  "events.type.testingExternal": "Testing - External registration system (External)",
+  "events.type.testingRSVP": "Testing - FREE -RSVP only- just need a headcount (RSVP)",
+  "events.type.webinar": "Webinar (No Registration)"
+}

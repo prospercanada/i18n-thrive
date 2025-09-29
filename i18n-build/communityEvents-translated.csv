@@ -1,0 +1,23 @@
+key,en,fr,selector,type,attr
+events.empty.heading,Add an Event,Ajouter un événement,#MainCopy_ctl09_NoDataAdmin strong,attr,data-i18n-text
+events.empty.helper,Create an event to display here.,Créez un événement à afficher ici.,#MainCopy_ctl09_NoDataAdmin p:first-of-type,attr,data-i18n-text
+
+events.add.btn,Add Event,Ajouter un événement,#add-calendar-event,attr,data-i18n-text
+events.add.btn.title,Add Event,Ajouter un événement,#add-calendar-event,attr,title
+events.add.split.title,Add Event,Ajouter un événement,#events-list-header-actions-b11ec0cf-c2d7-483f-a20d-88ea2b85b7d1 .dropdown-toggle,attr,title
+
+# Event type options (menu)
+events.type.chapter,Chapter Meeting (No Registration),Réunion de section (pas d’inscription),a.create-event-by-type[eventtypekey="6a32f91a-0dcc-493d-b4a8-af6dec9222b1"],attr,data-i18n-text
+events.type.committee,Committee Meeting (No Registration),Réunion du comité (pas d’inscription),a.create-event-by-type[eventtypekey="f141d1da-5e07-43a7-b959-13ab88bba9ac"],attr,data-i18n-text
+events.type.communityEvent,Community Event (No Registration),Événement communautaire (pas d’inscription),a.create-event-by-type[eventtypekey="f307e2ac-871a-4b55-9fa0-0b3c22eaabf4"],attr,data-i18n-text
+events.type.communityWorkshop,Community Workshop (No Registration),Atelier communautaire (pas d’inscription),a.create-event-by-type[eventtypekey="2ff6f4b7-d09d-4554-949b-a543c5a05697"],attr,data-i18n-text
+events.type.conference,Conference (No Registration),Conférence (pas d’inscription),a.create-event-by-type[eventtypekey="9e2ded4f-5bc1-4948-9fce-5d6e00640a66"],attr,data-i18n-text
+events.type.execRetreat,Executive Retreat (No Registration),Retraite de direction (pas d’inscription),a.create-event-by-type[eventtypekey="53bd863a-563d-4886-86ba-4c4b2df3e991"],attr,data-i18n-text
+events.type.memberTraining,Member Training (No Registration),Formation des membres (pas d’inscription),a.create-event-by-type[eventtypekey="818a49ea-b823-4d8e-9703-2aa24102a54b"],attr,data-i18n-text
+events.type.profDev,Professional Development (No Registration),Perfectionnement professionnel (pas d’inscription),a.create-event-by-type[eventtypekey="87c93176-886b-4189-8569-5c125949d188"],attr,data-i18n-text
+events.type.seminar,Seminar (No Registration),Séminaire (pas d’inscription),a.create-event-by-type[eventtypekey="edfa85f5-7878-4cd2-b7eb-e8ddafa7d05d"],attr,data-i18n-text
+events.type.simpleMeeting,Simple Meeting (No Registration),Réunion simple (pas d’inscription),a.create-event-by-type[eventtypekey="fa52d27c-3333-4c4a-9ba7-914551703502"],attr,data-i18n-text
+events.type.symposium,Symposium (No Registration),Symposium (pas d’inscription),a.create-event-by-type[eventtypekey="9d179cd4-9a44-4185-80c5-679e380b16a6"],attr,data-i18n-text
+events.type.testingExternal,Testing - External registration system (External),Test – Système d’inscription externe (Externe),a.create-event-by-type[eventtypekey="1a8a45c1-48a2-4ce3-9178-01937373012a"],attr,data-i18n-text
+events.type.testingRSVP,Testing - FREE -RSVP only- just need a headcount (RSVP),Test – GRATUIT – RSVP seulement – estimation du nombre de participants (RSVP),a.create-event-by-type[eventtypekey="0c73a418-69fc-41dc-aee7-01937363f64f"],attr,data-i18n-text
+events.type.webinar,Webinar (No Registration),Webinaire (pas d’inscription),a.create-event-by-type[eventtypekey="bf8abdd1-fdd4-458a-9c8f-6923522fe1a3"],attr,data-i18n-text

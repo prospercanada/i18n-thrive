@@ -1,0 +1,62 @@
+[
+  {
+    "selector": "[qa-id=\"library-entry-ellipsis\"] button.icon-btn[aria-label]",
+    "type": "attr",
+    "key": "library.entry.more.trigger",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "[qa-id=\"library-entry-ellipsis\"] button.icon-btn[title]",
+    "type": "attr",
+    "key": "library.entry.more.trigger.title",
+    "attr": "title"
+  },
+  {
+    "selector": ".dropdown-menu[role=\"menu\"] a.dropdown-item[href*=\"viewdocument\"]",
+    "type": "attr",
+    "key": "library.entry.more.viewEntry",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".dropdown-menu[role=\"menu\"] a.dropdown-item[href*=\"/participate/add-new-entry\"]",
+    "type": "attr",
+    "key": "library.entry.more.edit",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".dropdown-menu[role=\"menu\"] button.dropdown-item:nth-of-type(1)",
+    "type": "attr",
+    "key": "library.entry.more.pin",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".dropdown-menu[role=\"menu\"] button.dropdown-item:nth-of-type(2)",
+    "type": "attr",
+    "key": "library.entry.more.copyLink",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".dropdown-menu[role=\"menu\"] button.dropdown-item:nth-of-type(3)",
+    "type": "attr",
+    "key": "library.entry.more.markInappropriate",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".dropdown-menu[role=\"menu\"] button.dropdown-item:nth-of-type(4)",
+    "type": "attr",
+    "key": "library.entry.more.follow",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".dropdown-menu[role=\"menu\"] button.dropdown-item:nth-of-type(5)",
+    "type": "attr",
+    "key": "library.entry.more.reindex",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".dropdown-menu[role=\"menu\"] .dropdown-divider + button.dropdown-item",
+    "type": "attr",
+    "key": "library.entry.more.delete",
+    "attr": "data-i18n-text"
+  }
+]

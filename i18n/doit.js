@@ -232,9 +232,19 @@ function pickNamespaces(currentUrlOrPath) {
     out.add("community");
   }
 
-  if (/^\/communities\/community-home\/digestviewer(?:\/|$)/i.test(path)) {
+  // if (/^\/communities\/community-home(?:\/|$)/i.test(path)) out.add("community");
+  if (/^\/communities\/community-home\/digestviewer(?:\/|$)/i.test(path))
     out.add("communityDigest");
-  }
+
+  if (/^\/communities\/community-home\/librarydocuments(?:\/|$)/i.test(path))
+    out.add("communityLibrary");
+
+  if (
+    /^\/communities\/community-home\/recent-community-events(?:\/|$)/i.test(
+      path
+    )
+  )
+    out.add("communityEvents");
 
   // if (/^\/communities\/community-home\/librarydocuments(?:\/|$)/i.test(path)) {
   //   out.add("communityLibrary");
