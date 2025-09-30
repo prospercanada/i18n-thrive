@@ -21,6 +21,21 @@
     "key": "commNotif.overrideDesc"
   },
   {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigDeliverOn",
+    "type": "text",
+    "key": "commNotif.weekly.deliverOn"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_pnlCommNotifWeeklyConDig .weekly-email-container span.text-muted:first-child",
+    "type": "text",
+    "key": "commNotif.weekly.to"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigEmailEnd",
+    "type": "text",
+    "key": "commNotif.weekly.toPrimary"
+  },
+  {
     "selector": "#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest",
     "type": "text",
     "key": "commNotif.weekly.title"
@@ -36,5 +51,138 @@
     "type": "attr",
     "key": "commNotif.weekly.popoverBody",
     "attr": "data-content"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_strDiscussionEmail",
+    "type": "text",
+    "key": "commNotif.discussion.title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp",
+    "type": "attr",
+    "key": "commNotif.discussion.popoverTitle",
+    "attr": "data-original-title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp",
+    "type": "attr",
+    "key": "commNotif.discussion.popoverBody",
+    "attr": "data-content"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_aTopicNotificationOptions_0",
+    "type": "attr",
+    "key": "topicNotif.popoverTitle",
+    "attr": "data-original-title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_aTopicNotificationOptions_0",
+    "type": "attr",
+    "key": "topicNotif.popoverBody",
+    "attr": "data-content"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lblDiscusionEmailEmpty",
+    "type": "text",
+    "key": "commNotif.discussion.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_pnlTopicNotifications > h2.text-muted",
+    "type": "text",
+    "key": "topicNotif.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_thTopicNotificationsCommunity",
+    "type": "text",
+    "key": "topicNotif.th.community"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_thTopicNotificationsEmail",
+    "type": "text",
+    "key": "topicNotif.th.delivery"
+  },
+  {
+    "selector": "[id^=\"MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_hypTopicNotificationCommunity_\"]",
+    "type": "text",
+    "key": "topicNotif.community.sample"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value=\"0\"]",
+    "type": "attr",
+    "key": "topicNotif.opt.none",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value=\"1\"]",
+    "type": "attr",
+    "key": "topicNotif.opt.digest",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value=\"2\"]",
+    "type": "attr",
+    "key": "topicNotif.opt.digest_rt",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsCommunity",
+    "type": "text",
+    "key": "notif.th.community"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsDiscussionEmail",
+    "type": "text",
+    "key": "notif.th.discussion"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsWeeklyCd",
+    "type": "html",
+    "key": "notif.th.weekly"
+  },
+  {
+    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"name-asc\"]",
+    "type": "attr",
+    "key": "contacts.sort.az",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"name-desc\"]",
+    "type": "attr",
+    "key": "contacts.sort.za",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".bootstrap-switch-container:has(#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference) .bootstrap-switch-handle-on",
+    "type": "text",
+    "key": "switch.pref.on"
+  },
+  {
+    "selector": ".bootstrap-switch-container:has(#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference) .bootstrap-switch-handle-off",
+    "type": "text",
+    "key": "switch.pref.off"
+  },
+  {
+    "selector": "a.weeklycd[data-cdvalue=\"weekly\"]",
+    "type": "attr",
+    "key": "notif.weekly.btn.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(1)",
+    "type": "attr",
+    "key": "discEmail.opt.realtime",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(2)",
+    "type": "attr",
+    "key": "discEmail.opt.daily",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(3)",
+    "type": "attr",
+    "key": "discEmail.opt.none",
+    "attr": "data-i18n-text"
   }
 ]

@@ -7,9 +7,9 @@ commNotif.overrideDesc,"To receive specific community notifications at an addres
 # commNotif.weekly.title,Weekly Consolidated Community Digest:,Bulletin communautaire hebdomadaire consolidé :,#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest,text,
 # commNotif.weekly.popoverTitle,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-original-title
 # commNotif.weekly.popoverBody,"Offers a comprehensive view of all activity from the preceding week for the communities you specify in a single email. This includes announcements, blogs, discussions, library entries, new members and volunteer opportunities.","Offre un aperçu complet, en un seul courriel, de toute l’activité de la semaine précédente pour les communautés que vous indiquez. Comprend les annonces, blogues, discussions, éléments de la bibliothèque, nouveaux membres et occasions de bénévolat.",#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-content
-# commNotif.weekly.deliverOn,Deliver on,Envoyer le,#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigDeliverOn,text,
-# commNotif.weekly.to,to,à,#MainCopy_ctl29_MyCommunityNotifications_pnlCommNotifWeeklyConDig .weekly-email-container span.text-muted:first-child,text,
-# commNotif.weekly.toPrimary,your primary address.,votre adresse principale.,#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigEmailEnd,text,
+commNotif.weekly.deliverOn,Deliver on,Envoyer le,#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigDeliverOn,text,
+commNotif.weekly.to,to,à,#MainCopy_ctl29_MyCommunityNotifications_pnlCommNotifWeeklyConDig .weekly-email-container span.text-muted:first-child,text,
+commNotif.weekly.toPrimary,your primary address.,votre adresse principale.,#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigEmailEnd,text,
 # commNotif.weekly.change,change,modifier,#MainCopy_ctl29_MyCommunityNotifications_hypCommNotifWeeklyConDigChange,text,
 
 # commNotif.weekly.modal.title,Override Email Address for Weekly Consolidated Digest,Remplacer l’adresse courriel pour le bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail .modal-title,text,
@@ -30,11 +30,58 @@ commNotif.overrideDesc,"To receive specific community notifications at an addres
 # commNotif.weekly.day.fr,Friday,vendredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="5"],text,
 # commNotif.weekly.day.sa,Saturday,samedi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="6"],text,
 
-# commNotif.discussion.title,Discussion Email:,Courriel de discussion :,#MainCopy_ctl29_MyCommunityNotifications_strDiscussionEmail,text,
-# commNotif.discussion.popoverTitle,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp,attr,data-original-title
-# commNotif.discussion.popoverBody,Offers discussion posts from a single community. Can be delivered to you by email in real-time or aggregated in a single daily email. Configure the frequency and delivery details of discussion notifications for each community below.,Diffuse les publications de discussion d’une seule communauté. Peut être envoyé en temps réel par c
-
 # popover
 commNotif.weekly.title,Weekly Consolidated Community Digest:,Bulletin communautaire hebdomadaire consolidé :,#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest,text,
 commNotif.weekly.popoverTitle,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-original-title
 commNotif.weekly.popoverBody,"Offers a comprehensive view of all activity from the preceding week for the communities you specify in a single email. This includes announcements, blogs, discussions, library entries, new members and volunteer opportunities.","Offre un aperçu complet, en un seul courriel, de toute l’activité de la semaine précédente pour les communautés que vous indiquez. Comprend les annonces, blogues, discussions, éléments de la bibliothèque, nouveaux membres et occasions de bénévolat.",#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-content
+
+# popover
+commNotif.discussion.title,Discussion Email:,Courriel de discussion :,#MainCopy_ctl29_MyCommunityNotifications_strDiscussionEmail,text,
+commNotif.discussion.popoverTitle,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp,attr,data-original-title
+commNotif.discussion.popoverBody,"Offers discussion posts from a single community. Can be delivered to you by email in real-time or aggregated in a single daily email. Configure the frequency and delivery details of discussion notifications for each community below.","Diffuse les publications de discussion d’une seule communauté. Peut être envoyées en temps réel ou regroupées en un seul courriel quotidien. Configurez ci-dessous la fréquence et les modalités d’envoi pour chaque communauté.",#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp,attr,data-content
+
+# popover
+topicNotif.popoverTitle,Delivery Options,Options d’envoi,#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_aTopicNotificationOptions_0,attr,data-original-title
+topicNotif.popoverBody,"<p><strong>No Email</strong> – You will not receive any email notifications from the topic community.</p><p><strong>Personalized Digest</strong> – A daily email summarizing all content relevant to your preferences, interests, and activity.</p><p><strong>Personalized Digest & Real-Time Discussion Emails</strong> – Personalized digest and real-time emails for discussion threads related to your Stated Interests.</p>","<p><strong>Aucun courriel</strong> – Vous ne recevrez aucun avis par courriel de la communauté du sujet.</p><p><strong>Résumé personnalisé</strong> – Un courriel quotidien résumant tout le contenu pertinent à vos préférences, intérêts et activités.</p><p><strong>Résumé personnalisé et courriels de discussion en temps réel</strong> – Résumé personnalisé et courriels en temps réel pour les fils de discussion liés à vos intérêts déclarés.</p>",#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_aTopicNotificationOptions_0,attr,data-content
+
+
+commNotif.discussion.empty,You have no override email addresses for discussion emails.,Vous n’avez aucune adresse de remplacement pour les courriels de discussion.,#MainCopy_ctl29_MyCommunityNotifications_lblDiscusionEmailEmpty,text,
+
+topicNotif.heading,Topic Notifications,Notifications sur les sujets,#MainCopy_ctl29_MyCommunityNotifications_pnlTopicNotifications > h2.text-muted,text,
+
+topicNotif.th.community,Community,Communauté,#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_thTopicNotificationsCommunity,text,
+topicNotif.th.delivery,Email Delivery,Envoi par courriel,#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_thTopicNotificationsEmail,text,
+
+# If you DO want to translate the community link text (often you'd leave official community names as-is)
+topicNotif.community.sample,Tech tidbits and help,Astuces techniques et aide,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_hypTopicNotificationCommunity_"],text,
+
+
+topicNotif.opt.none,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="0"],attr,data-i18n-text
+topicNotif.opt.digest,Personalized Digest,Résumé personnalisé,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="1"],attr,data-i18n-text
+topicNotif.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="2"],attr,data-i18n-text
+
+
+notif.th.community,Community,Communauté,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsCommunity,text,
+notif.th.discussion,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsDiscussionEmail,text,
+notif.th.weekly,Consolidated<br>Weekly Digest,Bulletin hebdomadaire<br>consolidé,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsWeeklyCd,html,
+
+
+contacts.sort.az,Community Name A-Z,Nom de la communauté A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="name-asc"],attr,data-i18n-text
+contacts.sort.za,Community Name Z-A,Nom de la communauté Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="name-desc"],attr,data-i18n-text
+
+topicNotif.community.sample,Tech tidbits and help,Astuces techniques et aide,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_hypTopicNotificationCommunity_"],text,
+
+switch.pref.on,Yes,Oui,.bootstrap-switch-container:has(#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference) .bootstrap-switch-handle-on,text,
+switch.pref.off,No,Non,.bootstrap-switch-container:has(#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference) .bootstrap-switch-handle-off,text,
+
+
+# switch.pref.on,Yes,Oui,#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference,attr,data-on-text
+# switch.pref.off,No,Non,#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference,attr,data-off-text
+
+
+notif.weekly.btn.title,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,a.weeklycd[data-cdvalue="weekly"],attr,title
+
+
+discEmail.opt.realtime,Real Time,Temps réel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(1),attr,data-i18n-text
+discEmail.opt.daily,Daily Digest,Résumé quotidien,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(2),attr,data-i18n-text
+discEmail.opt.none,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(3),attr,data-i18n-text
