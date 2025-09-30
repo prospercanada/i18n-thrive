@@ -140,15 +140,15 @@
     "key": "notif.th.weekly"
   },
   {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"name-asc\"]",
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlNotifSettingsSort option[value=\"az\"]",
     "type": "attr",
-    "key": "contacts.sort.az",
+    "key": "notif.sort.az",
     "attr": "data-i18n-text"
   },
   {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"name-desc\"]",
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlNotifSettingsSort option[value=\"za\"]",
     "type": "attr",
-    "key": "contacts.sort.za",
+    "key": "notif.sort.za",
     "attr": "data-i18n-text"
   },
   {
@@ -168,21 +168,26 @@
     "attr": "title"
   },
   {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(1)",
+    "selector": "label[for=\"MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference\"]",
+    "type": "text",
+    "key": "notif.autoSetNoEmail"
+  },
+  {
+    "selector": "[id^=\"MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_\"] option[value=\"ne\"]",
     "type": "attr",
-    "key": "discEmail.opt.realtime",
+    "key": "topicEmail.opt.none",
     "attr": "data-i18n-text"
   },
   {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(2)",
+    "selector": "[id^=\"MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_\"] option[value=\"td\"]",
     "type": "attr",
-    "key": "discEmail.opt.daily",
+    "key": "topicEmail.opt.digest",
     "attr": "data-i18n-text"
   },
   {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(3)",
+    "selector": "[id^=\"MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_\"] option[value=\"th\"]",
     "type": "attr",
-    "key": "discEmail.opt.none",
+    "key": "topicEmail.opt.digest_rt",
     "attr": "data-i18n-text"
   }
 ]

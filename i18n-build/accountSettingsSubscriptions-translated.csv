@@ -66,8 +66,12 @@ notif.th.discussion,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCo
 notif.th.weekly,Consolidated<br>Weekly Digest,Bulletin hebdomadaire<br>consolidé,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsWeeklyCd,html,
 
 
-contacts.sort.az,Community Name A-Z,Nom de la communauté A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="name-asc"],attr,data-i18n-text
-contacts.sort.za,Community Name Z-A,Nom de la communauté Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="name-desc"],attr,data-i18n-text
+# contacts.sort.az,Community Name A-Z,Nom de la communauté A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="name-asc"],attr,data-i18n-text
+# contacts.sort.za,Community Name Z-A,Nom de la communauté Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="name-desc"],attr,data-i18n-text
+
+notif.sort.az,Community Name A-Z,Nom de la communauté A-Z,#MainCopy_ctl29_MyCommunityNotifications_ddlNotifSettingsSort option[value="az"],attr,data-i18n-text
+notif.sort.za,Community Name Z-A,Nom de la communauté Z-A,#MainCopy_ctl29_MyCommunityNotifications_ddlNotifSettingsSort option[value="za"],attr,data-i18n-text
+
 
 topicNotif.community.sample,Tech tidbits and help,Astuces techniques et aide,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_hypTopicNotificationCommunity_"],text,
 
@@ -75,13 +79,14 @@ switch.pref.on,Yes,Oui,.bootstrap-switch-container:has(#MainCopy_ctl29_MyCommuni
 switch.pref.off,No,Non,.bootstrap-switch-container:has(#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference) .bootstrap-switch-handle-off,text,
 
 
-# switch.pref.on,Yes,Oui,#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference,attr,data-on-text
-# switch.pref.off,No,Non,#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference,attr,data-off-text
-
-
 notif.weekly.btn.title,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,a.weeklycd[data-cdvalue="weekly"],attr,title
+notif.autoSetNoEmail,Automatically set community discussion emails to "No Email" when a community is added to a consolidated digest.,Définir automatiquement les courriels de discussion de la communauté sur « Aucun courriel » lorsqu’une communauté est ajoutée à un bulletin consolidé.,label[for="MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference"],text,
 
 
-discEmail.opt.realtime,Real Time,Temps réel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(1),attr,data-i18n-text
-discEmail.opt.daily,Daily Digest,Résumé quotidien,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(2),attr,data-i18n-text
-discEmail.opt.none,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(3),attr,data-i18n-text
+# discEmail.opt.realtime,Real Time,Temps réel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(1),attr,data-i18n-text
+# discEmail.opt.daily,Daily Digest,Résumé quotidien,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(2),attr,data-i18n-text
+# discEmail.opt.none,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(3),attr,data-i18n-text
+
+topicEmail.opt.none,No Email,Aucun courriel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="ne"],attr,data-i18n-text
+topicEmail.opt.digest,Personalized Digest,Résumé personnalisé,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="td"],attr,data-i18n-text
+topicEmail.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="th"],attr,data-i18n-text

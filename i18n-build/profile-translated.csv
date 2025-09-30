@@ -37,7 +37,7 @@ profile.picture.change,Change Default Image,Changer l’image par défaut,#MainC
 profile.picture.restore,Restore Default Image,Restaurer l’image par défaut,#MainCopy_ctl02_ManageDropDown1_lnkDeletePicture,text,
 profile.contact.heading,Contact Details,Coordonnées,.profileContactOptions h2,text,
 profile.ribbons.heading,Ribbons,Rubans,.RibbonsBadges.ContentUserControl .widget-heading h2,text,
-profile.badges.heading,Badges,Badges FR,.RibbonsBadges.ContentUserControl .widget-heading h2,text,
+profile.badges.heading,Badges,Insignes,.RibbonsBadges.ContentUserControl .widget-heading h2,text,
 profile.dialog.deleteTitle,Delete this image?,Supprimer cette image ?,[aria-describedby="dialog-confirm-deleteprofileimage"] #ui-id-1,text,
 profile.dialog.deleteMessage,Are you sure you want to remove this image?,Voulez-vous vraiment supprimer cette image?,[aria-describedby="dialog-confirm-deleteprofileimage"] #dialog-confirm-deleteprofileimage-message,text,
 profile.dialog.deleteYes,"Yes, delete this image.","Oui, supprimer cette image.","[aria-describedby=""dialog-confirm-deleteprofileimage""] .ui-dialog-buttonset .btn.btn-primary",text,
