@@ -19,5 +19,22 @@
     "selector": "#MainCopy_ctl29_MyCommunityNotifications_pOverrideDesc",
     "type": "text",
     "key": "commNotif.overrideDesc"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest",
+    "type": "text",
+    "key": "commNotif.weekly.title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp",
+    "type": "attr",
+    "key": "commNotif.weekly.popoverTitle",
+    "attr": "data-original-title"
+  },
+  {
+    "selector": "#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp",
+    "type": "attr",
+    "key": "commNotif.weekly.popoverBody",
+    "attr": "data-content"
   }
 ]
