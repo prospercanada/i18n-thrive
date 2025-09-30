@@ -27,45 +27,115 @@
     return w.nextNode();
   }
 
+  // VERSION TO PREVENT
+
   function applyToElement(el, tmap) {
+    // ---- element text/html ----
     const key = el.getAttribute("data-i18n");
     if (key && tmap[key] != null) {
-      if (el.hasAttribute("data-i18n-html")) el.innerHTML = tmap[key];
-      else {
+      const val = String(tmap[key]);
+      if (el.hasAttribute("data-i18n-html")) {
+        // If you allow HTML, consider sanitizing (e.g., DOMPurify.sanitize(val))
+        el.innerHTML = val;
+      } else {
+        // Prefer textContent (preserves child elements if you only change first text node)
         const tn = firstTextNode(el);
-        if (tn) tn.nodeValue = tmap[key];
-        else el.textContent = tmap[key];
+        if (tn) tn.nodeValue = val;
+        else el.textContent = val;
       }
     }
-    const map = el.getAttribute("data-i18n-attr");
-    // NEW REMOVED THIS
-    // if (map) {
-    //   map.split(",").forEach((pair) => {
-    //     const [attr, k] = pair.split(":").map((s) => s.trim());
-    //     if (ATTRS.includes(attr) && tmap[k] != null)
-    //       // if (isAllowedAttr(attr) && tmap[k] != null)   /// NEW
 
-    //       el.setAttribute(attr, tmap[k]);
-    //   });
-    // }
+    // ---- attributes ----
+    const raw = el.getAttribute("data-i18n-attr");
+    if (!raw) return;
 
-    // NEW
-    if (map) {
-      map.split(",").forEach((pair) => {
-        const [attr, k] = pair.split(":").map((s) => s.trim());
-        if (!ATTRS.includes(attr) || tmap[k] == null) return;
+    // split, trim, drop empties, and de-dupe while preserving order
+    const pairs = [
+      ...new Set(
+        raw
+          .split(",")
+          .map((s) => s.trim())
+          .filter(Boolean)
+      ),
+    ];
 
-        if (attr === "data-i18n-text") {
-          const txt = tmap[k].replace(/&nbsp;/g, "\u00A0"); // decode &nbsp;
-          const tn = firstTextNode(el);
-          if (tn) tn.nodeValue = txt;
-          else el.insertBefore(document.createTextNode(txt), el.firstChild);
-        } else {
-          el.setAttribute(attr, tmap[k]);
-        }
-      });
+    for (const entry of pairs) {
+      // robust "attr:key" parsing (handles extra colons in key)
+      const i = entry.indexOf(":");
+      if (i < 0) continue;
+
+      const attr = entry.slice(0, i).trim();
+      const k = entry.slice(i + 1).trim();
+
+      if (!ATTRS.includes(attr)) continue;
+      if (tmap[k] == null) continue;
+
+      // get the translated value once
+      let next = String(tmap[k]);
+
+      if (attr === "data-i18n-text") {
+        // Write text node at the start, normalize &nbsp;
+        next = next.replace(/&nbsp;/g, "\u00A0");
+        const tn = firstTextNode(el);
+        if (tn) tn.nodeValue = next;
+        else el.insertBefore(document.createTextNode(next), el.firstChild);
+        continue;
+      }
+
+      // Normalize &nbsp; for common texty attributes
+      if (
+        attr === "title" ||
+        attr === "aria-label" ||
+        attr === "placeholder" ||
+        attr === "value"
+      ) {
+        next = next.replace(/&nbsp;/g, "\u00A0");
+      }
+
+      // Boolean attribute handling (optional)
+      // e.g., if you ever translate to "", you can remove instead of setting empty
+      // if (attr === "disabled" || attr === "required") {
+      //   if (next === "" || next === "false") el.removeAttribute(attr);
+      //   else el.setAttribute(attr, attr);
+      //   continue;
+      // }
+
+      // Skip write if identical (avoids MutationObservers looping)
+      if (el.getAttribute(attr) !== next) {
+        el.setAttribute(attr, next);
+      }
     }
   }
+
+  // LAST GOOD
+  // function applyToElement(el, tmap) {
+  //   const key = el.getAttribute("data-i18n");
+  //   if (key && tmap[key] != null) {
+  //     if (el.hasAttribute("data-i18n-html")) el.innerHTML = tmap[key];
+  //     else {
+  //       const tn = firstTextNode(el);
+  //       if (tn) tn.nodeValue = tmap[key];
+  //       else el.textContent = tmap[key];
+  //     }
+  //   }
+  //   const map = el.getAttribute("data-i18n-attr");
+
+  //   if (map) {
+  //     map.split(",").forEach((pair) => {
+  //       const [attr, k] = pair.split(":").map((s) => s.trim());
+  //       if (!ATTRS.includes(attr) || tmap[k] == null) return;
+
+  //       if (attr === "data-i18n-text") {
+  //         const txt = tmap[k].replace(/&nbsp;/g, "\u00A0"); // decode &nbsp;
+  //         const tn = firstTextNode(el);
+  //         if (tn) tn.nodeValue = txt;
+  //         else el.insertBefore(document.createTextNode(txt), el.firstChild);
+  //       } else {
+  //         el.setAttribute(attr, tmap[k]);
+  //       }
+  //     });
+  //   }
+  // }
 
   // <-- new ???????????????????????????
   // function applyLeadingTextAll(tmap) {

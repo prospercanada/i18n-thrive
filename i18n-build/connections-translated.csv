@@ -8,17 +8,17 @@ connections.peopleYouMayKnow,People You May Know,Personnes que vous pourriez con
 connections.noSuggestions,"Currently, there are no suggestions.","Aucune suggestion pour le moment.",.HLLandingControl.HL-contact-suggestions .alert.alert-default.text-muted,text,
 
 
-# contacts_sort_title,Display Options,Options d’affichage,#MainCopy_ctl29_FindContacts_SortOptions,attr,title
-# contacts_sort_opt_name_az,Name A-Z,Nom A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Name_AZ"],text,
-# contacts_sort_opt_name_za,Name Z-A,Nom Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Name_ZA"],text,
-# contacts_sort_opt_company_az,Company A-Z,Entreprise A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Company_AZ"],text,
-# contacts_sort_opt_company_za,Company Z-A,Entreprise Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Company_ZA"],text,
-# contacts_sort_opt_city_az,City A-Z,Ville A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="City_AZ"],text,
-# contacts_sort_opt_city_za,City Z-A,Ville Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="City_ZA"],text,
-# contacts_sort_opt_state_az,State A-Z,Province/État A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="State_AZ"],text,
-# contacts_sort_opt_state_za,State Z-A,Province/État Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="State_ZA"],text,
-# contacts_sort_opt_country_az,Country A-Z,Pays A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Country_AZ"],text,
-# contacts_sort_opt_country_za,Country Z-A,Pays Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Country_ZA"],text,
+contacts_sort_title,Display Options,Options d’affichage,#MainCopy_ctl29_FindContacts_SortOptions,attr,title
+contacts_sort_opt_name_az,Name A-Z,Nom A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Name_AZ"],text,
+contacts_sort_opt_name_za,Name Z-A,Nom Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Name_ZA"],text,
+contacts_sort_opt_company_az,Company A-Z,Entreprise A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Company_AZ"],text,
+contacts_sort_opt_company_za,Company Z-A,Entreprise Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Company_ZA"],text,
+contacts_sort_opt_city_az,City A-Z,Ville A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="City_AZ"],text,
+contacts_sort_opt_city_za,City Z-A,Ville Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="City_ZA"],text,
+contacts_sort_opt_state_az,State A-Z,Province/État A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="State_AZ"],text,
+contacts_sort_opt_state_za,State Z-A,Province/État Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="State_ZA"],text,
+contacts_sort_opt_country_az,Country A-Z,Pays A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Country_AZ"],text,
+contacts_sort_opt_country_za,Country Z-A,Pays Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Country_ZA"],text,
 
 
 contacts_results_title,Results Per Page,Résultats par page,#MainCopy_ctl29_FindContacts_ResultsPerPage,attr,title
