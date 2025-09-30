@@ -31,62 +31,6 @@
     "key": "connections.noSuggestions"
   },
   {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions",
-    "type": "attr",
-    "key": "contacts_sort_title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"Name_AZ\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_name_az"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"Name_ZA\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_name_za"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"Company_AZ\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_company_az"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"Company_ZA\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_company_za"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"City_AZ\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_city_az"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"City_ZA\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_city_za"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"State_AZ\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_state_az"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"State_ZA\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_state_za"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"Country_AZ\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_country_az"
-  },
-  {
-    "selector": "#MainCopy_ctl29_FindContacts_SortOptions option[value=\"Country_ZA\"]",
-    "type": "text",
-    "key": "contacts_sort_opt_country_za"
-  },
-  {
     "selector": "#MainCopy_ctl29_FindContacts_ResultsPerPage",
     "type": "attr",
     "key": "contacts_results_title",
