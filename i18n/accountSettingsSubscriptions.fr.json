@@ -2,19 +2,5 @@
   "commNotif.desc": "Les notifications de la communauté seront envoyées à votre adresse principale :",
   "commNotif.heading": "Notifications de la communauté",
   "commNotif.overrideDesc": "Pour recevoir certaines notifications de la communauté à une adresse autre que votre adresse principale, définissez des dérogations (overrides) au besoin.",
-  "commNotif.primaryAddressLabel": "(boîte d’adresse principale)",
-  "commNotif.weekly.change": "modifier",
-  "commNotif.weekly.deliverOn": "Envoyer le",
-  "commNotif.weekly.modal.close": "Fermer",
-  "commNotif.weekly.modal.desc": "Entrez l’adresse courriel à laquelle vous souhaitez recevoir les bulletins hebdomadaires consolidés. Supprimez l’adresse pour les recevoir à votre adresse principale.",
-  "commNotif.weekly.modal.label": "Adresse courriel de remplacement",
-  "commNotif.weekly.modal.noteLabel": "Remarque :",
-  "commNotif.weekly.modal.placeholder": "entrer l’adresse courriel",
-  "commNotif.weekly.modal.save": "Enregistrer",
-  "commNotif.weekly.modal.title": "Remplacer l’adresse courriel pour le bulletin hebdomadaire consolidé",
-  "commNotif.weekly.popoverBody": "Offre un aperçu complet, en un seul courriel, de toute l’activité de la semaine précédente pour les communautés que vous indiquez. Comprend les annonces, blogues, discussions, éléments de la bibliothèque, nouveaux membres et occasions de bénévolat.",
-  "commNotif.weekly.popoverTitle": "Bulletin hebdomadaire consolidé",
-  "commNotif.weekly.title": "Bulletin communautaire hebdomadaire consolidé :",
-  "commNotif.weekly.to": "à",
-  "commNotif.weekly.toPrimary": "votre adresse principale."
+  "commNotif.primaryAddressLabel": "(boîte d’adresse principale)"
 }
