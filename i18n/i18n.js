@@ -27,7 +27,8 @@
     return w.nextNode();
   }
 
-  // VERSION TO PREVENT
+  // VERSION TO PREVENT MULTIPLE ATTRIBUTES
+  //data-i18n-attr="title:contacts_sort_title,title:contacts_sort_title,title:contacts_sort_title">
 
   function applyToElement(el, tmap) {
     // ---- element text/html ----
