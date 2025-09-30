@@ -7,8 +7,8 @@
     "placeholder",
     "value",
     "data-i18n-text",
-  ];
-
+  ]; // NEW    "data-i18n-text",
+  // const isAllowedAttr = (a) => ATTRS.includes(a) || a.startsWith("data-"); /// NEW
   const state = {
     lang: "en",
     catalogs: {},
@@ -27,48 +27,22 @@
     return w.nextNode();
   }
 
-  function sameHTML(a, b) {
-    // cheap check first
-    if (a === b) return true;
-    // normalize common no-ops: &nbsp; vs \u00A0 and trim insignificant whitespace
-    return (
-      a.replace(/\u00A0/g, "&nbsp;").trim() ===
-      b.replace(/\u00A0/g, "&nbsp;").trim()
-    );
-  }
+  // VERSION TO PREVENT MULTIPLE ATTRIBUTES
+  //data-i18n-attr="title:contacts_sort_title,title:contacts_sort_title,title:contacts_sort_title">
 
-  function setFirstText(el, txt) {
-    const tn = firstTextNode(el);
-    if (tn) {
-      if (tn.nodeValue !== txt) tn.nodeValue = txt;
-    } else if (el.textContent !== txt) {
-      el.textContent = txt;
-    }
-  }
-
-  // VERISON TO HELP PREVENT LOOPS
   function applyToElement(el, tmap) {
     // ---- element text/html ----
     const key = el.getAttribute("data-i18n");
     if (key && tmap[key] != null) {
       const val = String(tmap[key]);
-      const wantsHtml = el.hasAttribute("data-i18n-html");
-
-      // optional: short-circuit if we already applied this exact value
-      const sig = key + "§" + val.length;
-      if (el.dataset.i18nApplied === sig) {
-        // already done; skip text/html part
-      } else if (wantsHtml) {
-        if (!sameHTML(el.innerHTML, val)) el.innerHTML = val;
-        el.dataset.i18nApplied = sig;
+      if (el.hasAttribute("data-i18n-html")) {
+        // If you allow HTML, consider sanitizing (e.g., DOMPurify.sanitize(val))
+        el.innerHTML = val;
       } else {
-        // normalize &nbsp; in text path too
-        const txt = val.replace(/&nbsp;/g, "\u00A0");
-        // only write if changed
+        // Prefer textContent (preserves child elements if you only change first text node)
         const tn = firstTextNode(el);
-        const current = tn ? tn.nodeValue : el.textContent;
-        if (current !== txt) setFirstText(el, txt);
-        el.dataset.i18nApplied = sig;
+        if (tn) tn.nodeValue = val;
+        else el.textContent = val;
       }
     }
 
@@ -76,6 +50,7 @@
     const raw = el.getAttribute("data-i18n-attr");
     if (!raw) return;
 
+    // split, trim, drop empties, and de-dupe while preserving order
     const pairs = [
       ...new Set(
         raw
@@ -86,6 +61,7 @@
     ];
 
     for (const entry of pairs) {
+      // robust "attr:key" parsing (handles extra colons in key)
       const i = entry.indexOf(":");
       if (i < 0) continue;
 
@@ -95,19 +71,19 @@
       if (!ATTRS.includes(attr)) continue;
       if (tmap[k] == null) continue;
 
+      // get the translated value once
       let next = String(tmap[k]);
 
       if (attr === "data-i18n-text") {
-        const txt = next.replace(/&nbsp;/g, "\u00A0");
+        // Write text node at the start, normalize &nbsp;
+        next = next.replace(/&nbsp;/g, "\u00A0");
         const tn = firstTextNode(el);
-        const current = tn ? tn.nodeValue : "";
-        if (current !== txt) {
-          if (tn) tn.nodeValue = txt;
-          else el.insertBefore(document.createTextNode(txt), el.firstChild);
-        }
+        if (tn) tn.nodeValue = next;
+        else el.insertBefore(document.createTextNode(next), el.firstChild);
         continue;
       }
 
+      // Normalize &nbsp; for common texty attributes
       if (
         attr === "title" ||
         attr === "aria-label" ||
@@ -117,92 +93,20 @@
         next = next.replace(/&nbsp;/g, "\u00A0");
       }
 
+      // Boolean attribute handling (optional)
+      // e.g., if you ever translate to "", you can remove instead of setting empty
+      // if (attr === "disabled" || attr === "required") {
+      //   if (next === "" || next === "false") el.removeAttribute(attr);
+      //   else el.setAttribute(attr, attr);
+      //   continue;
+      // }
+
+      // Skip write if identical (avoids MutationObservers looping)
       if (el.getAttribute(attr) !== next) {
         el.setAttribute(attr, next);
       }
     }
   }
-
-  // VERSION TO PREVENT MULTIPLE ATTRIBUTES
-  //data-i18n-attr="title:contacts_sort_title,title:contacts_sort_title,title:contacts_sort_title">
-
-  // function applyToElement(el, tmap) {
-  //   // ---- element text/html ----
-  //   const key = el.getAttribute("data-i18n");
-  //   if (key && tmap[key] != null) {
-  //     const val = String(tmap[key]);
-  //     if (el.hasAttribute("data-i18n-html")) {
-  //       // If you allow HTML, consider sanitizing (e.g., DOMPurify.sanitize(val))
-  //       el.innerHTML = val;
-  //     } else {
-  //       // Prefer textContent (preserves child elements if you only change first text node)
-  //       const tn = firstTextNode(el);
-  //       if (tn) tn.nodeValue = val;
-  //       else el.textContent = val;
-  //     }
-  //   }
-
-  //   // ---- attributes ----
-  //   const raw = el.getAttribute("data-i18n-attr");
-  //   if (!raw) return;
-
-  //   // split, trim, drop empties, and de-dupe while preserving order
-  //   const pairs = [
-  //     ...new Set(
-  //       raw
-  //         .split(",")
-  //         .map((s) => s.trim())
-  //         .filter(Boolean)
-  //     ),
-  //   ];
-
-  //   for (const entry of pairs) {
-  //     // robust "attr:key" parsing (handles extra colons in key)
-  //     const i = entry.indexOf(":");
-  //     if (i < 0) continue;
-
-  //     const attr = entry.slice(0, i).trim();
-  //     const k = entry.slice(i + 1).trim();
-
-  //     if (!ATTRS.includes(attr)) continue;
-  //     if (tmap[k] == null) continue;
-
-  //     // get the translated value once
-  //     let next = String(tmap[k]);
-
-  //     if (attr === "data-i18n-text") {
-  //       // Write text node at the start, normalize &nbsp;
-  //       next = next.replace(/&nbsp;/g, "\u00A0");
-  //       const tn = firstTextNode(el);
-  //       if (tn) tn.nodeValue = next;
-  //       else el.insertBefore(document.createTextNode(next), el.firstChild);
-  //       continue;
-  //     }
-
-  //     // Normalize &nbsp; for common texty attributes
-  //     if (
-  //       attr === "title" ||
-  //       attr === "aria-label" ||
-  //       attr === "placeholder" ||
-  //       attr === "value"
-  //     ) {
-  //       next = next.replace(/&nbsp;/g, "\u00A0");
-  //     }
-
-  //     // Boolean attribute handling (optional)
-  //     // e.g., if you ever translate to "", you can remove instead of setting empty
-  //     // if (attr === "disabled" || attr === "required") {
-  //     //   if (next === "" || next === "false") el.removeAttribute(attr);
-  //     //   else el.setAttribute(attr, attr);
-  //     //   continue;
-  //     // }
-
-  //     // Skip write if identical (avoids MutationObservers looping)
-  //     if (el.getAttribute(attr) !== next) {
-  //       el.setAttribute(attr, next);
-  //     }
-  //   }
-  // }
 
   // LAST GOOD
   // function applyToElement(el, tmap) {
