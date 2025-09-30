@@ -56,9 +56,7 @@ topicNotif.th.delivery,Email Delivery,Envoi par courriel,#MainCopy_ctl29_MyCommu
 topicNotif.community.sample,Tech tidbits and help,Astuces techniques et aide,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_hypTopicNotificationCommunity_"],text,
 
 
-topicNotif.opt.none,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="0"],attr,data-i18n-text
-topicNotif.opt.digest,Personalized Digest,Résumé personnalisé,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="1"],attr,data-i18n-text
-topicNotif.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="2"],attr,data-i18n-text
+
 
 
 notif.th.community,Community,Communauté,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsCommunity,text,
@@ -86,6 +84,14 @@ notif.autoSetNoEmail,Automatically set community discussion emails to "No Email"
 # topicEmail.opt.digest,Personalized Digest,Résumé personnalisé,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="td"],attr,data-i18n-text
 # topicEmail.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="th"],attr,data-i18n-text
 
-discEmail.opt.rt,Real Time,Temps réel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="0"] .text,text,
-discEmail.opt.dd,Daily Digest,Résumé quotidien,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="1"] .text,text,
-discEmail.opt.ne,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="2"] .text,text,
+# dropdown - seems values break
+# discEmail.opt.rt,Real Time,Temps réel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="0"] .text,text,
+# discEmail.opt.dd,Daily Digest,Résumé quotidien,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="1"] .text,text,
+# discEmail.opt.ne,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="2"] .text,text,
+
+# dropdown
+# topicNotif.opt.none,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="0"],attr,data-i18n-text
+# topicNotif.opt.digest,Personalized Digest,Résumé personnalisé,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="1"],attr,data-i18n-text
+# topicNotif.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="2"],attr,data-i18n-text
+
+notif.settings.heading,Notification Settings,Paramètres de notification,#NotificationSettings,text,

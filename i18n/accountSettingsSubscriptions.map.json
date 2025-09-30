@@ -107,24 +107,6 @@
     "key": "topicNotif.community.sample"
   },
   {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value=\"0\"]",
-    "type": "attr",
-    "key": "topicNotif.opt.none",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value=\"1\"]",
-    "type": "attr",
-    "key": "topicNotif.opt.digest",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value=\"2\"]",
-    "type": "attr",
-    "key": "topicNotif.opt.digest_rt",
-    "attr": "data-i18n-text"
-  },
-  {
     "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsCommunity",
     "type": "text",
     "key": "notif.th.community"
@@ -173,18 +155,8 @@
     "key": "notif.autoSetNoEmail"
   },
   {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index=\"0\"] .text",
+    "selector": "#NotificationSettings",
     "type": "text",
-    "key": "discEmail.opt.rt"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index=\"1\"] .text",
-    "type": "text",
-    "key": "discEmail.opt.dd"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index=\"2\"] .text",
-    "type": "text",
-    "key": "discEmail.opt.ne"
+    "key": "notif.settings.heading"
   }
 ]
