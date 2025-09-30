@@ -82,11 +82,10 @@ switch.pref.off,No,Non,.bootstrap-switch-container:has(#MainCopy_ctl29_MyCommuni
 notif.weekly.btn.title,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,a.weeklycd[data-cdvalue="weekly"],attr,title
 notif.autoSetNoEmail,Automatically set community discussion emails to "No Email" when a community is added to a consolidated digest.,Définir automatiquement les courriels de discussion de la communauté sur « Aucun courriel » lorsqu’une communauté est ajoutée à un bulletin consolidé.,label[for="MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference"],text,
 
+# topicEmail.opt.none,No Email,Aucun courriel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="ne"],attr,data-i18n-text
+# topicEmail.opt.digest,Personalized Digest,Résumé personnalisé,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="td"],attr,data-i18n-text
+# topicEmail.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="th"],attr,data-i18n-text
 
-# discEmail.opt.realtime,Real Time,Temps réel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(1),attr,data-i18n-text
-# discEmail.opt.daily,Daily Digest,Résumé quotidien,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(2),attr,data-i18n-text
-# discEmail.opt.none,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings select.selectpicker option:nth-child(3),attr,data-i18n-text
-
-topicEmail.opt.none,No Email,Aucun courriel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="ne"],attr,data-i18n-text
-topicEmail.opt.digest,Personalized Digest,Résumé personnalisé,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="td"],attr,data-i18n-text
-topicEmail.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="th"],attr,data-i18n-text
+discEmail.opt.rt,Real Time,Temps réel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="0"] .text,text,
+discEmail.opt.dd,Daily Digest,Résumé quotidien,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="1"] .text,text,
+discEmail.opt.ne,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="2"] .text,text,
