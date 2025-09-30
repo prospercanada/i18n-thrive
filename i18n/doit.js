@@ -147,13 +147,6 @@ function getParamCI(url, name) {
   return null;
 }
 
-// helper to add one or more ns
-const add = (ns) => {
-  if (!ns) return;
-  if (Array.isArray(ns)) ns.forEach((n) => n && out.add(n));
-  else out.add(ns);
-};
-
 function pickNamespaces(currentUrlOrPath) {
   // normalize to pathname and params
   const url =
@@ -174,6 +167,13 @@ function pickNamespaces(currentUrlOrPath) {
   // base (no "profile" here)
   const base = ["nav", "footer"];
   const out = new Set(base);
+
+  // helper to add one or more ns
+  const add = (ns) => {
+    if (!ns) return;
+    if (Array.isArray(ns)) ns.forEach((n) => n && out.add(n));
+    else out.add(ns);
+  };
 
   // Add "profile" only for /profile...
   if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
