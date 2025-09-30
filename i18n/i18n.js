@@ -7,6 +7,9 @@
     "placeholder",
     "value",
     "data-i18n-text",
+    // popover attrs (BS3/4)
+    "data-content",
+    "data-original-title",
   ];
 
   const state = {
