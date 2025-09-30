@@ -1,12 +1,7 @@
 {
-  "communityDigest.perPage.10": "10 per page",
-  "communityDigest.perPage.100": "100 per page",
-  "communityDigest.perPage.25": "25 per page",
-  "communityDigest.perPage.50": "50 per page",
-  "communityDigest.perPage.current": "10 per page",
-  "communityDigest.perPage.current.title": "10 per page",
   "communityDigest.perPage.menu.10": "10 per page",
   "communityDigest.perPage.menu.25": "25 per page",
+  "communityDigest.postNewMessage.text": "Post New Message",
   "communityDigest.sort.current": "Most Recently Updated",
   "communityDigest.sort.current.title": "Most Recently Updated",
   "communityDigest.sort.leastReplies": "Least Replies",
@@ -20,5 +15,8 @@
   "communityDigest.sort.mostReplies": "Most Replies",
   "communityDigest.sort.mru": "Most Recently Updated",
   "communityDigest.sort.subjectAZ": "Thread Subject A-Z",
-  "communityDigest.sort.subjectZA": "Thread Subject Z-A"
+  "communityDigest.sort.subjectZA": "Thread Subject Z-A",
+  "discussions.th.lastPost": "Last Post",
+  "discussions.th.replies": "Replies",
+  "discussions.th.subject": "Thread Subject"
 }

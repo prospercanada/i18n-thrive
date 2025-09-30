@@ -34,3 +34,21 @@ comm.ann.add.label.urlText,URL Text,Texte du lien,#MainCopy_ctl12_URLName,attr,d
 comm.ann.add.label.newWindow,Open in a New Window,Ouvrir dans une nouvelle fenêtre,label[for="MainCopy_ctl12_CheckURL"],attr,data-i18n-text
 comm.ann.add.save,Save,Enregistrer,#MainCopy_ctl12_Save,attr,value
 comm.ann.add.cancel,Cancel,Annuler,#MainCopy_ctl12_Cancel,attr,value
+
+
+comm.status.header,Status,Statut,"#MainCopy_ctl02_CommunityManagementGear1_StatusUL .dropdown-header",text,
+
+comm.member.current,You are currently a member.,Vous êtes actuellement membre.,"#MainCopy_ctl02_CommunityManagementGear1_YouAreCurrenltyAMemberText",text,
+
+comm.invite.button,Add or Invite Others,Ajouter ou inviter d’autres personnes,"#MainCopy_ctl02_CommunityManagementGear1_btnInviteOthersToJoin",text,
+comm.invite.button.value,Invite Others to Join,Inviter d’autres personnes à se joindre,"#MainCopy_ctl02_CommunityManagementGear1_btnInviteOthersToJoin",attr,value
+
+comm.email.header,Email Notifications,Notifications par courriel,"#MainCopy_ctl02_CommunityManagementGear1_EmailNotificationsHeader",text,
+comm.email.change,Change,Modifier,"#MainCopy_ctl02_CommunityManagementGear1_ChangeLink",text,
+
+comm.email.saving,Saving...,Enregistrement...,"#MainCopy_ctl02_CommunityManagementGear1_EmailNotificationOptBtnLoading",text,
+comm.email.selected,No Email,Aucun courriel,"#MainCopy_ctl02_CommunityManagementGear1_SelectedNotificationOption",text,
+
+comm.email.option.realtime,Real Time,Temps réel,"#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=""Rt""]",text,
+comm.email.option.daily,Daily Digest,Résumé quotidien,"#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=""Dd""]",text,
+comm.email.option.none,No Email,Aucun courriel,"#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=""Ne""]",text,

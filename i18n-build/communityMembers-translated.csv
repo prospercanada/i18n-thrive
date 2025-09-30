@@ -35,3 +35,45 @@ members.sort.countryZA,Country Z-A,Pays Z–A,#MainCopy_ctl12_SortOptions option
 # --- Results per page ---
 members.perPage.title,Results Per Page,Résultats par page,#MainCopy_ctl12_ResultsPerPage,attr,title
 members.perPage.showAll,Show All,Afficher tout,#MainCopy_ctl12_ResultsPerPage option[value="20"],attr,data-i18n-text
+
+
+members.sendMessage.value,Send Message,Envoyer un message,"input[id^=""MainCopy_ctl12_Contacts_SendMessageButton""]",attr,value
+members.addContact.value,Add as Contact,Ajouter comme contact,"input[id^=""MainCopy_ctl12_Contacts_FriendButton""]",attr,value
+
+
+
+
+members.msg.subject.label,Subject,Objet,"#message-subject-label",text,
+members.msg.body.label,Message,Message,"#message-body-label",text,
+
+members.msg.send.text,Send,Envoyer,"#Send",text,
+
+members.msg.cancel.text,Cancel,Annuler,"#Cancel",text,
+
+members.msg.error.text,Cannot send message. Data required.,Impossible d’envoyer le message. Données requises.,"#error-msg",text,
+
+/* Used by the helper below to localize the dynamic header prefix */
+# directory.msg.header.prefix,Message to ,Message à ,"#modal-send-message .modal-header",text,
+
+
+
+export.top.value,Export,Exporter,"#MainCopy_ctl12_ExportButtonTop",attr,value
+export.top.title,Export,Exporter,"#MainCopy_ctl12_ExportButtonTop",attr,title
+export.top.aria,Export these results,Exporter ces résultats,"#MainCopy_ctl12_ExportButtonTop",attr,aria-label
+
+export.dialog.title,Export Options,Options d’exportation,"[aria-describedby=""ExportOptions""] .ui-dialog-title",text,
+export.dialog.close.text,close,fermer,"[aria-describedby=""ExportOptions""] .ui-dialog-titlebar-close .ui-button-text",text,
+export.dialog.close.aria,Close export options,Fermer les options d’exportation,"[aria-describedby=""ExportOptions""] .ui-dialog-titlebar-close",attr,aria-label
+
+export.dialog.choose,Choose a file format,Choisir un format de fichier,"#ExportOptions > .row.form-group:first-child .col-md-12",text,
+
+export.format.excel.label,Excel file,Fichier Excel,"label[for=""ExportExcelRadio""]",text,
+export.format.excel.title,Excel Format,Format Excel,"#MainCopy_ctl12_ExportExcelRadio",attr,title
+
+export.format.csv.label,CSV file,Fichier CSV,"label[for=""ExportCSVRadio""]",text,
+export.format.csv.title,CSV Format,Format CSV,"#MainCopy_ctl12_ExportCSVRadio",attr,title
+
+export.dialog.download.value,Download,Télécharger,"#MainCopy_ctl12_ExportDetails",attr,value
+export.dialog.download.title,Download,Télécharger,"#MainCopy_ctl12_ExportDetails",attr,title
+export.dialog.download.aria,Download exported file,Télécharger le fichier exporté,"#MainCopy_ctl12_ExportDetails",attr,aria-label
+

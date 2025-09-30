@@ -142,5 +142,121 @@
     "type": "attr",
     "key": "members.perPage.showAll",
     "attr": "data-i18n-text"
+  },
+  {
+    "selector": "input[id^=\"MainCopy_ctl12_Contacts_SendMessageButton\"]",
+    "type": "attr",
+    "key": "members.sendMessage.value",
+    "attr": "value"
+  },
+  {
+    "selector": "input[id^=\"MainCopy_ctl12_Contacts_FriendButton\"]",
+    "type": "attr",
+    "key": "members.addContact.value",
+    "attr": "value"
+  },
+  {
+    "selector": "#message-subject-label",
+    "type": "text",
+    "key": "members.msg.subject.label"
+  },
+  {
+    "selector": "#message-body-label",
+    "type": "text",
+    "key": "members.msg.body.label"
+  },
+  {
+    "selector": "#Send",
+    "type": "text",
+    "key": "members.msg.send.text"
+  },
+  {
+    "selector": "#Cancel",
+    "type": "text",
+    "key": "members.msg.cancel.text"
+  },
+  {
+    "selector": "#error-msg",
+    "type": "text",
+    "key": "members.msg.error.text"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ExportButtonTop",
+    "type": "attr",
+    "key": "export.top.value",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ExportButtonTop",
+    "type": "attr",
+    "key": "export.top.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ExportButtonTop",
+    "type": "attr",
+    "key": "export.top.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "[aria-describedby=\"ExportOptions\"] .ui-dialog-title",
+    "type": "text",
+    "key": "export.dialog.title"
+  },
+  {
+    "selector": "[aria-describedby=\"ExportOptions\"] .ui-dialog-titlebar-close .ui-button-text",
+    "type": "text",
+    "key": "export.dialog.close.text"
+  },
+  {
+    "selector": "[aria-describedby=\"ExportOptions\"] .ui-dialog-titlebar-close",
+    "type": "attr",
+    "key": "export.dialog.close.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#ExportOptions > .row.form-group:first-child .col-md-12",
+    "type": "text",
+    "key": "export.dialog.choose"
+  },
+  {
+    "selector": "label[for=\"ExportExcelRadio\"]",
+    "type": "text",
+    "key": "export.format.excel.label"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ExportExcelRadio",
+    "type": "attr",
+    "key": "export.format.excel.title",
+    "attr": "title"
+  },
+  {
+    "selector": "label[for=\"ExportCSVRadio\"]",
+    "type": "text",
+    "key": "export.format.csv.label"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ExportCSVRadio",
+    "type": "attr",
+    "key": "export.format.csv.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ExportDetails",
+    "type": "attr",
+    "key": "export.dialog.download.value",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ExportDetails",
+    "type": "attr",
+    "key": "export.dialog.download.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl12_ExportDetails",
+    "type": "attr",
+    "key": "export.dialog.download.aria",
+    "attr": "aria-label"
   }
 ]

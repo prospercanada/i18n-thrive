@@ -166,5 +166,61 @@
     "type": "attr",
     "key": "comm.ann.add.cancel",
     "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl02_CommunityManagementGear1_StatusUL .dropdown-header",
+    "type": "text",
+    "key": "comm.status.header"
+  },
+  {
+    "selector": "#MainCopy_ctl02_CommunityManagementGear1_YouAreCurrenltyAMemberText",
+    "type": "text",
+    "key": "comm.member.current"
+  },
+  {
+    "selector": "#MainCopy_ctl02_CommunityManagementGear1_btnInviteOthersToJoin",
+    "type": "text",
+    "key": "comm.invite.button"
+  },
+  {
+    "selector": "#MainCopy_ctl02_CommunityManagementGear1_btnInviteOthersToJoin",
+    "type": "attr",
+    "key": "comm.invite.button.value",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl02_CommunityManagementGear1_EmailNotificationsHeader",
+    "type": "text",
+    "key": "comm.email.header"
+  },
+  {
+    "selector": "#MainCopy_ctl02_CommunityManagementGear1_ChangeLink",
+    "type": "text",
+    "key": "comm.email.change"
+  },
+  {
+    "selector": "#MainCopy_ctl02_CommunityManagementGear1_EmailNotificationOptBtnLoading",
+    "type": "text",
+    "key": "comm.email.saving"
+  },
+  {
+    "selector": "#MainCopy_ctl02_CommunityManagementGear1_SelectedNotificationOption",
+    "type": "text",
+    "key": "comm.email.selected"
+  },
+  {
+    "selector": "#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=\"Rt\"]",
+    "type": "text",
+    "key": "comm.email.option.realtime"
+  },
+  {
+    "selector": "#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=\"Dd\"]",
+    "type": "text",
+    "key": "comm.email.option.daily"
+  },
+  {
+    "selector": "#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=\"Ne\"]",
+    "type": "text",
+    "key": "comm.email.option.none"
   }
 ]

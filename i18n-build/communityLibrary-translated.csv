@@ -35,13 +35,15 @@ library.sort.option.titleZA,Title Z-A,Titre Z-A,"select[qa-id=""sort-library-ent
 library.sort.option.mostDownloaded,Most Downloaded,Le plus téléchargé,"select[qa-id=""sort-library-entries""] option[value=""Most Downloaded""]",text,
 library.sort.option.mostViewed,Most Viewed,Le plus consulté,"select[qa-id=""sort-library-entries""] option[value=""Most Viewed""]",text,
 
-library.entry.views.label,Views •,Vues •,"#library-explorer-entries .flex-shrink-0 > div > span:nth-child(1) .entry-count-text",text,
-library.entry.downloads.label,Downloads •,Téléchargements •,"#library-explorer-entries .flex-shrink-0 > div > span:nth-child(2) .entry-count-text",text,
+library.entry.views.label,Views ,Vues ,"#library-explorer-entries .flex-shrink-0 > div > span:nth-child(1) .entry-count-text",text,
+library.entry.downloads.label,Downloads ,Téléchargements ,"#library-explorer-entries .flex-shrink-0 > div > span:nth-child(2) .entry-count-text",text,
 
 # library.entry.meta.postedBy,Posted By ,Publié par ,".library-entry-meta small:first-child",textnode,
 
 library.folders.close.title,Close folders tree,Fermer l’arborescence des dossiers,"button[qa-id=""close-folder-view""]",attr,title
 library.folders.close.aria,Close folders tree,Fermer l’arborescence des dossiers,"button[qa-id=""close-folder-view""]",attr,aria-label
+
+library.entry.create.text,Create Entry,Créer une entrée,".widget-heading .create-new-entry",text,
 
 
 

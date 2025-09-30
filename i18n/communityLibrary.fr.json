@@ -1,5 +1,6 @@
 {
-  "library.entry.downloads.label": "Téléchargements •",
+  "library.entry.create.text": "Créer une entrée",
+  "library.entry.downloads.label": "Téléchargements",
   "library.entry.more.copyLink": "Copier le permalien",
   "library.entry.more.delete": "Supprimer",
   "library.entry.more.edit": "Modifier",
@@ -10,7 +11,7 @@
   "library.entry.more.trigger": "Actions supplémentaires",
   "library.entry.more.trigger.title": "Actions supplémentaires",
   "library.entry.more.viewEntry": "Voir la page de l’entrée",
-  "library.entry.views.label": "Vues •",
+  "library.entry.views.label": "Vues",
   "library.filter.fileType.btn.aria": "Ouvrir les options de filtre par type de fichier",
   "library.filter.fileType.btn.label": "Type de fichier",
   "library.filter.legend": "Filtrer par:",

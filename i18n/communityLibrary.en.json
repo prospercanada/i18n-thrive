@@ -1,5 +1,6 @@
 {
-  "library.entry.downloads.label": "Downloads •",
+  "library.entry.create.text": "Create Entry",
+  "library.entry.downloads.label": "Downloads",
   "library.entry.more.copyLink": "Copy Permalink",
   "library.entry.more.delete": "Delete",
   "library.entry.more.edit": "Edit",
@@ -10,7 +11,7 @@
   "library.entry.more.trigger": "Additional Actions",
   "library.entry.more.trigger.title": "Additional Actions",
   "library.entry.more.viewEntry": "View Entry Page",
-  "library.entry.views.label": "Views •",
+  "library.entry.views.label": "Views",
   "library.filter.fileType.btn.aria": "Open File Type filter options",
   "library.filter.fileType.btn.label": "File Type",
   "library.filter.legend": "Filter By:",

@@ -84,45 +84,29 @@
     "attr": "data-i18n-text"
   },
   {
-    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value=\"10\"]",
-    "type": "attr",
-    "key": "communityDigest.perPage.10",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value=\"25\"]",
-    "type": "attr",
-    "key": "communityDigest.perPage.25",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value=\"50\"]",
-    "type": "attr",
-    "key": "communityDigest.perPage.50",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value=\"100\"]",
-    "type": "attr",
-    "key": "communityDigest.perPage.100",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "button[data-id$=\"contributionResultsPerPage\"] .filter-option",
-    "type": "attr",
-    "key": "communityDigest.perPage.current",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "button[data-id$=\"contributionResultsPerPage\"]",
-    "type": "attr",
-    "key": "communityDigest.perPage.current.title",
-    "attr": "title"
-  },
-  {
     "selector": "button[data-id$=\"contributionResultsPerPage\"] + .dropdown-menu .inner li[data-original-index=\"0\"] .text",
     "type": "attr",
     "key": "communityDigest.perPage.menu.10",
     "attr": "data-i18n-text"
+  },
+  {
+    "selector": "a.btn.btn-success[role=\"button\"][href*=\"/communities/all-discussions/subscribe\"]",
+    "type": "text",
+    "key": "communityDigest.postNewMessage.text"
+  },
+  {
+    "selector": "[id^=\"ContributedContentList_\"][id$=\"-itemsContainer\"] table thead th:nth-child(1) span",
+    "type": "text",
+    "key": "discussions.th.subject"
+  },
+  {
+    "selector": "[id^=\"ContributedContentList_\"][id$=\"-itemsContainer\"] table thead th.text-center span",
+    "type": "text",
+    "key": "discussions.th.replies"
+  },
+  {
+    "selector": "[id^=\"ContributedContentList_\"][id$=\"-itemsContainer\"] table thead th[width=\"25%\"] span",
+    "type": "text",
+    "key": "discussions.th.lastPost"
   }
 ]

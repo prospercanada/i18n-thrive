@@ -20,15 +20,25 @@ communityDigest.sort.menu.subjectAZ,Thread Subject A-Z,Sujet de fil A–Z,button
 communityDigest.sort.menu.subjectZA,Thread Subject Z-A,Sujet de fil Z–A,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="5"] .text,attr,data-i18n-text
 
 # --- Results per page ---
-communityDigest.perPage.10,10 per page,10 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="10"],attr,data-i18n-text
-communityDigest.perPage.25,25 per page,25 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="25"],attr,data-i18n-text
-communityDigest.perPage.50,50 per page,50 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="50"],attr,data-i18n-text
-communityDigest.perPage.100,100 per page,100 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="100"],attr,data-i18n-text
+# communityDigest.perPage.10,10 per page,10 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="10"],attr,data-i18n-text
+# communityDigest.perPage.25,25 per page,25 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="25"],attr,data-i18n-text
+# communityDigest.perPage.50,50 per page,50 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="50"],attr,data-i18n-text
+# communityDigest.perPage.100,100 per page,100 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="100"],attr,data-i18n-text
 
 # Visible Bootstrap-Select button (current page size) — text + title
-communityDigest.perPage.current,10 per page,10 par page,button[data-id$="contributionResultsPerPage"] .filter-option,attr,data-i18n-text
-communityDigest.perPage.current.title,10 per page,10 par page,button[data-id$="contributionResultsPerPage"],attr,title
+# communityDigest.perPage.current,10 per page,10 par page,button[data-id$="contributionResultsPerPage"] .filter-option,attr,data-i18n-text
+# communityDigest.perPage.current.title,10 per page,10 par page,button[data-id$="contributionResultsPerPage"],attr,title
 
 # Dropdown menu (page size)
 communityDigest.perPage.menu.10,10 per page,10 par page,button[data-id$="contributionResultsPerPage"] + .dropdown-menu .inner li[data-original-index="0"] .text,attr,data-i18n-text
 communityDigest.perPage.menu.25,25 per page,25 par page,button[data-id$="contributionResultsPerPage"] + .dropdown-menu .inner li[data-original-index="1"] .
+
+communityDigest.postNewMessage.text,Post New Message,Publier un nouveau message,"a.btn.btn-success[role=""button""][href*=""/communities/all-discussions/subscribe""]",text,
+
+
+discussions.th.subject,Thread Subject,Sujet de la discussion,"[id^=""ContributedContentList_""][id$=""-itemsContainer""] table thead th:nth-child(1) span",text,
+discussions.th.replies,Replies,Réponses,"[id^=""ContributedContentList_""][id$=""-itemsContainer""] table thead th.text-center span",text,
+discussions.th.lastPost,Last Post,Dernier message,"[id^=""ContributedContentList_""][id$=""-itemsContainer""] table thead th[width=""25%""] span",text,
+
+
+

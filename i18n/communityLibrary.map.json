@@ -169,5 +169,10 @@
     "type": "attr",
     "key": "library.folders.close.aria",
     "attr": "aria-label"
+  },
+  {
+    "selector": ".widget-heading .create-new-entry",
+    "type": "text",
+    "key": "library.entry.create.text"
   }
 ]
