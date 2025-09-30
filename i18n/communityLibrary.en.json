@@ -1,4 +1,5 @@
 {
+  "library.entry.downloads.label": "Downloads •",
   "library.entry.more.copyLink": "Copy Permalink",
   "library.entry.more.delete": "Delete",
   "library.entry.more.edit": "Edit",
@@ -8,5 +9,25 @@
   "library.entry.more.reindex": "Reindex",
   "library.entry.more.trigger": "Additional Actions",
   "library.entry.more.trigger.title": "Additional Actions",
-  "library.entry.more.viewEntry": "View Entry Page"
+  "library.entry.more.viewEntry": "View Entry Page",
+  "library.entry.views.label": "Views •",
+  "library.filter.fileType.btn.aria": "Open File Type filter options",
+  "library.filter.fileType.btn.label": "File Type",
+  "library.filter.legend": "Filter By:",
+  "library.folders.close.aria": "Close folders tree",
+  "library.folders.close.title": "Close folders tree",
+  "library.noFolderSelected": "No folder selected:",
+  "library.sort.legend": "Sort By:",
+  "library.sort.option.dateDesc": "Date Created - Descending",
+  "library.sort.option.mostDownloaded": "Most Downloaded",
+  "library.sort.option.mostViewed": "Most Viewed",
+  "library.sort.option.titleAZ": "Title A-Z",
+  "library.sort.option.titleZA": "Title Z-A",
+  "library.view.admin.sr": "Change to admin view",
+  "library.view.admin.title": "Change to admin view",
+  "library.view.card.sr": "Change to card view",
+  "library.view.card.title": "Change to card view",
+  "library.view.legend": "View:",
+  "library.view.row.sr": "Change to row view",
+  "library.view.row.title": "Change to row view"
 }

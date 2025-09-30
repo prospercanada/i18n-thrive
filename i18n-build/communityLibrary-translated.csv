@@ -12,3 +12,37 @@ library.entry.more.follow,Follow,Suivre,.dropdown-menu[role="menu"] button.dropd
 library.entry.more.reindex,Reindex,Réindexer,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(5),attr,data-i18n-text
 
 library.entry.more.delete,Delete,Supprimer,.dropdown-menu[role="menu"] .dropdown-divider + button.dropdown-item,attr,data-i18n-text
+
+
+library.noFolderSelected,No folder selected:,Aucun dossier sélectionné :,".library-grid--control-row.library-topRow .font-weight-bold",text,
+library.view.legend,View:,Affichage :,"#library-view-toggle legend",text,
+library.view.row.title,Change to row view,Passer à la vue en lignes,"label[for=""library-layout-view-radio-row""]",attr,title
+library.view.row.sr,Change to row view,Passer à la vue en lignes,"label[for=""library-layout-view-radio-row""] .sr-only",text,
+library.view.card.title,Change to card view,Passer à la vue en cartes,"label[for=""library-layout-view-radio-card""]",attr,title
+library.view.card.sr,Change to card view,Passer à la vue en cartes,"label[for=""library-layout-view-radio-card""] .sr-only",text,
+library.view.admin.title,Change to admin view,Passer à la vue administrateur,"label[for=""library-layout-view-radio-admin""]",attr,title
+library.view.admin.sr,Change to admin view,Passer à la vue administrateur,"label[for=""library-layout-view-radio-admin""] .sr-only",text,
+
+
+library.filter.legend,Filter By:,Filtrer par:,".library-filterRow .ms-1",text,
+library.filter.fileType.btn.label,File Type,Type de fichier,"button[qa-id=""file-type-filter-menu-open""] .font-weight-normal",text,
+library.filter.fileType.btn.aria,Open File Type filter options,Ouvrir les options de filtre par type de fichier,"button[qa-id=""file-type-filter-menu-open""]",attr,aria-label
+library.sort.legend,Sort By:,Trier par:,"label[for^=""dropdown-sort_""]",text,
+
+library.sort.option.dateDesc,Date Created - Descending,Date de création – décroissante,"select[qa-id=""sort-library-entries""] option[value=""Date Created - Descending""]",text,
+library.sort.option.titleAZ,Title A-Z,Titre A-Z,"select[qa-id=""sort-library-entries""] option[value=""Title A-Z""]",text,
+library.sort.option.titleZA,Title Z-A,Titre Z-A,"select[qa-id=""sort-library-entries""] option[value=""Title Z-A""]",text,
+library.sort.option.mostDownloaded,Most Downloaded,Le plus téléchargé,"select[qa-id=""sort-library-entries""] option[value=""Most Downloaded""]",text,
+library.sort.option.mostViewed,Most Viewed,Le plus consulté,"select[qa-id=""sort-library-entries""] option[value=""Most Viewed""]",text,
+
+library.entry.views.label,Views •,Vues •,"#library-explorer-entries .flex-shrink-0 > div > span:nth-child(1) .entry-count-text",text,
+library.entry.downloads.label,Downloads •,Téléchargements •,"#library-explorer-entries .flex-shrink-0 > div > span:nth-child(2) .entry-count-text",text,
+
+# library.entry.meta.postedBy,Posted By ,Publié par ,".library-entry-meta small:first-child",textnode,
+
+library.folders.close.title,Close folders tree,Fermer l’arborescence des dossiers,"button[qa-id=""close-folder-view""]",attr,title
+library.folders.close.aria,Close folders tree,Fermer l’arborescence des dossiers,"button[qa-id=""close-folder-view""]",attr,aria-label
+
+
+
+

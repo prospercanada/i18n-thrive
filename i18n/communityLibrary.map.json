@@ -58,5 +58,116 @@
     "type": "attr",
     "key": "library.entry.more.delete",
     "attr": "data-i18n-text"
+  },
+  {
+    "selector": ".library-grid--control-row.library-topRow .font-weight-bold",
+    "type": "text",
+    "key": "library.noFolderSelected"
+  },
+  {
+    "selector": "#library-view-toggle legend",
+    "type": "text",
+    "key": "library.view.legend"
+  },
+  {
+    "selector": "label[for=\"library-layout-view-radio-row\"]",
+    "type": "attr",
+    "key": "library.view.row.title",
+    "attr": "title"
+  },
+  {
+    "selector": "label[for=\"library-layout-view-radio-row\"] .sr-only",
+    "type": "text",
+    "key": "library.view.row.sr"
+  },
+  {
+    "selector": "label[for=\"library-layout-view-radio-card\"]",
+    "type": "attr",
+    "key": "library.view.card.title",
+    "attr": "title"
+  },
+  {
+    "selector": "label[for=\"library-layout-view-radio-card\"] .sr-only",
+    "type": "text",
+    "key": "library.view.card.sr"
+  },
+  {
+    "selector": "label[for=\"library-layout-view-radio-admin\"]",
+    "type": "attr",
+    "key": "library.view.admin.title",
+    "attr": "title"
+  },
+  {
+    "selector": "label[for=\"library-layout-view-radio-admin\"] .sr-only",
+    "type": "text",
+    "key": "library.view.admin.sr"
+  },
+  {
+    "selector": ".library-filterRow .ms-1",
+    "type": "text",
+    "key": "library.filter.legend"
+  },
+  {
+    "selector": "button[qa-id=\"file-type-filter-menu-open\"] .font-weight-normal",
+    "type": "text",
+    "key": "library.filter.fileType.btn.label"
+  },
+  {
+    "selector": "button[qa-id=\"file-type-filter-menu-open\"]",
+    "type": "attr",
+    "key": "library.filter.fileType.btn.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "label[for^=\"dropdown-sort_\"]",
+    "type": "text",
+    "key": "library.sort.legend"
+  },
+  {
+    "selector": "select[qa-id=\"sort-library-entries\"] option[value=\"Date Created - Descending\"]",
+    "type": "text",
+    "key": "library.sort.option.dateDesc"
+  },
+  {
+    "selector": "select[qa-id=\"sort-library-entries\"] option[value=\"Title A-Z\"]",
+    "type": "text",
+    "key": "library.sort.option.titleAZ"
+  },
+  {
+    "selector": "select[qa-id=\"sort-library-entries\"] option[value=\"Title Z-A\"]",
+    "type": "text",
+    "key": "library.sort.option.titleZA"
+  },
+  {
+    "selector": "select[qa-id=\"sort-library-entries\"] option[value=\"Most Downloaded\"]",
+    "type": "text",
+    "key": "library.sort.option.mostDownloaded"
+  },
+  {
+    "selector": "select[qa-id=\"sort-library-entries\"] option[value=\"Most Viewed\"]",
+    "type": "text",
+    "key": "library.sort.option.mostViewed"
+  },
+  {
+    "selector": "#library-explorer-entries .flex-shrink-0 > div > span:nth-child(1) .entry-count-text",
+    "type": "text",
+    "key": "library.entry.views.label"
+  },
+  {
+    "selector": "#library-explorer-entries .flex-shrink-0 > div > span:nth-child(2) .entry-count-text",
+    "type": "text",
+    "key": "library.entry.downloads.label"
+  },
+  {
+    "selector": "button[qa-id=\"close-folder-view\"]",
+    "type": "attr",
+    "key": "library.folders.close.title",
+    "attr": "title"
+  },
+  {
+    "selector": "button[qa-id=\"close-folder-view\"]",
+    "type": "attr",
+    "key": "library.folders.close.aria",
+    "attr": "aria-label"
   }
 ]

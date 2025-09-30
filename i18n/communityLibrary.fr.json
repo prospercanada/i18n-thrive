@@ -1,4 +1,5 @@
 {
+  "library.entry.downloads.label": "Téléchargements •",
   "library.entry.more.copyLink": "Copier le permalien",
   "library.entry.more.delete": "Supprimer",
   "library.entry.more.edit": "Modifier",
@@ -8,5 +9,25 @@
   "library.entry.more.reindex": "Réindexer",
   "library.entry.more.trigger": "Actions supplémentaires",
   "library.entry.more.trigger.title": "Actions supplémentaires",
-  "library.entry.more.viewEntry": "Voir la page de l’entrée"
+  "library.entry.more.viewEntry": "Voir la page de l’entrée",
+  "library.entry.views.label": "Vues •",
+  "library.filter.fileType.btn.aria": "Ouvrir les options de filtre par type de fichier",
+  "library.filter.fileType.btn.label": "Type de fichier",
+  "library.filter.legend": "Filtrer par:",
+  "library.folders.close.aria": "Fermer l’arborescence des dossiers",
+  "library.folders.close.title": "Fermer l’arborescence des dossiers",
+  "library.noFolderSelected": "Aucun dossier sélectionné :",
+  "library.sort.legend": "Trier par:",
+  "library.sort.option.dateDesc": "Date de création – décroissante",
+  "library.sort.option.mostDownloaded": "Le plus téléchargé",
+  "library.sort.option.mostViewed": "Le plus consulté",
+  "library.sort.option.titleAZ": "Titre A-Z",
+  "library.sort.option.titleZA": "Titre Z-A",
+  "library.view.admin.sr": "Passer à la vue administrateur",
+  "library.view.admin.title": "Passer à la vue administrateur",
+  "library.view.card.sr": "Passer à la vue en cartes",
+  "library.view.card.title": "Passer à la vue en cartes",
+  "library.view.legend": "Affichage :",
+  "library.view.row.sr": "Passer à la vue en lignes",
+  "library.view.row.title": "Passer à la vue en lignes"
 }
