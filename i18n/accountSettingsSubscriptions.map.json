@@ -84,11 +84,6 @@
     "key": "commNotif.weekly.modal.noteLabel"
   },
   {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pnlCommNotifWeeklConDigNote .alert-info + text()",
-    "type": "text",
-    "key": "commNotif.weekly.modal.noteText"
-  },
-  {
     "selector": "#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_lnkCommNotifWeeklyConChangeEmail",
     "type": "text",
     "key": "commNotif.weekly.modal.save"

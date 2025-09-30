@@ -19,7 +19,6 @@
   "commNotif.weekly.modal.desc": "Enter the email address at which you wish to receive the weekly consolidated digests. Remove the address to receive the digests at your primary email address.",
   "commNotif.weekly.modal.label": "Override email address",
   "commNotif.weekly.modal.noteLabel": "Note:",
-  "commNotif.weekly.modal.noteText": "Leave email address blank and save to remove this override.",
   "commNotif.weekly.modal.placeholder": "enter email address",
   "commNotif.weekly.modal.save": "Save",
   "commNotif.weekly.modal.title": "Override Email Address for Weekly Consolidated Digest",

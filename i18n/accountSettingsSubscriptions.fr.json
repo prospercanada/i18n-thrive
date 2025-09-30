@@ -19,7 +19,6 @@
   "commNotif.weekly.modal.desc": "Entrez l’adresse courriel à laquelle vous souhaitez recevoir les bulletins hebdomadaires consolidés. Supprimez l’adresse pour les recevoir à votre adresse principale.",
   "commNotif.weekly.modal.label": "Adresse courriel de remplacement",
   "commNotif.weekly.modal.noteLabel": "Remarque :",
-  "commNotif.weekly.modal.noteText": "Laissez le champ vide et enregistrez pour supprimer cette dérogation.",
   "commNotif.weekly.modal.placeholder": "entrer l’adresse courriel",
   "commNotif.weekly.modal.save": "Enregistrer",
   "commNotif.weekly.modal.title": "Remplacer l’adresse courriel pour le bulletin hebdomadaire consolidé",

@@ -17,7 +17,8 @@ commNotif.weekly.modal.desc,Enter the email address at which you wish to receive
 commNotif.weekly.modal.label,Override email address,Adresse courriel de remplacement,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail label[for="MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_tbCommNotifWeeklyConDigestChangeEmail"],text,
 commNotif.weekly.modal.placeholder,enter email address,entrer l’adresse courriel,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_tbCommNotifWeeklyConDigestChangeEmail,attr,placeholder
 commNotif.weekly.modal.noteLabel,Note:,Remarque :,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pnlCommNotifWeeklConDigNote .alert-info,text,
-commNotif.weekly.modal.noteText,Leave email address blank and save to remove this override.,Laissez le champ vide et enregistrez pour supprimer cette dérogation.,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pnlCommNotifWeeklConDigNote .alert-info + text(),text,
+# commNotif.weekly.modal.noteText,Leave email address blank and save to remove this override.,Laissez le champ vide et enregistrez pour supprimer cette dérogation.,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pnlCommNotifWeeklConDigNote .alert-info,nextText,
+
 commNotif.weekly.modal.save,Save,Enregistrer,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_lnkCommNotifWeeklyConChangeEmail,text,
 commNotif.weekly.modal.close,Close,Fermer,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail button.btn-default,text,
 
