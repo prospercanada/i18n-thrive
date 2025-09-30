@@ -361,85 +361,138 @@
         state.observer.disconnect();
       }
 
+      // CHANGE 3 BEGIN
+      let _manifestPromise;
+      const _mapsByNs = new Map();
+      function getManifest(manifestUrl) {
+        _manifestPromise ||= loadJSON(manifestUrl);
+        return _manifestPromise;
+      }
+      async function getMap(manifestUrl, ns) {
+        if (_mapsByNs.has(ns)) return _mapsByNs.get(ns);
+        const manifest = await getManifest(manifestUrl);
+        const mapFile = manifest[`${ns}.map`];
+        if (!mapFile) return null;
+        const base = new URL(manifestUrl, location.origin);
+        const url = new URL(mapFile, base).toString();
+        const map = await loadJSON(url);
+        _mapsByNs.set(ns, map);
+        return map;
+      }
+
+      let isApplying = false;
+      let flushScheduled = false;
+      const pendingRoots = new Set(); // elements needing tag+apply
+
+      function schedule(el) {
+        if (!el || el.nodeType !== 1) return;
+        pendingRoots.add(el);
+        if (!flushScheduled) {
+          flushScheduled = true;
+          queueMicrotask(flush);
+        }
+      }
+
+      async function flush() {
+        flushScheduled = false;
+        if (!pendingRoots.size) return;
+
+        isApplying = true;
+        try {
+          // Tag and apply only for affected subtrees
+          const roots = Array.from(pendingRoots);
+          pendingRoots.clear();
+
+          // Tag (attach maps) inside each root
+          for (const root of roots) {
+            for (const ns of state.opts.namespaces) {
+              const map = await getMap(state.opts.manifestUrl, ns);
+              if (map) attachMaps(map, root); // your function that sets data-i18n*, de-duped
+            }
+          }
+
+          // Apply translations only within those roots
+          for (const root of roots) {
+            applyAll(state.catalogs, root); // update your applyAll to accept an optional root
+          }
+        } finally {
+          isApplying = false;
+        }
+      }
+      // CHANGE 3 END
       // Keep a cached manifest + namespace→map lookup
 
       // ANOTHER TRY START
-      let _manifest,
-        _mapsByNs = {};
-      async function getMap(manifestUrl, ns) {
-        if (!_manifest) _manifest = await loadJSON(manifestUrl);
-        const mapFile = _manifest[`${ns}.map`];
-        if (!mapFile) return null;
-        if (!_mapsByNs[ns]) {
-          const base = new URL(manifestUrl, location.origin);
-          _mapsByNs[ns] = await loadJSON(new URL(mapFile, base).toString());
-        }
-        return _mapsByNs[ns];
-      }
+      // CHANGE 2 REMOVED
+      // let _manifest,
+      //   _mapsByNs = {};
+
+      // CHANGE 2 REMOVED
+      // async function getMap(manifestUrl, ns) {
+      //   if (!_manifest) _manifest = await loadJSON(manifestUrl);
+      //   const mapFile = _manifest[`${ns}.map`];
+      //   if (!mapFile) return null;
+      //   if (!_mapsByNs[ns]) {
+      //     const base = new URL(manifestUrl, location.origin);
+      //     _mapsByNs[ns] = await loadJSON(new URL(mapFile, base).toString());
+      //   }
+      //   return _mapsByNs[ns];
+      // }
 
       // In your observer callback:
-      state.observer = new MutationObserver(async (list) => {
-        const added = list
-          .flatMap((m) =>
-            m.type === "childList" ? Array.from(m.addedNodes) : []
-          )
-          .filter((n) => n.nodeType === 1); // Elements only
 
-        if (added.length) {
-          for (const root of added) {
-            for (const ns of state.opts.namespaces) {
-              const map = await getMap(state.opts.manifestUrl, ns);
-              // if (map) attach(map, root); // ← tag inside this new subtree
-              if (map) attachMaps(map, root); // ← tag inside this new subtree
-            }
+      // CHANGE 2 ADD
+      // Create observer once per loadAndApply call
+      state.observer = new MutationObserver((records) => {
+        if (isApplying) return; // ignore our own writes
+
+        for (const m of records) {
+          if (m.type === "childList") {
+            m.addedNodes.forEach((n) => schedule(n));
+          } else if (m.type === "attributes") {
+            // an element just got i18n flags set → (re)tag/reapply it
+            schedule(m.target);
           }
         }
-
-        applyAll(state.catalogs); // ← now translation sticks again
       });
-      // ANOTHER TRY END
-      // // NEW begin
-      // let raf = 0,
-      //   burstId = 0;
 
-      // const onMutate = (mutationList) => {
-      //   console.log("CALLED MUTATION");
-      //   if (DEBUG_I18N) {
-      //     console.groupCollapsed(
-      //       `%c[i18n] mutations #${burstId + 1}`,
-      //       "color:#0a7"
-      //     );
-      //     for (const m of mutationList) {
-      //       console.log(m.type, {
-      //         target: m.target,
-      //         attributeName: m.attributeName,
-      //         added: m.addedNodes?.length || 0,
-      //         removed: m.removedNodes?.length || 0,
-      //         value: m.type === "characterData" ? m.target?.data : undefined,
-      //       });
+      // CHANGE 2 REMOVED
+      // state.observer = new MutationObserver(async (list) => {
+      //   const added = list
+      //     .flatMap((m) =>
+      //       m.type === "childList" ? Array.from(m.addedNodes) : []
+      //     )
+      //     .filter((n) => n.nodeType === 1); // Elements only
+
+      //   if (added.length) {
+      //     for (const root of added) {
+      //       for (const ns of state.opts.namespaces) {
+      //         const map = await getMap(state.opts.manifestUrl, ns);
+      //         // if (map) attach(map, root); // ← tag inside this new subtree
+      //         if (map) attachMaps(map, root); // ← tag inside this new subtree
+      //       }
       //     }
-      //     console.groupEnd();
       //   }
 
-      //   if (raf) return;
-      //   raf = requestAnimationFrame(() => {
-      //     raf = 0;
-      //     burstId++;
-      //     if (DEBUG_I18N) console.time(`[i18n] applyAll #${burstId}`);
-      //     console.log("state.catalogs ", state.catalogs);
-      //     applyAll(state.catalogs);
-      //     if (DEBUG_I18N) console.timeEnd(`[i18n] applyAll #${burstId}`);
-      //   });
-      // };
-      // // NEW END
-      // state.observer = new MutationObserver(() => applyAll(state.catalogs)); // ORIGINAL
-      // state.observer = new MutationObserver(onMutate); // NEW // ANOTHER TRY
+      //   applyAll(state.catalogs); // ← now translation sticks again
+      // });
+
+      // CHANGE 1 REMOVED
+      // state.observer.observe(document.body, {
+      //   childList: true,
+      //   subtree: true,
+      //   attributes: true, // NEW
+      //   // characterData: true, // <-- catch text-node edits
+      //   attributeFilter: ["data-i18n", "data-i18n-attr", "data-i18n-text"], // NEW
+      // });
+
+      // CHANGE 1 ADD
+      // IMPORTANT: filter to just your flags, not translated attrs like title/aria-label
       state.observer.observe(document.body, {
-        childList: true,
         subtree: true,
-        attributes: true, // NEW
-        // characterData: true, // <-- catch text-node edits
-        attributeFilter: ["data-i18n", "data-i18n-attr", "data-i18n-text"], // NEW
+        childList: true,
+        attributes: true,
+        attributeFilter: ["data-i18n", "data-i18n-attr", "data-i18n-html"], // ← fix here
       });
     }
   }
