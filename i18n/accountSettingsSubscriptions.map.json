@@ -92,51 +92,5 @@
     "selector": "#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail button.btn-default",
     "type": "text",
     "key": "commNotif.weekly.modal.close"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value=\"0\"]",
-    "type": "text",
-    "key": "commNotif.weekly.day.su"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value=\"1\"]",
-    "type": "text",
-    "key": "commNotif.weekly.day.mo"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value=\"2\"]",
-    "type": "text",
-    "key": "commNotif.weekly.day.tu"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value=\"3\"]",
-    "type": "text",
-    "key": "commNotif.weekly.day.we"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value=\"4\"]",
-    "type": "text",
-    "key": "commNotif.weekly.day.th"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value=\"5\"]",
-    "type": "text",
-    "key": "commNotif.weekly.day.fr"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value=\"6\"]",
-    "type": "text",
-    "key": "commNotif.weekly.day.sa"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_strDiscussionEmail",
-    "type": "text",
-    "key": "commNotif.discussion.title"
-  },
-  {
-    "selector": "#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp",
-    "type": "attr",
-    "key": "commNotif.discussion.popoverTitle",
-    "attr": "data-original-title"
   }
 ]

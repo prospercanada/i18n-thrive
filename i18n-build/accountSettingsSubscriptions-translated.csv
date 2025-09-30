@@ -22,19 +22,19 @@ commNotif.weekly.modal.noteLabel,Note:,Remarque :,#MainCopy_ctl29_MyCommunityNot
 commNotif.weekly.modal.save,Save,Enregistrer,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_lnkCommNotifWeeklyConChangeEmail,text,
 commNotif.weekly.modal.close,Close,Fermer,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail button.btn-default,text,
 
-commNotif.weekly.day.su,Sunday,dimanche,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="0"],text,
-commNotif.weekly.day.mo,Monday,lundi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="1"],text,
-commNotif.weekly.day.tu,Tuesday,mardi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="2"],text,
-commNotif.weekly.day.we,Wednesday,mercredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="3"],text,
-commNotif.weekly.day.th,Thursday,jeudi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="4"],text,
-commNotif.weekly.day.fr,Friday,vendredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="5"],text,
-commNotif.weekly.day.sa,Saturday,samedi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="6"],text,
+# commNotif.weekly.day.su,Sunday,dimanche,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="0"],text,
+# commNotif.weekly.day.mo,Monday,lundi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="1"],text,
+# commNotif.weekly.day.tu,Tuesday,mardi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="2"],text,
+# commNotif.weekly.day.we,Wednesday,mercredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="3"],text,
+# commNotif.weekly.day.th,Thursday,jeudi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="4"],text,
+# commNotif.weekly.day.fr,Friday,vendredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="5"],text,
+# commNotif.weekly.day.sa,Saturday,samedi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="6"],text,
 
-commNotif.discussion.title,Discussion Email:,Courriel de discussion :,#MainCopy_ctl29_MyCommunityNotifications_strDiscussionEmail,text,
-commNotif.discussion.popoverTitle,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp,attr,data-original-title
-commNotif.discussion.popoverBody,Offers discussion posts from a single community. Can be delivered to you by email in real-time or aggregated in a single daily email. Configure the frequency and delivery details of discussion notifications for each community below.,Diffuse les publications de discussion d’une seule communauté. Peut être envoyé en temps réel par c
+# commNotif.discussion.title,Discussion Email:,Courriel de discussion :,#MainCopy_ctl29_MyCommunityNotifications_strDiscussionEmail,text,
+# commNotif.discussion.popoverTitle,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp,attr,data-original-title
+# commNotif.discussion.popoverBody,Offers discussion posts from a single community. Can be delivered to you by email in real-time or aggregated in a single daily email. Configure the frequency and delivery details of discussion notifications for each community below.,Diffuse les publications de discussion d’une seule communauté. Peut être envoyé en temps réel par c
 
 # popover
-commNotif.weekly.title,Weekly Consolidated Community Digest:,Bulletin communautaire hebdomadaire consolidé :,#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest,text,
-commNotif.weekly.popoverTitle,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-original-title
-commNotif.weekly.popoverBody,"Offers a comprehensive view of all activity from the preceding week for the communities you specify in a single email. This includes announcements, blogs, discussions, library entries, new members and volunteer opportunities.","Offre un aperçu complet, en un seul courriel, de toute l’activité de la semaine précédente pour les communautés que vous indiquez. Comprend les annonces, blogues, discussions, éléments de la bibliothèque, nouveaux membres et occasions de bénévolat.",#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-content
+# commNotif.weekly.title,Weekly Consolidated Community Digest:,Bulletin communautaire hebdomadaire consolidé :,#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest,text,
+# commNotif.weekly.popoverTitle,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-original-title
+# commNotif.weekly.popoverBody,"Offers a comprehensive view of all activity from the preceding week for the communities you specify in a single email. This includes announcements, blogs, discussions, library entries, new members and volunteer opportunities.","Offre un aperçu complet, en un seul courriel, de toute l’activité de la semaine précédente pour les communautés que vous indiquez. Comprend les annonces, blogues, discussions, éléments de la bibliothèque, nouveaux membres et occasions de bénévolat.",#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-content
