@@ -70,76 +70,30 @@ for (const raw of body) {
   }
 
   // map row validation
-
-  // Allowed map row types
-  const VALID_TYPES = new Set(["text", "attr", "html"]);
-  const norm = (s) => String(s ?? "").trim();
-
-  // --- map row validation ---
   if (selector && type) {
-    let t = norm(type).toLowerCase();
-    let a = norm(attr);
-
-    // Back-compat: "attr + innerHTML" really means "html"
-    if (t === "attr" && a.toLowerCase() === "innerhtml") {
-      console.warn(`Converting attr=innerHTML to type=html for key "${key}"`);
-      t = "html";
-      a = "";
-    }
-
-    if (!VALID_TYPES.has(t)) {
+    const t = type.toLowerCase();
+    if (t !== "text" && t !== "attr") {
+      console.log("t ", t);
       throw new Error(
-        `Invalid type "${type}" for key "${key}" (expected one of ${[
-          ...VALID_TYPES,
-        ].join(", ")})`
+        `Invalid type "${type}" for key "${key}" (expected "text" or "attr")`
       );
     }
-    if (t === "attr" && !a) {
+    if (t === "attr" && !attr) {
       throw new Error(
         `Missing 'attr' for attr-type key "${key}" (selector: ${selector})`
       );
     }
-
-    // Build canonical row and de-dupe
-    const rowObj =
-      t === "attr"
-        ? { selector, type: t, key, attr: a }
-        : { selector, type: t, key };
-
-    const rowSig = JSON.stringify(rowObj);
+    const rowSig = JSON.stringify({
+      selector,
+      type: t,
+      key,
+      attr: t === "attr" ? attr : undefined,
+    });
     if (!seenMapRow.has(rowSig)) {
       seenMapRow.add(rowSig);
-      map.push(rowObj);
+      map.push(JSON.parse(rowSig));
     }
   }
-
-  // LAST GOOD
-  // if (selector && type) {
-  //   const t = type.toLowerCase();
-  //   if (t !== "text" && t !== "attr") {
-  //     // console.log("t ", t);
-  //     throw new Error(
-  //       `Invalid type "${type}" for key "${key}" (expected "text" or "attr")`
-  //     );
-  //   }
-  //   if (t === "attr" && !attr) {
-  //     throw new Error(
-  //       `Missing 'attr' for attr-type key "${key}" (selector: ${selector})`
-  //     );
-  //   }
-
-  //   const rowSig = JSON.stringify({
-  //     selector,
-  //     type: t,
-  //     key,
-  //     attr: t === "attr" ? attr : undefined,
-  //   });
-
-  //   if (!seenMapRow.has(rowSig)) {
-  //     seenMapRow.add(rowSig);
-  //     map.push(JSON.parse(rowSig));
-  //   }
-  // }
 }
 
 // stable sort for clean diffs

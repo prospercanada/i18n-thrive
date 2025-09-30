@@ -6,9 +6,8 @@
   },
   {
     "selector": "#MainCopy_ctl29_EmailUpdatePanel p:first-of-type",
-    "type": "attr",
-    "key": "emailPreferences.intro",
-    "attr": "innerHTML"
+    "type": "html",
+    "key": "emailPreferences.intro"
   },
   {
     "selector": "#MainCopy_ctl29_pnlLinkToEditEmail p:first-of-type",
