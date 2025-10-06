@@ -232,7 +232,11 @@ document.addEventListener("click", async (e) => {
   try {
     localStorage.setItem("preferredLang", next);
     await ThriveI18n.setLangNoReload(next);
-    document.documentElement.setAttribute("lang", next);
+    // document.documentElement.setAttribute("lang", next);
+    document.documentElement.setAttribute(
+      "lang",
+      next === "fr" ? "fr-CA" : "en-CA"
+    );
     dbg("toggled", next);
   } catch (err) {
     console.error("[i18n] toggle error", err);

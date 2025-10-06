@@ -478,9 +478,13 @@ async function reI18n() {
       document.documentElement.getAttribute("lang") ||
       "en";
 
-    console.log("setting lang 1 ", lang);
+    // console.log("setting lang 1 ", lang);
     await ThriveI18n.setLangNoReload(lang);
-    document.documentElement.setAttribute("lang", lang);
+    // document.documentElement.setAttribute("lang", lang);
+    document.documentElement.setAttribute(
+      "lang",
+      lang === "fr" ? "fr-CA" : "en-CA"
+    );
     dbg("reI18n applied", { lang, namespaces });
 
     // ➜ run page-specific extras after partial postbacks
@@ -551,8 +555,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     "en"
   ).toLowerCase();
   await ThriveI18n.setLangNoReload(initial);
-  console.log("setting lang 2 ", initial);
-  document.documentElement.setAttribute("lang", initial);
+  // console.log("setting lang 2 ", initial);
+  // document.documentElement.setAttribute("lang", initial);
+  document.documentElement.setAttribute(
+    "lang",
+    initial === "fr" ? "fr-CA" : "en-CA"
+  );
   dbg("init complete", { initial, namespaces });
 
   // ➜ run page-specific extras on first paint
