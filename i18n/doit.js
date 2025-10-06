@@ -137,7 +137,7 @@ function runExtrasForPath(pathname = location.pathname) {
 // }
 
 function getParamCI(url, name) {
-  console.log("PARAM ", url, name);
+  // console.log("PARAM ", url, name);
   // case-insensitive query param getter
   const target = name.toLowerCase();
   for (const [k, v] of url.searchParams.entries()) {
@@ -448,7 +448,7 @@ function pickNamespaces(currentUrlOrPath) {
 
 // 2) re-attach hooks + re-apply current lang (used after partial postbacks)
 async function reI18n() {
-  console.log("reI18n pickNamespaces ", location.href);
+  // console.log("reI18n pickNamespaces ", location.href);
   // const namespaces = pickNamespaces(location.pathname);
   const namespaces = pickNamespaces(new URL(location.href));
   if (!namespaces.length) return;

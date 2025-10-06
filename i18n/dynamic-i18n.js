@@ -17,13 +17,17 @@
     console.log("run once ", el);
     if (!el) return;
 
-    const LOCALE = (document.documentElement.lang || "en-CA").toLowerCase();
-
+    // const LOCALE = (document.documentElement.lang || "en-CA").toLowerCase();
+    const LOCALE = (
+      localStorage.getItem("preferredLang") ||
+      document.documentElement.getAttribute("lang") ||
+      "en"
+    ).toLowerCase();
     console.log("LOCALE ", LOCALE);
     const templates = {
-      "en-ca": ({ start, end, total }) =>
+      "en": ({ start, end, total }) =>
         `Showing ${start} to ${end} of ${total}`,
-      "fr-ca": ({ start, end, total }) =>
+      "fr": ({ start, end, total }) =>
         `Affichage des éléments ${start} à ${end} sur ${total}`,
     };
 
