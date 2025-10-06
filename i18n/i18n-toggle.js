@@ -26,15 +26,27 @@
   async function updateLanguage(lang) {
     const next = String(lang).toLowerCase() === "fr" ? "fr" : "en";
 
+    // Early exit if unchanged
+    const current = document.documentElement.getAttribute("data-lang") || "en";
+    if (current === next) {
+      // Still notify listeners if you want them to re-render anyway:
+      window.dispatchEvent(
+        new CustomEvent("langchange", { detail: { lang: next } })
+      );
+      return;
+    }
+
+    // Persist + update <html> attributes
     try {
       localStorage.setItem("preferredLang", next);
     } catch {}
+    document.documentElement.setAttribute("data-lang", next);
     document.documentElement.setAttribute(
       "lang",
       next === "fr" ? "fr-CA" : "en-CA"
     );
 
-    // (optional) keep if your static i18n needs to re-run without reload
+    // Optional: run your static i18n swap without reload (non-blocking)
     if (window.ThriveI18n?.setLangNoReload) {
       try {
         await window.ThriveI18n.setLangNoReload(next);
@@ -43,17 +55,50 @@
       }
     }
 
-    // Optional block toggling
-    document.querySelectorAll("[data-lang-content]").forEach((el) => {
-      el.style.display =
-        (el.dataset.langContent || "").toLowerCase() === next ? "" : "none";
-    });
+    // // Optional: toggle any explicit blocks marked with data-lang-content
+    // document.querySelectorAll("[data-lang-content]").forEach((el) => {
+    //   const show = (el.dataset.langContent || "").toLowerCase() === next;
+    //   // Use empty string to preserve natural display; otherwise hide.
+    //   el.style.display = show ? "" : "none";
+    // });
 
-    // Notify page renderers/widgets
+    // Notify any listeners (dynamic i18n, date/number formatters, etc.)
     window.dispatchEvent(
       new CustomEvent("langchange", { detail: { lang: next } })
     );
   }
+
+  //   async function updateLanguage(lang) {
+  //     const next = String(lang).toLowerCase() === "fr" ? "fr" : "en";
+
+  //     try {
+  //       localStorage.setItem("preferredLang", next);
+  //     } catch {}
+  //     document.documentElement.setAttribute(
+  //       "lang",
+  //       next === "fr" ? "fr-CA" : "en-CA"
+  //     );
+
+  //     // (optional) keep if your static i18n needs to re-run without reload
+  //     if (window.ThriveI18n?.setLangNoReload) {
+  //       try {
+  //         await window.ThriveI18n.setLangNoReload(next);
+  //       } catch (err) {
+  //         console.error("[i18n] setLangNoReload failed:", err);
+  //       }
+  //     }
+
+  //     // Optional block toggling
+  //     document.querySelectorAll("[data-lang-content]").forEach((el) => {
+  //       el.style.display =
+  //         (el.dataset.langContent || "").toLowerCase() === next ? "" : "none";
+  //     });
+
+  //     // Notify page renderers/widgets
+  //     window.dispatchEvent(
+  //       new CustomEvent("langchange", { detail: { lang: next } })
+  //     );
+  //   }
   //   function updateLanguage(lang) {
   //     const next = normalize(lang);
   //     try {

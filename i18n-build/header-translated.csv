@@ -28,7 +28,7 @@ create.menu.library,Library Entry,Élément de la bibliothèque,#HLCreateLibrary
 
 
 nav.home,"Home","Accueil","#MPButtonBar .navbar-nav a[href='/home'] span, #MPButtonBar .navbar-nav a[href='/home']",text,
-nav.mediaKit,"Media Kit",""Trousse pour les médias","#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",text,
+nav.mediaKit,"Media Kit","Trousse pour les médias","#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",text,
 nav.advisory,"Advisory Committee","Le Comité consultatif","#MPButtonBar .navbar-nav a[href='/advisory-committee'] span, #MPButtonBar .navbar-nav a[href='/advisory-committee']",text,
 nav.funding,"Funding Information","Informations sur le financement","#MPButtonBar .navbar-nav a[href='/apply'] span, #MPButtonBar .navbar-nav a[href='/apply']",text,
 nav.faq,"FAQs","FAQ","#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",text,
