@@ -183,6 +183,32 @@
           if (totalEl.textContent !== next) totalEl.textContent = next;
         }
       }
+
+      // C) “No Results Found” (only when there are no community rows)
+      (function translateNoResults() {
+        const container = document.querySelector(
+          "#MainCopy_ctl29_AllCommunitiesContainer"
+        );
+        if (!container) return;
+
+        // If there are child rows with the community-list classes, do nothing
+        const hasResults = Array.from(container.children).some(
+          (ch) =>
+            ch.classList?.contains("row") &&
+            ch.classList?.contains("rowContainer") &&
+            ch.classList?.contains("community-list")
+        );
+        if (hasResults) return;
+
+        // Trim and check the placeholder text
+        const raw = container.textContent.trim();
+        if (!/^no\s+results\s+found$/i.test(raw)) return;
+
+        const noResults = loc === "fr" ? "Aucun résultat" : "No Results Found";
+        if (raw !== noResults) {
+          container.textContent = noResults;
+        }
+      })();
     }
   );
 
