@@ -551,7 +551,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     "en"
   ).toLowerCase();
   await ThriveI18n.setLangNoReload(initial);
-  console.log("setting lang 2 ", lang);
+  console.log("setting lang 2 ", initial);
   document.documentElement.setAttribute("lang", initial);
   dbg("init complete", { initial, namespaces });
 
