@@ -185,28 +185,50 @@
       }
 
       // C) “No Results Found” (only when there are no community rows)
-      (function translateNoResults() {
-        const container = document.querySelector(
-          "#MainCopy_ctl29_AllCommunitiesContainer"
+      // C) “No Results Found” lives in a sibling node
+      (function translateNoResultsSibling() {
+        const container = document.getElementById(
+          "MainCopy_ctl29_AllCommunitiesContainer"
         );
         if (!container) return;
 
-        // If there are child rows with the community-list classes, do nothing
-        const hasResults = Array.from(container.children).some(
-          (ch) =>
-            ch.classList?.contains("row") &&
-            ch.classList?.contains("rowContainer") &&
-            ch.classList?.contains("community-list")
+        const parent = container.parentElement || container;
+        // look at *all* siblings (elements + text nodes)
+        const siblings = Array.from(parent.childNodes).filter(
+          (n) => n !== container
+        );
+
+        // If any sibling is a result row, bail
+        const hasResults = siblings.some(
+          (n) =>
+            n.nodeType === 1 &&
+            n.classList?.contains("row") &&
+            n.classList?.contains("rowContainer") &&
+            n.classList?.contains("community-list")
         );
         if (hasResults) return;
 
-        // Trim and check the placeholder text
-        const raw = container.textContent.trim();
-        if (!/^no\s+results\s+found$/i.test(raw)) return;
+        // Find the placeholder sibling (can be a text node or a simple element with just the text)
+        const placeholder = siblings.find((n) => {
+          if (n.nodeType === 3) {
+            // text node
+            return /^\s*no\s+results\s+found\s*$/i.test(n.textContent);
+          }
+          if (n.nodeType === 1) {
+            // element
+            const txt = (n.textContent || "").trim();
+            return /^no\s+results\s+found$/i.test(txt);
+          }
+          return false;
+        });
+        if (!placeholder) return;
 
-        const noResults = loc === "fr" ? "Aucun résultat" : "No Results Found";
-        if (raw !== noResults) {
-          container.textContent = noResults;
+        const msg = loc === "fr" ? "Aucun résultat" : "No Results Found";
+        if (placeholder.nodeType === 3) {
+          // preserve surrounding whitespace a bit
+          placeholder.textContent = " " + msg + " ";
+        } else {
+          placeholder.textContent = msg;
         }
       })();
     }
