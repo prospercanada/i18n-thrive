@@ -533,6 +533,7 @@
     if (!state.ready) {
       state.pending.push(next);
       // cosmetic: reflect intent immediately
+      document.documentElement.setAttribute("data-lang", next);
       document.documentElement.setAttribute(
         "lang",
         next === "fr" ? "fr-CA" : "en-CA"
@@ -540,6 +541,7 @@
       return;
     }
     await loadAndApply(next);
+    document.documentElement.setAttribute("data-lang", next);
     document.documentElement.setAttribute(
       "lang",
       next === "fr" ? "fr-CA" : "en-CA"

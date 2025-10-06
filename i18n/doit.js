@@ -557,6 +557,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   await ThriveI18n.setLangNoReload(initial);
   // console.log("setting lang 2 ", initial);
   // document.documentElement.setAttribute("lang", initial);
+  
   document.documentElement.setAttribute(
     "lang",
     initial === "fr" ? "fr-CA" : "en-CA"
