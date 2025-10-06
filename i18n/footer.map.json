@@ -1,42 +1,28 @@
 [
   {
-    "selector": "#MPFooter .footer-logo img",
-    "type": "attr",
-    "key": "footer.logo.alt",
-    "attr": "alt"
-  },
-  {
-    "selector": "#MPFooter a[href=\"/contactus\"]",
+    "selector": "#FooterContent a[href='/contactus']",
     "type": "text",
     "key": "footer.contact.heading"
   },
   {
-    "selector": "#MPFooter .lang-en .section3 .HtmlContent p",
-    "type": "attr",
-    "key": "footer.address.html",
-    "attr": "innerHTML"
+    "selector": "#FooterContent .section3 p, #FooterContent .section7 p",
+    "type": "html",
+    "key": "footer.address.html"
   },
   {
-    "selector": "#MPFooter .lang-fr .section7 .HtmlContent p",
-    "type": "attr",
-    "key": "footer.address.html.fr",
-    "attr": "innerHTML"
-  },
-  {
-    "selector": "#MPFooter a[href*=\"/termsandconditions\"]",
+    "selector": "#FooterContent a[href='https://community.prospercanada.org/termsandconditions']",
     "type": "text",
     "key": "footer.privacy.heading"
   },
   {
-    "selector": "#MPFooter .lang-en .section4 .HtmlContent p",
-    "type": "attr",
-    "key": "footer.copyright.html",
-    "attr": "innerHTML"
+    "selector": "#FooterContent .section4 p, #FooterContent .section8 p",
+    "type": "html",
+    "key": "footer.copyright.html"
   },
   {
-    "selector": "#MPFooter .lang-fr .section8 .HtmlContent p",
+    "selector": "#FooterContent .footer-logo img",
     "type": "attr",
-    "key": "footer.copyright.html.fr",
-    "attr": "innerHTML"
+    "key": "footer.logo.alt",
+    "attr": "alt"
   }
 ]
