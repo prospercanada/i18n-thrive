@@ -13,9 +13,13 @@
   function runOnce() {
     const TARGET = "[id$='FindContacts_ShowingLabel']";
     const el = document.querySelector(TARGET);
+
+    console.log("run once ", el);
     if (!el) return;
 
     const LOCALE = (document.documentElement.lang || "en-CA").toLowerCase();
+
+    console.log("LOCALE ", LOCALE);
     const templates = {
       "en-ca": ({ start, end, total }) =>
         `Showing ${start} to ${end} of ${total}`,
