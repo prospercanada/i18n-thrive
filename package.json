@@ -45,5 +45,8 @@
   "bugs": {
     "url": "https://github.com/prospercanada/i18n-thrive/issues"
   },
-  "homepage": "https://github.com/prospercanada/i18n-thrive#readme"
+  "homepage": "https://github.com/prospercanada/i18n-thrive#readme",
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  }
 }
