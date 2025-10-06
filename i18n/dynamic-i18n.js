@@ -11,6 +11,16 @@
   }
 
   // Parsers
+
+  // Shared helper
+  function parseCommunityName(text) {
+    // "Invite people to join the Sandbox Community community" -> "Sandbox Community"
+    const m = String(text)
+      .trim()
+      .match(/^Invite people to join\s+(?:the\s+)?(.+?)(?:\s+community)?$/i);
+    return m ? m[1].trim() : null;
+  }
+
   function parseTotalCount(text) {
     const m = String(text).match(/(\d+)/);
     return m ? { total: Number(m[1]) } : null;
@@ -89,6 +99,30 @@
     const renderFn = activeRender();
     if (renderFn) renderFn();
   }
+
+  register(
+    "/sandboxmicrosite/communities/community-home/invite-community",
+    function renderInviteCommunity() {
+      const sel = "#MainCopy_ctl04_InviteToCommunityLabel";
+      const host = document.querySelector(sel);
+      if (!host) return;
+
+      // Prefer the inner <strong>, if present
+      const target = host.querySelector("strong") || host;
+
+      // Extract current name from whatever the platform rendered
+      const name =
+        parseCommunityName(target.textContent) || target.textContent.trim();
+
+      const loc = getLocale(); // your existing helper returning "en" | "fr"
+      const next =
+        loc === "fr"
+          ? `Invitez des personnes à rejoindre la communauté ${name}`
+          : `Invite people to join ${name}`;
+
+      if (target.textContent !== next) target.textContent = next;
+    }
+  );
 
   // ---------------- Page: /profile/connections/contacts ----------------
   register("/profile/connections/contacts", function renderContacts() {

@@ -232,6 +232,9 @@ function pickNamespaces(currentUrlOrPath) {
     out.add("community");
   }
 
+  if (/^\/communities\/invite-community\/invite-community(?:\/|$)/i.test(path))
+    out.add("communityInvite");
+
   // if (/^\/communities\/community-home(?:\/|$)/i.test(path)) out.add("community");
   if (/^\/communities\/community-home\/digestviewer(?:\/|$)/i.test(path))
     out.add("communityDigest");

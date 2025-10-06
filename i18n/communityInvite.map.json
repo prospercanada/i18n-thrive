@@ -1,0 +1,147 @@
+[
+  {
+    "selector": "#MainCopy_ctl02_backToDiscussions",
+    "type": "text",
+    "key": "invite.backToCommunity"
+  },
+  {
+    "selector": "#MainCopy_ctl04_InvitationMessage",
+    "type": "text",
+    "key": "invite.message.label"
+  },
+  {
+    "selector": "#MainCopy_ctl04_txtMessage",
+    "type": "text",
+    "key": "invite.message.default"
+  },
+  {
+    "selector": "#YourContactsTab > a",
+    "type": "text",
+    "key": "tabs.inviteYourContacts"
+  },
+  {
+    "selector": "#MainCopy_ctl04_InviteTab > a",
+    "type": "text",
+    "key": "tabs.inviteOthers"
+  },
+  {
+    "selector": "#PendingRequestsTab > a",
+    "type": "text",
+    "key": "tabs.pendingRequests"
+  },
+  {
+    "selector": "#MainCopy_ctl04_ucInviteMembers_ucListmembers_UpdatePanel1 .col-md-6:nth-of-type(1) h3",
+    "type": "text",
+    "key": "invite.contactsToInvite.h3"
+  },
+  {
+    "selector": "#MainCopy_ctl04_ucInviteMembers_ucListmembers_UpdatePanel1 .col-md-6:nth-of-type(2) h3",
+    "type": "text",
+    "key": "invite.selectedContacts.h3"
+  },
+  {
+    "selector": "#MainCopy_ctl04_ucInviteMembers_ucListmembers_grdListAllMembers_lblEmptyMsg",
+    "type": "text",
+    "key": "invite.emptyMsg"
+  },
+  {
+    "selector": "#MainCopy_ctl04_ucInviteMembers_ucListmembers_btnSend",
+    "type": "attr",
+    "key": "invite.sendInvitation.btn",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_ucInviteMembers_ucListmembers_CancelLink",
+    "type": "attr",
+    "key": "invite.cancelSelection.btn",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_FindContactHeaderText",
+    "type": "text",
+    "key": "search.header"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_FirstNameSearch_Label",
+    "type": "text",
+    "key": "search.firstName.label"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_LastNameSearch_Label",
+    "type": "text",
+    "key": "search.lastName.label"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_CompanyNameSearch_Label",
+    "type": "text",
+    "key": "search.companyName.label"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_EmailAddressSearch_Label",
+    "type": "text",
+    "key": "search.email.label"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_FindButton",
+    "type": "attr",
+    "key": "search.search.btn.value",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_FindButton",
+    "type": "attr",
+    "key": "search.search.btn.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsButton",
+    "type": "attr",
+    "key": "search.clear.btn.value",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsButton",
+    "type": "attr",
+    "key": "search.clear.btn.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#ConfirmClearResultsModal .modal-header",
+    "type": "text",
+    "key": "modal.clear.title"
+  },
+  {
+    "selector": "#ConfirmClearResultsModal .modal-body",
+    "type": "text",
+    "key": "modal.clear.body"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsConfirmModal_ClearSearchResultsYes",
+    "type": "attr",
+    "key": "modal.clear.yes",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsConfirmModal_CancelAdd",
+    "type": "attr",
+    "key": "modal.clear.no",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_PendingCommunityInvitations_UpdatePanel1 .col-md-12",
+    "type": "text",
+    "key": "pending.none"
+  },
+  {
+    "selector": "#MainCopy_ctl04_btnFinish",
+    "type": "attr",
+    "key": "footer.finished.btn",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_lnkBtnCancel",
+    "type": "attr",
+    "key": "footer.cancel.btn",
+    "attr": "value"
+  }
+]

@@ -30,6 +30,7 @@
     "i18n:build:communityDigest": "node scripts/build-from-csv.mjs i18n-build/communityDigest-translated.csv i18n communityDigest",
     "i18n:build:communityLibrary": "node scripts/build-from-csv.mjs i18n-build/communityLibrary-translated.csv i18n communityLibrary",
     "i18n:build:communityEvents": "node scripts/build-from-csv.mjs i18n-build/communityEvents-translated.csv i18n communityEvents",
+    "i18n:build:communityInvite": "node scripts/build-from-csv.mjs i18n-build/communityInvite-translated.csv i18n communityInvite",
     "i18n:build:communityMembers": "node scripts/build-from-csv.mjs i18n-build/communityMembers-translated.csv i18n communityMembers",
     "i18n:build:all": "node scripts/build-all.mjs",
     "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\""

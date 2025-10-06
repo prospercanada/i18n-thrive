@@ -1,0 +1,28 @@
+key,en,fr,selector,type,attr
+invite.backToCommunity,"Back to Community","Retour à la communauté","#MainCopy_ctl02_backToDiscussions",text,
+invite.message.label,"Invitation Message","Message d’invitation","#MainCopy_ctl04_InvitationMessage",text,
+invite.message.default,"Please come and join the community I have just created on the https://community.prospercanada.org website","Veuillez rejoindre la communauté que je viens de créer sur le site https://community.prospercanada.org","#MainCopy_ctl04_txtMessage",text,
+tabs.inviteYourContacts,"Invite Your Contacts","Inviter vos contacts","#YourContactsTab > a",text,
+tabs.inviteOthers,"Invite Others","Inviter d’autres personnes","#MainCopy_ctl04_InviteTab > a",text,
+tabs.pendingRequests,"Pending Invitation Requests","Demandes d’invitation en attente","#PendingRequestsTab > a",text,
+invite.contactsToInvite.h3,"Contacts to Invite","Contacts à inviter","#MainCopy_ctl04_ucInviteMembers_ucListmembers_UpdatePanel1 .col-md-6:nth-of-type(1) h3",text,
+invite.selectedContacts.h3,"Selected Contacts","Contacts sélectionnés","#MainCopy_ctl04_ucInviteMembers_ucListmembers_UpdatePanel1 .col-md-6:nth-of-type(2) h3",text,
+invite.emptyMsg,"You have already invited all of your contacts","Vous avez déjà invité tous vos contacts","#MainCopy_ctl04_ucInviteMembers_ucListmembers_grdListAllMembers_lblEmptyMsg",text,
+invite.sendInvitation.btn,"Send Invitation","Envoyer l’invitation","#MainCopy_ctl04_ucInviteMembers_ucListmembers_btnSend",attr,value
+invite.cancelSelection.btn,"Cancel","Annuler","#MainCopy_ctl04_ucInviteMembers_ucListmembers_CancelLink",attr,value
+search.header,"Find People to Invite","Trouver des personnes à inviter","#MainCopy_ctl04_SearchAndInvite_SearchContact_FindContactHeaderText",text,
+search.firstName.label,"First Name","Prénom","#MainCopy_ctl04_SearchAndInvite_SearchContact_FirstNameSearch_Label",text,
+search.lastName.label,"Last Name","Nom de famille","#MainCopy_ctl04_SearchAndInvite_SearchContact_LastNameSearch_Label",text,
+search.companyName.label,"Company Name","Nom de l’entreprise","#MainCopy_ctl04_SearchAndInvite_SearchContact_CompanyNameSearch_Label",text,
+search.email.label,"Email Address","Adresse courriel","#MainCopy_ctl04_SearchAndInvite_SearchContact_EmailAddressSearch_Label",text,
+search.search.btn.value,"Search","Rechercher","#MainCopy_ctl04_SearchAndInvite_SearchContact_FindButton",attr,value
+search.search.btn.title,"Search","Rechercher","#MainCopy_ctl04_SearchAndInvite_SearchContact_FindButton",attr,title
+search.clear.btn.value,"Clear Filter And Results","Effacer le filtre et les résultats","#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsButton",attr,value
+search.clear.btn.title,"Clear Filter And Results","Effacer le filtre et les résultats","#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsButton",attr,title
+modal.clear.title,"Confirmation","Confirmation","#ConfirmClearResultsModal .modal-header",text,
+modal.clear.body,"This will clear the search filter and results set. Would you like to continue?","Cette action effacera le filtre de recherche et les résultats. Voulez-vous continuer ?","#ConfirmClearResultsModal .modal-body",text,
+modal.clear.yes,"Yes","Oui","#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsConfirmModal_ClearSearchResultsYes",attr,value
+modal.clear.no,"No","Non","#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsConfirmModal_CancelAdd",attr,value
+pending.none,"You have made no pending invitations","Vous n’avez aucune invitation en attente","#MainCopy_ctl04_PendingCommunityInvitations_UpdatePanel1 .col-md-12",text,
+footer.finished.btn,"Finished","Terminé","#MainCopy_ctl04_btnFinish",attr,value
+footer.cancel.btn,"Cancel","Annuler","#MainCopy_ctl04_lnkBtnCancel",attr,value
