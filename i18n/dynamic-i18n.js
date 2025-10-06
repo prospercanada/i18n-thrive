@@ -54,6 +54,10 @@
       en: ({ total }) => `${total} total`,
       fr: ({ total }) => `${total} au total`,
     },
+    rangeWithTotal: {
+      en: ({ start, end, total }) => `${start} to ${end} of ${total} total`,
+      fr: ({ start, end, total }) => `${start} à ${end} sur ${total} au total`,
+    },
   };
 
   const UNITS = {
@@ -128,6 +132,47 @@
           if (totalEl.textContent !== next) totalEl.textContent = next;
         }
       }
+    }
+  );
+
+  // /profile/connections/following-connections
+  register(
+    "/profile/connections/following-connections",
+    function renderFollowingConnections() {
+      // e.g. <div id="FollowedContent_39d10e5a0f...">
+      const sel =
+        "[id^='FollowedContent_'] .contributions-list-header .text-muted";
+      const loc = getLocale();
+
+      document.querySelectorAll(sel).forEach((el) => {
+        const data = parseRangeLabel(el.textContent); // reuses your existing parser
+        if (!data) return;
+        const t = templates.contacts?.[loc] || templates.contacts.en;
+        const next = t(data);
+        if (el.textContent !== next) el.textContent = next;
+      });
+    }
+  );
+
+  register(
+    "/profile/contributions/contributions-list",
+    function renderContributionsList() {
+      const sel = "#MainCopy_ctl29_SearchResultStatus .ResultStatus.text-muted";
+      const el = document.querySelector(sel);
+      if (!el) return;
+
+      const raw = el.textContent;
+      const data = parseRangeLabel(raw); // reuse your existing (\d+)\D+(\d+)\D+(\d+) parser
+      if (!data) return;
+
+      const loc = getLocale();
+      const hasWordTotal = /\btotal\b/i.test(raw);
+      const t = hasWordTotal
+        ? templates.rangeWithTotal[loc] || templates.rangeWithTotal.en
+        : templates.contacts[loc] || templates.contacts.en; // your "Showing X to Y of Z"
+
+      const next = t(data);
+      if (el.textContent !== next) el.textContent = next;
     }
   );
 
