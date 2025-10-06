@@ -232,8 +232,12 @@ function pickNamespaces(currentUrlOrPath) {
     out.add("community");
   }
 
-  if (/^\/communities\/invite-community\/invite-community(?:\/|$)/i.test(path))
-    out.add("communityInvite");
+  // if (/^\/communities\/invite-community\/invite-community(?:\/|$)/i.test(path))
+  //   out.add("communityInvite");
+
+  const inviteRe =
+    /^\/communities(?:\/community-home)?\/invite-community(?:\/digestviewer)?(?:\/|$)/i;
+  if (inviteRe.test(path)) out.add("communityInvite");
 
   // if (/^\/communities\/community-home(?:\/|$)/i.test(path)) out.add("community");
   if (/^\/communities\/community-home\/digestviewer(?:\/|$)/i.test(path))
@@ -553,18 +557,20 @@ document.addEventListener("DOMContentLoaded", async () => {
   installWebFormsHooks(); // <-- call it once here
 });
 
-// 5) (optional) language toggle
-document.addEventListener("click", async (e) => {
-  const a = e.target.closest("[data-toggle-lang]");
-  if (!a) return;
-  e.preventDefault();
-  const next = a.getAttribute("data-toggle-lang");
-  try {
-    localStorage.setItem("preferredLang", next);
-    await ThriveI18n.setLangNoReload(next);
-    document.documentElement.setAttribute("lang", next);
-    dbg("toggled", next);
-  } catch (err) {
-    console.error("[i18n] toggle error", err);
-  }
-});
+
+// Oct 6 REMOVED USER MAIN HANDLER
+// // 5) (optional) language toggle
+// document.addEventListener("click", async (e) => {
+//   const a = e.target.closest("[data-toggle-lang]");
+//   if (!a) return;
+//   e.preventDefault();
+//   const next = a.getAttribute("data-toggle-lang");
+//   try {
+//     localStorage.setItem("preferredLang", next);
+//     await ThriveI18n.setLangNoReload(next);
+//     document.documentElement.setAttribute("lang", next);
+//     dbg("toggled", next);
+//   } catch (err) {
+//     console.error("[i18n] toggle error", err);
+//   }
+// });
