@@ -27,9 +27,15 @@ create.menu.library,Library Entry,Élément de la bibliothèque,#HLCreateLibrary
 # topnav.funding,Funding Information,Renseignements sur le financement,.nav.navbar-nav a[href="/apply"] span,text,
 
 
-nav.home,"Home","Accueil","#MPButtonBar .navbar-nav a[href='/home'] span, #MPButtonBar .navbar-nav a[href='/home']",text,
+# nav.home,"Home","Accueil","#MPButtonBar .navbar-nav a[href='/home'] span, #MPButtonBar .navbar-nav a[href='/home']",text,
+# nav.mediaKit,"Media Kit","Trousse pour les médias","#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",text,
+# nav.advisory,"Advisory Committee","Le Comité consultatif","#MPButtonBar .navbar-nav a[href='/advisory-committee'] span, #MPButtonBar .navbar-nav a[href='/advisory-committee']",text,
+# nav.funding,"Funding Information","Informations sur le financement","#MPButtonBar .navbar-nav a[href='/apply'] span, #MPButtonBar .navbar-nav a[href='/apply']",text,
+# nav.faq,"FAQs","FAQ","#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",text,
+
 nav.mediaKit,"Media Kit","Trousse pour les médias","#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",text,
-nav.advisory,"Advisory Committee","Le Comité consultatif","#MPButtonBar .navbar-nav a[href='/advisory-committee'] span, #MPButtonBar .navbar-nav a[href='/advisory-committee']",text,
-nav.funding,"Funding Information","Informations sur le financement","#MPButtonBar .navbar-nav a[href='/apply'] span, #MPButtonBar .navbar-nav a[href='/apply']",text,
-nav.faq,"FAQs","FAQ","#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",text,
+nav.home,"Home","Accueil","#MPButtonBar .navbar-nav a[href='/home'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/home']",text,
+nav.advisory,"Advisory Committee","Le Comité consultatif","#MPButtonBar .navbar-nav a[href='/advisory-committee'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/advisory-committee']",text,
+nav.funding,"Funding Information","Informations sur le financement","#MPButtonBar .navbar-nav a[href='/apply'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/apply']",text,
+nav.faq,"FAQs","FAQ","#MPButtonBar .navbar-nav a[href='/faq'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/faq']",text,
 

@@ -92,27 +92,27 @@
     "key": "create.menu.library"
   },
   {
-    "selector": "#MPButtonBar .navbar-nav a[href='/home'] span, #MPButtonBar .navbar-nav a[href='/home']",
-    "type": "text",
-    "key": "nav.home"
-  },
-  {
     "selector": "#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",
     "type": "text",
     "key": "nav.mediaKit"
   },
   {
-    "selector": "#MPButtonBar .navbar-nav a[href='/advisory-committee'] span, #MPButtonBar .navbar-nav a[href='/advisory-committee']",
+    "selector": "#MPButtonBar .navbar-nav a[href='/home'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/home']",
+    "type": "text",
+    "key": "nav.home"
+  },
+  {
+    "selector": "#MPButtonBar .navbar-nav a[href='/advisory-committee'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/advisory-committee']",
     "type": "text",
     "key": "nav.advisory"
   },
   {
-    "selector": "#MPButtonBar .navbar-nav a[href='/apply'] span, #MPButtonBar .navbar-nav a[href='/apply']",
+    "selector": "#MPButtonBar .navbar-nav a[href='/apply'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/apply']",
     "type": "text",
     "key": "nav.funding"
   },
   {
-    "selector": "#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",
+    "selector": "#MPButtonBar .navbar-nav a[href='/faq'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/faq']",
     "type": "text",
     "key": "nav.faq"
   }
