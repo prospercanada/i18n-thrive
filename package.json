@@ -33,7 +33,9 @@
     "i18n:build:communityInvite": "node scripts/build-from-csv.mjs i18n-build/communityInvite-translated.csv i18n communityInvite",
     "i18n:build:communityMembers": "node scripts/build-from-csv.mjs i18n-build/communityMembers-translated.csv i18n communityMembers",
     "i18n:build:all": "node scripts/build-all.mjs",
-    "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\""
+    "i18n:commit": "npm run i18n:build:all && git add i18n/*.json && git commit -m \"chore(i18n): rebuild translations\" || echo \"No changes\"",
+    "build": "esbuild src/index.js --bundle --format=iife --global-name=i18nThrive --outfile=dist/i18n-thrive.bundle.js --minify --sourcemap",
+    "build:watch": "npm run build -- --watch"
   },
   "repository": {
     "type": "git",

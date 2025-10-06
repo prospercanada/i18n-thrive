@@ -42,27 +42,6 @@
     }
   }
 
-  // function attach(entries) {
-  //   for (const e of entries || []) {
-  //     const { selector, type, attr, key } = e || {};
-  //     if (!selector || !key) continue;
-
-  //     const el = document.querySelector(selector);
-  //     if (!el) continue;
-
-  //     if (type === "text") {
-  //       el.setAttribute("data-i18n", key);
-  //     } else if (type === "attr" && attr) {
-  //       const existing = el.getAttribute("data-i18n-attr") || "";
-  //       const pair = `${attr}:${key}`;
-  //       el.setAttribute(
-  //         "data-i18n-attr",
-  //         existing ? existing + "," + pair : pair
-  //       );
-  //     }
-  //   }
-  // }
-
   async function run(opts) {
     const { manifestUrl, namespaces = [], onlyIf } = opts || {};
     if (!manifestUrl) throw new Error("manifestUrl required");
