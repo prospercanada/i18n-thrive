@@ -478,6 +478,7 @@ async function reI18n() {
       document.documentElement.getAttribute("lang") ||
       "en";
 
+    console.log("setting lang 1 ", lang);
     await ThriveI18n.setLangNoReload(lang);
     document.documentElement.setAttribute("lang", lang);
     dbg("reI18n applied", { lang, namespaces });
@@ -550,6 +551,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     "en"
   ).toLowerCase();
   await ThriveI18n.setLangNoReload(initial);
+  console.log("setting lang 2 ", lang);
   document.documentElement.setAttribute("lang", initial);
   dbg("init complete", { initial, namespaces });
 

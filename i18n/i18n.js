@@ -535,12 +535,15 @@
       // cosmetic: reflect intent immediately
       document.documentElement.setAttribute(
         "lang",
-        next === "fr" ? "fr" : "en"
+        next === "fr" ? "fr-CA" : "en-CA"
       );
       return;
     }
     await loadAndApply(next);
-    document.documentElement.setAttribute("lang", next === "fr" ? "fr" : "en");
+    document.documentElement.setAttribute(
+      "lang",
+      next === "fr" ? "fr-CA" : "en-CA"
+    );
   }
 
   function t(key) {
