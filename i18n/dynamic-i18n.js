@@ -100,6 +100,22 @@
     if (renderFn) renderFn();
   }
 
+  // /advisory-committee
+  register("/advisory-committee", function renderAdvisoryCommitteeTitle() {
+    const el = document.querySelector("#PageTitleH1");
+    if (!el) return;
+
+    const MAP = {
+      en: "Meet the Resilient Futures Advisory Committee",
+      fr: "Rencontrez le comité consultatif de l’initiative Un avenir résilient",
+    };
+
+    const loc = getLocale();
+    const next = MAP[loc] || MAP.en;
+
+    if (el.textContent.trim() !== next) el.textContent = next;
+  });
+
   register(
     "/sandboxmicrosite/communities/community-home/invite-community",
     function renderInviteCommunity() {
