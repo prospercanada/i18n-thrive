@@ -177,7 +177,7 @@ function pickNamespaces(currentUrlOrPath) {
 
   // Add "profile" only for /profile...
   if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
-
+  if (/^\/people(?:\/|$)/i.test(path)) out.add("profile");
   // connections
   if (/^\/profile\/connections\/contacts(?:\/|$)/i.test(path))
     add("connections");
