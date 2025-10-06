@@ -21,7 +21,15 @@ create.button.sronly,Toggle Dropdown,Basculer le menu,#CreateBtnWrapper [qa-id="
 create.menu.discussion,Discussion Thread,Fil de discussion,#HLCreateDiscussionThread,text,
 create.menu.library,Library Entry,Élément de la bibliothèque,#HLCreateLibraryEntry,text,
 
-topnav.memberHome,Member home,Accueil des membres,.nav.navbar-nav a[href="/home"] span,text,
-topnav.mediaKit,Media Kit,Trousse médiatique,.nav.navbar-nav a[href="/media-kit"] span,text,
-topnav.advisory,Advisory Committee,Comité consultatif,.nav.navbar-nav a[href="/advisory-committee"] span,text,
-topnav.funding,Funding Information,Renseignements sur le financement,.nav.navbar-nav a[href="/apply"] span,text,
+# topnav.memberHome,Member home,Accueil des membres,.nav.navbar-nav a[href="/home"] span,text,
+# topnav.mediaKit,Media Kit,Trousse médiatique,.nav.navbar-nav a[href="/media-kit"] span,text,
+# topnav.advisory,Advisory Committee,Comité consultatif,.nav.navbar-nav a[href="/advisory-committee"] span,text,
+# topnav.funding,Funding Information,Renseignements sur le financement,.nav.navbar-nav a[href="/apply"] span,text,
+
+
+nav.home,"Home","Accueil","#MPButtonBar .navbar-nav a[href='/home'] span, #MPButtonBar .navbar-nav a[href='/home']",text,
+nav.mediaKit,"Media Kit",""Trousse pour les médias","#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",text,
+nav.advisory,"Advisory Committee","Le Comité consultatif","#MPButtonBar .navbar-nav a[href='/advisory-committee'] span, #MPButtonBar .navbar-nav a[href='/advisory-committee']",text,
+nav.funding,"Funding Information","Informations sur le financement","#MPButtonBar .navbar-nav a[href='/apply'] span, #MPButtonBar .navbar-nav a[href='/apply']",text,
+nav.faq,"FAQs","FAQ","#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",text,
+

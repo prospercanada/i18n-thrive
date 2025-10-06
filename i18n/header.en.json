@@ -3,8 +3,13 @@
   "create.button.sronly": "Toggle Dropdown",
   "create.menu.discussion": "Discussion Thread",
   "create.menu.library": "Library Entry",
+  "nav.advisory": "Advisory Committee",
+  "nav.faq": "FAQs",
+  "nav.funding": "Funding Information",
+  "nav.home": "Home",
   "nav.logo.desktop.alt": "Prosper Canada logo. This will take you to the homepage",
   "nav.logo.mobile.alt": "Prosper Canada logo. This will take you to the homepage",
+  "nav.mediaKit": "Media Kit",
   "nav.toggle.sronly": "Toggle navigation",
   "profile.menu.followed": "Followed Content",
   "profile.menu.inbox": "Inbox",
@@ -15,9 +20,5 @@
   "search.input.aria": "Search Box",
   "search.input.placeholder": "Search",
   "search.input.title": "search",
-  "search.toggle.aria": "searchToggle",
-  "topnav.advisory": "Advisory Committee",
-  "topnav.funding": "Funding Information",
-  "topnav.mediaKit": "Media Kit",
-  "topnav.memberHome": "Member home"
+  "search.toggle.aria": "searchToggle"
 }

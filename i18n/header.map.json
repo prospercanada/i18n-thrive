@@ -92,23 +92,28 @@
     "key": "create.menu.library"
   },
   {
-    "selector": ".nav.navbar-nav a[href=\"/home\"] span",
+    "selector": "#MPButtonBar .navbar-nav a[href='/home'] span, #MPButtonBar .navbar-nav a[href='/home']",
     "type": "text",
-    "key": "topnav.memberHome"
+    "key": "nav.home"
   },
   {
-    "selector": ".nav.navbar-nav a[href=\"/media-kit\"] span",
+    "selector": "#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",
     "type": "text",
-    "key": "topnav.mediaKit"
+    "key": "nav.mediaKit"
   },
   {
-    "selector": ".nav.navbar-nav a[href=\"/advisory-committee\"] span",
+    "selector": "#MPButtonBar .navbar-nav a[href='/advisory-committee'] span, #MPButtonBar .navbar-nav a[href='/advisory-committee']",
     "type": "text",
-    "key": "topnav.advisory"
+    "key": "nav.advisory"
   },
   {
-    "selector": ".nav.navbar-nav a[href=\"/apply\"] span",
+    "selector": "#MPButtonBar .navbar-nav a[href='/apply'] span, #MPButtonBar .navbar-nav a[href='/apply']",
     "type": "text",
-    "key": "topnav.funding"
+    "key": "nav.funding"
+  },
+  {
+    "selector": "#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",
+    "type": "text",
+    "key": "nav.faq"
   }
 ]

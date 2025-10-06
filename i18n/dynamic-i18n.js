@@ -144,6 +144,7 @@
     "/profile/connections/communitiesnode",
     function renderCommunitiesNode() {
       // A) “last person joined … ago”
+      const loc = getLocale();
       const selLast = "[id^='MainCopy_ctl29_lstCommunityList_lblLastUpdated_']";
       const unitFn = UNITS[loc] || UNITS.en;
       const fmtLast = templates.lastJoined[loc] || templates.lastJoined.en;

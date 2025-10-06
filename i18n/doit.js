@@ -165,7 +165,8 @@ function pickNamespaces(currentUrlOrPath) {
   const section = (getParamCI(url, "section") || "").trim().toLowerCase();
 
   // base (no "profile" here)
-  const base = ["nav", "footer"];
+  // const base = ["nav", "footer"];
+  const base = ["header", "footer"];
   const out = new Set(base);
 
   // helper to add one or more ns
@@ -556,7 +557,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   runExtrasForPath();
   installWebFormsHooks(); // <-- call it once here
 });
-
 
 // Oct 6 REMOVED USER MAIN HANDLER
 // // 5) (optional) language toggle
