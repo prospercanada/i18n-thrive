@@ -1,336 +1,107 @@
 [
   {
-    "selector": "#MainCopy_ContentWrapper h2:first-of-type",
-    "type": "text",
-    "key": "directory.form.heading"
-  },
-  {
-    "selector": "#MainCopy_ctl02_FirstNameLabel",
-    "type": "text",
-    "key": "directory.firstname.label"
-  },
-  {
-    "selector": "#MainCopy_ctl02_FindFirstName",
-    "type": "attr",
-    "key": "directory.firstname.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl02_LastNameLabel",
-    "type": "text",
-    "key": "directory.lastname.label"
-  },
-  {
-    "selector": "#MainCopy_ctl02_FindLastName",
-    "type": "attr",
-    "key": "directory.lastname.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CompanyNameLabel",
-    "type": "text",
-    "key": "directory.company.label"
-  },
-  {
-    "selector": "#MainCopy_ctl02_FindCompanyName",
-    "type": "attr",
-    "key": "directory.company.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl02_Label5",
-    "type": "text",
-    "key": "directory.email.label"
-  },
-  {
-    "selector": "#MainCopy_ctl02_EmailAddress",
-    "type": "attr",
-    "key": "directory.email.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl04_CityLabel",
-    "type": "text",
-    "key": "directory.city.label"
-  },
-  {
-    "selector": "#MainCopy_ctl04_FindCity",
-    "type": "attr",
-    "key": "directory.city.placeholder",
-    "attr": "placeholder"
-  },
-  {
-    "selector": "#MainCopy_ctl04_FindCity",
-    "type": "attr",
-    "key": "directory.city.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl04_ucCountryStateProvinceList_CountryRow #lblCountry",
-    "type": "text",
-    "key": "directory.country.label"
-  },
-  {
-    "selector": "#MainCopy_ctl04_ucCountryStateProvinceList_ddlCountry",
-    "type": "attr",
-    "key": "directory.country.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl04_ucCountryStateProvinceList_ddlCountry option[value=\"\"]",
-    "type": "text",
-    "key": "directory.country.placeholder"
-  },
-  {
-    "selector": "#MainCopy_ctl04_ucCountryStateProvinceList_StateProvinceRow #lblState",
-    "type": "text",
-    "key": "directory.state.label"
-  },
-  {
-    "selector": "#MainCopy_ctl04_ucCountryStateProvinceList_ddlState",
-    "type": "attr",
-    "key": "directory.state.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl04_ucCountryStateProvinceList_ddlState option[value=\"\"]",
-    "type": "text",
-    "key": "directory.state.placeholder"
-  },
-  {
-    "selector": "#MainCopy_ctl06_GroupType",
-    "type": "text",
-    "key": "directory.communityType.label"
-  },
-  {
-    "selector": "#MainCopy_ctl06_CommunityType option[value=\"\"]",
-    "type": "text",
-    "key": "directory.communityType.placeholder"
-  },
-  {
-    "selector": "#MainCopy_ctl06_CommunityType",
-    "type": "attr",
-    "key": "directory.communityType.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl06_GroupName",
-    "type": "text",
-    "key": "directory.communityName.label"
-  },
-  {
-    "selector": "#MainCopy_ctl06_CommunityName option[value=\"\"]",
-    "type": "text",
-    "key": "directory.communityName.placeholder"
-  },
-  {
-    "selector": "#MainCopy_ctl06_CommunityName",
-    "type": "attr",
-    "key": "directory.communityName.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_FindContacts",
-    "type": "attr",
-    "key": "directory.search.find",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_ClearSearchResults",
-    "type": "attr",
-    "key": "directory.search.clear",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_ClearSearchResults",
-    "type": "attr",
-    "key": "directory.search.clear.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_SubjectLabel",
-    "type": "text",
-    "key": "directory.send.subject.label"
-  },
-  {
-    "selector": "#MainCopy_ctl09_SubjectTextBox",
-    "type": "attr",
-    "key": "directory.send.subject.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_SubjectValidatorLabel",
-    "type": "text",
-    "key": "directory.send.subject.required"
-  },
-  {
-    "selector": "#MainCopy_ctl09_MessageLabel",
-    "type": "text",
-    "key": "directory.send.message.label"
-  },
-  {
-    "selector": "#MainCopy_ctl09_MessageEmptyLabel",
-    "type": "text",
-    "key": "directory.send.message.required"
-  },
-  {
-    "selector": "#MainCopy_ctl09_SendMessageSubmitLink",
-    "type": "attr",
-    "key": "directory.send.button",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_SendMessageCancelLink",
-    "type": "attr",
-    "key": "directory.send.cancel",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_SendMessageProgressLabel",
-    "type": "text",
-    "key": "directory.send.progressLabel"
-  },
-  {
-    "selector": "#MainCopy_ctl09_SendMessageProgressImage",
-    "type": "attr",
-    "key": "directory.send.progressAlt",
-    "attr": "alt"
-  },
-  {
-    "selector": "#MainCopy_ctl09_SendMessageProgressImage",
-    "type": "attr",
-    "key": "directory.send.progressTitle",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_AddFriendModalPopup ~ .ui-dialog-titlebar .ui-dialog-title",
-    "type": "text",
-    "key": "directory.invite.modal.title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_lblMailText",
-    "type": "text",
-    "key": "directory.invite.body"
-  },
-  {
-    "selector": "#MainCopy_ctl09_AddFriendSubmitLink",
-    "type": "attr",
-    "key": "directory.invite.send",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_AddFriendCancelLink",
-    "type": "attr",
-    "key": "directory.invite.cancel",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_AddFriendProgress .col-md-12",
-    "type": "text",
-    "key": "directory.invite.working"
-  },
-  {
-    "selector": "#MainCopy_ctl09_AddFriendProgressImage",
-    "type": "attr",
-    "key": "directory.invite.progressAlt",
-    "attr": "alt"
-  },
-  {
-    "selector": "#MainCopy_ctl09_AddFriendProgressImage",
-    "type": "attr",
-    "key": "directory.invite.progressTitle",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_RemoveFriendModalPopup ~ .ui-dialog-titlebar .ui-dialog-title",
-    "type": "text",
-    "key": "directory.remove.modal.title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_RemoveFriendMessage",
-    "type": "text",
-    "key": "directory.remove.message"
-  },
-  {
-    "selector": "#MainCopy_ctl09_RemoveFriendSubmitLink",
-    "type": "attr",
-    "key": "directory.remove.remove",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_RemoveFriendCancelLink",
-    "type": "attr",
-    "key": "directory.remove.cancel",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_RemoveFriendProgress .col-md-12",
-    "type": "text",
-    "key": "directory.remove.working"
-  },
-  {
-    "selector": "#MainCopy_ctl09_RemoveFriendProgressImage",
-    "type": "attr",
-    "key": "directory.remove.progressAlt",
-    "attr": "alt"
-  },
-  {
-    "selector": "#MainCopy_ctl09_RemoveFriendProgressImage",
-    "type": "attr",
-    "key": "directory.remove.progressTitle",
-    "attr": "title"
-  },
-  {
-    "selector": "#ExportOptions",
-    "type": "attr",
-    "key": "directory.export.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#ExportOptions .row.form-group .col-md-12:first-child",
-    "type": "text",
-    "key": "directory.export.choose"
-  },
-  {
-    "selector": "#MainCopy_ctl09_ExportExcelRadio ~ label",
-    "type": "text",
-    "key": "directory.export.excelLabel"
-  },
-  {
-    "selector": "#MainCopy_ctl09_ExportCSVRadio ~ label",
-    "type": "text",
-    "key": "directory.export.csvLabel"
-  },
-  {
-    "selector": "#MainCopy_ctl09_ExportExcelRadio",
-    "type": "attr",
-    "key": "directory.export.excelTitle",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_ExportCSVRadio",
-    "type": "attr",
-    "key": "directory.export.csvTitle",
-    "attr": "title"
-  },
-  {
-    "selector": ".ui-dialog[aria-describedby=\"dialog-alert-noDataDialog\"] .ui-dialog-title",
-    "type": "text",
-    "key": "dialog.noData.title"
-  },
-  {
-    "selector": "#dialog-alert-noDataDialog p span:last-child",
-    "type": "text",
-    "key": "dialog.noData.message"
-  },
-  {
-    "selector": ".ui-dialog[aria-describedby=\"dialog-alert-noDataDialog\"] .ui-dialog-buttonpane .btn.btn-default",
-    "type": "text",
-    "key": "dialog.noData.return"
-  },
-  {
     "selector": "#PageTitleH1",
     "type": "text",
     "key": "directory.page.title"
+  },
+  {
+    "selector": "#MainCopy_ctl02_Tab1",
+    "type": "text",
+    "key": "directory.tab.search"
+  },
+  {
+    "selector": "#MainCopy_ctl11_pnlFindContacts #Title",
+    "type": "html",
+    "key": "directory.form.heading"
+  },
+  {
+    "selector": "#MainCopy_ctl13_pnlFindContacts #Title",
+    "type": "html",
+    "key": "directory.form.heading2"
+  },
+  {
+    "selector": "#MainCopy_ctl04_FindContacts",
+    "type": "attr",
+    "key": "directory.btn.find",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_ClearSearchResults",
+    "type": "attr",
+    "key": "directory.btn.clear",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl04_ClearSearchResults",
+    "type": "attr",
+    "key": "directory.btn.clear.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl07_GroupType",
+    "type": "text",
+    "key": "directory.label.communityType"
+  },
+  {
+    "selector": "#MainCopy_ctl07_GroupName",
+    "type": "text",
+    "key": "directory.label.communityName"
+  },
+  {
+    "selector": "#MainCopy_ctl11_CityLabel",
+    "type": "text",
+    "key": "directory.label.city"
+  },
+  {
+    "selector": "#MainCopy_ctl11_ucCountryStateProvinceList_ddlCountry",
+    "type": "attr",
+    "key": "directory.label.country",
+    "attr": "title"
+  },
+  {
+    "selector": "#lblCountry",
+    "type": "text",
+    "key": "directory.label.country.text"
+  },
+  {
+    "selector": "#MainCopy_ctl11_ucCountryStateProvinceList_ddlState",
+    "type": "attr",
+    "key": "directory.label.state",
+    "attr": "title"
+  },
+  {
+    "selector": "#lblState",
+    "type": "text",
+    "key": "directory.label.state.text"
+  },
+  {
+    "selector": "#MainCopy_ctl13_FirstNameLabel",
+    "type": "text",
+    "key": "directory.label.first"
+  },
+  {
+    "selector": "#MainCopy_ctl13_LastNameLabel",
+    "type": "text",
+    "key": "directory.label.last"
+  },
+  {
+    "selector": "#MainCopy_ctl13_CompanyNameLabel",
+    "type": "text",
+    "key": "directory.label.company"
+  },
+  {
+    "selector": "#MainCopy_ctl13_Label5",
+    "type": "text",
+    "key": "directory.label.email"
+  },
+  {
+    "selector": "#MainCopy_ctl11_ucCountryStateProvinceList_ddlCountry option[value='']",
+    "type": "text",
+    "key": "directory.placeholder.country"
+  },
+  {
+    "selector": "#MainCopy_ctl11_ucCountryStateProvinceList_ddlState option[value='']",
+    "type": "text",
+    "key": "directory.placeholder.state"
   }
 ]
