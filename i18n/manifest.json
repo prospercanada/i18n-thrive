@@ -81,5 +81,8 @@
   "communityMembers.map": "communityMembers.map.json",
   "communityInvite.en": "communityInvite.map.json",
   "communityInvite.fr": "communityInvite.fr.json",
-  "communityInvite.map": "communityInvite.map.json"
+  "communityInvite.map": "communityInvite.map.json",
+  "communityMy.en": "communityMy.map.json",
+  "communityMy.fr": "communityMy.fr.json",
+  "communityMy.map": "communityMy.map.json"
 }

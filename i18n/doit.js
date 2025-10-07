@@ -240,6 +240,9 @@ function pickNamespaces(currentUrlOrPath) {
     /^\/communities(?:\/community-home)?\/invite-community(?:\/digestviewer)?(?:\/|$)/i;
   if (inviteRe.test(path)) out.add("communityInvite");
 
+  if (/^\/communities\/mycommunities(?:\/|$)/i.test(path))
+    out.add("communityMy");
+
   // if (/^\/communities\/community-home(?:\/|$)/i.test(path)) out.add("community");
   if (/^\/communities\/community-home\/digestviewer(?:\/|$)/i.test(path))
     out.add("communityDigest");
@@ -557,7 +560,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   await ThriveI18n.setLangNoReload(initial);
   // console.log("setting lang 2 ", initial);
   // document.documentElement.setAttribute("lang", initial);
-  
+
   document.documentElement.setAttribute(
     "lang",
     initial === "fr" ? "fr-CA" : "en-CA"

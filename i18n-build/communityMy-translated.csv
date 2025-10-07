@@ -1,0 +1,32 @@
+key,en,fr,selector,type,attr
+
+# ===== Filters: Display =====
+communities.filter.display.belong-or-join,"Communities to which I belong or can join","Communautés auxquelles j’appartiens ou que je peux rejoindre","#MainCopy_ctl02_ddlDisplay option[value='4']",text,
+communities.filter.display.belong,"Communities to which I belong","Communautés auxquelles j’appartiens","#MainCopy_ctl02_ddlDisplay option[value='0']",text,
+communities.filter.display.joinable,"Communities I can join","Communautés que je peux rejoindre","#MainCopy_ctl02_ddlDisplay option[value='1']",text,
+communities.filter.display.viewable,"Communities I can only view","Communautés que je peux seulement consulter","#MainCopy_ctl02_ddlDisplay option[value='2']",text,
+communities.filter.display.all,"All Communities","Toutes les communautés","#MainCopy_ctl02_ddlDisplay option[value='3']",text,
+
+# ===== Sort: Order By =====
+communities.sort.alpha,"Alphabetical","Ordre alphabétique","#MainCopy_ctl02_ddlOrderBy option[value='0']",text,
+communities.sort.updated.most,"Most recently updated","Les plus récemment mises à jour","#MainCopy_ctl02_ddlOrderBy option[value='1']",text,
+communities.sort.active.most,"Most active","Les plus actives","#MainCopy_ctl02_ddlOrderBy option[value='2']",text,
+communities.sort.people.most,"Most people","Le plus de personnes","#MainCopy_ctl02_ddlOrderBy option[value='3']",text,
+communities.sort.posts.most,"Most discussion posts","Le plus de messages de discussion","#MainCopy_ctl02_ddlOrderBy option[value='4']",text,
+communities.sort.library.most,"Most Library entries","Le plus d’éléments de la bibliothèque","#MainCopy_ctl02_ddlOrderBy option[value='5']",text,
+communities.sort.alpha.reverse,"Reverse alphabetical","Ordre alphabétique inverse","#MainCopy_ctl02_ddlOrderBy option[value='6']",text,
+communities.sort.updated.least,"Least recently updated","Les moins récemment mises à jour","#MainCopy_ctl02_ddlOrderBy option[value='7']",text,
+communities.sort.active.least,"Least active","Les moins actives","#MainCopy_ctl02_ddlOrderBy option[value='8']",text,
+communities.sort.people.fewest,"Fewest people","Le moins de personnes","#MainCopy_ctl02_ddlOrderBy option[value='9']",text,
+communities.sort.posts.fewest,"Fewest discussion posts","Le moins de messages de discussion","#MainCopy_ctl02_ddlOrderBy option[value='10']",text,
+communities.sort.library.fewest,"Fewest Library entries","Le moins d’éléments de la bibliothèque","#MainCopy_ctl02_ddlOrderBy option[value='11']",text,
+
+# ===== Paging: Results per page =====
+communities.perpage.20,"20 per page","20 par page","#MainCopy_ctl02_ddlResultsPerPage option[value='20']",text,
+communities.perpage.50,"50 per page","50 par page","#MainCopy_ctl02_ddlResultsPerPage option[value='50']",text,
+
+# ===== Stats buttons (keep the <span class="badge"> intact) =====
+# Use data-i18n-text so we replace only the first text node (before the badge)
+communities.stat.discussions,"Discussions","Discussions","#MainCopy_ctl02_lstCommunityList_lbCommunityDiscussionCount_0",attr,data-i18n-text
+communities.stat.libraries,"Libraries","Bibliothèques","#MainCopy_ctl02_lstCommunityList_lbCommunityDocumentsCount_0",attr,data-i18n-text
+communities.stat.members,"Members","Membres","#MainCopy_ctl02_lstCommunityList_lbCommunityMembersCount_0",attr,data-i18n-text

@@ -1,0 +1,115 @@
+[
+  {
+    "selector": "#MainCopy_ctl02_ddlDisplay option[value='4']",
+    "type": "text",
+    "key": "communities.filter.display.belong-or-join"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlDisplay option[value='0']",
+    "type": "text",
+    "key": "communities.filter.display.belong"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlDisplay option[value='1']",
+    "type": "text",
+    "key": "communities.filter.display.joinable"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlDisplay option[value='2']",
+    "type": "text",
+    "key": "communities.filter.display.viewable"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlDisplay option[value='3']",
+    "type": "text",
+    "key": "communities.filter.display.all"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='0']",
+    "type": "text",
+    "key": "communities.sort.alpha"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='1']",
+    "type": "text",
+    "key": "communities.sort.updated.most"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='2']",
+    "type": "text",
+    "key": "communities.sort.active.most"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='3']",
+    "type": "text",
+    "key": "communities.sort.people.most"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='4']",
+    "type": "text",
+    "key": "communities.sort.posts.most"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='5']",
+    "type": "text",
+    "key": "communities.sort.library.most"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='6']",
+    "type": "text",
+    "key": "communities.sort.alpha.reverse"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='7']",
+    "type": "text",
+    "key": "communities.sort.updated.least"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='8']",
+    "type": "text",
+    "key": "communities.sort.active.least"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='9']",
+    "type": "text",
+    "key": "communities.sort.people.fewest"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='10']",
+    "type": "text",
+    "key": "communities.sort.posts.fewest"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlOrderBy option[value='11']",
+    "type": "text",
+    "key": "communities.sort.library.fewest"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlResultsPerPage option[value='20']",
+    "type": "text",
+    "key": "communities.perpage.20"
+  },
+  {
+    "selector": "#MainCopy_ctl02_ddlResultsPerPage option[value='50']",
+    "type": "text",
+    "key": "communities.perpage.50"
+  },
+  {
+    "selector": "#MainCopy_ctl02_lstCommunityList_lbCommunityDiscussionCount_0",
+    "type": "attr",
+    "key": "communities.stat.discussions",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl02_lstCommunityList_lbCommunityDocumentsCount_0",
+    "type": "attr",
+    "key": "communities.stat.libraries",
+    "attr": "data-i18n-text"
+  },
+  {
+    "selector": "#MainCopy_ctl02_lstCommunityList_lbCommunityMembersCount_0",
+    "type": "attr",
+    "key": "communities.stat.members",
+    "attr": "data-i18n-text"
+  }
+]
