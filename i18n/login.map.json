@@ -34,5 +34,197 @@
     "type": "attr",
     "key": "login.button",
     "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl10_SignupSection .panel-heading .panel-title",
+    "type": "html",
+    "key": "register.panel.title"
+  },
+  {
+    "selector": "#MainCopy_ctl10_EmailAddressLabel",
+    "type": "text",
+    "key": "register.label.email"
+  },
+  {
+    "selector": "#MainCopy_ctl10_FirstNameLabel",
+    "type": "text",
+    "key": "register.label.first"
+  },
+  {
+    "selector": "#MainCopy_ctl10_LastNameLabel",
+    "type": "text",
+    "key": "register.label.last"
+  },
+  {
+    "selector": "#MainCopy_ctl10_CompanyNameLabel",
+    "type": "text",
+    "key": "register.label.company"
+  },
+  {
+    "selector": "#MainCopy_ctl10_CityLabel",
+    "type": "text",
+    "key": "register.label.city"
+  },
+  {
+    "selector": "#lblCountry",
+    "type": "text",
+    "key": "register.label.country"
+  },
+  {
+    "selector": "#lblState",
+    "type": "text",
+    "key": "register.label.state"
+  },
+  {
+    "selector": "#MainCopy_ctl10_ZipCodeLabel1",
+    "type": "text",
+    "key": "register.label.postal"
+  },
+  {
+    "selector": "#MainCopy_ctl10_PasswordLabel",
+    "type": "text",
+    "key": "register.label.password"
+  },
+  {
+    "selector": "#MainCopy_ctl10_ConfirmPasswordLabel",
+    "type": "text",
+    "key": "register.label.confirm"
+  },
+  {
+    "selector": "label[for='MainCopy_ctl10_Remember2']",
+    "type": "text",
+    "key": "register.label.remember"
+  },
+  {
+    "selector": "#MainCopy_ctl10_EmailAddress",
+    "type": "attr",
+    "key": "register.placeholder.email",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "#MainCopy_ctl10_City",
+    "type": "attr",
+    "key": "register.placeholder.city",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "#MainCopy_ctl10_dsCountryStateProvinceList_ddlCountry",
+    "type": "attr",
+    "key": "register.select.title.country",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl10_dsCountryStateProvinceList_ddlCountry option[value='']",
+    "type": "text",
+    "key": "register.select.placeholder.country"
+  },
+  {
+    "selector": "#MainCopy_ctl10_dsCountryStateProvinceList_ddlState",
+    "type": "attr",
+    "key": "register.select.title.state",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl10_dsCountryStateProvinceList_ddlState option[value='']",
+    "type": "text",
+    "key": "register.select.placeholder.state"
+  },
+  {
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Organization Location')",
+    "type": "text",
+    "key": "register.demo.org-location"
+  },
+  {
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Sector')",
+    "type": "text",
+    "key": "register.demo.sector"
+  },
+  {
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Financial Empowerment Services Offered')",
+    "type": "text",
+    "key": "register.demo.fe-offered"
+  },
+  {
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Other Services Offered')",
+    "type": "text",
+    "key": "register.demo.other-services"
+  },
+  {
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Populations Served')",
+    "type": "text",
+    "key": "register.demo.populations"
+  },
+  {
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Federal Riding')",
+    "type": "text",
+    "key": "register.demo.fed-riding"
+  },
+  {
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Geographic Area(s) Served')",
+    "type": "text",
+    "key": "register.demo.geo-served"
+  },
+  {
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Language Preference')",
+    "type": "text",
+    "key": "register.demo.lang-pref"
+  },
+  {
+    "selector": "button[data-id$='-select'][title='(Organization Location)']",
+    "type": "attr",
+    "key": "register.demo.btn.org-location",
+    "attr": "title"
+  },
+  {
+    "selector": "button[data-id$='-select'][title='(Sector)']",
+    "type": "attr",
+    "key": "register.demo.btn.sector",
+    "attr": "title"
+  },
+  {
+    "selector": "button[data-id$='-select'][title='(Financial Empowerment Services Offered)']",
+    "type": "attr",
+    "key": "register.demo.btn.fe-offered",
+    "attr": "title"
+  },
+  {
+    "selector": "button[data-id$='-select'][title='(Other Services Offered)']",
+    "type": "attr",
+    "key": "register.demo.btn.other-services",
+    "attr": "title"
+  },
+  {
+    "selector": "button[data-id$='-select'][title='(Populations Served)']",
+    "type": "attr",
+    "key": "register.demo.btn.populations",
+    "attr": "title"
+  },
+  {
+    "selector": "button[data-id$='-select'][title='(Geographic Area(s) Served)']",
+    "type": "attr",
+    "key": "register.demo.btn.geo-served",
+    "attr": "title"
+  },
+  {
+    "selector": "button[data-id$='-select'][title='(Language Preference)']",
+    "type": "attr",
+    "key": "register.demo.btn.lang-pref",
+    "attr": "title"
+  },
+  {
+    "selector": "#MainCopy_ctl10_PasswordPolicyText",
+    "type": "html",
+    "key": "register.password.policy.html"
+  },
+  {
+    "selector": "#MainCopy_ctl10_CreateAccountButton",
+    "type": "attr",
+    "key": "register.btn.create",
+    "attr": "value"
+  },
+  {
+    "selector": ".SmallText",
+    "type": "html",
+    "key": "register.required.hint.html"
   }
 ]
