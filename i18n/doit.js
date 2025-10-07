@@ -220,7 +220,7 @@ function pickNamespaces(currentUrlOrPath) {
   if (/^\/network\/members(?:\/|$)/i.test(path)) add("networkMembers");
 
   // top-level static pages
-  if (/^\/contactus(?:\/|$)/i.test(path)) add("contactus");
+  if (/^\/contactus(?:\/|$)/i.test(path)) add("contact");
   if (/^\/login(?:\/|$)/i.test(path)) add("login");
   if (/^\/participate\/postmessage(?:\/|$)/i.test(path)) add("postMessage");
   if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path)) add("addLibrary");
