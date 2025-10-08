@@ -20,7 +20,6 @@
     "i18n:build:accountInbox": "node scripts/build-from-csv.mjs i18n-build/accountInbox-translated.csv i18n accountInbox",
     "i18n:build:networkMembers": "node scripts/build-from-csv.mjs i18n-build/networkMembers-translated.csv i18n networkMembers",
     "i18n:build:header": "node scripts/build-from-csv.mjs i18n-build/header-translated.csv i18n header",
-    "i18n:build:footer": "node scripts/build-from-csv.mjs i18n-build/footer-translated.csv i18n footer",
     "i18n:build:contact": "node scripts/build-from-csv.mjs i18n-build/contact-translated.csv i18n contact",
     "i18n:build:postMessage": "node scripts/build-from-csv.mjs i18n-build/postMessage-translated.csv i18n postMessage",
     "i18n:build:addLibrary": "node scripts/build-from-csv.mjs i18n-build/addLibrary-translated.csv i18n addLibrary",

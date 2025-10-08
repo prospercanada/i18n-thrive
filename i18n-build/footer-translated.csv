@@ -1,6 +1,0 @@
-key,en,fr,selector,type,attr
-footer.contact.heading,"Contact Us","Nous joindre","#FooterContent a[href='/contactus']",text,
-footer.address.html,"60 St Clair Ave E #700<br>Toronto, ON M4T 1N5","60, avenue St. Clair E., bureau 700<br>Toronto (Ont.) M4T 1N5","#FooterContent .section3 p, #FooterContent .section7 p",html,
-footer.privacy.heading,"Privacy & Terms","Confidentialité et conditions","#FooterContent a[href='https://community.prospercanada.org/termsandconditions']",text,
-footer.copyright.html,"Copyright 2025<br>All rights reserved","Droit d’auteur 2025<br>Tous droits réservés","#FooterContent .section4 p, #FooterContent .section8 p",html,
-footer.logo.alt,"Prosper Canada Logo","Logo de Prosper Canada","#FooterContent .footer-logo img",attr,alt

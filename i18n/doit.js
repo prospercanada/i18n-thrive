@@ -166,7 +166,7 @@ function pickNamespaces(currentUrlOrPath) {
 
   // base (no "profile" here)
   // const base = ["nav", "footer"];
-  const base = ["header", "footer"];
+  const base = ["header"];
   const out = new Set(base);
 
   // helper to add one or more ns
