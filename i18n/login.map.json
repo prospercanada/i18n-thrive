@@ -132,5 +132,10 @@
     "selector": ".SmallText",
     "type": "html",
     "key": "register.required.hint.html"
+  },
+  {
+    "selector": "#RibbitWelcome .Login a[qa-id='login-link']",
+    "type": "text",
+    "key": "auth.login"
   }
 ]

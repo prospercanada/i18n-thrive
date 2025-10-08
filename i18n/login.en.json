@@ -1,4 +1,5 @@
 {
+  "auth.login": "Log in",
   "login.button": "Login",
   "login.email.label": "Email",
   "login.forgot.link": "Did You Forget Your Password?",

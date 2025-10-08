@@ -1,4 +1,5 @@
 {
+  "auth.login": "Se connecter",
   "login.button": "Connexion",
   "login.email.label": "Adresse courriel",
   "login.forgot.link": "Mot de passe oublié ?",

@@ -44,3 +44,6 @@ register.btn.create,Create Account,Créer un compte,#MainCopy_ctl10_CreateAccoun
 
 # ===== “required” hint line (simple approach: replace whole sentence) =====
 register.required.hint.html,"<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indicates that the field is required</label>","<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indique que le champ est obligatoire</label>",".SmallText",html,
+
+
+auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,
