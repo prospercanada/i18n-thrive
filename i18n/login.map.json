@@ -36,136 +36,42 @@
     "attr": "value"
   },
   {
-    "selector": "#MainCopy_ctl10_SignupSection .panel-heading .panel-title",
-    "type": "html",
-    "key": "register.panel.title"
-  },
-  {
-    "selector": "#MainCopy_ctl10_EmailAddressLabel",
-    "type": "text",
-    "key": "register.label.email"
-  },
-  {
-    "selector": "#MainCopy_ctl10_FirstNameLabel",
-    "type": "text",
-    "key": "register.label.first"
-  },
-  {
-    "selector": "#MainCopy_ctl10_LastNameLabel",
-    "type": "text",
-    "key": "register.label.last"
-  },
-  {
-    "selector": "#MainCopy_ctl10_CompanyNameLabel",
-    "type": "text",
-    "key": "register.label.company"
-  },
-  {
-    "selector": "#MainCopy_ctl10_CityLabel",
-    "type": "text",
-    "key": "register.label.city"
-  },
-  {
-    "selector": "#lblCountry",
-    "type": "text",
-    "key": "register.label.country"
-  },
-  {
-    "selector": "#lblState",
-    "type": "text",
-    "key": "register.label.state"
-  },
-  {
-    "selector": "#MainCopy_ctl10_ZipCodeLabel1",
-    "type": "text",
-    "key": "register.label.postal"
-  },
-  {
-    "selector": "#MainCopy_ctl10_PasswordLabel",
-    "type": "text",
-    "key": "register.label.password"
-  },
-  {
-    "selector": "#MainCopy_ctl10_ConfirmPasswordLabel",
-    "type": "text",
-    "key": "register.label.confirm"
-  },
-  {
-    "selector": "label[for='MainCopy_ctl10_Remember2']",
-    "type": "text",
-    "key": "register.label.remember"
-  },
-  {
-    "selector": "#MainCopy_ctl10_EmailAddress",
-    "type": "attr",
-    "key": "register.placeholder.email",
-    "attr": "placeholder"
-  },
-  {
-    "selector": "#MainCopy_ctl10_City",
-    "type": "attr",
-    "key": "register.placeholder.city",
-    "attr": "placeholder"
-  },
-  {
-    "selector": "#MainCopy_ctl10_dsCountryStateProvinceList_ddlCountry",
-    "type": "attr",
-    "key": "register.select.title.country",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl10_dsCountryStateProvinceList_ddlCountry option[value='']",
-    "type": "text",
-    "key": "register.select.placeholder.country"
-  },
-  {
-    "selector": "#MainCopy_ctl10_dsCountryStateProvinceList_ddlState",
-    "type": "attr",
-    "key": "register.select.title.state",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl10_dsCountryStateProvinceList_ddlState option[value='']",
-    "type": "text",
-    "key": "register.select.placeholder.state"
-  },
-  {
-    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Organization Location')",
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",
     "type": "text",
     "key": "register.demo.org-location"
   },
   {
-    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Sector')",
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",
     "type": "text",
     "key": "register.demo.sector"
   },
   {
-    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Financial Empowerment Services Offered')",
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",
     "type": "text",
     "key": "register.demo.fe-offered"
   },
   {
-    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Other Services Offered')",
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",
     "type": "text",
     "key": "register.demo.other-services"
   },
   {
-    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Populations Served')",
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",
     "type": "text",
     "key": "register.demo.populations"
   },
   {
-    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Federal Riding')",
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",
     "type": "text",
     "key": "register.demo.fed-riding"
   },
   {
-    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Geographic Area(s) Served')",
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",
     "type": "text",
     "key": "register.demo.geo-served"
   },
   {
-    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']:contains('Language Preference')",
+    "selector": "#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",
     "type": "text",
     "key": "register.demo.lang-pref"
   },
