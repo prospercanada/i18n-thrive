@@ -18,32 +18,32 @@ login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
 
 
 # ===== Demographics block high-level labels =====
-register.demo.org-location,Organization Location,Emplacement de l’organisme,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-register.demo.sector,Sector,Secteur,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-register.demo.fe-offered,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-register.demo.other-services,Other Services Offered,Autres services offerts,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-register.demo.populations,Populations Served,Populations desservies,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-register.demo.fed-riding,Federal Riding,Circonscription fédérale,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-register.demo.geo-served,Geographic Area(s) Served,Région(s) desservie(s),"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-register.demo.lang-pref,Language Preference,Langue préférée,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+# register.demo.org-location,Organization Location,Emplacement de l’organisme,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+# register.demo.sector,Sector,Secteur,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+# register.demo.fe-offered,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+# register.demo.other-services,Other Services Offered,Autres services offerts,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+# register.demo.populations,Populations Served,Populations desservies,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+# register.demo.fed-riding,Federal Riding,Circonscription fédérale,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+# register.demo.geo-served,Geographic Area(s) Served,Région(s) desservie(s),"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+# register.demo.lang-pref,Language Preference,Langue préférée,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
 
 # ===== Demographic dropdown “button text” placeholder (the mirrored button) =====
-register.demo.btn.org-location,(Organization Location),(Emplacement de l’organisme),"button[data-id$='-select'][title='(Organization Location)']",attr,title
-register.demo.btn.sector,(Sector),(Secteur),"button[data-id$='-select'][title='(Sector)']",attr,title
-register.demo.btn.fe-offered,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),"button[data-id$='-select'][title='(Financial Empowerment Services Offered)']",attr,title
-register.demo.btn.other-services,(Other Services Offered),(Autres services offerts),"button[data-id$='-select'][title='(Other Services Offered)']",attr,title
-register.demo.btn.populations,(Populations Served),(Populations desservies),"button[data-id$='-select'][title='(Populations Served)']",attr,title
-register.demo.btn.geo-served,(Geographic Area(s) Served),(Région(s) desservie(s)),"button[data-id$='-select'][title='(Geographic Area(s) Served)']",attr,title
-register.demo.btn.lang-pref,(Language Preference),(Langue préférée),"button[data-id$='-select'][title='(Language Preference)']",attr,title
+# register.demo.btn.org-location,(Organization Location),(Emplacement de l’organisme),"button[data-id$='-select'][title='(Organization Location)']",attr,title
+# register.demo.btn.sector,(Sector),(Secteur),"button[data-id$='-select'][title='(Sector)']",attr,title
+# register.demo.btn.fe-offered,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),"button[data-id$='-select'][title='(Financial Empowerment Services Offered)']",attr,title
+# register.demo.btn.other-services,(Other Services Offered),(Autres services offerts),"button[data-id$='-select'][title='(Other Services Offered)']",attr,title
+# register.demo.btn.populations,(Populations Served),(Populations desservies),"button[data-id$='-select'][title='(Populations Served)']",attr,title
+# register.demo.btn.geo-served,(Geographic Area(s) Served),(Région(s) desservie(s)),"button[data-id$='-select'][title='(Geographic Area(s) Served)']",attr,title
+# register.demo.btn.lang-pref,(Language Preference),(Langue préférée),"button[data-id$='-select'][title='(Language Preference)']",attr,title
 
 # ===== Password policy (has <br> and entities) =====
-register.password.policy.html,"Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:&quot;&lt;&gt;?-","La longueur doit être comprise entre 8 et 30 caractères.<br>Doit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial : ~!@#$%^&amp;*()_+{}:&quot;&lt;&gt;?-",#MainCopy_ctl10_PasswordPolicyText,html,
+# register.password.policy.html,"Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:&quot;&lt;&gt;?-","La longueur doit être comprise entre 8 et 30 caractères.<br>Doit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial : ~!@#$%^&amp;*()_+{}:&quot;&lt;&gt;?-",#MainCopy_ctl10_PasswordPolicyText,html,
 
 # ===== Button =====
-register.btn.create,Create Account,Créer un compte,#MainCopy_ctl10_CreateAccountButton,attr,value
+# register.btn.create,Create Account,Créer un compte,#MainCopy_ctl10_CreateAccountButton,attr,value
 
 # ===== “required” hint line (simple approach: replace whole sentence) =====
-register.required.hint.html,"<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indicates that the field is required</label>","<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indique que le champ est obligatoire</label>",".SmallText",html,
+# register.required.hint.html,"<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indicates that the field is required</label>","<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indique que le champ est obligatoire</label>",".SmallText",html,
 
 
 auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,

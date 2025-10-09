@@ -1,0 +1,1099 @@
+﻿# === FILE: accountChangePassword-translated.csv ===
+
+key,en,fr,selector,type,attr
+# Heading
+accountChangePassword.title,Change Password,Modifier le mot de passe,#MainCopy_ctl29_UpdatePanel1 h2,text,
+
+# Current password
+accountChangePassword.current.label,Current Password,Mot de passe actuel,label[for="MainCopy_ctl29_tbCurrentPassword"],text,
+accountChangePassword.current.required,Enter current password,Entrez le mot de passe actuel,#MainCopy_ctl29_RequiredFieldValidator3,text,
+
+# New password
+accountChangePassword.new.label,New Password,Nouveau mot de passe,label[for="MainCopy_ctl29_tbNewPassword"],text,
+accountChangePassword.new.required,Enter new password,Entrez un nouveau mot de passe,#MainCopy_ctl29_RequiredFieldValidator1,text,
+
+# Policy feedback (static labels shown beside the glyphs)
+accountChangePassword.policy.length,8 - 30 Characters,8 à 30 caractères,#MainCopy_ctl29_lblPassLength,text,
+accountChangePassword.policy.upper,1 Capital Letter(s),1 lettre majuscule,#MainCopy_ctl29_lblCapitalLetters,text,
+accountChangePassword.policy.number,1 Number(s) (0-9),1 chiffre (0–9),#MainCopy_ctl29_lblNumbers,text,
+accountChangePassword.policy.special,1 Special Character(s),1 caractère spécial,#MainCopy_ctl29_lblSpecialCharacters,text,
+
+# Confirm new password
+accountChangePassword.confirm.label,Confirm New Password,Confirmez le nouveau mot de passe,label[for="MainCopy_ctl29_tbConfirmPassword"],text,
+accountChangePassword.confirm.feedback,Passwords Match,Les mots de passe correspondent,#MainCopy_ctl29_lblConfirmFeedback,text,
+
+# Buttons
+accountChangePassword.save,Save,Enregistrer,#MainCopy_ctl29_Btn_Save,attr,value
+accountChangePassword.cancel,Cancel,Annuler,#MainCopy_ctl29_CancelTop,attr,value
+
+# === FILE: accountInbox-translated.csv ===
+
+inbox.nav.inbox,Inbox,Boîte de réception,ul.nav.nav-pills li:nth-child(1) a:last-of-type,text,
+inbox.nav.sent,Sent Items,Éléments envoyés,ul.nav.nav-pills li:nth-child(2) a:last-of-type,text,
+inbox.nav.requests,Contact Requests,Demandes de contact,ul.nav.nav-pills li:nth-child(3) a:last-of-type,text,
+inbox.nav.invites,Community Invitations,Invitations de la communauté,ul.nav.nav-pills li:nth-child(4) a:last-of-type,text,
+
+inbox.search.label,Search,Recherche,#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_lblSearchText,text,
+inbox.search.placeholder,Search,Rechercher,#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_txtsearch,attr,placeholder
+inbox.search.iconAria,Search,Rechercher,#MainCopy_ctl29_ucInboxTab_ucSimpleSearchMessage_btnSearch .glyphicon-search,attr,aria-label
+
+inbox.compose.button,Compose,Nouveau message,#btnCompose,text,
+inbox.compose.buttonAria,Compose,Nouveau message,#btnCompose,attr,aria-label
+
+inbox.empty,No Messages,Aucun message,.bg-warning,text,
+
+inbox.bulk.toggleSelectAll,Select All,Sélectionner tout,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll,attr,title
+
+inbox.invites.empty,You have no pending community Request(s),Vous n’avez aucune demande de communauté en attente,#MainCopy_ctl29_ucInboxTab_ucInvitation_lblNoCommunities,text,
+inbox.requests.heading,Contact Requests,Demandes de contact,#MainCopy_ctl29_ucInboxTab_ucFriendRequests_lblMainHead,text,
+inbox.requests.empty,You have no pending contact requests,Vous n’avez aucune demande de contact en attente,#MainCopy_ctl29_ucInboxTab_ucFriendRequests_lblNofriends,text,
+
+inbox.bulk.toggleSelectAll.aria,select all emails,sélectionner tous les courriels,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll,attr,aria-label
+inbox.bulk.toggleSelectAll.title,Select All,Sélectionner tout,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_ToggleSelectAll,attr,title
+inbox.bulk.allLabel,All,Tout,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_pnlOptions .chk-all .btn-group,text,
+
+inbox.actions.markRead,Mark as Read,Marquer comme lu,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_MarkRead,text,
+inbox.actions.toggleDropdown.sronly,Toggle Dropdown,Basculer le menu,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_pnlOptions .dropdown-toggle .sr-only,text,
+inbox.actions.markUnread,Mark as Unread,Marquer comme non lu,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_MarkUnread,text,
+inbox.actions.deleteSelected,Delete Selected Messages,Supprimer les messages sélectionnés,#MainCopy_ctl29_ucInboxTab_ucDisplayInbox_DeleteSelected,text,
+
+# === FILE: accountSettingsEmail-translated.csv ===
+
+emailPreferences.heading,Email Preferences,Préférences de courriel,#MainCopy_ctl29_EmailUpdatePanel h2,text,
+# emailPreferences.intro,"In addition to <a href=""/preferences"">community notifications</a>, other messages are routinely sent to users. These messages -System, Community, Participation, and Promotional - will always be sent to your <a href=""/inbox"">profile inbox</a>. By default, they are also emailed to your preferred email address. Select “no” below to opt-out of receiving certain emails per your preferences. You will always receive these messages in your profile inbox regardless of these settings.","En plus des <a href=""/preferences"">notifications de la communauté</a>, d’autres messages sont régulièrement envoyés aux utilisateurs. Ces messages — Système, Communauté, Participation et Promotion — seront toujours envoyés à votre <a href=""/inbox"">boîte de réception de profil</a>. Par défaut, ils sont également envoyés à votre adresse courriel préférée. Sélectionnez « non » ci-dessous pour vous désabonner de certains courriels selon vos préférences. Vous recevrez toujours ces messages dans votre boîte de réception de profil, quels que soient ces paramètres.",#MainCopy_ctl29_EmailUpdatePanel p:first-of-type,attr,innerHTML
+# emailPreferences.intro,"In addition to  <a href=""/preferences"">community notifications</a>, other messages are routinely sent to users. These messages -System, Community, Participation, and Promotional - will always be sent to your <a href=""/inbox"">profile inbox</a>. By default, they are also emailed to your preferred email address. Select ""no"" below to opt-out of receiving certain emails per your preferences. You will always receive these messages in your profile inbox regardless of these settings.","En plus des <a href=""/preferences"">notifications de la communauté</a>, d’autres messages sont régulièrement envoyés aux utilisateurs. Ces messages — Système, Communauté, Participation et Promotion — seront toujours envoyés à votre <a href=""/inbox"">boîte de réception de profil</a>. Par défaut, ils sont également envoyés à votre adresse courriel préférée. Sélectionnez « non » ci-dessous pour vous désabonner de certains courriels selon vos préférences. Vous recevrez toujours ces messages dans votre boîte de réception de profil, quels que soient ces paramètres.",#MainCopy_ctl29_EmailUpdatePanel p:first-of-type,attr,innerHTML
+emailPreferences.intro,"In addition to  <a href=""/preferences"">community notifications</a>, other messages are routinely sent to users. These messages -System, Community, Participation, and Promotional - will always be sent to your <a href=""/inbox"">profile inbox</a>. By default, they are also emailed to your preferred email address. Select ""no"" below to opt-out of receiving certain emails per your preferences. You will always receive these messages in your profile inbox regardless of these settings.","En plus des <a href=""/preferences"">notifications de la communauté</a>, d’autres messages sont régulièrement envoyés aux utilisateurs. Ces messages — Système, Communauté, Participation et Promotion — seront toujours envoyés à votre <a href=""/inbox"">boîte de réception de profil</a>. Par défaut, ils sont également envoyés à votre adresse courriel préférée. Sélectionnez « non » ci-dessous pour vous désabonner de certains courriels selon vos préférences. Vous recevrez toujours ces messages dans votre boîte de réception de profil, quels que soient ces paramètres.",#MainCopy_ctl29_EmailUpdatePanel p:first-of-type,html,
+
+emailPreferences.primaryAddressNotice,Email notifications and communications will be delivered to the email address below.,Les notifications et communications par courriel seront envoyées à l’adresse indiquée ci-dessous.,#MainCopy_ctl29_pnlLinkToEditEmail p:first-of-type,text,
+emailPreferences.change,Change,Changer,#MainCopy_ctl29_hlChangeEmail,text,
+emailPreferences.system.heading,System Emails,Courriels système,#MainCopy_ctl29_pnlLinkToEditEmail ~ .row-border-bottom:nth-of-type(1) h3,text,
+emailPreferences.system.desc,Emails required to confirm user participation. Users cannot opt-out of these emails.,Courriels nécessaires pour confirmer la participation de l’utilisateur. Les utilisateurs ne peuvent pas se désabonner de ces courriels.,#MainCopy_ctl29_pSystemEmailDescription,text,
+emailPreferences.community.heading,Community Emails,Courriels de la communauté,.row-border-bottom:nth-of-type(2) h3,text,
+# emailPreferences.community.desc,Emails typically sent from Community Admins or the Community Manager via automation rules (ex: moderation notifications, Component Manager emails). Some automation rules-based emails may be in other categories. By default, you receive Community emails from all your Communities unless you explicitly opt-out.,Courriels généralement envoyés par les administrateurs de la communauté ou le gestionnaire de communauté au moyen de règles d’automatisation (p. ex. notifications de modération, courriels du gestionnaire de composant). Certains courriels automatisés peuvent se trouver dans d’autres catégories. Par défaut, vous recevez les courriels de toutes vos communautés sauf si vous vous désabonnez explicitement.,#MainCopy_ctl29_cbCommunityEmails ~ p:first-of-type,text,
+emailPreferences.community.desc,"Emails typically sent from Community Admins or the Community Manager via automation rules (ex: moderation notifications, Component Manager emails). Some automation rules-based emails may be in other categories. By default, you receive Community emails from all your Communities unless you explicitly opt-out.","Courriels généralement envoyés par les administrateurs de la communauté ou le gestionnaire de communauté au moyen de règles d’automatisation (p. ex. notifications de modération, courriels du gestionnaire de composant). Certains courriels automatisés peuvent se trouver dans d’autres catégories. Par défaut, vous recevez les courriels de toutes vos communautés sauf si vous vous désabonnez explicitement.",#MainCopy_ctl29_cbCommunityEmails ~ p:first-of-type,text,
+emailPreferences.community.manageOptOut,Manage Opt-out List,Gérer la liste de désabonnement,#MainCopy_ctl29_lbtnManageOptOutList,text,
+emailPreferences.community.note,NOTE: Discussion and consolidated digest settings are on the Community Notifications page.,REMARQUE : Les paramètres des discussions et des résumés consolidés se trouvent sur la page Notifications de la communauté.,.row-border-bottom:nth-of-type(2) .text-muted,text,
+emailPreferences.participation.heading,Participation Emails,Courriels de participation,.row-border-bottom:nth-of-type(3) h3,text,
+# emailPreferences.participation.desc,Emails reflecting one-on-one interactions (ex: reply to sender, contact requests, @mentions, real time notifications).,Courriels reflétant des interactions individuelles (p. ex. réponse à l’expéditeur, demandes de contact, @mentions, notifications en temps réel).,#MainCopy_ctl29_pSocialEmailDescription,text,
+emailPreferences.participation.desc,"Emails reflecting one-on-one interactions (ex: reply to sender, contact requests, @mentions, real time notifications).","Courriels reflétant des interactions individuelles (p. ex. réponse à l’expéditeur, demandes de contact, @mentions, notifications en temps réel).",#MainCopy_ctl29_pSocialEmailDescription,text,
+emailPreferences.promotional.heading,Promotional Emails,Courriels promotionnels,.row-border-bottom:nth-of-type(4) h3,text,
+emailPreferences.promotional.desc,Emails that promote the outcome of purchase (ex: purchase the book of an annual conference speaker).,Courriels qui font la promotion d’achats ou de produits (p. ex. achat du livre d’un conférencier de la conférence annuelle).,#MainCopy_ctl29_pPromotionalEmailDescription,text,
+emailPreferences.newsletter.heading,Smart Newsletter,Bulletin intelligent,.row-border-bottom:nth-of-type(5) h3,text,
+emailPreferences.newsletter.desc,Smart Newsletter is a periodic email that contains highly personalized content from community and other sources.,Le Bulletin intelligent est un courriel périodique qui contient du contenu hautement personnalisé provenant de la communauté et d’autres sources.,#MainCopy_ctl29_pNewsletterEmailDescription,text,
+emailPreferences.optOut.modalTitle,Community Email - Opt-out List, Courriels de communauté – Liste de désabonnement,#MainCopy_ctl29_modalOptOutList .modal-title,text,
+emailPreferences.optOut.modalDesc,Select communities for which you would not like to receive emails.,Sélectionnez les communautés dont vous ne souhaitez pas recevoir les courriels.,#MainCopy_ctl29_modalOptOutList .modal-body p,text,
+emailPreferences.optOut.save,Save,Enregistrer,#MainCopy_ctl29_modalOptOutList_btnSaveOptOutList,attr,value
+emailPreferences.optOut.close,Close,Fermer,#MainCopy_ctl29_modalOptOutList_btnCloseOptOutList,attr,value
+
+# === FILE: accountSettingsPrivacy-translated.csv ===
+
+# Heading + intro
+accountSettingsPrivacy.title,Privacy Settings,Paramètres de confidentialité,#MainCopy_ctl29_PrivacyUpdatePanel h2,text,
+accountSettingsPrivacy.intro.1,Your profile may be accessed through the member directory and community rosters.  You have control over the information others see on your profile.,Votre profil peut être consulté dans l’annuaire des membres et les listes des communautés. Vous contrôlez les informations visibles sur votre profil.,#MainCopy_ctl29_PrivacyUpdatePanel .row .col-md-12 p:nth-of-type(1),text,
+
+# Master toggle (Yes/No) next to "Include in member directory"
+accountSettingsPrivacy.include.label,I would like to be included in the member directory and community rosters:,Je souhaite être inclus dans l’annuaire des membres et les listes des communautés :,label[for="cbPrivacyIncludeInMemberDirectory"],text,
+accountSettingsPrivacy.include.yes,Yes,Oui,#MainCopy_ctl29_PrivacySettings_IncludeInMemberDirectory + .bootstrap-switch .bootstrap-switch-handle-on,text,
+accountSettingsPrivacy.include.no,No,Non,#MainCopy_ctl29_PrivacySettings_IncludeInMemberDirectory + .bootstrap-switch .bootstrap-switch-handle-off,text,
+
+# Row labels (left column)
+accountSettingsPrivacy.picture,Picture,Photo,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl00_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.company,Company Information,Renseignements sur l’entreprise,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl01_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.job,Job Title and Department,Titre du poste et service,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl02_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.address,Address Lines,Adresses,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl03_ucRdBtnChildList_lblheading,text,
+# accountSettingsPrivacy.cityStateZip,City, State, Zip,Ville, province/État, code postal,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl04_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.country,Country,Pays,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl05_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.website,Website URL,Adresse du site Web,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl06_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.phone1,Phone1,Téléphone 1,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl07_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.phone2,Phone2,Téléphone 2,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl08_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.email,Email Address,Adresse courriel,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl09_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.sendMessage,Send Message,Envoyer un message,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl10_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.addAsContact,Add as Contact,Ajouter comme contact,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl11_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.bio,Bio,Biographie,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl12_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.education,Education,Études,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl13_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.jobHistory,Job History,Historique d’emploi,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl14_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.myDocuments,My Documents,Mes documents,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl15_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.mentorStatus,MentorStatus,Statut de mentor,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl16_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.menteeStatus,MenteeStatus,Statut de mentoré,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl17_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.digitalRibbon,Digital Ribbon,Ruban numérique,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl18_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.honors,H***onors and Awards,Distinctions et prix,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl19_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.groups,Professional Groups and Associations,Groupes et associations professionnels,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl20_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.social,Social Media Sites,Sites de médias sociaux,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl21_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.vcard,vCard Download,Téléchargement de vCard,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl22_ucRdBtnChildList_lblheading,text,
+accountSettingsPrivacy.volunteer,Past Volunteer Experience,Expérience bénévole antérieure,#ctl00_MainCopy_ctl29_PrivacySettings_ucSecuritySettingsBaseControl_rptRadioGroup_ctl23_ucRdBtnChildList_lblheading,text,
+
+# Shared dropdown options (affect every .privacySettingSelect)
+accountSettingsPrivacy.opt.contacts,My Contacts,Mes contacts,.privacySettingSelect option[value="1"],text,
+accountSettingsPrivacy.opt.members,Members Only,Membres seulement,.privacySettingSelect option[value="2"],text,
+accountSettingsPrivacy.opt.public,Public,Public,.privacySettingSelect option[value="3"],text,
+accountSettingsPrivacy.opt.onlyMe,Only Me,Seulement moi,.privacySettingSelect option[value="4"],text,
+accountSettingsPrivacy.opt.nobody,Nobody,Personne,.privacySettingSelect option[value="4"],text,
+
+# === FILE: accountSettingsRss-translated.csv ===
+
+rss.heading,RSS Feeds,Fils RSS,#MainCopy_ctl29_ManageRSSUpdatePanel h2,text,
+rss.tab.discussions,Discussions,Discussions,#MainCopy_ctl29_ManageRSS_tbpEG a,text,
+rss.tab.library,Library,Bibliothèque,#MainCopy_ctl29_ManageRSS_tbpRL a,text,
+rss.tab.blogs,Blogs,Blogs,#MainCopy_ctl29_ManageRSS_tbpBlogs a,text,
+rss.tab.glossary,Glossary,Glossaire,#MainCopy_ctl29_ManageRSS_tbpGlossary a,text,
+rss.discussions.legend,discussions subscribed through RSS,discussions abonnés via RSS,#MainCopy_ctl29_ManageRSS_SubscribedThroughRSSText,text,
+rss.discussions.placeholder,Add a discussion,Ajouter une discussion,#MainCopy_ctl29_ManageRSS_ulDiscussions input,attr,placeholder
+rss.library.legend,libraries subscribed through RSS,bibliothèques abonnées via RSS,#MainCopy_ctl29_ManageRSS_LibrariesSubscribedText,text,
+rss.library.placeholder,Add a Library,Ajouter une bibliothèque,#MainCopy_ctl29_ManageRSS_ulLibraries input,attr,placeholder
+rss.blogs.legend,Blogs subscribed through RSS,Blogs abonnés via RSS,#MainCopy_ctl29_ManageRSS_BlogsSubscribedText,text,
+rss.blogs.all,All Blogs,Tous les blogs,#MainCopy_ctl29_ManageRSS_lblAllBlogs,text,
+rss.blogs.contacts,My Contacts' Blogs,Blogs de mes contacts,#MainCopy_ctl29_ManageRSS_lblContactBlogs,text,
+rss.blogs.placeholder,Add a Blogger,Ajouter un blogueur,#MainCopy_ctl29_ManageRSS_ulBlogs input,attr,placeholder
+rss.glossary.legend,Subscribe to Glossary feeds,S’abonner aux fils du glossaire,#MainCopy_ctl29_ManageRSS_SubscribeToGlossaryFeedsHeader,text,
+rss.glossary.checkbox,Subscribe to feeds for Glossary,S’abonner aux fils pour le glossaire,#MainCopy_ctl29_ManageRSS_lblGlossaryCheckbox,text,
+rss.copyPaste,Copy and paste your Feed link in any of the Feed Readers of your choice,Copiez et collez votre lien de fil dans le lecteur de fils de votre choix,#MainCopy_ctl29_ManageRSS_CopyPasteFeedLink,text,
+rss.copyLink,Copy Link,Copier le lien,#MainCopy_ctl29_ManageRSS_hypCopyLink,text,
+rss.openNew,Open Link in New Window,Ouvrir le lien dans une nouvelle fenêtre,#MainCopy_ctl29_ManageRSS_hypOpenNew,text,
+
+# === FILE: accountSettingsSubscriptions-translated.csv ===
+
+commNotif.heading,Community Notifications,Notifications de la communauté,#MainCopy_ctl29_MyCommunityNotifications_h3CommNotif,text,
+commNotif.desc,Community notification will be delivered to your primary address:,Les notifications de la communauté seront envoyées à votre adresse principale :,#MainCopy_ctl29_MyCommunityNotifications_pCommNotifDesc,text,
+commNotif.primaryAddressLabel,(primary address box),(boîte d’adresse principale),#MainCopy_ctl29_MyCommunityNotifications_CommunityNotificationsUpdatePanel .primary-address .alert,attr,title
+commNotif.overrideDesc,"To receive specific community notifications at an address other than your primary, set override(s) where desired.","Pour recevoir certaines notifications de la communauté à une adresse autre que votre adresse principale, définissez des dérogations (overrides) au besoin.",#MainCopy_ctl29_MyCommunityNotifications_pOverrideDesc,text,
+
+# commNotif.weekly.title,Weekly Consolidated Community Digest:,Bulletin communautaire hebdomadaire consolidé :,#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest,text,
+# commNotif.weekly.popoverTitle,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-original-title
+# commNotif.weekly.popoverBody,"Offers a comprehensive view of all activity from the preceding week for the communities you specify in a single email. This includes announcements, blogs, discussions, library entries, new members and volunteer opportunities.","Offre un aperçu complet, en un seul courriel, de toute l’activité de la semaine précédente pour les communautés que vous indiquez. Comprend les annonces, blogues, discussions, éléments de la bibliothèque, nouveaux membres et occasions de bénévolat.",#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-content
+commNotif.weekly.deliverOn,Deliver on,Envoyer le,#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigDeliverOn,text,
+commNotif.weekly.to,to,à,#MainCopy_ctl29_MyCommunityNotifications_pnlCommNotifWeeklyConDig .weekly-email-container span.text-muted:first-child,text,
+commNotif.weekly.toPrimary,your primary address.,votre adresse principale.,#MainCopy_ctl29_MyCommunityNotifications_lblCommNotifWeeklyConDigEmailEnd,text,
+# commNotif.weekly.change,change,modifier,#MainCopy_ctl29_MyCommunityNotifications_hypCommNotifWeeklyConDigChange,text,
+
+# commNotif.weekly.modal.title,Override Email Address for Weekly Consolidated Digest,Remplacer l’adresse courriel pour le bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail .modal-title,text,
+# commNotif.weekly.modal.desc,Enter the email address at which you wish to receive the weekly consolidated digests. Remove the address to receive the digests at your primary email address.,Entrez l’adresse courriel à laquelle vous souhaitez recevoir les bulletins hebdomadaires consolidés. Supprimez l’adresse pour les recevoir à votre adresse principale.,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pOverrideWeeklyConDigest,text,
+# commNotif.weekly.modal.label,Override email address,Adresse courriel de remplacement,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail label[for="MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_tbCommNotifWeeklyConDigestChangeEmail"],text,
+# commNotif.weekly.modal.placeholder,enter email address,entrer l’adresse courriel,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_tbCommNotifWeeklyConDigestChangeEmail,attr,placeholder
+# commNotif.weekly.modal.noteLabel,Note:,Remarque :,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_pnlCommNotifWeeklConDigNote .alert-info,text,
+
+#commNotif.weekly.modal.save,Save,Enregistrer,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail_lnkCommNotifWeeklyConChangeEmail,text,
+#commNotif.weekly.modal.close,Close,Fermer,#MainCopy_ctl29_MyCommunityNotifications_mdlCommNotifWeeklyConDigestChangeEmail button.btn-default,text,
+
+# commNotif.weekly.day.su,Sunday,dimanche,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="0"],text,
+# commNotif.weekly.day.mo,Monday,lundi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="1"],text,
+# commNotif.weekly.day.tu,Tuesday,mardi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="2"],text,
+# commNotif.weekly.day.we,Wednesday,mercredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="3"],text,
+# commNotif.weekly.day.th,Thursday,jeudi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="4"],text,
+# commNotif.weekly.day.fr,Friday,vendredi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="5"],text,
+# commNotif.weekly.day.sa,Saturday,samedi,#MainCopy_ctl29_MyCommunityNotifications_ddlCommNotifWeeklyConDig option[value="6"],text,
+
+# popover
+commNotif.weekly.title,Weekly Consolidated Community Digest:,Bulletin communautaire hebdomadaire consolidé :,#MainCopy_ctl29_MyCommunityNotifications_strWeeklyConCommDigest,text,
+commNotif.weekly.popoverTitle,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-original-title
+commNotif.weekly.popoverBody,"Offers a comprehensive view of all activity from the preceding week for the communities you specify in a single email. This includes announcements, blogs, discussions, library entries, new members and volunteer opportunities.","Offre un aperçu complet, en un seul courriel, de toute l’activité de la semaine précédente pour les communautés que vous indiquez. Comprend les annonces, blogues, discussions, éléments de la bibliothèque, nouveaux membres et occasions de bénévolat.",#MainCopy_ctl29_MyCommunityNotifications_hypWeeklyConDigestHelp,attr,data-content
+
+# popover
+commNotif.discussion.title,Discussion Email:,Courriel de discussion :,#MainCopy_ctl29_MyCommunityNotifications_strDiscussionEmail,text,
+commNotif.discussion.popoverTitle,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp,attr,data-original-title
+commNotif.discussion.popoverBody,"Offers discussion posts from a single community. Can be delivered to you by email in real-time or aggregated in a single daily email. Configure the frequency and delivery details of discussion notifications for each community below.","Diffuse les publications de discussion d’une seule communauté. Peut être envoyées en temps réel ou regroupées en un seul courriel quotidien. Configurez ci-dessous la fréquence et les modalités d’envoi pour chaque communauté.",#MainCopy_ctl29_MyCommunityNotifications_hypDiscussionEmailHelp,attr,data-content
+
+# popover
+topicNotif.popoverTitle,Delivery Options,Options d’envoi,#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_aTopicNotificationOptions_0,attr,data-original-title
+topicNotif.popoverBody,"<p><strong>No Email</strong> – You will not receive any email notifications from the topic community.</p><p><strong>Personalized Digest</strong> – A daily email summarizing all content relevant to your preferences, interests, and activity.</p><p><strong>Personalized Digest & Real-Time Discussion Emails</strong> – Personalized digest and real-time emails for discussion threads related to your Stated Interests.</p>","<p><strong>Aucun courriel</strong> – Vous ne recevrez aucun avis par courriel de la communauté du sujet.</p><p><strong>Résumé personnalisé</strong> – Un courriel quotidien résumant tout le contenu pertinent à vos préférences, intérêts et activités.</p><p><strong>Résumé personnalisé et courriels de discussion en temps réel</strong> – Résumé personnalisé et courriels en temps réel pour les fils de discussion liés à vos intérêts déclarés.</p>",#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_aTopicNotificationOptions_0,attr,data-content
+
+commNotif.discussion.empty,You have no override email addresses for discussion emails.,Vous n’avez aucune adresse de remplacement pour les courriels de discussion.,#MainCopy_ctl29_MyCommunityNotifications_lblDiscusionEmailEmpty,text,
+
+topicNotif.heading,Topic Notifications,Notifications sur les sujets,#MainCopy_ctl29_MyCommunityNotifications_pnlTopicNotifications > h2.text-muted,text,
+
+topicNotif.th.community,Community,Communauté,#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_thTopicNotificationsCommunity,text,
+topicNotif.th.delivery,Email Delivery,Envoi par courriel,#MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_thTopicNotificationsEmail,text,
+
+# If you DO want to translate the community link text (often you'd leave official community names as-is)
+topicNotif.community.sample,Tech tidbits and help,Astuces techniques et aide,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_hypTopicNotificationCommunity_"],text,
+
+notif.th.community,Community,Communauté,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsCommunity,text,
+notif.th.discussion,Discussion Email,Courriel de discussion,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsDiscussionEmail,text,
+notif.th.weekly,Consolidated<br>Weekly Digest,Bulletin hebdomadaire<br>consolidé,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_thNotifSettingsWeeklyCd,html,
+
+# contacts.sort.az,Community Name A-Z,Nom de la communauté A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="name-asc"],attr,data-i18n-text
+# contacts.sort.za,Community Name Z-A,Nom de la communauté Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="name-desc"],attr,data-i18n-text
+
+notif.sort.az,Community Name A-Z,Nom de la communauté A-Z,#MainCopy_ctl29_MyCommunityNotifications_ddlNotifSettingsSort option[value="az"],attr,data-i18n-text
+notif.sort.za,Community Name Z-A,Nom de la communauté Z-A,#MainCopy_ctl29_MyCommunityNotifications_ddlNotifSettingsSort option[value="za"],attr,data-i18n-text
+
+topicNotif.community.sample,Tech tidbits and help,Astuces techniques et aide,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_hypTopicNotificationCommunity_"],text,
+
+switch.pref.on,Yes,Oui,.bootstrap-switch-container:has(#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference) .bootstrap-switch-handle-on,text,
+switch.pref.off,No,Non,.bootstrap-switch-container:has(#MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference) .bootstrap-switch-handle-off,text,
+
+notif.weekly.btn.title,Weekly Consolidated Digest,Bulletin hebdomadaire consolidé,a.weeklycd[data-cdvalue="weekly"],attr,title
+notif.autoSetNoEmail,Automatically set community discussion emails to "No Email" when a community is added to a consolidated digest.,Définir automatiquement les courriels de discussion de la communauté sur « Aucun courriel » lorsqu’une communauté est ajoutée à un bulletin consolidé.,label[for="MainCopy_ctl29_MyCommunityNotifications_cbNotifSettingsPreference"],text,
+
+# topicEmail.opt.none,No Email,Aucun courriel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="ne"],attr,data-i18n-text
+# topicEmail.opt.digest,Personalized Digest,Résumé personnalisé,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="td"],attr,data-i18n-text
+# topicEmail.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,[id^="MainCopy_ctl29_MyCommunityNotifications_lvTopicNotificationSettings_slctTopicEmail_"] option[value="th"],attr,data-i18n-text
+
+# dropdown - seems values break
+# discEmail.opt.rt,Real Time,Temps réel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="0"] .text,text,
+# discEmail.opt.dd,Daily Digest,Résumé quotidien,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="1"] .text,text,
+# discEmail.opt.ne,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_lvNotifSettings_pnlWithEgroup_0 .dropdown-menu.inner [data-original-index="2"] .text,text,
+
+# dropdown
+# topicNotif.opt.none,No Email,Aucun courriel,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="0"],attr,data-i18n-text
+# topicNotif.opt.digest,Personalized Digest,Résumé personnalisé,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="1"],attr,data-i18n-text
+# topicNotif.opt.digest_rt,Personalized Digest & Real-Time Discussion Emails,Résumé personnalisé et courriels de discussion en temps réel,#MainCopy_ctl29_MyCommunityNotifications_ddlTopicNotificationSettings option[value="2"],attr,data-i18n-text
+
+notif.settings.heading,Notification Settings,Paramètres de notification,#NotificationSettings,text,
+
+# === FILE: accountSignature-translated.csv ===
+
+profile.bio.heading,Biography,Biographie,#MainCopy_ctl29_TitleText,text,
+profile.signature.label,Default Signature,Signature par défaut,label[for="MainCopy_ctl29_Signature1_txtSignature"],text,
+profile.signature.variables,Available Variables:,Variables disponibles :,.well > .row > .col-md-6 + .col-md-6 .row:first-child .col-md-12,text,
+profile.signature.save,Save,Enregistrer,#MainCopy_ctl29_Signature1_SaveButton,attr,value
+profile.signature.useDefault,Use Default Template,Utiliser le modèle par défaut,#MainCopy_ctl29_Signature1_btnDefaultSignature,attr,value
+
+# === FILE: addLibrary-translated.csv ===
+
+page_title,Add to a Library,Ajouter à une bibliothèque,#PageTitleH1,text,
+title_label,Title,Titre,label[for="MainCopy_ctl02_DocumentName"],text,
+title_help,Name is a required field. Please enter a name.,Le nom est obligatoire. Veuillez saisir un nom.,#documentNameHelp,text,
+library_label,Library,Bibliothèque,label[for="MainCopy_ctl02_LibraryList"],text,
+library_help,Library is a required field. Please select a library.,La bibliothèque est obligatoire. Veuillez en sélectionner une.,#libraryListHelp,text,
+description_label,Description,Description,label[for="MainCopy_ctl02_DocumentDescription"],text,
+entrytype_label,Entry Type,Type d’entrée,label[for="MainCopy_ctl02_DocumentTypeList"],text,
+documenttype_help,Document type is a required field. Please select a type.,Le type de document est obligatoire. Veuillez sélectionner un type.,#documentTypeListHelp,text,
+owner_label,Owner,Propriétaire,label[for="MainCopy_ctl02_OwnerId"],text,
+owner_lookup,Lookup,Rechercher,#MainCopy_ctl02_OwnerLookupButton,attr,value
+custom_thumbnail_label,Custom Thumbnail,Vignette personnalisée,label[for="MainCopy_ctl02_btnFeaturedImage"],text,
+select_image_link,Select Image,Sélectionner une image,#MainCopy_ctl02_btnFeaturedImage,text,
+clear_featured_image_aria,Clear Featured Image,Effacer la vignette personnalisée,#MainCopy_ctl02_btnClearFeaturedImage,attr,aria-label
+thumbnail_note,"A thumbnail will be auto-generated for your entry based on the entry type. This custom option is to select your own image to show alongside your entry. Landscape images measuring at least 1200px x 600px are ideal.","Une vignette sera générée automatiquement pour votre entrée selon le type sélectionné. Cette option personnalisée permet de choisir votre propre image à afficher avec votre entrée. Les images au format paysage d’au moins 1200 px × 600 px sont idéales.",#MainCopy_ctl02_pnlFeaturedImage .font-size-xs,text,
+next_button,Next,Suivant,#MainCopy_ctl02_addEntryWizard_NextButton,attr,value
+cancel_button,Cancel,Annuler,#MainCopy_ctl02_addEntryWizard_CancelButton,attr,value
+next_up_hint,(Next up: Webinar Details),(À venir : détails du webinaire),#NextUp,text,
+doctype_option_placeholder,[Select Type],[Sélectionner le type],#MainCopy_ctl02_DocumentTypeList option[value="0"],text,
+doctype_option_copyright,Copyright Licensed File(s),Fichier(s) sous licence,#MainCopy_ctl02_DocumentTypeList option[value="8ed90289-4b6c-4cc7-9987-5a7a7079649d"],text,
+doctype_option_hyperlink,Hyperlink,Lien hypertexte,#MainCopy_ctl02_DocumentTypeList option[value="498f2423-be16-4c97-8f40-53278e7375ee"],text,
+doctype_option_upload,Standard File Upload,Téléversement de fichier standard,#MainCopy_ctl02_DocumentTypeList option[value="2fb2211c-f5c4-4af2-b889-50c0b7669e06"],text,
+doctype_option_webinar,Webinar,Webinaire,#MainCopy_ctl02_DocumentTypeList option[value="c49385fd-27a8-4db2-84f8-c86d5bd30226"],text,
+doctype_option_youtube,YouTube Video,Vidéo YouTube,#MainCopy_ctl02_DocumentTypeList option[value="01c2a344-e4d2-4567-ae9b-9a86ddcae74a"],text,
+library_option_placeholder,[Select library],[Sélectionner une bibliothèque],#MainCopy_ctl02_LibraryList option[value="0"],text,
+library_option_prosper,Prosper Internal,Prosper – Interne,#MainCopy_ctl02_LibraryList option[value="13418e01-3834-4e90-9fe5-0198d33a7d8c"],text,
+library_option_resilient,Resilient Futures Network,Réseau des futurs résilients,#MainCopy_ctl02_LibraryList option[value="d82937d1-7fde-473d-9d3f-0199356a391c"],text,
+library_option_sandbox,Sandbox Community,Communauté Sandbox,#MainCopy_ctl02_LibraryList option[value="84d87020-8e94-4a28-8e47-0198ae5c7e45"],text,
+library_option_techtidbits,Tech tidbits and help,Conseils techniques et aide,#MainCopy_ctl02_LibraryList option[value="aaa63bc5-7d90-4f9a-a26d-0192c57bb406"],text
+
+# === FILE: communities-translated.csv ===
+
+communities.count.one,{count} total,{count} au total,,,
+communities.noResults,No Results Found,Aucun résultat trouvé,#MainCopy_ctl29_AllCommunitiesContainer,text,
+communities.exploreAll.btn,Explore All Communities,Explorer toutes les communautés,#MainCopy_ctl29_AllCommunities,text,
+communities.exploreAll.title,Explore All Communities,Explorer toutes les communautés,#MainCopy_ctl29_AllCommunities,attr,title
+communities.noResults,No Results Found,Aucun résultat trouvé,#MainCopy_ctl29_UpdatePanel1,text,
+
+community.stats.discussions,Discussions,Discussions,a[qa-attribute="community-discussions-count-btn"],text,
+community.stats.libraries,Libraries,Bibliothèques,a[qa-attribute="community-documents-count-btn"],text,
+community.stats.members,Members,Membres,a[qa-attribute="community-members-count-btn"],text,
+
+# === FILE: communitiesNode-translated.csv ===
+
+communities.title,Communities,Communautés,#MainCopy_ctl29_TitleText,text,
+
+# comm.btn.disc.title,"Discussions&nbsp;","Discussions&nbsp;",a[qa-attribute="community-discussions-count-btn"],attr,data-i18n-text
+# comm.btn.docs.title,"Libraries&nbsp;","Bibliothèques&nbsp;",a[qa-attribute="community-documents-count-btn"],attr,data-i18n-text
+# comm.btn.mem.title,"Members&nbsp;","Membres&nbsp;",a[qa-attribute="community-members-count-btn"],attr,data-i18n-text
+
+comm.btn.disc.title,"Discussions&nbsp;","Discussions&nbsp;",a[qa-attribute="community-discussions-count-btn"],attr,data-i18n-text
+comm.btn.docs.title,"Libraries&nbsp;","Bibliothèques&nbsp;",a[qa-attribute="community-documents-count-btn"],attr,data-i18n-text
+comm.btn.mem.title,"Members&nbsp;","Membres&nbsp;",a[qa-attribute="community-members-count-btn"],attr,data-i18n-text
+
+# comm.btn.disc.title,last discussions posted {n} days ago,dernières discussions publiées il y a {n} jours,a[qa-attribute="community-discussions-count-btn"],attr,title
+# comm.btn.docs.title,last library updated {n} days ago,dernière bibliothèque mise à jour il y a {n} jours,a[qa-attribute="community-documents-count-btn"],attr,title
+# comm.btn.mem.title,last person joined {n} days ago,dernière personne inscrite il y a {n} jours,a[qa-attribute="community-members-count-btn"],attr,title
+
+# comm.btn.disc.label,"Discussions ","Discussions ",,,
+# comm.btn.docs.label,"Libraries ","Bibliothèques ",,,
+# comm.btn.mem.label,"Members ","Membres ",,,
+# comm.btn.disc.attachKey,comm.btn.disc.label,comm.btn.disc.label,a[qa-attribute="community-discussions-count-btn"],attr,data-i18n-text
+# comm.btn.docs.attachKey,comm.btn.docs.label,comm.btn.docs.label,a[qa-attribute="community-documents-count-btn"],attr,data-i18n-text
+# comm.btn.mem.attachKey,comm.btn.mem.label,comm.btn.mem.label,a[qa-attribute="community-members-count-btn"],attr,data-i18n-text
+
+# === FILE: community-translated.csv ===
+
+comm.tabs.home,"Community Home ","Accueil de la communauté ",#CommunityTabsContainer li:first-child > a,attr,data-i18n-text
+comm.tabs.discussions,"Discussion ","Discussions ",a[data-tab="discussions"],attr,data-i18n-text
+comm.tabs.library,"Library ","Bibliothèque ",a[data-tab="resources"],attr,data-i18n-text
+comm.tabs.events,"Events ","Événements ",a[data-tab="events"],attr,data-i18n-text
+comm.tabs.members,"Members ","Membres ",a[data-tab="members"],attr,data-i18n-text
+
+comm.latestDiscussions,Latest Discussions ,Dernières discussions ,#MainCopy_ctl09_TitleText,attr,data-i18n-text
+comm.postMessage,Post a Message,Publier un message,#MainCopy_ctl09_PostMessage,attr,value
+comm.postMessage.title,Post a Message,Publier un message,#MainCopy_ctl09_PostMessage,attr,title
+comm.announcements,Announcements ,Annonces ,#MainCopy_ctl12_TitleText,attr,data-i18n-text
+comm.add,Add,Ajouter,#MainCopy_ctl12_Add,attr,data-i18n-text
+comm.add.title,Add Announcement,Ajouter une annonce,#MainCopy_ctl12_Add,attr,title
+
+comm.moreDiscussions,View more discussions,Voir plus de discussions,#MainCopy_ctl09_MoreLink,attr,data-i18n-text
+comm.moreDiscussions.title,View more discussions,Voir plus de discussions,#MainCopy_ctl09_MoreLink,attr,title
+
+comm.moreLibrary,View more library entries,Voir plus d’éléments de la bibliothèque,#MainCopy_ctl14_MoreLink,attr,data-i18n-text
+comm.moreLibrary.title,View more library entries,Voir plus d’éléments de la bibliothèque,#MainCopy_ctl14_MoreLink,attr,title
+
+comm.moreAnnouncements,View more announcements,Voir plus d’annonces,#MainCopy_ctl12_MoreLink,attr,data-i18n-text
+comm.moreAnnouncements.title,View more announcements,Voir plus d’annonces,#MainCopy_ctl12_MoreLink,attr,title
+
+comm.reindex.title,reindex,réindexer,#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Reindex,attr,title
+comm.edit.title,edit,modifier,#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Edit,attr,title
+
+comm.deleteConfirm,Are you sure you want to remove this item?,Voulez-vous vraiment supprimer cet élément ?,#dialog-confirm-deleteannouncement [id$='deleteannouncement-message'],attr,data-i18n-text
+
+comm.ann.add.heading,Add New Announcement,Ajouter une nouvelle annonce,#MainCopy_ctl12_AddHeadingTitle,attr,data-i18n-text
+comm.ann.add.label.text,Text,Texte,#MainCopy_ctl12_AnnouncementTextLabel,attr,data-i18n-text
+comm.ann.add.label.title,Title,Titre,#MainCopy_ctl12_AnnouncementTitleLabel,attr,data-i18n-text
+comm.ann.add.label.url,URL,URL,#MainCopy_ctl12_URLText,attr,data-i18n-text
+comm.ann.add.label.urlText,URL Text,Texte du lien,#MainCopy_ctl12_URLName,attr,data-i18n-text
+comm.ann.add.label.newWindow,Open in a New Window,Ouvrir dans une nouvelle fenêtre,label[for="MainCopy_ctl12_CheckURL"],attr,data-i18n-text
+comm.ann.add.save,Save,Enregistrer,#MainCopy_ctl12_Save,attr,value
+comm.ann.add.cancel,Cancel,Annuler,#MainCopy_ctl12_Cancel,attr,value
+
+comm.status.header,Status,Statut,"#MainCopy_ctl02_CommunityManagementGear1_StatusUL .dropdown-header",text,
+
+comm.member.current,You are currently a member.,Vous êtes actuellement membre.,"#MainCopy_ctl02_CommunityManagementGear1_YouAreCurrenltyAMemberText",text,
+
+comm.invite.button,Add or Invite Others,Ajouter ou inviter d’autres personnes,"#MainCopy_ctl02_CommunityManagementGear1_btnInviteOthersToJoin",text,
+comm.invite.button.value,Invite Others to Join,Inviter d’autres personnes à se joindre,"#MainCopy_ctl02_CommunityManagementGear1_btnInviteOthersToJoin",attr,value
+
+comm.email.header,Email Notifications,Notifications par courriel,"#MainCopy_ctl02_CommunityManagementGear1_EmailNotificationsHeader",text,
+comm.email.change,Change,Modifier,"#MainCopy_ctl02_CommunityManagementGear1_ChangeLink",text,
+
+comm.email.saving,Saving...,Enregistrement...,"#MainCopy_ctl02_CommunityManagementGear1_EmailNotificationOptBtnLoading",text,
+comm.email.selected,No Email,Aucun courriel,"#MainCopy_ctl02_CommunityManagementGear1_SelectedNotificationOption",text,
+
+comm.email.option.realtime,Real Time,Temps réel,"#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=""Rt""]",text,
+comm.email.option.daily,Daily Digest,Résumé quotidien,"#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=""Dd""]",text,
+comm.email.option.none,No Email,Aucun courriel,"#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=""Ne""]",text,
+
+# === FILE: communityDigest-translated.csv ===
+
+# --- Sort by ---
+communityDigest.sort.mru,Most Recently Updated,Plus récemment mis à jour,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="1"],attr,data-i18n-text
+communityDigest.sort.lru,Least Recently Updated,Le moins récemment mis à jour,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="2"],attr,data-i18n-text
+communityDigest.sort.mostReplies,Most Replies,Le plus de réponses,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="3"],attr,data-i18n-text
+communityDigest.sort.leastReplies,Least Replies,Le moins de réponses,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="4"],attr,data-i18n-text
+communityDigest.sort.subjectAZ,Thread Subject A-Z,Sujet de fil A–Z,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="5"],attr,data-i18n-text
+communityDigest.sort.subjectZA,Thread Subject Z-A,Sujet de fil Z–A,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionsSortBy option[value="6"],attr,data-i18n-text
+
+# Visible Bootstrap-Select button (current choice) — text + title
+communityDigest.sort.current,Most Recently Updated,Plus récemment mis à jour,button[data-id$="contributionsSortBy"] .filter-option,attr,data-i18n-text
+communityDigest.sort.current.title,Most Recently Updated,Plus récemment mis à jour,button[data-id$="contributionsSortBy"],attr,title
+
+# Dropdown menu (the cloned list inside the bootstrap-select)
+communityDigest.sort.menu.mru,Most Recently Updated,Plus récemment mis à jour,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="0"] .text,attr,data-i18n-text
+communityDigest.sort.menu.lru,Least Recently Updated,Le moins récemment mis à jour,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="1"] .text,attr,data-i18n-text
+communityDigest.sort.menu.mostReplies,Most Replies,Le plus de réponses,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="2"] .text,attr,data-i18n-text
+communityDigest.sort.menu.leastReplies,Least Replies,Le moins de réponses,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="3"] .text,attr,data-i18n-text
+communityDigest.sort.menu.subjectAZ,Thread Subject A-Z,Sujet de fil A–Z,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="4"] .text,attr,data-i18n-text
+communityDigest.sort.menu.subjectZA,Thread Subject Z-A,Sujet de fil Z–A,button[data-id$="contributionsSortBy"] + .dropdown-menu .inner li[data-original-index="5"] .text,attr,data-i18n-text
+
+# --- Results per page ---
+# communityDigest.perPage.10,10 per page,10 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="10"],attr,data-i18n-text
+# communityDigest.perPage.25,25 per page,25 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="25"],attr,data-i18n-text
+# communityDigest.perPage.50,50 per page,50 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="50"],attr,data-i18n-text
+# communityDigest.perPage.100,100 per page,100 par page,#ContributedContentList_f160399f-36bc-4c7b-8d1d-21332c0672db-contributionResultsPerPage option[value="100"],attr,data-i18n-text
+
+# Visible Bootstrap-Select button (current page size) — text + title
+# communityDigest.perPage.current,10 per page,10 par page,button[data-id$="contributionResultsPerPage"] .filter-option,attr,data-i18n-text
+# communityDigest.perPage.current.title,10 per page,10 par page,button[data-id$="contributionResultsPerPage"],attr,title
+
+# Dropdown menu (page size)
+communityDigest.perPage.menu.10,10 per page,10 par page,button[data-id$="contributionResultsPerPage"] + .dropdown-menu .inner li[data-original-index="0"] .text,attr,data-i18n-text
+communityDigest.perPage.menu.25,25 per page,25 par page,button[data-id$="contributionResultsPerPage"] + .dropdown-menu .inner li[data-original-index="1"] .
+
+communityDigest.postNewMessage.text,Post New Message,Publier un nouveau message,"a.btn.btn-success[role=""button""][href*=""/communities/all-discussions/subscribe""]",text,
+
+discussions.th.subject,Thread Subject,Sujet de la discussion,"[id^=""ContributedContentList_""][id$=""-itemsContainer""] table thead th:nth-child(1) span",text,
+discussions.th.replies,Replies,Réponses,"[id^=""ContributedContentList_""][id$=""-itemsContainer""] table thead th.text-center span",text,
+discussions.th.lastPost,Last Post,Dernier message,"[id^=""ContributedContentList_""][id$=""-itemsContainer""] table thead th[width=""25%""] span",text,
+
+# === FILE: communityEvents-translated.csv ===
+
+events.empty.heading,Add an Event,Ajouter un événement,#MainCopy_ctl09_NoDataAdmin strong,attr,data-i18n-text
+events.empty.helper,Create an event to display here.,Créez un événement à afficher ici.,#MainCopy_ctl09_NoDataAdmin p:first-of-type,attr,data-i18n-text
+
+events.add.btn,Add Event,Ajouter un événement,#add-calendar-event,attr,data-i18n-text
+events.add.btn.title,Add Event,Ajouter un événement,#add-calendar-event,attr,title
+events.add.split.title,Add Event,Ajouter un événement,#events-list-header-actions-b11ec0cf-c2d7-483f-a20d-88ea2b85b7d1 .dropdown-toggle,attr,title
+
+# Event type options (menu)
+events.type.chapter,Chapter Meeting ,Réunion de section ,a.create-event-by-type[eventtypekey="6a32f91a-0dcc-493d-b4a8-af6dec9222b1"],attr,data-i18n-text
+events.type.committee,Committee Meeting ,Réunion du comité ,a.create-event-by-type[eventtypekey="f141d1da-5e07-43a7-b959-13ab88bba9ac"],attr,data-i18n-text
+events.type.communityEvent,Community Event ,Événement communautaire ,a.create-event-by-type[eventtypekey="f307e2ac-871a-4b55-9fa0-0b3c22eaabf4"],attr,data-i18n-text
+events.type.communityWorkshop,Community Workshop ,Atelier communautaire ,a.create-event-by-type[eventtypekey="2ff6f4b7-d09d-4554-949b-a543c5a05697"],attr,data-i18n-text
+events.type.conference,Conference ,Conférence ,a.create-event-by-type[eventtypekey="9e2ded4f-5bc1-4948-9fce-5d6e00640a66"],attr,data-i18n-text
+events.type.execRetreat,Executive Retreat ,Retraite de direction ,a.create-event-by-type[eventtypekey="53bd863a-563d-4886-86ba-4c4b2df3e991"],attr,data-i18n-text
+events.type.memberTraining,Member Training ,Formation des membres ,a.create-event-by-type[eventtypekey="818a49ea-b823-4d8e-9703-2aa24102a54b"],attr,data-i18n-text
+events.type.profDev,Professional Development ,Perfectionnement professionnel ,a.create-event-by-type[eventtypekey="87c93176-886b-4189-8569-5c125949d188"],attr,data-i18n-text
+events.type.seminar,Seminar ,Séminaire ,a.create-event-by-type[eventtypekey="edfa85f5-7878-4cd2-b7eb-e8ddafa7d05d"],attr,data-i18n-text
+events.type.simpleMeeting,Simple Meeting ,Réunion simple ,a.create-event-by-type[eventtypekey="fa52d27c-3333-4c4a-9ba7-914551703502"],attr,data-i18n-text
+events.type.symposium,Symposium ,Symposium ,a.create-event-by-type[eventtypekey="9d179cd4-9a44-4185-80c5-679e380b16a6"],attr,data-i18n-text
+events.type.testingExternal,Testing - External registration system (External),Test – Système d’inscription externe (Externe),a.create-event-by-type[eventtypekey="1a8a45c1-48a2-4ce3-9178-01937373012a"],attr,data-i18n-text
+events.type.testingRSVP,Testing - FREE -RSVP only- just need a headcount (RSVP),Test – GRATUIT – RSVP seulement – estimation du nombre de participants (RSVP),a.create-event-by-type[eventtypekey="0c73a418-69fc-41dc-aee7-01937363f64f"],attr,data-i18n-text
+events.type.webinar,Webinar ,Webinaire ,a.create-event-by-type[eventtypekey="bf8abdd1-fdd4-458a-9c8f-6923522fe1a3"],attr,data-i18n-text
+
+# === FILE: communityInvite-translated.csv ===
+
+invite.backToCommunity,"Back to Community","Retour à la communauté","#MainCopy_ctl02_backToDiscussions",text,
+invite.message.label,"Invitation Message","Message d’invitation","#MainCopy_ctl04_InvitationMessage",text,
+invite.message.default,"Please come and join the community I have just created on the https://community.prospercanada.org website","Veuillez rejoindre la communauté que je viens de créer sur le site https://community.prospercanada.org","#MainCopy_ctl04_txtMessage",text,
+tabs.inviteYourContacts,"Invite Your Contacts","Inviter vos contacts","#YourContactsTab > a",text,
+tabs.inviteOthers,"Invite Others","Inviter d’autres personnes","#MainCopy_ctl04_InviteTab > a",text,
+tabs.pendingRequests,"Pending Invitation Requests","Demandes d’invitation en attente","#PendingRequestsTab > a",text,
+invite.contactsToInvite.h3,"Contacts to Invite","Contacts à inviter","#MainCopy_ctl04_ucInviteMembers_ucListmembers_UpdatePanel1 .col-md-6:nth-of-type(1) h3",text,
+invite.selectedContacts.h3,"Selected Contacts","Contacts sélectionnés","#MainCopy_ctl04_ucInviteMembers_ucListmembers_UpdatePanel1 .col-md-6:nth-of-type(2) h3",text,
+invite.emptyMsg,"You have already invited all of your contacts","Vous avez déjà invité tous vos contacts","#MainCopy_ctl04_ucInviteMembers_ucListmembers_grdListAllMembers_lblEmptyMsg",text,
+invite.sendInvitation.btn,"Send Invitation","Envoyer l’invitation","#MainCopy_ctl04_ucInviteMembers_ucListmembers_btnSend",attr,value
+invite.cancelSelection.btn,"Cancel","Annuler","#MainCopy_ctl04_ucInviteMembers_ucListmembers_CancelLink",attr,value
+search.header,"Find People to Invite","Trouver des personnes à inviter","#MainCopy_ctl04_SearchAndInvite_SearchContact_FindContactHeaderText",text,
+search.firstName.label,"First Name","Prénom","#MainCopy_ctl04_SearchAndInvite_SearchContact_FirstNameSearch_Label",text,
+search.lastName.label,"Last Name","Nom de famille","#MainCopy_ctl04_SearchAndInvite_SearchContact_LastNameSearch_Label",text,
+search.companyName.label,"Company Name","Nom de l’entreprise","#MainCopy_ctl04_SearchAndInvite_SearchContact_CompanyNameSearch_Label",text,
+search.email.label,"Email Address","Adresse courriel","#MainCopy_ctl04_SearchAndInvite_SearchContact_EmailAddressSearch_Label",text,
+search.search.btn.value,"Search","Rechercher","#MainCopy_ctl04_SearchAndInvite_SearchContact_FindButton",attr,value
+search.search.btn.title,"Search","Rechercher","#MainCopy_ctl04_SearchAndInvite_SearchContact_FindButton",attr,title
+search.clear.btn.value,"Clear Filter And Results","Effacer le filtre et les résultats","#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsButton",attr,value
+search.clear.btn.title,"Clear Filter And Results","Effacer le filtre et les résultats","#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsButton",attr,title
+modal.clear.title,"Confirmation","Confirmation","#ConfirmClearResultsModal .modal-header",text,
+modal.clear.body,"This will clear the search filter and results set. Would you like to continue?","Cette action effacera le filtre de recherche et les résultats. Voulez-vous continuer ?","#ConfirmClearResultsModal .modal-body",text,
+modal.clear.yes,"Yes","Oui","#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsConfirmModal_ClearSearchResultsYes",attr,value
+modal.clear.no,"No","Non","#MainCopy_ctl04_SearchAndInvite_SearchContact_ClearSearchResultsConfirmModal_CancelAdd",attr,value
+pending.none,"You have made no pending invitations","Vous n’avez aucune invitation en attente","#MainCopy_ctl04_PendingCommunityInvitations_UpdatePanel1 .col-md-12",text,
+footer.finished.btn,"Finished","Terminé","#MainCopy_ctl04_btnFinish",attr,value
+footer.cancel.btn,"Cancel","Annuler","#MainCopy_ctl04_lnkBtnCancel",attr,value
+
+# === FILE: communityLibrary-translated.csv ===
+
+library.entry.more.trigger,Additional Actions,Actions supplémentaires,[qa-id="library-entry-ellipsis"] button.icon-btn[aria-label],attr,aria-label
+library.entry.more.trigger.title,Additional Actions,Actions supplémentaires,[qa-id="library-entry-ellipsis"] button.icon-btn[title],attr,title
+
+library.entry.more.viewEntry,View Entry Page,Voir la page de l’entrée,.dropdown-menu[role="menu"] a.dropdown-item[href*="viewdocument"],attr,data-i18n-text
+library.entry.more.edit,Edit,Modifier,.dropdown-menu[role="menu"] a.dropdown-item[href*="/participate/add-new-entry"],attr,data-i18n-text
+
+library.entry.more.pin,Pin,Épingler,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(1),attr,data-i18n-text
+library.entry.more.copyLink,Copy Permalink,Copier le permalien,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(2),attr,data-i18n-text
+library.entry.more.markInappropriate,Mark as Inappropriate,Signaler comme inapproprié,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(3),attr,data-i18n-text
+library.entry.more.follow,Follow,Suivre,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(4),attr,data-i18n-text
+library.entry.more.reindex,Reindex,Réindexer,.dropdown-menu[role="menu"] button.dropdown-item:nth-of-type(5),attr,data-i18n-text
+
+library.entry.more.delete,Delete,Supprimer,.dropdown-menu[role="menu"] .dropdown-divider + button.dropdown-item,attr,data-i18n-text
+
+library.noFolderSelected,No folder selected:,Aucun dossier sélectionné :,".library-grid--control-row.library-topRow .font-weight-bold",text,
+library.view.legend,View:,Affichage :,"#library-view-toggle legend",text,
+library.view.row.title,Change to row view,Passer à la vue en lignes,"label[for=""library-layout-view-radio-row""]",attr,title
+library.view.row.sr,Change to row view,Passer à la vue en lignes,"label[for=""library-layout-view-radio-row""] .sr-only",text,
+library.view.card.title,Change to card view,Passer à la vue en cartes,"label[for=""library-layout-view-radio-card""]",attr,title
+library.view.card.sr,Change to card view,Passer à la vue en cartes,"label[for=""library-layout-view-radio-card""] .sr-only",text,
+library.view.admin.title,Change to admin view,Passer à la vue administrateur,"label[for=""library-layout-view-radio-admin""]",attr,title
+library.view.admin.sr,Change to admin view,Passer à la vue administrateur,"label[for=""library-layout-view-radio-admin""] .sr-only",text,
+
+library.filter.legend,Filter By:,Filtrer par:,".library-filterRow .ms-1",text,
+library.filter.fileType.btn.label,File Type,Type de fichier,"button[qa-id=""file-type-filter-menu-open""] .font-weight-normal",text,
+library.filter.fileType.btn.aria,Open File Type filter options,Ouvrir les options de filtre par type de fichier,"button[qa-id=""file-type-filter-menu-open""]",attr,aria-label
+library.sort.legend,Sort By:,Trier par:,"label[for^=""dropdown-sort_""]",text,
+
+library.sort.option.dateDesc,Date Created - Descending,Date de création – décroissante,"select[qa-id=""sort-library-entries""] option[value=""Date Created - Descending""]",text,
+library.sort.option.titleAZ,Title A-Z,Titre A-Z,"select[qa-id=""sort-library-entries""] option[value=""Title A-Z""]",text,
+library.sort.option.titleZA,Title Z-A,Titre Z-A,"select[qa-id=""sort-library-entries""] option[value=""Title Z-A""]",text,
+library.sort.option.mostDownloaded,Most Downloaded,Le plus téléchargé,"select[qa-id=""sort-library-entries""] option[value=""Most Downloaded""]",text,
+library.sort.option.mostViewed,Most Viewed,Le plus consulté,"select[qa-id=""sort-library-entries""] option[value=""Most Viewed""]",text,
+
+library.entry.views.label,Views ,Vues ,"#library-explorer-entries .flex-shrink-0 > div > span:nth-child(1) .entry-count-text",text,
+library.entry.downloads.label,Downloads ,Téléchargements ,"#library-explorer-entries .flex-shrink-0 > div > span:nth-child(2) .entry-count-text",text,
+
+# library.entry.meta.postedBy,Posted By ,Publié par ,".library-entry-meta small:first-child",textnode,
+
+library.folders.close.title,Close folders tree,Fermer l’arborescence des dossiers,"button[qa-id=""close-folder-view""]",attr,title
+library.folders.close.aria,Close folders tree,Fermer l’arborescence des dossiers,"button[qa-id=""close-folder-view""]",attr,aria-label
+
+library.entry.create.text,Create Entry,Créer une entrée,".widget-heading .create-new-entry",text,
+
+# === FILE: communityMembers-translated.csv ===
+
+# --- Field labels ---
+members.find.firstName,First Name,Prénom,#MainCopy_ctl10_FirstNameLabel,attr,data-i18n-text
+members.find.lastName,Last Name,Nom,#MainCopy_ctl10_LastNameLabel,attr,data-i18n-text
+members.find.company,Company Name,Organisation,#MainCopy_ctl10_CompanyNameLabel,attr,data-i18n-text
+members.find.email,Email Address,Adresse courriel,#MainCopy_ctl10_Label5,attr,data-i18n-text
+
+# --- Input titles (tooltips) ---
+members.find.firstName.title,First Name,Prénom,#MainCopy_ctl10_FindFirstName,attr,title
+members.find.lastName.title,Last Name,Nom,#MainCopy_ctl10_FindLastName,attr,title
+members.find.company.title,Company Name,Organisation,#MainCopy_ctl10_FindCompanyName,attr,title
+members.find.email.title,Email Address,Adresse courriel,#MainCopy_ctl10_EmailAddress,attr,title
+
+# --- Email validator/help text ---
+# members.find.email.validator,Please enter additional criteria for the email address. These values are not allowed: @,%,.,com,org,.com,.org,Veuillez saisir des critères supplémentaires pour l’adresse courriel. Les valeurs suivantes ne sont pas autorisées : @, %, ., com, org, .com, .org,#MainCopy_ctl10_EmailAddressCharacterValidator,attr,data-i18n-text
+
+# --- Action buttons ---
+members.actions.find,Find Members,Rechercher des membres,#MainCopy_ctl12_FindContacts,attr,value
+members.actions.clear,Clear All,Effacer tout,#MainCopy_ctl12_ClearSearchResults,attr,value
+members.actions.clear.title,Clear All,Effacer tout,#MainCopy_ctl12_ClearSearchResults,attr,title
+
+# --- Sort select (label is implicit via title) ---
+members.sort.title,Display Options,Options d’affichage,#MainCopy_ctl12_SortOptions,attr,title
+members.sort.nameAZ,Name A-Z,Nom A–Z,#MainCopy_ctl12_SortOptions option[value="Name_AZ"],attr,data-i18n-text
+members.sort.nameZA,Name Z-A,Nom Z–A,#MainCopy_ctl12_SortOptions option[value="Name_ZA"],attr,data-i18n-text
+members.sort.companyAZ,Company A-Z,Organisation A–Z,#MainCopy_ctl12_SortOptions option[value="Company_AZ"],attr,data-i18n-text
+members.sort.companyZA,Company Z-A,Organisation Z–A,#MainCopy_ctl12_SortOptions option[value="Company_ZA"],attr,data-i18n-text
+members.sort.cityAZ,City A-Z,Ville A–Z,#MainCopy_ctl12_SortOptions option[value="City_AZ"],attr,data-i18n-text
+members.sort.cityZA,City Z-A,Ville Z–A,#MainCopy_ctl12_SortOptions option[value="City_ZA"],attr,data-i18n-text
+members.sort.stateAZ,State A-Z,Province/État A–Z,#MainCopy_ctl12_SortOptions option[value="State_AZ"],attr,data-i18n-text
+members.sort.stateZA,State Z-A,Province/État Z–A,#MainCopy_ctl12_SortOptions option[value="State_ZA"],attr,data-i18n-text
+members.sort.countryAZ,Country A-Z,Pays A–Z,#MainCopy_ctl12_SortOptions option[value="Country_AZ"],attr,data-i18n-text
+members.sort.countryZA,Country Z-A,Pays Z–A,#MainCopy_ctl12_SortOptions option[value="Country_ZA"],attr,data-i18n-text
+
+# --- Results per page ---
+members.perPage.title,Results Per Page,Résultats par page,#MainCopy_ctl12_ResultsPerPage,attr,title
+members.perPage.showAll,Show All,Afficher tout,#MainCopy_ctl12_ResultsPerPage option[value="20"],attr,data-i18n-text
+
+members.sendMessage.value,Send Message,Envoyer un message,"input[id^=""MainCopy_ctl12_Contacts_SendMessageButton""]",attr,value
+members.addContact.value,Add as Contact,Ajouter comme contact,"input[id^=""MainCopy_ctl12_Contacts_FriendButton""]",attr,value
+
+members.msg.subject.label,Subject,Objet,"#message-subject-label",text,
+members.msg.body.label,Message,Message,"#message-body-label",text,
+
+members.msg.send.text,Send,Envoyer,"#Send",text,
+
+members.msg.cancel.text,Cancel,Annuler,"#Cancel",text,
+
+members.msg.error.text,Cannot send message. Data required.,Impossible d’envoyer le message. Données requises.,"#error-msg",text,
+
+/* Used by the helper below to localize the dynamic header prefix */
+# directory.msg.header.prefix,Message to ,Message à ,"#modal-send-message .modal-header",text,
+
+export.top.value,Export,Exporter,"#MainCopy_ctl12_ExportButtonTop",attr,value
+export.top.title,Export,Exporter,"#MainCopy_ctl12_ExportButtonTop",attr,title
+export.top.aria,Export these results,Exporter ces résultats,"#MainCopy_ctl12_ExportButtonTop",attr,aria-label
+
+export.dialog.title,Export Options,Options d’exportation,"[aria-describedby=""ExportOptions""] .ui-dialog-title",text,
+export.dialog.close.text,close,fermer,"[aria-describedby=""ExportOptions""] .ui-dialog-titlebar-close .ui-button-text",text,
+export.dialog.close.aria,Close export options,Fermer les options d’exportation,"[aria-describedby=""ExportOptions""] .ui-dialog-titlebar-close",attr,aria-label
+
+export.dialog.choose,Choose a file format,Choisir un format de fichier,"#ExportOptions > .row.form-group:first-child .col-md-12",text,
+
+export.format.excel.label,Excel file,Fichier Excel,"label[for=""ExportExcelRadio""]",text,
+export.format.excel.title,Excel Format,Format Excel,"#MainCopy_ctl12_ExportExcelRadio",attr,title
+
+export.format.csv.label,CSV file,Fichier CSV,"label[for=""ExportCSVRadio""]",text,
+export.format.csv.title,CSV Format,Format CSV,"#MainCopy_ctl12_ExportCSVRadio",attr,title
+
+export.dialog.download.value,Download,Télécharger,"#MainCopy_ctl12_ExportDetails",attr,value
+export.dialog.download.title,Download,Télécharger,"#MainCopy_ctl12_ExportDetails",attr,title
+export.dialog.download.aria,Download exported file,Télécharger le fichier exporté,"#MainCopy_ctl12_ExportDetails",attr,aria-label
+
+# === FILE: communityMy-translated.csv ===
+
+# ===== Filters: Display =====
+communities.filter.display.belong-or-join,"Communities to which I belong or can join","Communautés auxquelles j’appartiens ou que je peux rejoindre","#MainCopy_ctl02_ddlDisplay option[value='4']",text,
+communities.filter.display.belong,"Communities to which I belong","Communautés auxquelles j’appartiens","#MainCopy_ctl02_ddlDisplay option[value='0']",text,
+communities.filter.display.joinable,"Communities I can join","Communautés que je peux rejoindre","#MainCopy_ctl02_ddlDisplay option[value='1']",text,
+communities.filter.display.viewable,"Communities I can only view","Communautés que je peux seulement consulter","#MainCopy_ctl02_ddlDisplay option[value='2']",text,
+communities.filter.display.all,"All Communities","Toutes les communautés","#MainCopy_ctl02_ddlDisplay option[value='3']",text,
+
+# ===== Sort: Order By =====
+communities.sort.alpha,"Alphabetical","Ordre alphabétique","#MainCopy_ctl02_ddlOrderBy option[value='0']",text,
+communities.sort.updated.most,"Most recently updated","Les plus récemment mises à jour","#MainCopy_ctl02_ddlOrderBy option[value='1']",text,
+communities.sort.active.most,"Most active","Les plus actives","#MainCopy_ctl02_ddlOrderBy option[value='2']",text,
+communities.sort.people.most,"Most people","Le plus de personnes","#MainCopy_ctl02_ddlOrderBy option[value='3']",text,
+communities.sort.posts.most,"Most discussion posts","Le plus de messages de discussion","#MainCopy_ctl02_ddlOrderBy option[value='4']",text,
+communities.sort.library.most,"Most Library entries","Le plus d’éléments de la bibliothèque","#MainCopy_ctl02_ddlOrderBy option[value='5']",text,
+communities.sort.alpha.reverse,"Reverse alphabetical","Ordre alphabétique inverse","#MainCopy_ctl02_ddlOrderBy option[value='6']",text,
+communities.sort.updated.least,"Least recently updated","Les moins récemment mises à jour","#MainCopy_ctl02_ddlOrderBy option[value='7']",text,
+communities.sort.active.least,"Least active","Les moins actives","#MainCopy_ctl02_ddlOrderBy option[value='8']",text,
+communities.sort.people.fewest,"Fewest people","Le moins de personnes","#MainCopy_ctl02_ddlOrderBy option[value='9']",text,
+communities.sort.posts.fewest,"Fewest discussion posts","Le moins de messages de discussion","#MainCopy_ctl02_ddlOrderBy option[value='10']",text,
+communities.sort.library.fewest,"Fewest Library entries","Le moins d’éléments de la bibliothèque","#MainCopy_ctl02_ddlOrderBy option[value='11']",text,
+
+# ===== Paging: Results per page =====
+communities.perpage.20,"20 per page","20 par page","#MainCopy_ctl02_ddlResultsPerPage option[value='20']",text,
+communities.perpage.50,"50 per page","50 par page","#MainCopy_ctl02_ddlResultsPerPage option[value='50']",text,
+
+# ===== Stats buttons (keep the <span class="badge"> intact) =====
+# Use data-i18n-text so we replace only the first text node (before the badge)
+communities.stat.discussions,"Discussions","Discussions","#MainCopy_ctl02_lstCommunityList_lbCommunityDiscussionCount_0",attr,data-i18n-text
+communities.stat.libraries,"Libraries","Bibliothèques","#MainCopy_ctl02_lstCommunityList_lbCommunityDocumentsCount_0",attr,data-i18n-text
+communities.stat.members,"Members","Membres","#MainCopy_ctl02_lstCommunityList_lbCommunityMembersCount_0",attr,data-i18n-text
+
+# === FILE: connections-translated.csv ===
+
+connections.title,Contacts,Contacts,#MainCopy_ctl29_h2Title,text,
+contacts_export_btn_title,Export,Exporter,#MainCopy_ctl29_FindContacts_ExportButtonTop,attr,title
+
+connections.linkSocial,Link to other social media accounts,Lier d’autres comptes de médias sociaux,#MainCopy_ctl29_FindContacts_NoDataMe,text,
+connections.searchDirectory,Search Directory,Rechercher dans l’annuaire,#MainCopy_ctl29_FindContacts_searchDirectory,text,
+connections.peopleYouMayKnow,People You May Know,Personnes que vous pourriez connaître,[id^='FindContactsByLikeness'],text,
+connections.noSuggestions,"Currently, there are no suggestions.","Aucune suggestion pour le moment.",.HLLandingControl.HL-contact-suggestions .alert.alert-default.text-muted,text,
+
+contacts_sort_title,Display Options,Options d’affichage,#MainCopy_ctl29_FindContacts_SortOptions,attr,title
+contacts_sort_opt_name_az,Name A-Z,Nom A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Name_AZ"],text,
+contacts_sort_opt_name_za,Name Z-A,Nom Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Name_ZA"],text,
+contacts_sort_opt_company_az,Company A-Z,Entreprise A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Company_AZ"],text,
+contacts_sort_opt_company_za,Company Z-A,Entreprise Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Company_ZA"],text,
+contacts_sort_opt_city_az,City A-Z,Ville A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="City_AZ"],text,
+contacts_sort_opt_city_za,City Z-A,Ville Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="City_ZA"],text,
+contacts_sort_opt_state_az,State A-Z,Province/État A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="State_AZ"],text,
+contacts_sort_opt_state_za,State Z-A,Province/État Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="State_ZA"],text,
+contacts_sort_opt_country_az,Country A-Z,Pays A-Z,#MainCopy_ctl29_FindContacts_SortOptions option[value="Country_AZ"],text,
+contacts_sort_opt_country_za,Country Z-A,Pays Z-A,#MainCopy_ctl29_FindContacts_SortOptions option[value="Country_ZA"],text,
+
+contacts_results_title,Results Per Page,Résultats par page,#MainCopy_ctl29_FindContacts_ResultsPerPage,attr,title
+
+contacts_send_msg_value,Send Message,Envoyer un message,input[id^="MainCopy_ctl29_FindContacts_Contacts_SendMessageButton_"],attr,value
+
+contacts_remove_value,Remove Contact,Retirer le contact,input[id^="MainCopy_ctl29_FindContacts_Contacts_FriendButton_"],attr,value
+
+request_contact_text,Request Contact,Demander comme contact,.add-contact,text,
+request_contact_title,Request Contact,Demander comme contact,.add-contact,attr,title
+ignore_contact_text,Ignore,Ignorer,.ignore-contact,text,
+ignore_contact_title,Ignore,Ignorer,.ignore-contact,attr,title
+
+# === FILE: contact-translated.csv ===
+
+contact.address.html,"60 St. Clair Avenue East, Suite 700<br>Toronto Ontario M4T 1N5<br>Canada<br>Phone: 416-665-2828<br>Toll Free: 1-877-568-1571<br>FAX: 416-665-1661","60, avenue St. Clair Est, bureau 700<br>Toronto (Ontario) M4T 1N5<br>Canada<br>Téléphone : 416-665-2828<br>Sans frais : 1-877-568-1571<br>Télécopieur : 416-665-1661",".section3 .panel.panel-form address, .row.panel.panel-form address",attr,innerHTML
+
+contact.form.heading,Send Us A Message,Envoyez-nous un message,#MainCopy_ctl06_EmailForm h2,text,
+
+contact.firstName.label,Your First Name,Prénom,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_FirstName"],text,
+contact.firstName.required,Please enter your first name,Veuillez entrer votre prénom,#MainCopy_ctl06_FirstNameRequiredValidator,text,
+contact.firstName.title,Your First Name,Prénom,#MainCopy_ctl06_FirstName,attr,title
+
+contact.lastName.label,Your Last Name,Nom de famille,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_LastName"],text,
+contact.lastName.required,Please enter your last name,Veuillez entrer votre nom de famille,#MainCopy_ctl06_LastNameRequiredfieldvalidator,text,
+contact.lastName.title,Your Last Name,Nom de famille,#MainCopy_ctl06_LastName,attr,title
+
+contact.email.label,Your Email Address,Adresse courriel,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_FromEmailAddress"],text,
+contact.email.required,Please enter your email address,Veuillez entrer votre adresse courriel,#MainCopy_ctl06_FromEmailAddressRequiredfieldvalidator,text,
+contact.email.title,Your Email Address,Adresse courriel,#MainCopy_ctl06_FromEmailAddress,attr,title
+
+contact.phone.label,Your Phone Number (optional),Votre numéro de téléphone (facultatif),#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_Phone"],text,
+contact.phone.title,Your Phone Number (optional),Votre numéro de téléphone (facultatif),#MainCopy_ctl06_Phone,attr,title
+
+contact.subject.label,Subject,Objet,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_Subject"],text,
+contact.subject.title,Subject,Objet,#MainCopy_ctl06_Subject,attr,title
+
+contact.message.label,Message,Message,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_Comments"],text,
+contact.message.aria,Your Message,Votre message,#MainCopy_ctl06_Comments,attr,aria-label
+
+contact.send.button,Send,Envoyer,#MainCopy_ctl06_SendButton,attr,value
+
+# === FILE: contribList-translated.csv ===
+
+section.contribution,Contributions,Participations,#MainCopy_ctl29_TitleText,text,
+
+# Contributions → List
+contribList.noData,Nothing has yet been shared.,Rien n’a encore été partagé,.NoDataBadSearch,text,
+contribList.search.label,search criteria = ,critères de recherche = ,#SearchCriteriaLabel,text,
+contribList.search.value.ALL,ALL,TOUT,#SearchTerm,text,
+
+filter_option_all,View all items,Afficher tous les éléments,#MainCopy_ctl29_FilterOptionDropDown option[value="all"],text,
+filter_option_published,View published items,Afficher les éléments publiés,#MainCopy_ctl29_FilterOptionDropDown option[value="published"],text,
+filter_option_draft,View draft items,Afficher les brouillons,#MainCopy_ctl29_FilterOptionDropDown option[value="draft"],text,
+filter_option_scheduled,View scheduled items,Afficher les éléments planifiés,#MainCopy_ctl29_FilterOptionDropDown option[value="scheduled"],text,
+
+# search.result.foundin.label,Found In,Trouvé dans,span[id*="SearchResult_FoundInIn_"] > span,text,
+# search.result.postedby.label,Posted By,Publié par,span[id*="SearchResult_PostedBy_"] > span,text,
+
+search.result.postedby.label,Posted By,Publié par,span[id^="MainCopy_ctl29_SearchResult_PostedBy_"] > span,text,
+search.result.foundin.label,Found In,Trouvé dans,span[id^="MainCopy_ctl29_SearchResult_FoundInIn_"] > span,text,
+
+# === FILE: contribSummary-translated.csv ===
+
+contribSummary.nodata.title,you have not yet created any content,Vous n’avez pas encore créé de contenu,.hl-no-data strong,text,
+contribSummary.nodata.subtitle,feel free to post to a discussion,N’hésitez pas à publier dans une discussion,.hl-no-data p,text,
+
+# Right column headings
+contribSummary.h3.achievements,Achievements,Succès,.MVCContent .col-md-4 > h3:nth-of-type(1),text,
+contribSummary.h3.points,Points,Points,.MVCContent .col-md-4 > h3:nth-of-type(2),text,
+
+# Link title
+contribSummary.achievements.linkTitle,View Achievements,Afficher les succès,.achievements a,attr,title
+
+# Points labels (order-based)
+contribSummary.points.engagement,Engagement,Engagement,.points .inline:nth-of-type(1) .data > div,text,
+contribSummary.points.contributions,Contributions,Contributions,.points .inline:nth-of-type(2) .data > div,text,
+contribSummary.points.reputation,Reputation,Réputation,.points .inline:nth-of-type(3) .data > div,text,
+
+# RUNTIME-ONLY (no selector): achievements progress line
+contribSummary.ach.progress.one,{done} of {total} achieved,{done} sur {total} atteint,,,
+contribSummary.ach.progress.other,{done} of {total} achieved,{done} sur {total} atteints,,,
+
+# === FILE: eventsCalendar-translated.csv ===
+
+calendar_toggle_filter_title,Hide Filter,Masquer le filtre,#MainCopy_ctl06_ShowFilter,attr,title
+calendar_toggle_filter_value,Hide Filter,Masquer le filtre,#MainCopy_ctl06_ShowFilter,attr,value
+calendar_filtering_on_label,Filtering On:,Filtre activé :,#MainCopy_ctl06_FilteringOnPrompt,text,
+calendar_filtering_on_value,Community,Communauté,#MainCopy_ctl06_FilteringOnValue,text,
+
+calendar_keywords_label,Keywords,Mots-clés,#MainCopy_ctl06_SearchLabel,text,
+calendar_keywords_title,Keywords,Mots-clés,#MainCopy_ctl06_SearchLabel,attr,title
+
+calendar_location_label,Location,Emplacement,#MainCopy_ctl06_EventsInLabel,text,
+calendar_location_title,Location,Emplacement,#MainCopy_ctl06_EventsInLabel,attr,title
+calendar_location_option_all,All,Tout,#MainCopy_ctl06_LocationList option[value="All"],text,
+calendar_location_option_ca,Canada,Canada,#MainCopy_ctl06_LocationList option[value="CA_Canada_c"],text,
+calendar_location_option_on,Ontario,Ontario,#MainCopy_ctl06_LocationList option[value="CA_ON_Ontario_s"],text,
+
+calendar_community_label,Community,Communauté,#MainCopy_ctl06_CommunityLabel,text,
+calendar_community_title,Community,Communauté,#MainCopy_ctl06_CommunityLabel,attr,title
+calendar_community_select_title,Select Community,Sélectionner une communauté,#CommunityList,attr,title
+calendar_community_data_emptytext,All,Tout,#CommunityList,attr,data-emptytext
+calendar_community_data_searchph,Search for a community,Rechercher une communauté,#CommunityList,attr,data-searchplaceholdertext
+calendar_community_data_status_no,No communities found,Aucune communauté trouvée,#CommunityList,attr,data-statusnoresulttext
+calendar_community_data_status_find,Searching for communities,Recherche de communautés,#CommunityList,attr,data-statussearchingtext
+
+calendar_eventtype_label,Type of Event,Type d’événement,#MainCopy_ctl06_EventTypeLabel,text,
+calendar_eventtype_title,Type of Event,Type d’événement,#MainCopy_ctl06_EventTypeLabel,attr,title
+calendar_eventtype_option_all,All,Tous,#MainCopy_ctl06_EventTypeList option[value="00000000-0000-0000-0000-000000000000"],text,
+calendar_eventtype_option_comm_event,Community Event,Événement communautaire,#MainCopy_ctl06_EventTypeList option[value="f307e2ac-871a-4b55-9fa0-0b3c22eaabf4"],text,
+calendar_eventtype_option_webinar,Webinar,Webinaire,#MainCopy_ctl06_EventTypeList option[value="bf8abdd1-fdd4-458a-9c8f-6923522fe1a3"],text,
+
+calendar_prevmonths_label,Show events from previous months,Afficher les événements des mois précédents,#MainCopy_ctl06_ShowEventsFromLabel,text,
+calendar_prevmonths_title,Show events from previous months,Afficher les événements des mois précédents,#MainCopy_ctl06_ShowEventsFromLabel,attr,title
+
+calendar_apply_filter_value,Apply Filter,Appliquer le filtre,#MainCopy_ctl06_SearchButton,attr,value
+calendar_apply_filter_title,Apply Filter,Appliquer le filtre,#MainCopy_ctl06_SearchButton,attr,title
+
+calendar_results_per_page_20,20 per page,20 par page,#MainCopy_ctl06_ddlResultsPerPage option[value="20"],text,
+calendar_results_per_page_50,50 per page,50 par page,#MainCopy_ctl06_ddlResultsPerPage option[value="50"],text,
+calendar_results_per_page_all,All,Tous,#MainCopy_ctl06_ddlResultsPerPage option[value="9999999"],text,
+
+# === FILE: following-translated.csv ===
+
+following.title,Followed Content,Contenu suivi,#MainCopy_ContentWrapper .TitleText,text,
+# following.filter.all,All,Tout,[id^='FollowedContent_'][id$='-type-filter'] option[value=""],text,
+# following.filter.blogs,Blogs,Billets,[id^='FollowedContent_'][id$='-type-filter'] option[value="blog"],text,
+# following.filter.threads,Discussion Threads,Fils de discussion,[id^='FollowedContent_'][id$='-type-filter'] option[value="MessageThread"],text,
+# following.filter.library,Library Entries,Éléments de la bibliothèque,[id^='FollowedContent_'][id$='-type-filter'] option[value="LibraryEntry"],text,
+# following.filter.questions,Questions,Questions,[id^='FollowedContent_'][id$='-type-filter'] option[value="ContributedContent"],text,
+
+followFilter.all,All,Tous,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='0'] a > span.text",text,
+followFilter.blogs,Blogs,Blogues,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='1'] a > span.text",text,
+followFilter.discussions,Discussion Threads,Fils de discussion,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='2'] a > span.text",text,
+followFilter.library,Library Entries,Éléments de bibliothèque,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='3'] a > span.text",text,
+followFilter.questions,Questions,Questions,"select[id^='FollowedContent_'][id$='-type-filter'] + .btn-group.bootstrap-select .dropdown-menu.inner li[data-original-index='4'] a > span.text",text,
+
+followedList.postedBy,Posted By,Publié par,"[id^="FollowedContent_"][id$="-followed-list"] table tbody tr td:nth-of-type(2) > div:nth-of-type(2) > span:first-of-type",text,
+# followedList.postedByv2,Posted By,Publié par,"#FollowedContent_a3bdb13544a04586a6116d4561c7fe29-followed-list > div:nth-child(1) > table > tbody > tr > td:nth-child(2) > div:nth-child(2) > span",text,
+
+followedList.typeMeta,Blog ,Billet de blogue ,"[id^='FollowedContent_'][id$='-followed-list'] table tbody tr td:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(1)",text,
+followedList.typeLabel,In, Dans,"[id^='FollowedContent_'][id$='-followed-list'] table tbody tr td:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)",text,
+
+followedList.noData,No Data Found,Aucune donnée trouvée,"[id^='FollowedContent_'] .row.hl-no-data .col-md-11",text,
+
+# === FILE: header-translated.csv ===
+
+nav.logo.desktop.alt,Prosper Canada logo. This will take you to the homepage,Logo de Prosper Canada. Ceci vous mènera à la page d’accueil,#NavLogo_DesktopLogoDiv img,attr,alt
+nav.logo.mobile.alt,Prosper Canada logo. This will take you to the homepage,Logo de Prosper Canada. Ceci vous mènera à la page d’accueil,#NavLogo_PhoneLogoDiv img,attr,alt
+
+nav.toggle.sronly,Toggle navigation,Basculer la navigation,#MPButtonBar .navbar-toggle .sr-only,text,
+
+search.toggle.aria,searchToggle,basculer la recherche,#SearchToggleIcon,attr,aria-label
+search.input.aria,Search Box,Boîte de recherche,#SearchControl_SearchTerm,attr,aria-label
+search.input.placeholder,Search,Rechercher,#SearchControl_SearchTerm,attr,placeholder
+search.input.title,search,recherche,#SearchControl_SearchTerm,attr,title
+search.button.aria,search,rechercher,#SearchControl_SearchButton,attr,aria-label
+
+profile.menu.inbox,Inbox,Boîte de réception,a[qa-id="inbox-link"],text,
+profile.menu.profile,Profile,Profil,a[qa-id="profile-link"],text,
+profile.menu.myCommunities,My Communities,Mes communautés,a[qa-id="my-communities-link"],text,
+profile.menu.followed,Followed Content,Contenu suivi,a[qa-id="followed-content-link"],text,
+profile.menu.logout,Log Out,Fermer la session,a[qa-id="logout-link"],text,
+
+create.button,Create,Créer,#CreateBtnWrapper [qa-id="btnThriveCreate"],text,
+create.button.sronly,Toggle Dropdown,Basculer le menu,#CreateBtnWrapper [qa-id="btnThriveCreate"] .sr-only,text,
+create.menu.discussion,Discussion Thread,Fil de discussion,#HLCreateDiscussionThread,text,
+create.menu.library,Library Entry,Élément de la bibliothèque,#HLCreateLibraryEntry,text,
+
+# topnav.memberHome,Member home,Accueil des membres,.nav.navbar-nav a[href="/home"] span,text,
+# topnav.mediaKit,Media Kit,Trousse médiatique,.nav.navbar-nav a[href="/media-kit"] span,text,
+# topnav.advisory,Advisory Committee,Comité consultatif,.nav.navbar-nav a[href="/advisory-committee"] span,text,
+# topnav.funding,Funding Information,Renseignements sur le financement,.nav.navbar-nav a[href="/apply"] span,text,
+
+# nav.home,"Home","Accueil","#MPButtonBar .navbar-nav a[href='/home'] span, #MPButtonBar .navbar-nav a[href='/home']",text,
+
+# multiple selectors!
+nav.home,"Home","Accueil","#MPButtonBar .navbar-nav a[href='/home'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/home']",text,
+
+nav.mediaKit,"Media Kit","Trousse pour les médias","#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",text,
+nav.advisory,"Advisory Committee","Le Comité consultatif","#MPButtonBar .navbar-nav a[href='/advisory-committee'] span, #MPButtonBar .navbar-nav a[href='/advisory-committee']",text,
+nav.funding,"Funding Information","Informations sur le financement","#MPButtonBar .navbar-nav a[href='/apply'] span, #MPButtonBar .navbar-nav a[href='/apply']",text,
+nav.faq,"FAQs","FAQ","#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",text,
+
+# === FILE: login-translated.csv ===
+
+# login.panel.title,Members - Login here,Membres — Connectez-vous ici,#MainCopy_ctl07_LoginSectionH2,text,
+# login.email.label,Email,Courriel,#MainCopy_ctl07_LoginUserNameLabel,text,
+# login.password.label,Password,Mot de passe,#MainCopy_ctl07_LoginPasswordLabel,text,
+# login.signup.link,New User/Register Now,Nouvel utilisateur / Inscrivez-vous maintenant,#MainCopy_ctl07_signupLabel,text,
+# login.forgot.link,Did You Forget Your Password?,Avez-vous oublié votre mot de passe ?,#MainCopy_ctl07_ForgotPassword,text,
+# login.remember.label,Stay signed in for 5 days,Rester connecté pendant 5 jours,#MainCopy_ctl07_Remember + label,text,
+# login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
+
+login.panel.title,Members - Login here,Membres — Connectez-vous ici,#MainCopy_ctl07_LoginSectionH2,text,
+login.email.label,Email,Adresse courriel,#MainCopy_ctl07_LoginUserNameLabel,text,
+login.password.label,Password,Mot de passe,#MainCopy_ctl07_LoginPasswordLabel,text,
+login.signup.link,New User/Register Now,Nouveau membre / Inscrivez-vous,#MainCopy_ctl07_signupLabel,text,
+login.forgot.link,Did You Forget Your Password?,Mot de passe oublié ?,#MainCopy_ctl07_ForgotPassword,text,
+login.remember.label," Stay signed in for 5 days"," Rester connecté pendant 5 jours","#MainCopy_ctl07_Remember + label",text,
+login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
+
+# ===== Demographics block high-level labels =====
+register.demo.org-location,Organization Location,Emplacement de l’organisme,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+register.demo.sector,Sector,Secteur,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+register.demo.fe-offered,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+register.demo.other-services,Other Services Offered,Autres services offerts,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+register.demo.populations,Populations Served,Populations desservies,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+register.demo.fed-riding,Federal Riding,Circonscription fédérale,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+register.demo.geo-served,Geographic Area(s) Served,Région(s) desservie(s),"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+register.demo.lang-pref,Language Preference,Langue préférée,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
+
+# ===== Demographic dropdown “button text” placeholder (the mirrored button) =====
+register.demo.btn.org-location,(Organization Location),(Emplacement de l’organisme),"button[data-id$='-select'][title='(Organization Location)']",attr,title
+register.demo.btn.sector,(Sector),(Secteur),"button[data-id$='-select'][title='(Sector)']",attr,title
+register.demo.btn.fe-offered,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),"button[data-id$='-select'][title='(Financial Empowerment Services Offered)']",attr,title
+register.demo.btn.other-services,(Other Services Offered),(Autres services offerts),"button[data-id$='-select'][title='(Other Services Offered)']",attr,title
+register.demo.btn.populations,(Populations Served),(Populations desservies),"button[data-id$='-select'][title='(Populations Served)']",attr,title
+register.demo.btn.geo-served,(Geographic Area(s) Served),(Région(s) desservie(s)),"button[data-id$='-select'][title='(Geographic Area(s) Served)']",attr,title
+register.demo.btn.lang-pref,(Language Preference),(Langue préférée),"button[data-id$='-select'][title='(Language Preference)']",attr,title
+
+# ===== Password policy (has <br> and entities) =====
+register.password.policy.html,"Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:&quot;&lt;&gt;?-","La longueur doit être comprise entre 8 et 30 caractères.<br>Doit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial : ~!@#$%^&amp;*()_+{}:&quot;&lt;&gt;?-",#MainCopy_ctl10_PasswordPolicyText,html,
+
+# ===== Button =====
+register.btn.create,Create Account,Créer un compte,#MainCopy_ctl10_CreateAccountButton,attr,value
+
+# ===== “required” hint line (simple approach: replace whole sentence) =====
+register.required.hint.html,"<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indicates that the field is required</label>","<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indique que le champ est obligatoire</label>",".SmallText",html,
+
+auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,
+
+# === FILE: networkMembers-translated.csv ===
+
+# ===== Page title & tab =====
+directory.page.title,Member Directory,Annuaire des membres,#PageTitleH1,text,
+directory.tab.search,Search,Recherche,#MainCopy_ctl02_Tab1,text,
+
+# ===== Panel headings =====
+directory.form.heading,(Member Directory),(Annuaire des membres),#MainCopy_ctl11_pnlFindContacts #Title,html,
+directory.form.heading2,(Member Directory),(Annuaire des membres),#MainCopy_ctl13_pnlFindContacts #Title,html,
+
+# ===== Buttons =====
+directory.btn.find,Find Members,Trouver des membres,#MainCopy_ctl04_FindContacts,attr,value
+directory.btn.clear,Clear All,Effacer tout,#MainCopy_ctl04_ClearSearchResults,attr,value
+directory.btn.clear.title,Clear All,Effacer tout,#MainCopy_ctl04_ClearSearchResults,attr,title
+
+# ===== Labels (top block) =====
+directory.label.communityType,Community Type,Type de communauté,#MainCopy_ctl07_GroupType,text,
+directory.label.communityName,Community Name,Nom de la communauté,#MainCopy_ctl07_GroupName,text,
+
+# ===== Labels (member search block) =====
+directory.label.city,City,Ville,#MainCopy_ctl11_CityLabel,text,
+directory.label.country,Country,Pays,#MainCopy_ctl11_ucCountryStateProvinceList_ddlCountry,attr,title
+directory.label.country.text,Country,Pays,#lblCountry,text,
+directory.label.state,State/Province,Province/Territoire,#MainCopy_ctl11_ucCountryStateProvinceList_ddlState,attr,title
+directory.label.state.text,State/Province,Province/Territoire,#lblState,text,
+
+# ===== Labels (name/company/email block) =====
+directory.label.first,First Name,Prénom,#MainCopy_ctl13_FirstNameLabel,text,
+directory.label.last,Last Name,Nom de famille,#MainCopy_ctl13_LastNameLabel,text,
+directory.label.company,Company Name,Nom de l’entreprise,#MainCopy_ctl13_CompanyNameLabel,text,
+directory.label.email,Email Address,Adresse courriel,#MainCopy_ctl13_Label5,text,
+
+# ===== Placeholders for selects (first option) =====
+directory.placeholder.country,(Country),(Pays),"#MainCopy_ctl11_ucCountryStateProvinceList_ddlCountry option[value='']",text,
+directory.placeholder.state,(State/Province),(Province/Territoire),"#MainCopy_ctl11_ucCountryStateProvinceList_ddlState option[value='']",text
+
+# === FILE: postMessage-translated.csv ===
+
+postMessage.title,Start New Thread,Démarrer un nouveau fil,#PageTitleH1,text,
+postMessage.postToCommunity,Post to community,Publier dans la communauté,#ddlSubListContainer label.control-label,text,
+postMessage.selectCommunity,Select Community,Sélectionnez une communauté,#MainCopy_ctl03_ddlSublist option[value=""],text,
+postMessage.selectCommunity.btn,Select Community,Sélectionnez une communauté,#MainCopy_ctl03_ddlSublist + .bootstrap-select button,attr,title
+postMessage.selectCommunity.btnLabel,Select Community,Sélectionnez une communauté,#MainCopy_ctl03_ddlSublist + .bootstrap-select .filter-option,text,
+postMessage.selectCommunity.error,Error: Please select a community,Erreur : Veuillez sélectionner une communauté,#ddlSubListContainer .help-block span,text,
+postMessage.subject.label,Discussion subject,Sujet de la discussion,#MainCopy_ctl03_PostMessageContributedContent_Label1,text,
+postMessage.editor.previewToggle,Automatically insert content preview for links,Insérer automatiquement un aperçu du contenu pour les liens,#MainCopy_ctl03_PostMessageContributedContent_TinyMCEEditor_GeneratePreviewLabel,text,
+postMessage.signature.toggle,Signature,Signature,#toggle-signature-btn,text,
+postMessage.signature.edit,Edit Your Default Signature,Modifier votre signature par défaut,#edit-signature-link,text,
+postMessage.signature.anonymousNote,Signature is not included when posting anonymously,La signature n’est pas incluse lors d’une publication anonyme,#anonymous-no-signature .panel-body span.text-muted,text,
+postMessage.attach.add,Add Attachment,Ajouter une pièce jointe,#MainCopy_ctl03_PostMessageContributedContent_fjUploader_UploadButton,text,
+postMessage.attach.note,Attachments are automatically saved in the associated library.,Les pièces jointes sont automatiquement enregistrées dans la bibliothèque associée.,.edit-attachment-details .text-muted,text,
+postMessage.attach.editDetails,Edit Details,Modifier les détails,.edit-attachment-details .attachment-library-link,text,
+postMessage.attach.modal.title,Title,Titre,#MainCopy_ctl03_PostMessageContributedContent_fjUploader_pnlDiscussionModal .modal-title,text,
+postMessage.attach.modal.name,Name,Nom,#MainCopy_ctl03_PostMessageContributedContent_fjUploader_tbDiscussionName ~ label.control-label,text,
+postMessage.attach.modal.description,Description,Description,#MainCopy_ctl03_PostMessageContributedContent_fjUploader_tbDiscussionDescription ~ label.control-label,text,
+postMessage.attach.modal.folder,Folder,Dossier,#MainCopy_ctl03_PostMessageContributedContent_fjUploader_ddlDiscussionFolders ~ label.control-label,text,
+postMessage.attach.modal.save,Save,Enregistrer,#MainCopy_ctl03_PostMessageContributedContent_fjUploader_hypDiscussionEditSave,text,
+postMessage.attach.modal.cancel,Cancel,Annuler,#MainCopy_ctl03_PostMessageContributedContent_fjUploader_pnlDiscussionModal .modal-footer .btn-default,text,
+postMessage.required.modal.title,Required Information,Renseignements requis,#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity .modal-title,text,
+postMessage.required.modal.lead,The following are required before a file can be attached:,Les éléments suivants sont requis avant de pouvoir joindre un fichier :,#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity_spnSelectCommunity,text,
+postMessage.required.modal.communityName,community name,nom de la communauté,#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity .li-communitynamesingular,text,
+postMessage.required.modal.subject,Subject,Sujet,#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity .li-subject,text,
+postMessage.required.modal.ok,Ok,OK,#MainCopy_ctl03_PostMessageContributedContent_bsSelectCommunity .modal-footer .btn-default,text,
+postMessage.schedule.modal.title,Schedule,Planifier,#SchedulePostDatePickerTitle,text,
+postMessage.schedule.modal.lead,Specify a date and time to publish your discussion.,Indiquez la date et l’heure de publication de votre discussion.,#modal-schedule-post .modal-body > p:first-of-type,text,
+postMessage.schedule.modal.save,Save,Enregistrer,#modal-schedule-post .modal-footer .btn-primary,text,
+postMessage.schedule.modal.cancel,Cancel,Annuler,#modal-schedule-post .modal-footer .btn-default,text,
+postMessage.actions.post,Post,Publier,#MainCopy_ctl03_PostMessageContributedContent_BtnSave,text,
+postMessage.actions.schedule,Schedule,Planifier,#MainCopy_ctl03_PostMessageContributedContent_btnSchedule,text,
+postMessage.actions.saveDraft,Save as Draft,Enregistrer comme brouillon,#MainCopy_ctl03_PostMessageContributedContent_BtnSaveAsDraft,text,
+postMessage.actions.deleteDraft,Delete Draft,Supprimer le brouillon,#MainCopy_ctl03_PostMessageContributedContent_BtnDeleteDraft,text,
+postMessage.actions.cancel,Cancel,Annuler,#MainCopy_ctl03_PostMessageContributedContent_BtnCancel,text,
+
+# === FILE: profile-translated.csv ===
+
+profile.tabs.my-profile,My Profile,Mon profil,#MainCopy_ctl27_ProfileLink,text,
+profile.tabs.my-connections,My Connections,Mes connexions,#MainCopy_ctl27_ConnectionsLink,text,
+profile.tabs.my-connections@aria-label,My Connections,Mes connexions,#MainCopy_ctl27_ConnectionsLink,attr,aria-label
+profile.tabs.contacts,Contacts,Contacts,#MainCopy_ctl27_ContactsLink,text,
+profile.tabs.networks,Networks,Réseaux,#MainCopy_ctl27_NetworksLink,text,
+profile.tabs.communities,Communities,Communautés,#MainCopy_ctl27_CommunitiesLink,text,
+profile.tabs.following,Following,Abonnements,#MainCopy_ctl27_FollowingLink,text,
+profile.tabs.my-contributions,My Contributions,Mes contributions,#MainCopy_ctl27_ContributionsLink,text,
+profile.tabs.my-contributions@aria-label,My Contributions,Mes contributions,#MainCopy_ctl27_ContributionsLink,attr,aria-label
+profile.tabs.my-summary,My Summary,Mon résumé,#MainCopy_ctl27_SummaryLink,text,
+profile.tabs.my-achievements,My Achievements,Mes réalisations,#MainCopy_ctl27_AchievementsLink,text,
+profile.tabs.my-list-of-contributions,My List of Contributions,Ma liste de contributions,#MainCopy_ctl27_ListOfContributionsLink,text,
+profile.tabs.my-account,My Account,Mon compte,#MainCopy_ctl27_AccountLink,text,
+profile.tabs.my-account@aria-label,My Account,Mon compte,#MainCopy_ctl27_AccountLink,attr,aria-label
+profile.tabs.change-password,Change Password,Changer le mot de passe,#MainCopy_ctl27_ChangePasswordLink,text,
+profile.tabs.privacy-settings,Privacy Settings,Paramètres de confidentialité,#MainCopy_ctl27_PrivacySettingsLink,text,
+profile.tabs.email-preferences,Email Preferences,Préférences de courriel,#MainCopy_ctl27_EmailPreferencesLink,text,
+profile.tabs.rss-feeds,RSS Feeds,Flux RSS,#MainCopy_ctl27_RSSFeedsLink,text,
+profile.tabs.community-notifications,Community Notifications,Notifications de la communauté,#MainCopy_ctl27_SubscriptionsLink,text,
+profile.tabs.discussion-signature,Discussion Signature,Signature des discussions,#MainCopy_ctl27_DiscussionSignatureLink,text,
+profile.tabs.disable-my-account,Disable My Account,Désactiver mon compte,#MainCopy_ctl27_DisableAccountLink,text,
+profile.tabs.my-inbox,My Inbox,Ma boîte de réception,#MainCopy_ctl27_InboxLink,text,
+profile.tabs.my-inbox@aria-label,My Inbox,Ma boîte de réception,#MainCopy_ctl27_InboxLink,attr,aria-label
+profile.tabs.admin,Admin,Admin,#MainCopy_ctl27_AdminLink,text,
+modal.disable.header,Disable My Account,Désactiver mon compte,#disableMyAccountModalTitle,text,
+modal.disable.warning,You are disabling your account on Prosper Canada Community. You will be logged out of the system and will no longer be able to log back in. Please contact gelward@prospercanada.org if you have any questions.,Vous désactivez votre compte sur la communauté de Prospérité Canada. Vous serez déconnecté et ne pourrez plus vous reconnecter. Veuillez contacter gelward@prospercanada.org si vous avez des questions.,#MainCopy_ctl27_pnlDisableMyAccount .modal-body .bg-warning,text,
+modal.disable.reason,Reason for disabling account,Raison de la désactivation du compte,label[for='textareaDisableMyAccountReason'],text,
+modal.disable.btn-primary,Disable My Account,Désactiver mon compte,.btn-disable-my-account,text,
+modal.disable.btn-cancel,Cancel,Annuler,#MainCopy_ctl27_pnlDisableMyAccount .modal-footer .btn.btn-default,text,
+# section.bio,Bio,Biographie,#MainCopy_ctl29_TitleText,text,
+section.education,Education,Éducation,#MainCopy_ctl32_TitleText,text,
+section.education.add,Add,Ajouter,#MainCopy_ctl32_AddItem,text,
+section.honors-awards,Honors and Awards,Distinctions et prix,#MainCopy_ctl35_TitleText,text,
+section.honors-awards.add,Add,Ajouter,#MainCopy_ctl35_AddItem,text,
+profile.picture.change,Change Default Image,Changer l’image par défaut,#MainCopy_ctl02_ManageDropDown1_lnkEditPicture,text,
+profile.picture.restore,Restore Default Image,Restaurer l’image par défaut,#MainCopy_ctl02_ManageDropDown1_lnkDeletePicture,text,
+profile.contact.heading,Contact Details,Coordonnées,.profileContactOptions h2,text,
+profile.ribbons.heading,Ribbons,Rubans,.RibbonsBadges.ContentUserControl .widget-heading h2,text,
+profile.badges.heading,Badges,Insignes,.RibbonsBadges.ContentUserControl .widget-heading h2,text,
+profile.dialog.deleteTitle,Delete this image?,Supprimer cette image ?,[aria-describedby="dialog-confirm-deleteprofileimage"] #ui-id-1,text,
+profile.dialog.deleteMessage,Are you sure you want to remove this image?,Voulez-vous vraiment supprimer cette image?,[aria-describedby="dialog-confirm-deleteprofileimage"] #dialog-confirm-deleteprofileimage-message,text,
+profile.dialog.deleteYes,"Yes, delete this image.","Oui, supprimer cette image.","[aria-describedby=""dialog-confirm-deleteprofileimage""] .ui-dialog-buttonset .btn.btn-primary",text,
+
+profile.dialog.cancel,Cancel,Annuler,[aria-describedby="dialog-confirm-deleteprofileimage"] .ui-dialog-buttonset .btn.btn-default,text,
+profile.contact.editTitle,Edit Contact Information,Modifier les coordonnées,#MainCopy_ctl10_pnlEditContactInfo .modal-header,text,
+profile.contact.email.label,Email Address,Adresse courriel,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_EmailAddressLabel,text,
+profile.contact.email.required,Email address is required,L’adresse courriel est obligatoire,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_RequiredFieldValidatorEmailAddress,text,
+profile.contact.email.invalid,Enter a valid email address,Entrez une adresse courriel valide,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_RegularExpressionValidatorEmailAddress,text,
+profile.contact.company.label,Company Name,Nom de l’entreprise,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblCompanyName,text,
+profile.contact.jobTitle.label,Job Title,Titre du poste,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblTitle,text,
+profile.contact.department.label,Department,Département,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_DepartmentLabel,text,
+profile.contact.address1.label,Address 1,Adresse 1,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblAddress1,text,
+profile.contact.address2.label,Address 2,Adresse 2,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblAddress2,text,
+profile.contact.city.label,City,Ville,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblCity,text,
+profile.contact.country.label,Country,Pays,#MainCopy_ctl10_pnlEditContactInfo #lblCountry,text,
+profile.contact.state.label,State/Province,Province/Territoire,#MainCopy_ctl10_pnlEditContactInfo #lblState,text,
+profile.contact.postal.label,Postal Code,Code postal,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lblPostalCode,text,
+profile.contact.website.label,Website URL,Adresse du site Web,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_WebsiteUrlLabel,text,
+profile.contact.save,Save,Enregistrer,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_btnSave,attr,value
+profile.contact.cancel,Cancel,Annuler,#MainCopy_ctl10_pnlEditContactInfo #MainCopy_ctl10_lnkCancel,attr,value
+profile.education.editTitle,Edit Existing Education,Modifier une formation existante,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_pnlEditEducationModal .modal-header,text,
+profile.education.addTitle,Add New Education,Ajouter une nouvelle formation,#MainCopy_ctl32_AddItemPanel .modal-header,text,
+profile.education.city.label,City,Ville,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_ucEducationEditorEdit_lblCity,text,
+profile.education.country.label,Country,Pays, #lblCountry,text,
+profile.education.state.label,State/Province,Province/Territoire, #lblState,text,
+profile.education.school.label,School,Établissement,#MainCopy_ctl32_ucEducationEditorAdd_lblSchool,text,
+profile.education.school.required,Please enter school name.,Veuillez entrer le nom de l’établissement.,#MainCopy_ctl32_ucEducationEditorAdd_RequiredFieldValidator1,text,
+profile.education.degree.label,Degree,Diplôme,#MainCopy_ctl32_ucEducationEditorAdd_lblDegree,text,
+profile.education.degreeYear.label,Degree Year,Année d’obtention,#MainCopy_ctl32_ucEducationEditorAdd_lblDegreeYear,text,
+profile.education.degreeYear.invalid,Please enter a valid year,Veuillez entrer une année valide,#MainCopy_ctl32_ucEducationEditorAdd_RangeValidator1,text,
+profile.education.field.label,Field(s) of Study,Domaine(s) d’études,#MainCopy_ctl32_ucEducationEditorAdd_lblFStudy,text,
+profile.education.dates.label,Dates Attended,Période d’études,#MainCopy_ctl32_ucEducationEditorAdd_lblDates,text,
+profile.education.dates.from,From,De,label[for="MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlFrom"],text,
+profile.education.dates.to,To,À,label[for="MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_ddlTo"],text,
+profile.education.dates.invalid,End year must be greater than or equal to start year,L’année de fin doit être supérieure ou égale à l’année de début,#MainCopy_ctl32_ucEducationEditorAdd_ucYearListFromTo_cvFromToValues,text,
+profile.education.dissertation.label,Dissertation,Mémoire/Thèse,#MainCopy_ctl32_ucEducationEditorAdd_lblDissertation,text,
+profile.education.advisor.label,Advisor,Directeur de recherche,#MainCopy_ctl32_ucEducationEditorAdd_lblAdvisor,text,
+profile.education.highestDegree.label,This is the highest degree attained,Ceci est le diplôme le plus élevé obtenu,label[for="MainCopy_ctl32_ucEducationEditorAdd_chkIsHighestDegree"],text,
+profile.education.save,Save,Enregistrer,#MainCopy_ctl32_SaveTop,attr,value
+profile.education.cancel,Cancel,Annuler,#MainCopy_ctl32_CancelTop,attr,value
+profile.bio.editTitle,Edit Bio,Modifier la biographie,#MainCopy_ctl29_HtmlEditor .modal-header label,text,
+profile.bio.save,Save,Enregistrer,#MainCopy_ctl29_pnlSummaryDisplay #MainCopy_ctl29_Btn_Save,attr,value
+profile.bio.cancel,Cancel,Annuler,#MainCopy_ctl29_pnlSummaryDisplay #MainCopy_ctl29_lnkCancel,text,
+profile.awards.editTitle,Edit Existing Honors And Awards,Modifier une distinction ou un prix,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_pnlEditHornorAndAwards .modal-header,text,
+profile.awards.addTitle,Add New Honors And Awards,Ajouter une distinction ou un prix,#MainCopy_ctl35_AddItemPanel .modal-header,text,
+profile.awards.award.label,Award,Distinction ou prix,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label1,text,
+profile.awards.award.required,Please enter award,Veuillez entrer une distinction,#MainCopy_ctl35_RequiredFieldValidator1,text,
+profile.awards.orgAcronym.label,Award Organization and Acronym,Organisme remettant le prix et sigle,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label2,text,
+profile.awards.acronym.sronly,Acronym,Sigle,#MainCopy_ctl35_AcronyLabel,text,
+profile.awards.years.label,Year(s),Année(s),#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_Label3,text,
+profile.awards.years.invalid,Enter comma separated years only,Entrez uniquement des années séparées par des virgules,#MainCopy_ctl35_AddItemPanel #MainCopy_ctl35_YearsValidatorSingle,text,
+profile.awards.save,Save,Enregistrer,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom,attr,value
+profile.awards.cancel,Cancel,Annuler,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_CancelBottom,attr,value
+profile.awards.save,Save,Enregistrer,#MainCopy_ctl35_SaveTop,attr,value
+profile.awards.save,Save,Enregistrer,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_SaveBottom,attr,value
+profile.awards.cancel,Cancel,Annuler,#MainCopy_ctl35_CancelTop,attr,value
+profile.awards.mmodal.award.label,Award,Prix,#MainCopy_ctl35_Label1,text,
+profile.bio.add,Add,Ajouter,#MainCopy_ctl29_lnkInsert,text,
+profile.education.add,Add,Ajouter,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_AddEducation,text,
+profile.awards.add,Add,Ajouter,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_AddHonorsAndAwards,text,
+profile.education.noItem,Share where and when you received your education,Indiquez où et quand vous avez suivi votre formation,#ctl00_MainCopy_ctl32_EditItemDetails_ctl00_NoItem p,text,
+profile.awards.noItem,List past accolades and recognition,Énumérez vos distinctions et reconnaissances antérieures,#ctl00_MainCopy_ctl35_EditItemDetails_ctl00_NoItem p,text,
+profile.awards.org.label,Award Organization and Acronym,Organisme de remise de prix et acronyme,#MainCopy_ctl35_Label2,text,
+profile.awards.year.label,Year(s),Année(s),#MainCopy_ctl35_Label3,text,
+profile.awards.save,Save,Enregistrer,#MainCopy_ctl35_SaveTop,attr,value
+profile.name.prefix.label,Prefix,Préfixe,#MainCopy_ctl21_lblPrefix,text,
+profile.name.firstName.label,First Name,Prénom,#MainCopy_ctl21_lblFirstName,text,
+profile.name.lastName.label,Last Name,Nom de famille,#MainCopy_ctl21_lblLastName,text,
+profile.name.suffix.label,Suffix,Suffixe,#MainCopy_ctl21_lblSuffix,text,
+profile.name.designation.label,Designation,Désignation,#MainCopy_ctl21_lblDesignation,text,
+profile.name.pronouns.label,Pronouns,Pronoms,#MainCopy_ctl21_lblPronouns,text,
+profile.password.modalTitle,Enter Password,Entrer le mot de passe,#EnterPasswordModal .modal-title,text,
+profile.password.enter.label,Enter Password,Entrer le mot de passe,#EnterPasswordModal .modal-body label[for="MainCopy_ctl10_EnterPasswordModal_Password"],text,
+profile.password.confirm.label,Confirm Password,Confirmer le mot de passe,#EnterPasswordModal .modal-body label[for="MainCopy_ctl10_EnterPasswordModal_ConfirmPassword"],text,
+profile.password.submit,Submit,Valider,#MainCopy_ctl10_EnterPasswordModal_SubmitEnterPasswordBtn,attr,value
+profile.password.cancel,Cancel,Annuler,#MainCopy_ctl10_EnterPasswordModal_CancelEnterPasswordBtn,attr,value
+profile.email.change,Change,Modifier,#MainCopy_ctl10_ChangeEmailBtn,attr,value
+profile.education.city.label,City,Ville,#MainCopy_ctl32_ucEducationEditorAdd_lblCity,text,
+profile.education.country.label,Country,Pays,#MainCopy_ctl32_ucEducationEditorAdd_ucCountryStateProvinceList_ddlCountry,attr,title
+profile.education.state.label,State/Province,Province/Territoire,#MainCopy_ctl32_ucEducationEditorAdd_ucCountryStateProvinceList_StateProvinceRow #lblState,text,
+profile.name.editTitle,Edit User Name,Modifier le nom d’utilisateur,#MainCopy_ctl21_pnlEditName .modal-title,text,
+profile.name.save,Save,Enregistrer,#MainCopy_ctl21_btnSave,attr,value
+profile.name.cancel,Cancel,Annuler,#MainCopy_ctl21_lnkCancel,attr,value
+
+add_contact_btn_text,Add as Contact,Demander comme contact,button[id*="_ContactCommunications_ContactRequest"],text,
+add_contact_btn_aria,Add as Contact,Demander comme contact,button[id*="_ContactCommunications_ContactRequest"],attr,aria-label
+send_msg_btn_text_row,Send Message,Envoyer un message,a[id*="_ContactCommunications_SendMessageBtn"],text,
+send_msg_btn_title_row,Send Message,Envoyer un message,a[id*="_ContactCommunications_SendMessageBtn"],attr,title
+send_msg_btn_aria_row,Send Message,Envoyer un message,a[id*="_ContactCommunications_SendMessageBtn"],attr,aria-label
+resend_small_text,Resend,Renvoyer,a[id*="_ResendRequestSmall"],text,
+resend_small_title,Resend,Renvoyer,a[id*="_ResendRequestSmall"],attr,title
+resend_small_aria,Resend,Renvoyer,a[id*="_ResendRequestSmall"],attr,aria-label
+cancel_small_text,Cancel,Annuler,a[id*="_cancelContactRequestSmall"],text,
+cancel_small_title,Cancel,Annuler,a[id*="_cancelContactRequestSmall"],attr,title
+cancel_small_aria,Cancel,Annuler,a[id*="_cancelContactRequestSmall"],attr,aria-label
+pending_text,Contact Request Pending,Demande de contact en attente,span[id*="_AcceptDeclineRequestTextSmall"],text,
+list_send_msg_value,Send Message,Envoyer un message,input[id^="MainCopy_ctl29_FindContacts_Contacts_SendMessageButton_"],attr,value
+list_send_msg_title,Send Message,Envoyer un message,input[id^="MainCopy_ctl29_FindContacts_Contacts_SendMessageButton_"],attr,title
+add_contact_link_text,Request Contact,Demander comme contact,a.add-contact,text,
+add_contact_link_title,Request Contact,Demander comme contact,a.add-contact,attr,title
+add_contact_link_aria,Request Contact,Demander comme contact,a.add-contact,attr,aria-label
+ignore_contact_text,Ignore,Ignorer,a.ignore-contact,text,
+ignore_contact_title,Ignore,Ignorer,a.ignore-contact,attr,title
+ignore_contact_aria,Ignore,Ignorer,a.ignore-contact,attr,aria-label
+modal_header_prefix,Message to,Message à,#modal-send-message .modal-header,text,
+modal_subject_label,Subject,Objet,#message-subject-label,text,
+modal_body_label,Message,Message,#message-body-label,text,
+modal_send_btn,Send,Envoyer,#modal-send-message #Send,text,
+modal_cancel_btn,Cancel,Annuler,#modal-send-message #Cancel,text,
+modal_error_text,Cannot send message. Data required.,Impossible d’envoyer le message. Données requises.,#modal-send-message #error-msg,text,
