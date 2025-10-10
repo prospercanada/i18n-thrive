@@ -59,7 +59,43 @@ register.demo.other-services.add,Add,Ajouter,#MainCopy_ctl43_btnNoData,text,
 register.demo.lang-pref.add,Add,Ajouter,#MainCopy_ctl45_btnNoData,text,
 register.demo.accessibility.add,Add,Ajouter,#MainCopy_ctl47_btnNoData,text,
 
+# Organization Location Modal
 
+register.demo.org-location.modalTitle,Edit Organization Location,Modifier l’emplacement de l’organisme,#MainCopy_ctl32_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.org-location.save,Save,Enregistrer,#MainCopy_ctl32_SaveButton,attr,value
+register.demo.org-location.cancel,Cancel,Annuler,#MainCopy_ctl32_CancelButton,attr,value
+register.demo.org-location.option.alberta,Alberta (AB),Alberta (AB),"#MainCopy_ctl32_lbDemographicItems option[value=""1fa64f56-58e3-422a-a6d4-0199734a4c08""]",text,
+register.demo.org-location.option.bc,British Columbia (BC),Colombie-Britannique (BC),"#MainCopy_ctl32_lbDemographicItems option[value=""1886c5aa-b646-4cbc-83e3-0199734a59ca""]",text,
+register.demo.org-location.option.mb,Manitoba (MB),Manitoba (MB),"#MainCopy_ctl32_lbDemographicItems option[value=""15c00889-b1ba-4938-9ce2-0199734a6e68""]",text,
+register.demo.org-location.option.nb,New Brunswick (NB),Nouveau-Brunswick (NB),"#MainCopy_ctl32_lbDemographicItems option[value=""83aa29ae-9221-4c63-bbd7-0199734a8673""]",text,
+register.demo.org-location.option.nl,Newfoundland and Labrador (NL),Terre-Neuve-et-Labrador (NL),"#MainCopy_ctl32_lbDemographicItems option[value=""0badd8e0-a931-4333-8dac-0199734a9fd4""]",text,
+register.demo.org-location.option.nt,Northwest Territories (NT),Territoires du Nord-Ouest (NT),"#MainCopy_ctl32_lbDemographicItems option[value=""5e4267bc-3ac8-4c5d-baf1-0199734aea7b""]",text,
+register.demo.org-location.option.ns,Nova Scotia (NS),Nouvelle-Écosse (NS),"#MainCopy_ctl32_lbDemographicItems option[value=""6ef879d4-00b4-453c-bfec-0199734b0057""]",text,
+register.demo.org-location.option.nu,Nunavut (NU),Nunavut (NU),"#MainCopy_ctl32_lbDemographicItems option[value=""d004d0ee-dee7-4da8-8e5a-0199734b0fda""]",text,
+register.demo.org-location.option.on,Ontario (ON),Ontario (ON),"#MainCopy_ctl32_lbDemographicItems option[value=""381b0dd3-d22e-4be1-aa47-0199734b1e8b""]",text,
+register.demo.org-location.option.other,Other,Autre,"#MainCopy_ctl32_lbDemographicItems option[value=""16b8325e-107c-4eae-a2ed-0199734b6d0b""]",text,
+register.demo.org-location.option.pe,Prince Edward Island (PE),Île-du-Prince-Édouard (PE),"#MainCopy_ctl32_lbDemographicItems option[value=""7f3e4cad-01f5-433d-bd35-0199734b2d8d""]",text,
+register.demo.org-location.option.qc,Quebec (QC),Québec (QC),"#MainCopy_ctl32_lbDemographicItems option[value=""0fb975d6-f92c-4801-9852-0199734b3bd6""]",text,
+register.demo.org-location.option.sk,Saskatchewan (SK),Saskatchewan (SK),"#MainCopy_ctl32_lbDemographicItems option[value=""5b3a7785-b326-4729-9ec7-0199734b4d8d""]",text,
+register.demo.org-location.option.yt,Yukon (YT),Yukon (YT),"#MainCopy_ctl32_lbDemographicItems option[value=""cd009189-0e53-4e97-8809-0199734b5cf3""]",text,
+register.demo.org-location.option.notSpecified,Not Specified,Non précisé,"#MainCopy_ctl32_lbDemographicItems option[value=""00000000-0000-0000-0000-000000000000""]",text,
+
+
+
+
+# Financial Empowerment Services Offered Modal
+register.demo.fe-offered.modalTitle,Edit Financial Empowerment Services Offered,Modifier les services d’autonomisation financière offerts,#MainCopy_ctl41_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.fe-offered.save,Save,Enregistrer,#MainCopy_ctl41_SaveButton,attr,value
+register.demo.fe-offered.cancel,Cancel,Annuler,#MainCopy_ctl41_CancelButton,attr,value
+register.demo.fe-offered.tax,"Tax-filing support (e.g. free tax clinics)","Aide à la production des impôts (p. ex. cliniques d’impôt gratuites)","label[for=""MainCopy_ctl41_DemographicsCheckBoxList_TaxfilingsupportegfreetaxclinicsChk_0""]",text,
+register.demo.fe-offered.benefits,Help accessing benefits,Aide pour accéder aux prestations,"label[for=""MainCopy_ctl41_DemographicsCheckBoxList_HelpaccessingbenefitsChk_1""]",text,
+register.demo.fe-offered.coaching,"One-on-one financial coaching (e.g. financial goal setting and action planning)","Coaching financier individuel (p. ex. fixation d’objectifs et plan d’action)","label[for=""MainCopy_ctl41_DemographicsCheckBoxList_OneononefinancialcoachingegfinancialgoalsettingandactionplanningChk_2""]",text,
+register.demo.fe-offered.counselling,"Financial counselling and problem solving (including debt management)","Conseils financiers et résolution de problèmes (y compris gestion des dettes)","label[for=""MainCopy_ctl41_DemographicsCheckBoxList_FinancialcounsellingandproblemsolvingincludingdebtmanagementChk_3""]",text,
+register.demo.fe-offered.education,Financial education,Éducation financière,"label[for=""MainCopy_ctl41_DemographicsCheckBoxList_FinancialeducationChk_4""]",text,
+register.demo.fe-offered.none,None,Aucun,"label[for=""MainCopy_ctl41_DemographicsCheckBoxList_NoneChk_5""]",text,
+register.demo.fe-offered.other,Other,Autre,"label[for=""MainCopy_ctl41_DemographicsCheckBoxList_OtherChk_6""]",text,
+
+# Geographic Area(s) Served Modal
 register.demo.geo-served.modalTitle,Edit Geographic Area(s) Served,Modifier la/les zone(s) géographique(s) desservie(s),#MainCopy_ctl34_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.geo-served.save,Save,Enregistrer,#MainCopy_ctl34_SaveButton,attr,value
 register.demo.geo-served.cancel,Cancel,Annuler,#MainCopy_ctl34_CancelButton,attr,value
@@ -68,3 +104,86 @@ register.demo.geo-served.mediumUrban,"Medium urban (30,000 to 99,999)","Zone urb
 register.demo.geo-served.smallUrban,"Small urban (less than 30,000)","Petite zone urbaine (moins de 30 000)","label[for=""MainCopy_ctl34_DemographicsCheckBoxList_Smallurbanlessthan30000Chk_2""]",text,
 register.demo.geo-served.northern,Northern,Nordique,"label[for=""MainCopy_ctl34_DemographicsCheckBoxList_NorthernChk_3""]",text,
 register.demo.geo-served.rural,Rural,Rural,"label[for=""MainCopy_ctl34_DemographicsCheckBoxList_RuralChk_4""]",text,
+
+# Other Services Offered Modal
+
+register.demo.other-services.modalTitle,Edit Other Services Offered,Modifier les autres services offerts,#MainCopy_ctl43_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.other-services.save,Save,Enregistrer,#MainCopy_ctl43_SaveButton,attr,value
+register.demo.other-services.cancel,Cancel,Annuler,#MainCopy_ctl43_CancelButton,attr,value
+register.demo.other-services.accessId,Access to ID,Accès aux pièces d’identité,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_AccesstoIDChk_0""]",text,
+register.demo.other-services.banking,Banking Access Support,Soutien à l’accès aux services bancaires,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_BankingAccessSupportChk_1""]",text,
+register.demo.other-services.budget,Budget Counselling,Conseils budgétaires,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_BudgetCounsellingChk_2""]",text,
+register.demo.other-services.consumerAdvocacy,Consumer Advocacy,Défense des consommateurs,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_ConsumerAdvocacyChk_3""]",text,
+register.demo.other-services.debt,Debt Management,Gestion de l’endettement,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_DebtManagementChk_4""]",text,
+register.demo.other-services.eviction,Eviction Prevention Loan Program,Programme de prêts pour prévenir les expulsions,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_EvictionPreventionLoanProgramChk_5""]",text,
+register.demo.other-services.housing,Housing or Homelessness Support,Soutien en matière de logement ou d’itinérance,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_HousingorHomelessnessSupportChk_6""]",text,
+register.demo.other-services.income,Income Support,Aide au revenu,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_IncomeSupportChk_7""]",text,
+register.demo.other-services.rdsp,RDSP Info & Support,REEI – info et soutien,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_RDSPInfoSupportChk_8""]",text,
+register.demo.other-services.resp,RESP Info & Support,REEE – info et soutien,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_RESPInfoSupportChk_9""]",text,
+register.demo.other-services.none,None,Aucun,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_NoneChk_10""]",text,
+register.demo.other-services.other,Other,Autre,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_OtherChk_11""]",text,
+
+
+# Sector Modal
+
+register.demo.sector.modalTitle,Edit Sector,Modifier le secteur,#MainCopy_ctl36_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.sector.save,Save,Enregistrer,#MainCopy_ctl36_SaveButton,attr,value
+register.demo.sector.cancel,Cancel,Annuler,#MainCopy_ctl36_CancelButton,attr,value
+register.demo.sector.option.other,Other,Autre,"#MainCopy_ctl36_lbDemographicItems option[value=""80b53b17-197f-4037-8da0-0199734e4c87""]",text,
+register.demo.sector.option.academia,Academia,Milieu universitaire,"#MainCopy_ctl36_lbDemographicItems option[value=""3925d475-cfce-44bd-bd6c-0199734e3c7c""]",text,
+register.demo.sector.option.consulting,Consulting,Conseil,"#MainCopy_ctl36_lbDemographicItems option[value=""27e99515-f6ea-45de-8139-0199734e2d80""]",text,
+register.demo.sector.option.federal,Federal government,Gouvernement fédéral,"#MainCopy_ctl36_lbDemographicItems option[value=""7a2a1dac-c67c-47c0-a1a7-0199734df4b2""]",text,
+register.demo.sector.option.foundation,Foundation,Fondation,"#MainCopy_ctl36_lbDemographicItems option[value=""d74873d0-a56b-4e37-9815-0199734e1e54""]",text,
+register.demo.sector.option.municipal,Municipal government,Gouvernement municipal,"#MainCopy_ctl36_lbDemographicItems option[value=""fa1efca8-5afa-46b9-a72c-0199734e105c""]",text,
+register.demo.sector.option.npo,Non-profit sector,Secteur sans but lucratif,"#MainCopy_ctl36_lbDemographicItems option[value=""09988a56-6c73-4ec8-8005-0199734de470""]",text,
+register.demo.sector.option.private,Private sector,Secteur privé,"#MainCopy_ctl36_lbDemographicItems option[value=""2c024a36-a121-470d-be13-0199734dcfd0""]",text,
+register.demo.sector.option.provincial,Provincial government,Gouvernement provincial,"#MainCopy_ctl36_lbDemographicItems option[value=""4be70d97-01b4-44fb-a6de-0199734e01ff""]",text,
+register.demo.sector.option.notSpecified,Not Specified,Non précisé,"#MainCopy_ctl36_lbDemographicItems option[value=""00000000-0000-0000-0000-000000000000""]",text,
+
+
+# Language Preference Modal
+
+register.demo.lang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.lang-pref.save,Save,Enregistrer,#MainCopy_ctl45_SaveButton,attr,value
+register.demo.lang-pref.cancel,Cancel,Annuler,#MainCopy_ctl45_CancelButton,attr,value
+register.demo.lang-pref.english,English,Anglais,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_EnglishChk_0""]",text,
+register.demo.lang-pref.french,French,Français,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_FrenchChk_1""]",text,
+
+
+# Populations Served Modal
+
+register.demo.pop-served.modalTitle,Edit Populations Served,Modifier les populations desservies,#MainCopy_ctl38_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.pop-served.save,Save,Enregistrer,#MainCopy_ctl38_SaveButton,attr,value
+register.demo.pop-served.cancel,Cancel,Annuler,#MainCopy_ctl38_CancelButton,attr,value
+register.demo.pop-served.seniors,"Older people, Elders, or Seniors (65+ years old)","Personnes âgées, aînés (65 ans et plus)","label[for=""MainCopy_ctl38_DemographicsCheckBoxList_OlderpeopleEldersorSeniors65yearsoldChk_0""]",text,
+register.demo.pop-served.youth,"Youth (15-30 years old)","Jeunes (15 à 30 ans)","label[for=""MainCopy_ctl38_DemographicsCheckBoxList_Youth1530yearsoldChk_1""]",text,
+register.demo.pop-served.racialized,Racialized people,Personnes racisées,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_RacializedpeopleChk_2""]",text,
+register.demo.pop-served.black,Black communities,Communautés noires,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_BlackcommunitiesChk_3""]",text,
+register.demo.pop-served.newcomers,"Newcomers, Refugees, or Non-Status people","Nouveaux arrivants, réfugiés ou personnes sans statut","label[for=""MainCopy_ctl38_DemographicsCheckBoxList_NewcomersRefugeesorNon-StatuspeopleChk_4""]",text,
+register.demo.pop-served.fnmi,"First Nations, Métis, and Inuit","Premières Nations, Métis et Inuits","label[for=""MainCopy_ctl38_DemographicsCheckBoxList_FirstNationsMtisandInuitChk_5""]",text,
+register.demo.pop-served.disabilities,Those living with disabilities,Personnes en situation de handicap,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_ThoselivingwithdisabilitiesChk_6""]",text,
+register.demo.pop-served.unhoused,Those who are unhoused,Personnes en situation d’itinérance,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_ThosewhoareunhousedChk_7""]",text,
+register.demo.pop-served.lowIncome,Those living on low incomes,Personnes à faible revenu,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_ThoselivingonlowincomesChk_8""]",text,
+register.demo.pop-served.women,Women,Femmes,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_WomenChk_9""]",text,
+register.demo.pop-served.2slgbtqi,2SLGBTQI+,2SLGBTQI+,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_2SLGBTQIChk_10""]",text,
+register.demo.pop-served.northernComm,Northern Communities,Collectivités nordiques,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_NorthernCommunitiesChk_11""]",text,
+register.demo.pop-served.ruralRemote,Rural or Remote Communities,Collectivités rurales ou éloignées,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_RuralorRemoteCommunitiesChk_12""]",text,
+register.demo.pop-served.olmc,Official language minority community,Communauté de langue officielle en situation minoritaire,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_OfficiallanguageminoritycommunityChk_13""]",text,
+register.demo.pop-served.other,Other,Autre,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_OtherChk_14""]",text,
+
+
+# Accessibility Requirements Modal
+register.demo.access.modalTitle,Edit Accessibility Requirements,Modifier les besoins en accessibilité,#MainCopy_ctl47_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.access.save,Save,Enregistrer,#MainCopy_ctl47_SaveButton,attr,value
+register.demo.access.cancel,Cancel,Annuler,#MainCopy_ctl47_CancelButton,attr,value
+register.demo.access.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl47_FreeformPanel .col-md-12 > div:first-child,text,
+register.demo.access.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl47_FreeFormTextValidator,text,
+
+
+# FE topics I'd love to chat with others about Modal
+
+register.demo.fe-topics.modalTitle,"Edit FE topics I'd love to chat with others about","Modifier les sujets d’EF dont j’aimerais discuter avec d’autres",#MainCopy_ctl50_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.fe-topics.save,Save,Enregistrer,#MainCopy_ctl50_SaveButton,attr,value
+register.demo.fe-topics.cancel,Cancel,Annuler,#MainCopy_ctl50_CancelButton,attr,value
+register.demo.fe-topics.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl50_FreeformPanel .col-md-12 > div:first-child,text,
+register.demo.fe-topics.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl50_FreeFormTextValidator,text,
