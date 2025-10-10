@@ -39,5 +39,157 @@
     "selector": "#MainCopy_ctl32_btnNoData",
     "type": "text",
     "key": "register.demo.org-location.add"
+  },
+  {
+    "selector": "#MainCopy_ctl41_ContactDemographicUpdatePanel #Title",
+    "type": "text",
+    "key": "register.demo.fe-offered"
+  },
+  {
+    "selector": "#MainCopy_ctl34_ContactDemographicUpdatePanel #Title",
+    "type": "text",
+    "key": "register.demo.geo-served"
+  },
+  {
+    "selector": "#MainCopy_ctl34_lblEmptyDemographic",
+    "type": "text",
+    "key": "register.demo.geo-served.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl43_ContactDemographicUpdatePanel #Title",
+    "type": "text",
+    "key": "register.demo.other-services"
+  },
+  {
+    "selector": "#MainCopy_ctl43_lblEmptyDemographic",
+    "type": "text",
+    "key": "register.demo.other-services.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl36_ContactDemographicUpdatePanel #Title",
+    "type": "text",
+    "key": "register.demo.sector"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lblEmptyDemographic",
+    "type": "text",
+    "key": "register.demo.sector.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl45_ContactDemographicUpdatePanel #Title",
+    "type": "text",
+    "key": "register.demo.lang-pref"
+  },
+  {
+    "selector": "#MainCopy_ctl45_lblEmptyDemographic",
+    "type": "text",
+    "key": "register.demo.lang-pref.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl38_ContactDemographicUpdatePanel #Title",
+    "type": "text",
+    "key": "register.demo.populations"
+  },
+  {
+    "selector": "#MainCopy_ctl38_lblEmptyDemographic",
+    "type": "text",
+    "key": "register.demo.populations.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl47_ContactDemographicUpdatePanel #Title",
+    "type": "text",
+    "key": "register.demo.accessibility"
+  },
+  {
+    "selector": "#MainCopy_ctl50_ContactDemographicUpdatePanel #Title",
+    "type": "text",
+    "key": "register.demo.fe-topics"
+  },
+  {
+    "selector": "#MainCopy_ctl50_lblEmptyDemographic",
+    "type": "text",
+    "key": "register.demo.fe-topics.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl41_btnNoData",
+    "type": "text",
+    "key": "register.demo.fe-offered.add"
+  },
+  {
+    "selector": "#MainCopy_ctl34_btnNoData",
+    "type": "text",
+    "key": "register.demo.geo-served.add"
+  },
+  {
+    "selector": "#MainCopy_ctl36_btnNoData",
+    "type": "text",
+    "key": "register.demo.sector.add"
+  },
+  {
+    "selector": "#MainCopy_ctl38_btnNoData",
+    "type": "text",
+    "key": "register.demo.populations.add"
+  },
+  {
+    "selector": "#MainCopy_ctl50_btnNoData",
+    "type": "text",
+    "key": "register.demo.fe-topics.add"
+  },
+  {
+    "selector": "#MainCopy_ctl43_btnNoData",
+    "type": "text",
+    "key": "register.demo.other-services.add"
+  },
+  {
+    "selector": "#MainCopy_ctl45_btnNoData",
+    "type": "text",
+    "key": "register.demo.lang-pref.add"
+  },
+  {
+    "selector": "#MainCopy_ctl47_btnNoData",
+    "type": "text",
+    "key": "register.demo.accessibility.add"
+  },
+  {
+    "selector": "#MainCopy_ctl34_EditDemographicPanel > div > div > div.modal-header",
+    "type": "text",
+    "key": "register.demo.geo-served.modalTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl34_SaveButton",
+    "type": "attr",
+    "key": "register.demo.geo-served.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl34_CancelButton",
+    "type": "attr",
+    "key": "register.demo.geo-served.cancel",
+    "attr": "value"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl34_DemographicsCheckBoxList_Largeurban100000ormoreChk_0\"]",
+    "type": "text",
+    "key": "register.demo.geo-served.largeUrban"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl34_DemographicsCheckBoxList_Mediumurban30000to99999Chk_1\"]",
+    "type": "text",
+    "key": "register.demo.geo-served.mediumUrban"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl34_DemographicsCheckBoxList_Smallurbanlessthan30000Chk_2\"]",
+    "type": "text",
+    "key": "register.demo.geo-served.smallUrban"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl34_DemographicsCheckBoxList_NorthernChk_3\"]",
+    "type": "text",
+    "key": "register.demo.geo-served.northern"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl34_DemographicsCheckBoxList_RuralChk_4\"]",
+    "type": "text",
+    "key": "register.demo.geo-served.rural"
   }
 ]

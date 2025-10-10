@@ -9,7 +9,62 @@ profile.bio.editTitle,Edit Bio,Modifier la biographie,#MainCopy_ctl29_HtmlEditor
 profile.bio.save,Save,Enregistrer,#MainCopy_ctl29_Btn_Save,attr,value
 profile.bio.cancel,Cancel,Annuler,#MainCopy_ctl29_lnkCancel,text,
 
+
+
 # ===== Organization Location =====
 register.demo.org-location,Organization Location,Emplacement de l’organisme,#MainCopy_ctl32_ContactDemographicUpdatePanel #Title,text,
 register.demo.org-location.empty,Add detail,Ajouter des détails,#MainCopy_ctl32_lblEmptyDemographic,text,
 register.demo.org-location.add,Add,Ajouter,#MainCopy_ctl32_btnNoData,text,
+
+
+# ===== Financial Empowerment Services Offered =====
+register.demo.fe-offered,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,#MainCopy_ctl41_ContactDemographicUpdatePanel #Title,text,
+
+# ===== Geographic Area(s) Served =====
+register.demo.geo-served,Geographic Area(s) Served,Zone(s) géographique(s) desservie(s),#MainCopy_ctl34_ContactDemographicUpdatePanel #Title,text,
+# register.demo.geo-served.empty,Does your organization offer services in rural, urban or both types of community/ies? Select all that apply,Votre organisme offre-t-il des services dans des collectivités rurales, urbaines ou les deux? Sélectionnez toutes les options applicables.,#MainCopy_ctl34_lblEmptyDemographic,text,
+register.demo.geo-served.empty,"Does your organization offer services in rural, urban or both types of community/ies? Select all that apply","Votre organisme offre-t-il des services dans des collectivités rurales, urbaines ou les deux? Sélectionnez toutes les options applicables.",#MainCopy_ctl34_lblEmptyDemographic,text,
+
+# ===== Other Services Offered =====
+register.demo.other-services,Other Services Offered,Autres services offerts,#MainCopy_ctl43_ContactDemographicUpdatePanel #Title,text,
+register.demo.other-services.empty,Add detail,Ajouter des détails,#MainCopy_ctl43_lblEmptyDemographic,text,
+
+# ===== Sector =====
+register.demo.sector,Sector,Secteur,#MainCopy_ctl36_ContactDemographicUpdatePanel #Title,text,
+register.demo.sector.empty,Add detail,Ajouter des détails,#MainCopy_ctl36_lblEmptyDemographic,text,
+
+
+# ===== Language Preference =====
+register.demo.lang-pref,Language Preference,Langue préférée,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
+register.demo.lang-pref.empty,Select your preferred language(s),Sélectionnez votre/vos langue(s) préférée(s),#MainCopy_ctl45_lblEmptyDemographic,text,
+
+# ===== Populations Served =====
+register.demo.populations,Populations Served,Populations desservies,#MainCopy_ctl38_ContactDemographicUpdatePanel #Title,text,
+register.demo.populations.empty,Add detail,Ajouter des détails,#MainCopy_ctl38_lblEmptyDemographic,text,
+
+# ===== Accessibility Requirements =====
+register.demo.accessibility,Accessibility Requirements,Exigences en matière d’accessibilité,#MainCopy_ctl47_ContactDemographicUpdatePanel #Title,text,
+
+# ===== FE topics I'd love to chat with others about =====
+register.demo.fe-topics,FE topics I'd love to chat with others about,Sujets d’autonomisation financière dont j’aimerais discuter avec d’autres,#MainCopy_ctl50_ContactDemographicUpdatePanel #Title,text,
+register.demo.fe-topics.empty,Add detail,Ajouter des détails,#MainCopy_ctl50_lblEmptyDemographic,text,
+
+
+register.demo.fe-offered.add,Add,Ajouter,#MainCopy_ctl41_btnNoData,text,
+register.demo.geo-served.add,Add,Ajouter,#MainCopy_ctl34_btnNoData,text,
+register.demo.sector.add,Add,Ajouter,#MainCopy_ctl36_btnNoData,text,
+register.demo.populations.add,Add,Ajouter,#MainCopy_ctl38_btnNoData,text,
+register.demo.fe-topics.add,Add,Ajouter,#MainCopy_ctl50_btnNoData,text,
+register.demo.other-services.add,Add,Ajouter,#MainCopy_ctl43_btnNoData,text,
+register.demo.lang-pref.add,Add,Ajouter,#MainCopy_ctl45_btnNoData,text,
+register.demo.accessibility.add,Add,Ajouter,#MainCopy_ctl47_btnNoData,text,
+
+
+register.demo.geo-served.modalTitle,Edit Geographic Area(s) Served,Modifier la/les zone(s) géographique(s) desservie(s),#MainCopy_ctl34_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.geo-served.save,Save,Enregistrer,#MainCopy_ctl34_SaveButton,attr,value
+register.demo.geo-served.cancel,Cancel,Annuler,#MainCopy_ctl34_CancelButton,attr,value
+register.demo.geo-served.largeUrban,"Large urban (100,000 or more)","Grande zone urbaine (100 000 ou plus)","label[for=""MainCopy_ctl34_DemographicsCheckBoxList_Largeurban100000ormoreChk_0""]",text,
+register.demo.geo-served.mediumUrban,"Medium urban (30,000 to 99,999)","Zone urbaine moyenne (30 000 à 99 999)","label[for=""MainCopy_ctl34_DemographicsCheckBoxList_Mediumurban30000to99999Chk_1""]",text,
+register.demo.geo-served.smallUrban,"Small urban (less than 30,000)","Petite zone urbaine (moins de 30 000)","label[for=""MainCopy_ctl34_DemographicsCheckBoxList_Smallurbanlessthan30000Chk_2""]",text,
+register.demo.geo-served.northern,Northern,Nordique,"label[for=""MainCopy_ctl34_DemographicsCheckBoxList_NorthernChk_3""]",text,
+register.demo.geo-served.rural,Rural,Rural,"label[for=""MainCopy_ctl34_DemographicsCheckBoxList_RuralChk_4""]",text,
