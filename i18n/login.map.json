@@ -103,11 +103,6 @@
     "attr": "placeholder"
   },
   {
-    "selector": "'label[for$=\"_Remember2\"]'",
-    "type": "text",
-    "key": "remember.label"
-  },
-  {
     "selector": "[id$=\"_CreateAccountButton\"]",
     "type": "attr",
     "key": "button.create",
