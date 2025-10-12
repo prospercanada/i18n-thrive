@@ -53,53 +53,53 @@ auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,
 
 signup.title,Not registered yet? Create an account,Pas encore inscrit? Créez un compte,[id$="_SignupSection"] .panel-title strong,text,
 email.label,Email,Courriel,[id$="_EmailAddressLabel"],text,
-email.input.title,Email,Courriel,[id$="_EmailAddress"],attr,title
-email.input.placeholder,Email,Courriel,[id$="_EmailAddress"],attr,placeholder
-email.invalid,Invalid Email Address,Adresse courriel invalide,[id$="_EmailAddressRegValidator"],text,
+# email.input.title,Email,Courriel,[id$="_EmailAddress"],attr,title
+# email.input.placeholder,Email,Courriel,[id$="_EmailAddress"],attr,placeholder
+# email.invalid,Invalid Email Address,Adresse courriel invalide,[id$="_EmailAddressRegValidator"],text,
 firstname.label,First Name,Prénom,[id$="_FirstNameLabel"],text,
-firstname.input.placeholder,First Name,Prénom,[id$="_FirstName"],attr,placeholder
+# firstname.input.placeholder,First Name,Prénom,[id$="_FirstName"],attr,placeholder
 lastname.label,Last Name,Nom de famille,[id$="_LastNameLabel"],text,
-lastname.input.placeholder,Last Name,Nom de famille,[id$="_LastName"],attr,placeholder
+# lastname.input.placeholder,Last Name,Nom de famille,[id$="_LastName"],attr,placeholder
 company.label,Company Name,Nom de l’organisme,[id$="_CompanyNameLabel"],text,
-company.input.placeholder,Company Name,Nom de l’organisme,[id$="_CompanyName"],attr,placeholder
+# company.input.placeholder,Company Name,Nom de l’organisme,[id$="_CompanyName"],attr,placeholder
 city.label,City,Ville,[id$="_CityLabel"],text,
-city.input.placeholder,City,Ville,[id$="_City"],attr,placeholder
+# city.input.placeholder,City,Ville,[id$="_City"],attr,placeholder
 country.label,Country,Pays,[id='lblCountry'],text,
-country.title,(Country),(Pays),[id$="_dsCountryStateProvinceList_ddlCountry"],attr,title
-country.placeholder.option,(Country),(Pays),[id$="_dsCountryStateProvinceList_ddlCountry"] option[value=""],text,
+# country.title,(Country),(Pays),[id$="_dsCountryStateProvinceList_ddlCountry"],attr,title
+# country.placeholder.option,(Country),(Pays),[id$="_dsCountryStateProvinceList_ddlCountry"] option[value=""],text,
 state.label,State/Province,Province/État,[id='lblState'],text,
-state.title,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"],attr,title
-state.placeholder.option,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"] option[value=""],text,
-password.policy.html,Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,La longueur doit être comprise entre 8 et 30 caractères.<br>Doit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial : ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,[id$="_PasswordPolicyText"],html,
+# state.title,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"],attr,title
+# state.placeholder.option,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"] option[value=""],text,
+# password.policy.html,Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,La longueur doit être comprise entre 8 et 30 caractères.<br>Doit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial : ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,[id$="_PasswordPolicyText"],html,
 password.label,Password,Mot de passe,[id$="_PasswordLabel"],text,
 password.placeholder,Password,Mot de passe,[id$="_Password"],attr,placeholder
 confirm.label,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPasswordLabel"],text,
 confirm.placeholder,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPassword"],attr,placeholder
 remember.label,Remember Password?,Mémoriser le mot de passe?,'label[for$="_Remember2"]',text,
 button.create,value=Create Account,value=Créer un compte,[id$="_CreateAccountButton"],attr,value
-required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
+# required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
 # asterisk.legend,*,*,.SmallText .invalidInputLabel,text,
 
-demo.orgLocation.label,Organization Location,Emplacement de l’organisme,[for$="-demoDiv"]:has(+ #0bca3586-218f-43b3-b059-0199734a100b-demoDiv),text,
-demo.orgLocation.title,(Organization Location),(Emplacement de l’organisme),[id$="0bca3586-218f-43b3-b059-0199734a100b-select"],attr,title
-demo.sector.label,Sector,Secteur,[for$="-demoDiv"]:has(+ #d4aedf2d-a642-4b70-81dd-0199734cd5a1-demoDiv),text,
-demo.sector.title,(Sector),(Secteur),[id$="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"],attr,title
-demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,[for$="-demoDiv"]:has(+ #7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv),text,
-demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id$="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
-demo.feOffered.free.placeholder,Add your own,Ajouter le vôtre,[id$="7ef9a3b6-0f46-4dac-b38b-0199734efe10-freeform"],attr,placeholder
-demo.otherServices.label,Other Services Offered,Autres services offerts,[for$="-demoDiv"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv),text,
-demo.otherServices.title,(Other Services Offered),(Autres services offerts),[id$="172d3906-c563-42c3-bff0-0199735b5682-select"],attr,title
-demo.otherServices.free.placeholder,Add your own,Ajouter le vôtre,[id$="172d3906-c563-42c3-bff0-0199735b5682-freeform"],attr,placeholder
-demo.populations.label,Populations Served,Populations desservies,[for$="-demoDiv"]:has(+ #303063c6-1cd6-4d75-8e3b-0199735e0e0d-demoDiv),text,
-demo.populations.title,(Populations Served),(Populations desservies),[id$="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"],attr,title
-demo.geo.label,Geographic Area(s) Served,Région(s) desservie(s),[for$="-demoDiv"]:has(+ #eb4436bb-e703-484c-afc7-0199736d34bf-demoDiv),text,
-demo.geo.title,(Geographic Area(s) Served),(Région(s) desservie(s)),[id$="eb4436bb-e703-484c-afc7-0199736d34bf-select"],attr,title
-demo.langpref.label,Language Preference,Préférence linguistique,[for$="-demoDiv"]:has(+ #820d636e-9fed-4604-869e-0199736e70b7-demoDiv),text,
-demo.langpref.title,(Language Preference),(Préférence linguistique),[id$="820d636e-9fed-4604-869e-0199736e70b7-select"],attr,title
-demo.accessibility.label,Accessibility Requirements,Besoins en accessibilité,[for$="-demoDiv"]:has(+ #7a06d47f-5e14-4704-a05e-0199736f163a-demoDiv),text,
-demo.accessibility.free.placeholder,Add your own,Ajouter le vôtre,[id$="7a06d47f-5e14-4704-a05e-0199736f163a-freeform"],attr,placeholder
+# demo.orgLocation.label,Organization Location,Emplacement de l’organisme,[for$="-demoDiv"]:has(+ #0bca3586-218f-43b3-b059-0199734a100b-demoDiv),text,
+# demo.orgLocation.title,(Organization Location),(Emplacement de l’organisme),[id$="0bca3586-218f-43b3-b059-0199734a100b-select"],attr,title
+# demo.sector.label,Sector,Secteur,[for$="-demoDiv"]:has(+ #d4aedf2d-a642-4b70-81dd-0199734cd5a1-demoDiv),text,
+# demo.sector.title,(Sector),(Secteur),[id$="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"],attr,title
+# demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,[for$="-demoDiv"]:has(+ #7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv),text,
+# demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id$="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
+# demo.feOffered.free.placeholder,Add your own,Ajouter le vôtre,[id$="7ef9a3b6-0f46-4dac-b38b-0199734efe10-freeform"],attr,placeholder
+# demo.otherServices.label,Other Services Offered,Autres services offerts,[for$="-demoDiv"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv),text,
+# demo.otherServices.title,(Other Services Offered),(Autres services offerts),[id$="172d3906-c563-42c3-bff0-0199735b5682-select"],attr,title
+# demo.otherServices.free.placeholder,Add your own,Ajouter le vôtre,[id$="172d3906-c563-42c3-bff0-0199735b5682-freeform"],attr,placeholder
+# demo.populations.label,Populations Served,Populations desservies,[for$="-demoDiv"]:has(+ #303063c6-1cd6-4d75-8e3b-0199735e0e0d-demoDiv),text,
+# demo.populations.title,(Populations Served),(Populations desservies),[id$="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"],attr,title
+# demo.geo.label,Geographic Area(s) Served,Région(s) desservie(s),[for$="-demoDiv"]:has(+ #eb4436bb-e703-484c-afc7-0199736d34bf-demoDiv),text,
+# demo.geo.title,(Geographic Area(s) Served),(Région(s) desservie(s)),[id$="eb4436bb-e703-484c-afc7-0199736d34bf-select"],attr,title
+# demo.langpref.label,Language Preference,Préférence linguistique,[for$="-demoDiv"]:has(+ #820d636e-9fed-4604-869e-0199736e70b7-demoDiv),text,
+# demo.langpref.title,(Language Preference),(Préférence linguistique),[id$="820d636e-9fed-4604-869e-0199736e70b7-select"],attr,title
+# demo.accessibility.label,Accessibility Requirements,Besoins en accessibilité,[for$="-demoDiv"]:has(+ #7a06d47f-5e14-4704-a05e-0199736f163a-demoDiv),text,
+# demo.accessibility.free.placeholder,Add your own,Ajouter le vôtre,[id$="7a06d47f-5e14-4704-a05e-0199736f163a-freeform"],attr,placeholder
 
-error.mustChoose,Must choose a value,Vous devez choisir une valeur,#0bca3586-218f-43b3-b059-0199734a100b-demoRow .error-message,text,
-error.mustChooseSector,Must choose a value,Vous devez choisir une valeur,#d4aedf2d-a642-4b70-81dd-0199734cd5a1-demoRow .error-message,text,
-error.mustChooseFE,Must choose a value,Vous devez choisir une valeur,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoRow .error-message,text,
-error.mustChooseOther,Must choose a value or add your own,Vous devez choisir une valeur ou ajouter la vôtre,#172d3906-c563-42c3-bff0-0199735b5682-demoRow .error-message,text,
+# error.mustChoose,Must choose a value,Vous devez choisir une valeur,#0bca3586-218f-43b3-b059-0199734a100b-demoRow .error-message,text,
+# error.mustChooseSector,Must choose a value,Vous devez choisir une valeur,#d4aedf2d-a642-4b70-81dd-0199734cd5a1-demoRow .error-message,text,
+# error.mustChooseFE,Must choose a value,Vous devez choisir une valeur,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoRow .error-message,text,
+# error.mustChooseOther,Must choose a value or add your own,Vous devez choisir une valeur ou ajouter la vôtre,#172d3906-c563-42c3-bff0-0199735b5682-demoRow .error-message,text,
