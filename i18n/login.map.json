@@ -36,6 +36,18 @@
     "attr": "value"
   },
   {
+    "selector": "[id=\"MainCopy_ctl10_CreateAccountButton\"]",
+    "type": "attr",
+    "key": "login.submit",
+    "attr": "value"
+  },
+  {
+    "selector": "[id=\"MainCopy_ctl10_CreateAccountButton\"]",
+    "type": "attr",
+    "key": "login.submit.aria",
+    "attr": "aria-label"
+  },
+  {
     "selector": "#RibbitWelcome .Login a[qa-id='login-link']",
     "type": "text",
     "key": "auth.login"
@@ -106,6 +118,11 @@
     "type": "attr",
     "key": "confirm.placeholder",
     "attr": "placeholder"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl10_Remember2\"]",
+    "type": "text",
+    "key": "login.remember"
   },
   {
     "selector": ".SmallText .control-label:last-of-type",

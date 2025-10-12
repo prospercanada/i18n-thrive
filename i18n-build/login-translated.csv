@@ -42,6 +42,10 @@ login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
 # ===== Button =====
 # register.btn.create,Create Account,Créer un compte,#MainCopy_ctl10_CreateAccountButton,attr,value
 
+login.submit,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,value
+login.submit.aria,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,aria-label
+
+
 # ===== “required” hint line (simple approach: replace whole sentence) =====
 # register.required.hint.html,"<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indicates that the field is required</label>","<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indique que le champ est obligatoire</label>",".SmallText",html,
 
@@ -75,7 +79,10 @@ password.label,Password,Mot de passe,[id$="_PasswordLabel"],text,
 password.placeholder,Password,Mot de passe,[id$="_Password"],attr,placeholder
 confirm.label,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPasswordLabel"],text,
 confirm.placeholder,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPassword"],attr,placeholder
+
 # remember.label,Remember Password?,Se souvenir du mot de passe ?,'label[for$="_Remember2"]',text,
+login.remember,Remember Password?,Se souvenir du mot de passe ?,label[for="MainCopy_ctl10_Remember2"],text,
+
 # button.create,value=Create Account,value=Créer un compte,[id$="_CreateAccountButton"],attr,value
 required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
 # asterisk.legend,*,*,.SmallText .invalidInputLabel,text,
