@@ -217,5 +217,5 @@ demo.langpref.label,Language Preference,Préférence linguistique,label[for="820
 demo.langpref.title,(Language Preference),(Préférence linguistique),[id="820d636e-9fed-4604-869e-0199736e70b7-select"],attr,title
 demo.langpref.opt.en,English,Anglais,[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="4dd09e3d-5e71-425b-a4fc-0199736e9b9c"],text,
 demo.langpref.opt.fr,French,Français,[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="4245aa21-b237-4ae7-9459-0199736eaf20"],text,
-error.langpref.mustChoose,Must choose a value,Vous devez choisir une valeur,#820d636e-9fed-4604-869e-0199736e70b7-demoRow .error-message,text,
+# error.langpref.mustChoose,Must choose a value,Vous devez choisir une valeur,#820d636e-9fed-4604-869e-0199736e70b7-demoRow .error-message,text,
 

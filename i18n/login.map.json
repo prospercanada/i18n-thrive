@@ -529,10 +529,5 @@
     "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"] option[value=\"4245aa21-b237-4ae7-9459-0199736eaf20\"]",
     "type": "text",
     "key": "demo.langpref.opt.fr"
-  },
-  {
-    "selector": "#820d636e-9fed-4604-869e-0199736e70b7-demoRow .error-message",
-    "type": "text",
-    "key": "error.langpref.mustChoose"
   }
 ]
