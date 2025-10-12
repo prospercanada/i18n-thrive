@@ -339,6 +339,28 @@
     "key": "register.demo.other-services.other"
   },
   {
+    "selector": "[id$=\"_FreeformPanel\"] .col-md-12 > div:first-child",
+    "type": "text",
+    "key": "freeform.extra.label"
+  },
+  {
+    "selector": "[id$=\"_FreeFormText\"]",
+    "type": "attr",
+    "key": "freeform.extra.input.placeholder",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "[id$=\"_FreeFormText\"]",
+    "type": "attr",
+    "key": "freeform.extra.input.title",
+    "attr": "title"
+  },
+  {
+    "selector": "[id$=\"_FreeFormTextValidator\"]",
+    "type": "text",
+    "key": "freeform.extra.validator"
+  },
+  {
     "selector": "#MainCopy_ctl36_EditDemographicPanel > div > div > div.modal-header",
     "type": "text",
     "key": "register.demo.sector.modalTitle"

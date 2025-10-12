@@ -1,4 +1,8 @@
 {
+  "freeform.extra.input.placeholder": "Entrez une valeur supplémentaire",
+  "freeform.extra.input.title": "Entrez une valeur supplémentaire",
+  "freeform.extra.label": "Entrez une valeur supplémentaire",
+  "freeform.extra.validator": "Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères",
   "profile.bio.cancel": "Annuler",
   "profile.bio.editTitle": "Modifier la biographie",
   "profile.bio.heading": "Biographie",

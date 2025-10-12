@@ -1,4 +1,8 @@
 {
+  "freeform.extra.input.placeholder": "Enter one additional value",
+  "freeform.extra.input.title": "Enter one additional value",
+  "freeform.extra.label": "Enter one additional value",
+  "freeform.extra.validator": "Comma separated values cannot exceed 400 characters",
   "profile.bio.cancel": "Cancel",
   "profile.bio.editTitle": "Edit Bio",
   "profile.bio.heading": "Bio",

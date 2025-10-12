@@ -121,6 +121,11 @@ register.demo.other-services.resp,RESP Info & Support,REEE – info et soutien,"
 register.demo.other-services.none,None,Aucun,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_NoneChk_10""]",text,
 register.demo.other-services.other,Other,Autre,"label[for=""MainCopy_ctl43_DemographicsCheckBoxList_OtherChk_11""]",text,
 
+freeform.extra.label,Enter one additional value,Entrez une valeur supplémentaire,[id$="_FreeformPanel"] .col-md-12 > div:first-child,text,
+freeform.extra.input.placeholder,Enter one additional value,Entrez une valeur supplémentaire,[id$="_FreeFormText"],attr,placeholder
+freeform.extra.input.title,Enter one additional value,Entrez une valeur supplémentaire,[id$="_FreeFormText"],attr,title
+freeform.extra.validator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,[id$="_FreeFormTextValidator"],text,
+
 
 # Sector Modal
 
