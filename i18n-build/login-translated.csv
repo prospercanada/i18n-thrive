@@ -76,8 +76,8 @@ password.placeholder,Password,Mot de passe,[id$="_Password"],attr,placeholder
 confirm.label,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPasswordLabel"],text,
 confirm.placeholder,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPassword"],attr,placeholder
 # remember.label,Remember Password?,Mémoriser le mot de passe?,'label[for$="_Remember2"]',text,
-button.create,value=Create Account,value=Créer un compte,[id$="_CreateAccountButton"],attr,value
-# required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
+# button.create,value=Create Account,value=Créer un compte,[id$="_CreateAccountButton"],attr,value
+required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
 # asterisk.legend,*,*,.SmallText .invalidInputLabel,text,
 
 # demo.orgLocation.label,Organization Location,Emplacement de l’organisme,[for$="-demoDiv"]:has(+ #0bca3586-218f-43b3-b059-0199734a100b-demoDiv),text,
@@ -103,3 +103,23 @@ button.create,value=Create Account,value=Créer un compte,[id$="_CreateAccountBu
 # error.mustChooseSector,Must choose a value,Vous devez choisir une valeur,#d4aedf2d-a642-4b70-81dd-0199734cd5a1-demoRow .error-message,text,
 # error.mustChooseFE,Must choose a value,Vous devez choisir une valeur,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoRow .error-message,text,
 # error.mustChooseOther,Must choose a value or add your own,Vous devez choisir une valeur ou ajouter la vôtre,#172d3906-c563-42c3-bff0-0199735b5682-demoRow .error-message,text,
+
+# Other Services Offered dropdown
+
+demo.otherServices.label,Other Services Offered,Autres services offerts,[for$="-demoDiv"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv),text,
+demo.otherServices.title,(Other Services Offered),(Autres services offerts),#172d3906-c563-42c3-bff0-0199735b5682-select,attr,title
+demo.otherServices.free.placeholder,Add your own,Ajoutez le vôtre,#172d3906-c563-42c3-bff0-0199735b5682-freeform,attr,placeholder
+error.mustChooseOther,Must choose a value or add your own,Vous devez choisir une valeur ou ajouter la vôtre,#172d3906-c563-42c3-bff0-0199735b5682-demoRow .error-message,text,
+
+demo.otherServices.opt.id,Access to ID,Accès aux pièces d’identité,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="af469578-6786-4ded-912b-0199735c3666"],text,
+demo.otherServices.opt.bank,Banking Access Support,Soutien à l’accès aux services bancaires,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="80d072b1-70fd-4115-bc44-0199735c4a26"],text,
+demo.otherServices.opt.budget,Budget Counselling,Conseils budgétaires,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="a5af4c3a-3779-4e27-a6e2-0199735c5e61"],text,
+demo.otherServices.opt.consumer,Consumer Advocacy,Défense des consommateurs,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="c36de3cd-c9b0-47d6-98f6-0199735c750b"],text,
+demo.otherServices.opt.debt,Debt Management,Gestion de l’endettement,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="fa8f286c-4f1e-4598-9abb-0199735c8b25"],text,
+demo.otherServices.opt.eviction,Eviction Prevention Loan Program,Programme de prêts pour prévenir les expulsions,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="96ec77f6-777f-4d24-92ee-0199735ca5c7"],text,
+demo.otherServices.opt.housing,Housing or Homelessness Support,Soutien au logement ou à l’itinérance,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="c605a6f5-8365-4fd5-956d-0199735cc411"],text,
+demo.otherServices.opt.income,Income Support,Soutien au revenu,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="d9a2fe4c-b7d8-44c4-8e86-0199735d0a81"],text,
+demo.otherServices.opt.rdsp,RDSP Info & Support,Renseignements et soutien sur le REEI,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="10590803-9632-4f04-931b-0199735d2532"],text,
+demo.otherServices.opt.resp,RESP Info & Support,Renseignements et soutien sur le REEE,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="06f22f9a-5caa-4b4f-a78e-0199735d40f1"],text,
+demo.otherServices.opt.none,None,Aucun,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="08ebb735-3715-4255-9aae-0199735d5bb5"],text,
+demo.otherServices.opt.other,Other,Autre,#172d3906-c563-42c3-bff0-0199735b5682-select option[value="b0c3fce6-3baa-44eb-935d-0199735d6e4c"],text,

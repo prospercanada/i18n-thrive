@@ -103,9 +103,90 @@
     "attr": "placeholder"
   },
   {
-    "selector": "[id$=\"_CreateAccountButton\"]",
+    "selector": ".SmallText .control-label:last-of-type",
+    "type": "text",
+    "key": "required.note"
+  },
+  {
+    "selector": "[for$=\"-demoDiv\"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv)",
+    "type": "text",
+    "key": "demo.otherServices.label"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select",
     "type": "attr",
-    "key": "button.create",
-    "attr": "value"
+    "key": "demo.otherServices.title",
+    "attr": "title"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-freeform",
+    "type": "attr",
+    "key": "demo.otherServices.free.placeholder",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-demoRow .error-message",
+    "type": "text",
+    "key": "error.mustChooseOther"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"af469578-6786-4ded-912b-0199735c3666\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.id"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"80d072b1-70fd-4115-bc44-0199735c4a26\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.bank"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"a5af4c3a-3779-4e27-a6e2-0199735c5e61\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.budget"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"c36de3cd-c9b0-47d6-98f6-0199735c750b\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.consumer"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"fa8f286c-4f1e-4598-9abb-0199735c8b25\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.debt"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"96ec77f6-777f-4d24-92ee-0199735ca5c7\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.eviction"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"c605a6f5-8365-4fd5-956d-0199735cc411\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.housing"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"d9a2fe4c-b7d8-44c4-8e86-0199735d0a81\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.income"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"10590803-9632-4f04-931b-0199735d2532\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.rdsp"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"06f22f9a-5caa-4b4f-a78e-0199735d40f1\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.resp"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"08ebb735-3715-4255-9aae-0199735d5bb5\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.none"
+  },
+  {
+    "selector": "#172d3906-c563-42c3-bff0-0199735b5682-select option[value=\"b0c3fce6-3baa-44eb-935d-0199735d6e4c\"]",
+    "type": "text",
+    "key": "demo.otherServices.opt.other"
   }
 ]
