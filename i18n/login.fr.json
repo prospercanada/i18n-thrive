@@ -23,7 +23,7 @@
   "email.label": "Courriel",
   "error.mustChooseOther": "Vous devez choisir une valeur ou ajouter la vôtre",
   "firstname.label": "Prénom",
-  "lastname.label": "Nom de famille",
+  "lastname.label": "Nom",
   "login.button": "Connexion",
   "login.email.label": "Adresse courriel",
   "login.forgot.link": "Mot de passe oublié ?",
@@ -33,7 +33,8 @@
   "login.signup.link": "Nouveau membre / Inscrivez-vous",
   "password.label": "Mot de passe",
   "password.placeholder": "Mot de passe",
+  "password.policy.html": "La longueur doit être comprise entre 8 et 30 caractères.<br>oit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial (~!@#$%^&*()_+{}:\"<>?)",
   "required.note": "Indique que le champ est obligatoire",
-  "signup.title": "Pas encore inscrit? Créez un compte",
+  "signup.title": "Pas encore inscrit ? Créez un compte",
   "state.label": "Province/État"
 }

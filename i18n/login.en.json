@@ -33,6 +33,7 @@
   "login.signup.link": "New User/Register Now",
   "password.label": "Password",
   "password.placeholder": "Password",
+  "password.policy.html": "Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:\"&lt;&gt;?-",
   "required.note": "Indicates that the field is required",
   "signup.title": "Not registered yet? Create an account",
   "state.label": "State/Province"

@@ -81,6 +81,11 @@
     "key": "state.label"
   },
   {
+    "selector": "[id$=\"_PasswordPolicyText\"]",
+    "type": "html",
+    "key": "password.policy.html"
+  },
+  {
     "selector": "[id$=\"_PasswordLabel\"]",
     "type": "text",
     "key": "password.label"
@@ -108,7 +113,7 @@
     "key": "required.note"
   },
   {
-    "selector": "[for$=\"-demoDiv\"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv)",
+    "selector": ".demoType[data-demographictypekey=\"172d3906-c563-42c3-bff0-0199735e0e0d\"] .control-label",
     "type": "text",
     "key": "demo.otherServices.label"
   },

@@ -51,17 +51,17 @@ auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,
 
 # Regiser Form
 
-signup.title,Not registered yet? Create an account,Pas encore inscrit? Créez un compte,[id$="_SignupSection"] .panel-title strong,text,
+signup.title,Not registered yet? Create an account,Pas encore inscrit ? Créez un compte,[id$="_SignupSection"] .panel-title strong,text,
 email.label,Email,Courriel,[id$="_EmailAddressLabel"],text,
 # email.input.title,Email,Courriel,[id$="_EmailAddress"],attr,title
 # email.input.placeholder,Email,Courriel,[id$="_EmailAddress"],attr,placeholder
 # email.invalid,Invalid Email Address,Adresse courriel invalide,[id$="_EmailAddressRegValidator"],text,
 firstname.label,First Name,Prénom,[id$="_FirstNameLabel"],text,
 # firstname.input.placeholder,First Name,Prénom,[id$="_FirstName"],attr,placeholder
-lastname.label,Last Name,Nom de famille,[id$="_LastNameLabel"],text,
+lastname.label,Last Name,Nom,[id$="_LastNameLabel"],text,
 # lastname.input.placeholder,Last Name,Nom de famille,[id$="_LastName"],attr,placeholder
 company.label,Company Name,Nom de l’organisme,[id$="_CompanyNameLabel"],text,
-# company.input.placeholder,Company Name,Nom de l’organisme,[id$="_CompanyName"],attr,placeholder
+# company.input.placeholder,Company Name,Nom de l'entreprise,[id$="_CompanyName"],attr,placeholder
 city.label,City,Ville,[id$="_CityLabel"],text,
 # city.input.placeholder,City,Ville,[id$="_City"],attr,placeholder
 country.label,Country,Pays,[id='lblCountry'],text,
@@ -70,12 +70,12 @@ country.label,Country,Pays,[id='lblCountry'],text,
 state.label,State/Province,Province/État,[id='lblState'],text,
 # state.title,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"],attr,title
 # state.placeholder.option,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"] option[value=""],text,
-# password.policy.html,Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,La longueur doit être comprise entre 8 et 30 caractères.<br>Doit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial : ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,[id$="_PasswordPolicyText"],html,
+password.policy.html,Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,La longueur doit être comprise entre 8 et 30 caractères.<br>oit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial (~!@#$%^&*()_+{}:"<>?),[id$="_PasswordPolicyText"],html,
 password.label,Password,Mot de passe,[id$="_PasswordLabel"],text,
 password.placeholder,Password,Mot de passe,[id$="_Password"],attr,placeholder
 confirm.label,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPasswordLabel"],text,
 confirm.placeholder,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPassword"],attr,placeholder
-# remember.label,Remember Password?,Mémoriser le mot de passe?,'label[for$="_Remember2"]',text,
+# remember.label,Remember Password?,Se souvenir du mot de passe ?,'label[for$="_Remember2"]',text,
 # button.create,value=Create Account,value=Créer un compte,[id$="_CreateAccountButton"],attr,value
 required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
 # asterisk.legend,*,*,.SmallText .invalidInputLabel,text,
@@ -106,7 +106,9 @@ required.note,Indicates that the field is required,Indique que le champ est obli
 
 # Other Services Offered dropdown
 
-demo.otherServices.label,Other Services Offered,Autres services offerts,[for$="-demoDiv"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv),text,
+# demo.otherServices.label,Other Services Offered,Autres services offerts,[for$="-demoDiv"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv),text,
+demo.otherServices.label,Other Services Offered,Autres services offerts,.demoType[data-demographictypekey="172d3906-c563-42c3-bff0-0199735e0e0d"] .control-label,text,
+
 demo.otherServices.title,(Other Services Offered),(Autres services offerts),#172d3906-c563-42c3-bff0-0199735b5682-select,attr,title
 demo.otherServices.free.placeholder,Add your own,Ajoutez le vôtre,#172d3906-c563-42c3-bff0-0199735b5682-freeform,attr,placeholder
 error.mustChooseOther,Must choose a value or add your own,Vous devez choisir une valeur ou ajouter la vôtre,#172d3906-c563-42c3-bff0-0199735b5682-demoRow .error-message,text,
