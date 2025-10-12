@@ -120,5 +120,15 @@
   "register.demo.sector.cancel": "Annuler",
   "register.demo.sector.empty": "Ajouter des détails",
   "register.demo.sector.modalTitle": "Modifier le secteur",
+  "register.demo.sector.option.academia": "Milieu universitaire",
+  "register.demo.sector.option.consulting": "Conseil",
+  "register.demo.sector.option.federal": "Gouvernement fédéral",
+  "register.demo.sector.option.foundation": "Fondation",
+  "register.demo.sector.option.municipal": "Gouvernement municipal",
+  "register.demo.sector.option.notSpecified": "Non précisé",
+  "register.demo.sector.option.npo": "Secteur sans but lucratif",
+  "register.demo.sector.option.other": "Autre",
+  "register.demo.sector.option.private": "Secteur privé",
+  "register.demo.sector.option.provincial": "Gouvernement provincial",
   "register.demo.sector.save": "Enregistrer"
 }

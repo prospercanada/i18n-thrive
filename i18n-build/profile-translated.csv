@@ -154,16 +154,16 @@ freeform.extra.validator,Comma separated values cannot exceed 400 characters,Les
 register.demo.sector.modalTitle,Edit Sector,Modifier le secteur,#MainCopy_ctl36_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.sector.save,Save,Enregistrer,#MainCopy_ctl36_SaveButton,attr,value
 register.demo.sector.cancel,Cancel,Annuler,#MainCopy_ctl36_CancelButton,attr,value
-# register.demo.sector.option.other,Other,Autre,"#MainCopy_ctl36_lbDemographicItems option[value=""80b53b17-197f-4037-8da0-0199734e4c87""]",text,
-# register.demo.sector.option.academia,Academia,Milieu universitaire,"#MainCopy_ctl36_lbDemographicItems option[value=""3925d475-cfce-44bd-bd6c-0199734e3c7c""]",text,
-# register.demo.sector.option.consulting,Consulting,Conseil,"#MainCopy_ctl36_lbDemographicItems option[value=""27e99515-f6ea-45de-8139-0199734e2d80""]",text,
-# register.demo.sector.option.federal,Federal government,Gouvernement fédéral,"#MainCopy_ctl36_lbDemographicItems option[value=""7a2a1dac-c67c-47c0-a1a7-0199734df4b2""]",text,
-# register.demo.sector.option.foundation,Foundation,Fondation,"#MainCopy_ctl36_lbDemographicItems option[value=""d74873d0-a56b-4e37-9815-0199734e1e54""]",text,
-# register.demo.sector.option.municipal,Municipal government,Gouvernement municipal,"#MainCopy_ctl36_lbDemographicItems option[value=""fa1efca8-5afa-46b9-a72c-0199734e105c""]",text,
-# register.demo.sector.option.npo,Non-profit sector,Secteur sans but lucratif,"#MainCopy_ctl36_lbDemographicItems option[value=""09988a56-6c73-4ec8-8005-0199734de470""]",text,
-# register.demo.sector.option.private,Private sector,Secteur privé,"#MainCopy_ctl36_lbDemographicItems option[value=""2c024a36-a121-470d-be13-0199734dcfd0""]",text,
-# register.demo.sector.option.provincial,Provincial government,Gouvernement provincial,"#MainCopy_ctl36_lbDemographicItems option[value=""4be70d97-01b4-44fb-a6de-0199734e01ff""]",text,
-# register.demo.sector.option.notSpecified,Not Specified,Non précisé,"#MainCopy_ctl36_lbDemographicItems option[value=""00000000-0000-0000-0000-000000000000""]",text,
+register.demo.sector.option.other,Other,Autre,"#MainCopy_ctl36_lbDemographicItems option[value=""80b53b17-197f-4037-8da0-0199734e4c87""]",text,
+register.demo.sector.option.academia,Academia,Milieu universitaire,"#MainCopy_ctl36_lbDemographicItems option[value=""3925d475-cfce-44bd-bd6c-0199734e3c7c""]",text,
+register.demo.sector.option.consulting,Consulting,Conseil,"#MainCopy_ctl36_lbDemographicItems option[value=""27e99515-f6ea-45de-8139-0199734e2d80""]",text,
+register.demo.sector.option.federal,Federal government,Gouvernement fédéral,"#MainCopy_ctl36_lbDemographicItems option[value=""7a2a1dac-c67c-47c0-a1a7-0199734df4b2""]",text,
+register.demo.sector.option.foundation,Foundation,Fondation,"#MainCopy_ctl36_lbDemographicItems option[value=""d74873d0-a56b-4e37-9815-0199734e1e54""]",text,
+register.demo.sector.option.municipal,Municipal government,Gouvernement municipal,"#MainCopy_ctl36_lbDemographicItems option[value=""fa1efca8-5afa-46b9-a72c-0199734e105c""]",text,
+register.demo.sector.option.npo,Non-profit sector,Secteur sans but lucratif,"#MainCopy_ctl36_lbDemographicItems option[value=""09988a56-6c73-4ec8-8005-0199734de470""]",text,
+register.demo.sector.option.private,Private sector,Secteur privé,"#MainCopy_ctl36_lbDemographicItems option[value=""2c024a36-a121-470d-be13-0199734dcfd0""]",text,
+register.demo.sector.option.provincial,Provincial government,Gouvernement provincial,"#MainCopy_ctl36_lbDemographicItems option[value=""4be70d97-01b4-44fb-a6de-0199734e01ff""]",text,
+register.demo.sector.option.notSpecified,Not Specified,Non précisé,"#MainCopy_ctl36_lbDemographicItems option[value=""00000000-0000-0000-0000-000000000000""]",text,
 
 
 # Language Preference Modal

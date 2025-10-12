@@ -453,6 +453,56 @@
     "attr": "value"
   },
   {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"80b53b17-197f-4037-8da0-0199734e4c87\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.other"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"3925d475-cfce-44bd-bd6c-0199734e3c7c\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.academia"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"27e99515-f6ea-45de-8139-0199734e2d80\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.consulting"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"7a2a1dac-c67c-47c0-a1a7-0199734df4b2\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.federal"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"d74873d0-a56b-4e37-9815-0199734e1e54\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.foundation"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"fa1efca8-5afa-46b9-a72c-0199734e105c\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.municipal"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"09988a56-6c73-4ec8-8005-0199734de470\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.npo"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"2c024a36-a121-470d-be13-0199734dcfd0\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.private"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"4be70d97-01b4-44fb-a6de-0199734e01ff\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.provincial"
+  },
+  {
+    "selector": "#MainCopy_ctl36_lbDemographicItems option[value=\"00000000-0000-0000-0000-000000000000\"]",
+    "type": "text",
+    "key": "register.demo.sector.option.notSpecified"
+  },
+  {
     "selector": "#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header",
     "type": "text",
     "key": "register.demo.lang-pref.modalTitle"

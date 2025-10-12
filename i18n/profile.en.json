@@ -120,5 +120,15 @@
   "register.demo.sector.cancel": "Cancel",
   "register.demo.sector.empty": "Add detail",
   "register.demo.sector.modalTitle": "Edit Sector",
+  "register.demo.sector.option.academia": "Academia",
+  "register.demo.sector.option.consulting": "Consulting",
+  "register.demo.sector.option.federal": "Federal government",
+  "register.demo.sector.option.foundation": "Foundation",
+  "register.demo.sector.option.municipal": "Municipal government",
+  "register.demo.sector.option.notSpecified": "Not Specified",
+  "register.demo.sector.option.npo": "Non-profit sector",
+  "register.demo.sector.option.other": "Other",
+  "register.demo.sector.option.private": "Private sector",
+  "register.demo.sector.option.provincial": "Provincial government",
   "register.demo.sector.save": "Save"
 }
