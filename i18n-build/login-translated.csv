@@ -141,7 +141,9 @@ demo.sector.opt.provincial,Provincial government,Gouvernement provincial,[id="d4
 
 
 # Financial Empowerment Services Offered DROPDOWN
+demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,label[for="7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv"],text,
 demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
+
 demo.feOffered.opt.tax,Tax-filing support (e.g. free tax clinics),Aide à la production des déclarations de revenus (p. ex. cliniques d’impôts gratuites),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="e314e9fa-f79b-4e20-88a1-0199735055d1"],text,
 demo.feOffered.opt.benefits,Help accessing benefits,Aide à l’accès aux prestations,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="d3ac29bd-3b42-44db-8510-0199735064f7"],text,
 demo.feOffered.opt.coach,One-on-one financial coaching (e.g. financial goal setting and action planning),Accompagnement financier individuel (p. ex. fixation d’objectifs et plan d’action),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="18be00b1-e86a-4c55-b5a5-0199735073ac"],text,
@@ -155,7 +157,9 @@ demo.feOffered.opt.other,Other,Autre,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-s
 # Other Services Offered dropdown
 
 # demo.otherServices.label,Other Services Offered,Autres services offerts,[for$="-demoDiv"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv),text,
-demo.otherServices.label,Other Services Offered,Autres services offerts,.demoType[data-demographictypekey="172d3906-c563-42c3-bff0-0199735e0e0d"] .control-label,text,
+# demo.otherServices.label,Other Services Offered,Autres services offerts,.demoType[data-demographictypekey="172d3906-c563-42c3-bff0-0199735e0e0d"] .control-label,text,
+demo.otherServices.label,Other Services Offered,Autres services offerts,label[for="172d3906-c563-42c3-bff0-0199735b5682-demoDiv"],text,
+demo.otherServices.title,(Other Services Offered),(Autres services offerts),[id="172d3906-c563-42c3-bff0-0199735b5682-select"],attr,title
 
 demo.otherServices.title,(Other Services Offered),(Autres services offerts),[id="172d3906-c563-42c3-bff0-0199735b5682-select"],attr,title
 demo.otherServices.free.placeholder,Add your own,Ajoutez le vôtre,[id="172d3906-c563-42c3-bff0-0199735b5682-freeform"],attr,placeholder
@@ -219,3 +223,8 @@ demo.langpref.opt.en,English,Anglais,[id="820d636e-9fed-4604-869e-0199736e70b7-s
 demo.langpref.opt.fr,French,Français,[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="4245aa21-b237-4ae7-9459-0199736eaf20"],text,
 # error.langpref.mustChoose,Must choose a value,Vous devez choisir une valeur,#820d636e-9fed-4604-869e-0199736e70b7-demoRow .error-message,text,
 
+# Accessibility Requirements
+
+demo.access.label,Accessibility Requirements,Exigences en matière d’accessibilité,label[for="7a06d47f-5e14-4704-a05e-0199736f163a-demoDiv"],text,
+demo.access.free.placeholder,Add your own,Ajoutez le vôtre,[id="7a06d47f-5e14-4704-a05e-0199736f163a-freeform"],attr,placeholder
+error.access.mustAdd,Must add your own value,Vous devez ajouter la vôtre,[id="7a06d47f-5e14-4704-a05e-0199736f163a-demoRow"] .error-message,text,
