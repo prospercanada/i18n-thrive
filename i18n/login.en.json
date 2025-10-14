@@ -1,4 +1,8 @@
 {
+  "approvalPending.body": "Your account is waiting to be approved. Please <a href=\"contactus\">contact us</a> if you need immediate assistance. Thanks for your patience!",
+  "approvalPending.body.link.href": "contactus",
+  "approvalPending.body.link.text": "contact us",
+  "approvalPending.title": "Approval Pending",
   "auth.login": "Log in",
   "city.label": "City",
   "company.label": "Company Name",

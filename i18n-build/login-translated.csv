@@ -257,5 +257,11 @@ consent.disagree,I Do Not Agree,Je n’accepte pas,[id="MainCopy_DisagreeButton"
 
 # https://community.prospercanada.org/login/hlaccountactivation?ContactKey=f2754f07-7648-4a2e-a854-0199da55996f&ActivateAccount=1 -- Resilient Futures – Email Verification Confirmed
 
-login.activation.confirmed.title,Resilient Futures – Email Verification Confirmed,Futurs résilients – Vérification de courriel confirmée,[id="PageTitleH1"],text,
-login.activation.alreadyActive,Your account is already active.,Votre compte est déjà actif.,[id="MainCopy_ctl06_lblMEssage"],text,
+login.activation.confirmed.title,Resilient Futures – Email Verification Confirmed,Futurs résilients – Vérification de courriel confirmée,body.accountactivation [id="PageTitleH1"],text,
+login.activation.alreadyActive,Your account is already active.,Votre compte est déjà actif.,body.accountactivation [id="MainCopy_ctl06_lblMEssage"],text,
+
+# https://community.prospercanada.org/login/hlapprovalpending -- Approval Pending
+approvalPending.title,Approval Pending,En attente d’approbation,body.hlapprovalpending #PageTitleH1,text,
+approvalPending.body,Your account is waiting to be approved. Please <a href="contactus">contact us</a> if you need immediate assistance. Thanks for your patience!,Votre compte est en attente d’approbation. Veuillez <a href="contactus">nous contacter</a> si vous avez besoin d’aide immédiate. Merci de votre patience !,body.hlapprovalpending #MainCopy_ContentWrapper .HtmlContent,html,
+approvalPending.body.link.text,contact us,nous contacter,body.hlapprovalpending #MainCopy_ContentWrapper .HtmlContent a,text,
+approvalPending.body.link.href,contactus,contactus,body.hlapprovalpending #MainCopy_ContentWrapper .HtmlContent a,attr,href

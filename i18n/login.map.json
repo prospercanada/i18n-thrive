@@ -623,13 +623,34 @@
     "attr": "value"
   },
   {
-    "selector": "[id=\"PageTitleH1\"]",
+    "selector": "body.accountactivation [id=\"PageTitleH1\"]",
     "type": "text",
     "key": "login.activation.confirmed.title"
   },
   {
-    "selector": "[id=\"MainCopy_ctl06_lblMEssage\"]",
+    "selector": "body.accountactivation [id=\"MainCopy_ctl06_lblMEssage\"]",
     "type": "text",
     "key": "login.activation.alreadyActive"
+  },
+  {
+    "selector": "body.hlapprovalpending #PageTitleH1",
+    "type": "text",
+    "key": "approvalPending.title"
+  },
+  {
+    "selector": "body.hlapprovalpending #MainCopy_ContentWrapper .HtmlContent",
+    "type": "html",
+    "key": "approvalPending.body"
+  },
+  {
+    "selector": "body.hlapprovalpending #MainCopy_ContentWrapper .HtmlContent a",
+    "type": "text",
+    "key": "approvalPending.body.link.text"
+  },
+  {
+    "selector": "body.hlapprovalpending #MainCopy_ContentWrapper .HtmlContent a",
+    "type": "attr",
+    "key": "approvalPending.body.link.href",
+    "attr": "href"
   }
 ]
