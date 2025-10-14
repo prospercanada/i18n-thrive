@@ -38,7 +38,9 @@ nav.funding,"Funding Information","Informations sur le financement","#MPButtonBa
 nav.faq,"FAQs","FAQ","#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",text,
 
 
-nav.directory.label,Directory,Annuaire,"#MPButtonBar .navbar-nav a[href='/media-kit'] span",text,
+nav.directory,Directory,Annuaire,"#MPButtonBar .navbar-nav a[href='/network'] span",text,
 nav.memberDirectory,Member Directory,Annuaire des membres,"#MPButtonBar .navbar-nav a[href='/network/members']",text,
+
+nav.events,"Events","Événements","#MPButtonBar .navbar-nav a[href='/events'] span, #MPButtonBar .navbar-nav a[href='/events']",text,
 
 

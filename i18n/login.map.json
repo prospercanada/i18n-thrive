@@ -1,625 +1,134 @@
 [
   {
-    "selector": "#MainCopy_ctl07_LoginSectionH2",
-    "type": "text",
-    "key": "login.panel.title"
-  },
-  {
-    "selector": "#MainCopy_ctl07_LoginUserNameLabel",
-    "type": "text",
-    "key": "login.email.label"
-  },
-  {
-    "selector": "#MainCopy_ctl07_LoginPasswordLabel",
-    "type": "text",
-    "key": "login.password.label"
-  },
-  {
-    "selector": "#MainCopy_ctl07_signupLabel",
-    "type": "text",
-    "key": "login.signup.link"
-  },
-  {
-    "selector": "#MainCopy_ctl07_ForgotPassword",
-    "type": "text",
-    "key": "login.forgot.link"
-  },
-  {
-    "selector": "#MainCopy_ctl07_Remember + label",
-    "type": "text",
-    "key": "login.remember.label"
-  },
-  {
-    "selector": "#MainCopy_ctl07_LoginRecaptchaButton",
+    "selector": "#NavLogo_DesktopLogoDiv img",
     "type": "attr",
-    "key": "login.button",
-    "attr": "value"
+    "key": "nav.logo.desktop.alt",
+    "attr": "alt"
   },
   {
-    "selector": "[id=\"MainCopy_ctl10_CreateAccountButton\"]",
+    "selector": "#NavLogo_PhoneLogoDiv img",
     "type": "attr",
-    "key": "login.submit",
-    "attr": "value"
+    "key": "nav.logo.mobile.alt",
+    "attr": "alt"
   },
   {
-    "selector": "[id=\"MainCopy_ctl10_CreateAccountButton\"]",
+    "selector": "#MPButtonBar .navbar-toggle .sr-only",
+    "type": "text",
+    "key": "nav.toggle.sronly"
+  },
+  {
+    "selector": "#SearchToggleIcon",
     "type": "attr",
-    "key": "login.submit.aria",
+    "key": "search.toggle.aria",
     "attr": "aria-label"
   },
   {
-    "selector": "#RibbitWelcome .Login a[qa-id='login-link']",
-    "type": "text",
-    "key": "auth.login"
-  },
-  {
-    "selector": "[id$=\"_SignupSection\"] .panel-title strong",
-    "type": "text",
-    "key": "signup.title"
-  },
-  {
-    "selector": "[id$=\"_EmailAddressLabel\"]",
-    "type": "text",
-    "key": "email.label"
-  },
-  {
-    "selector": "[id$=\"_FirstNameLabel\"]",
-    "type": "text",
-    "key": "firstname.label"
-  },
-  {
-    "selector": "[id$=\"_LastNameLabel\"]",
-    "type": "text",
-    "key": "lastname.label"
-  },
-  {
-    "selector": "[id$=\"_CompanyNameLabel\"]",
-    "type": "text",
-    "key": "company.label"
-  },
-  {
-    "selector": "[id$=\"_CityLabel\"]",
-    "type": "text",
-    "key": "city.label"
-  },
-  {
-    "selector": "[id='lblCountry']",
-    "type": "text",
-    "key": "country.label"
-  },
-  {
-    "selector": "[id='lblState']",
-    "type": "text",
-    "key": "state.label"
-  },
-  {
-    "selector": "[id$=\"_PasswordPolicyText\"]",
-    "type": "html",
-    "key": "password.policy.html"
-  },
-  {
-    "selector": "[id$=\"_PasswordLabel\"]",
-    "type": "text",
-    "key": "password.label"
-  },
-  {
-    "selector": "[id$=\"_Password\"]",
+    "selector": "#SearchControl_SearchTerm",
     "type": "attr",
-    "key": "password.placeholder",
+    "key": "search.input.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "#SearchControl_SearchTerm",
+    "type": "attr",
+    "key": "search.input.placeholder",
     "attr": "placeholder"
   },
   {
-    "selector": "[id$=\"_ConfirmPasswordLabel\"]",
-    "type": "text",
-    "key": "confirm.label"
-  },
-  {
-    "selector": "[id$=\"_ConfirmPassword\"]",
+    "selector": "#SearchControl_SearchTerm",
     "type": "attr",
-    "key": "confirm.placeholder",
-    "attr": "placeholder"
-  },
-  {
-    "selector": "label[for=\"MainCopy_ctl10_Remember2\"]",
-    "type": "text",
-    "key": "login.remember"
-  },
-  {
-    "selector": ".SmallText .control-label:last-of-type",
-    "type": "text",
-    "key": "required.note"
-  },
-  {
-    "selector": "label[for=\"0bca3586-218f-43b3-b059-0199734a100b-demoDiv\"]",
-    "type": "text",
-    "key": "demo.orgLocation.label"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"]",
-    "type": "attr",
-    "key": "demo.orgLocation.title",
+    "key": "search.input.title",
     "attr": "title"
   },
   {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"00000000-0000-0000-0000-000000000000\"]",
-    "type": "text",
-    "key": "demo.orgLocation.placeholder.option"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"1fa64f56-58e3-422a-a6d4-0199734a4c08\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.ab"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"1886c5aa-b646-4cbc-83e3-0199734a59ca\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.bc"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"15c00889-b1ba-4938-9ce2-0199734a6e68\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.mb"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"83aa29ae-9221-4c63-bbd7-0199734a8673\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.nb"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"0badd8e0-a931-4333-8dac-0199734a9fd4\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.nl"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"5e4267bc-3ac8-4c5d-baf1-0199734aea7b\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.nt"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"6ef879d4-00b4-453c-bfec-0199734b0057\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.ns"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"d004d0ee-dee7-4da8-8e5a-0199734b0fda\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.nu"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"381b0dd3-d22e-4be1-aa47-0199734b1e8b\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.on"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"16b8325e-107c-4eae-a2ed-0199734b6d0b\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.other"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"7f3e4cad-01f5-433d-bd35-0199734b2d8d\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.pe"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"0fb975d6-f92c-4801-9852-0199734b3bd6\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.qc"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"5b3a7785-b326-4729-9ec7-0199734b4d8d\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.sk"
-  },
-  {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-select\"] option[value=\"cd009189-0e53-4e97-8809-0199734b5cf3\"]",
-    "type": "text",
-    "key": "demo.orgLocation.opt.yt"
-  },
-  {
-    "selector": ".demoType[data-demographictypekey=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1\"] .control-label",
-    "type": "text",
-    "key": "demo.sector.label"
-  },
-  {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"]",
+    "selector": "#SearchControl_SearchButton",
     "type": "attr",
-    "key": "demo.sector.title",
-    "attr": "title"
+    "key": "search.button.aria",
+    "attr": "aria-label"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"00000000-0000-0000-0000-000000000000\"]",
+    "selector": "a[qa-id=\"inbox-link\"]",
     "type": "text",
-    "key": "demo.sector.placeholder.option"
+    "key": "profile.menu.inbox"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"80b53b17-197f-4037-8da0-0199734e4c87\"]",
+    "selector": "a[qa-id=\"profile-link\"]",
     "type": "text",
-    "key": "demo.sector.opt.other"
+    "key": "profile.menu.profile"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"3925d475-cfce-44bd-bd6c-0199734e3c7c\"]",
+    "selector": "a[qa-id=\"my-communities-link\"]",
     "type": "text",
-    "key": "demo.sector.opt.academia"
+    "key": "profile.menu.myCommunities"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"27e99515-f6ea-45de-8139-0199734e2d80\"]",
+    "selector": "a[qa-id=\"followed-content-link\"]",
     "type": "text",
-    "key": "demo.sector.opt.consulting"
+    "key": "profile.menu.followed"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"7a2a1dac-c67c-47c0-a1a7-0199734df4b2\"]",
+    "selector": "a[qa-id=\"logout-link\"]",
     "type": "text",
-    "key": "demo.sector.opt.federal"
+    "key": "profile.menu.logout"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"d74873d0-a56b-4e37-9815-0199734e1e54\"]",
+    "selector": "#CreateBtnWrapper [qa-id=\"btnThriveCreate\"]",
     "type": "text",
-    "key": "demo.sector.opt.foundation"
+    "key": "create.button"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"fa1efca8-5afa-46b9-a72c-0199734e105c\"]",
+    "selector": "#CreateBtnWrapper [qa-id=\"btnThriveCreate\"] .sr-only",
     "type": "text",
-    "key": "demo.sector.opt.municipal"
+    "key": "create.button.sronly"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"09988a56-6c73-4ec8-8005-0199734de470\"]",
+    "selector": "#HLCreateDiscussionThread",
     "type": "text",
-    "key": "demo.sector.opt.npo"
+    "key": "create.menu.discussion"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"2c024a36-a121-470d-be13-0199734dcfd0\"]",
+    "selector": "#HLCreateLibraryEntry",
     "type": "text",
-    "key": "demo.sector.opt.private"
+    "key": "create.menu.library"
   },
   {
-    "selector": "[id=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1-select\"] option[value=\"4be70d97-01b4-44fb-a6de-0199734e01ff\"]",
+    "selector": "#MPButtonBar .navbar-nav a[href='/home'], #MPButtonBar .navbar-nav a[href='/sandboxmicrosite/home']",
     "type": "text",
-    "key": "demo.sector.opt.provincial"
+    "key": "nav.home"
   },
   {
-    "selector": "label[for=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv\"]",
+    "selector": "#MPButtonBar .navbar-nav a[href='/media-kit'] span, #MPButtonBar .navbar-nav a[href='/media-kit']",
     "type": "text",
-    "key": "demo.feOffered.label"
+    "key": "nav.mediaKit"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"]",
-    "type": "attr",
-    "key": "demo.feOffered.title",
-    "attr": "title"
-  },
-  {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"e314e9fa-f79b-4e20-88a1-0199735055d1\"]",
-    "type": "text",
-    "key": "demo.feOffered.opt.tax"
-  },
-  {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"d3ac29bd-3b42-44db-8510-0199735064f7\"]",
-    "type": "text",
-    "key": "demo.feOffered.opt.benefits"
-  },
-  {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"18be00b1-e86a-4c55-b5a5-0199735073ac\"]",
-    "type": "text",
-    "key": "demo.feOffered.opt.coach"
-  },
-  {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"ffc0566b-cf88-4574-9ad8-0199735082c9\"]",
-    "type": "text",
-    "key": "demo.feOffered.opt.counsel"
-  },
-  {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"f1bb407b-582e-4a74-8059-019973509314\"]",
-    "type": "text",
-    "key": "demo.feOffered.opt.edu"
-  },
-  {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"c6872cc1-f47d-4f74-87e0-01997350a208\"]",
-    "type": "text",
-    "key": "demo.feOffered.opt.none"
-  },
-  {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"bcca9ce0-d09c-4db3-81a3-01997350bb05\"]",
-    "type": "text",
-    "key": "demo.feOffered.opt.other"
-  },
-  {
-    "selector": "label[for=\"172d3906-c563-42c3-bff0-0199735b5682-demoDiv\"]",
-    "type": "text",
-    "key": "demo.otherServices.label"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"]",
-    "type": "attr",
-    "key": "demo.otherServices.title",
-    "attr": "title"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-freeform\"]",
-    "type": "attr",
-    "key": "demo.otherServices.free.placeholder",
-    "attr": "placeholder"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-demoRow\"] .error-message",
-    "type": "text",
-    "key": "error.mustChooseOther"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"af469578-6786-4ded-912b-0199735c3666\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.id"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"80d072b1-70fd-4115-bc44-0199735c4a26\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.bank"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"a5af4c3a-3779-4e27-a6e2-0199735c5e61\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.budget"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"c36de3cd-c9b0-47d6-98f6-0199735c750b\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.consumer"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"fa8f286c-4f1e-4598-9abb-0199735c8b25\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.debt"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"96ec77f6-777f-4d24-92ee-0199735ca5c7\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.eviction"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"c605a6f5-8365-4fd5-956d-0199735cc411\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.housing"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"d9a2fe4c-b7d8-44c4-8e86-0199735d0a81\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.income"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"10590803-9632-4f04-931b-0199735d2532\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.rdsp"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"06f22f9a-5caa-4b4f-a78e-0199735d40f1\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.resp"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"08ebb735-3715-4255-9aae-0199735d5bb5\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.none"
-  },
-  {
-    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"b0c3fce6-3baa-44eb-935d-0199735d6e4c\"]",
-    "type": "text",
-    "key": "demo.otherServices.opt.other"
-  },
-  {
-    "selector": "label[for=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-demoDiv\"]",
-    "type": "text",
-    "key": "demo.populations.label"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"]",
-    "type": "attr",
-    "key": "demo.populations.title",
-    "attr": "title"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"cb903b60-1ec8-4710-a44b-0199735e85a8\"]",
-    "type": "text",
-    "key": "demo.populations.opt.seniors"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"c27b3d6d-2cb4-46ad-ab71-0199735ea3fb\"]",
-    "type": "text",
-    "key": "demo.populations.opt.youth"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"9f14931f-d2d9-4a35-babf-0199735ed20f\"]",
-    "type": "text",
-    "key": "demo.populations.opt.racialized"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"220a99fd-e014-4833-b378-0199735ef809\"]",
-    "type": "text",
-    "key": "demo.populations.opt.black"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"e72ec3b4-36ee-4e0a-96b0-0199735f0cdb\"]",
-    "type": "text",
-    "key": "demo.populations.opt.newcomers"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"e4e1810a-874a-4515-98ef-0199735f201b\"]",
-    "type": "text",
-    "key": "demo.populations.opt.fnmi"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"047370d1-d7c0-427d-96b3-0199735f3797\"]",
-    "type": "text",
-    "key": "demo.populations.opt.disability"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"f9eca94e-3e3f-426d-96f5-0199735f5056\"]",
-    "type": "text",
-    "key": "demo.populations.opt.unhoused"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"1a0c56e1-eb9b-440a-9c86-0199735f6364\"]",
-    "type": "text",
-    "key": "demo.populations.opt.lowincome"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"a2f4e9c9-1c64-4fa0-99d8-0199735f74e5\"]",
-    "type": "text",
-    "key": "demo.populations.opt.women"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"c7d59640-f41d-4c8c-af8f-0199735f8c96\"]",
-    "type": "text",
-    "key": "demo.populations.opt.2slgbtqi"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"8c06bef4-5bd5-4424-ac88-0199735fa346\"]",
-    "type": "text",
-    "key": "demo.populations.opt.northern"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"365a0a64-0c3f-4a20-8cea-0199735fb443\"]",
-    "type": "text",
-    "key": "demo.populations.opt.rural"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"04e2729a-7587-4c0a-92eb-0199735fe914\"]",
-    "type": "text",
-    "key": "demo.populations.opt.olmc"
-  },
-  {
-    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"47206d42-7d7a-4e92-a89a-0199735ffefc\"]",
-    "type": "text",
-    "key": "demo.populations.opt.other"
-  },
-  {
-    "selector": "label[for=\"eb4436bb-e703-484c-afc7-0199736d34bf-demoDiv\"]",
-    "type": "text",
-    "key": "demo.geo.label"
-  },
-  {
-    "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-select\"]",
-    "type": "attr",
-    "key": "demo.geo.title",
-    "attr": "title"
-  },
-  {
-    "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-select\"] option[value=\"ae3153bb-d4f2-4072-9d6a-0199736d53e7\"]",
-    "type": "text",
-    "key": "demo.geo.opt.large"
-  },
-  {
-    "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-select\"] option[value=\"771f9697-f556-4266-9b63-0199736d6d83\"]",
-    "type": "text",
-    "key": "demo.geo.opt.medium"
-  },
-  {
-    "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-select\"] option[value=\"fec2b918-503c-4259-b5a8-0199736d804e\"]",
-    "type": "text",
-    "key": "demo.geo.opt.small"
-  },
-  {
-    "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-select\"] option[value=\"c870c027-e8a4-4248-b2e3-0199736d9edf\"]",
-    "type": "text",
-    "key": "demo.geo.opt.northern"
-  },
-  {
-    "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-select\"] option[value=\"08d64be6-a05c-4530-8d1d-0199736de779\"]",
-    "type": "text",
-    "key": "demo.geo.opt.rural"
-  },
-  {
-    "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-demoRow\"] .error-message",
-    "type": "text",
-    "key": "error.geo.mustChoose"
-  },
-  {
-    "selector": "label[for=\"820d636e-9fed-4604-869e-0199736e70b7-demoDiv\"]",
-    "type": "text",
-    "key": "demo.langpref.label"
-  },
-  {
-    "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"]",
-    "type": "attr",
-    "key": "demo.langpref.title",
-    "attr": "title"
-  },
-  {
-    "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"] option[value=\"4dd09e3d-5e71-425b-a4fc-0199736e9b9c\"]",
+    "selector": "#MPButtonBar .navbar-nav a[href='/advisory-committee'] span, #MPButtonBar .navbar-nav a[href='/advisory-committee']",
     "type": "text",
-    "key": "demo.langpref.opt.en"
+    "key": "nav.advisory"
   },
   {
-    "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"] option[value=\"4245aa21-b237-4ae7-9459-0199736eaf20\"]",
+    "selector": "#MPButtonBar .navbar-nav a[href='/apply'] span, #MPButtonBar .navbar-nav a[href='/apply']",
     "type": "text",
-    "key": "demo.langpref.opt.fr"
+    "key": "nav.funding"
   },
   {
-    "selector": "label[for=\"7a06d47f-5e14-4704-a05e-0199736f163a-demoDiv\"]",
+    "selector": "#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",
     "type": "text",
-    "key": "demo.access.label"
+    "key": "nav.faq"
   },
   {
-    "selector": "[id=\"7a06d47f-5e14-4704-a05e-0199736f163a-freeform\"]",
-    "type": "attr",
-    "key": "demo.access.free.placeholder",
-    "attr": "placeholder"
-  },
-  {
-    "selector": "[id=\"7a06d47f-5e14-4704-a05e-0199736f163a-demoRow\"] .error-message",
-    "type": "text",
-    "key": "error.access.mustAdd"
-  },
-  {
-    "selector": "[id=\"PageTitleH1\"]",
-    "type": "text",
-    "key": "login.activation.title"
-  },
-  {
-    "selector": "[id=\"MainCopy_ctl06_EmailCaption\"]",
-    "type": "text",
-    "key": "login.activation.caption"
-  },
-  {
-    "selector": "[id=\"MainCopy_ctl06_txtEmailAddress\"]",
-    "type": "attr",
-    "key": "login.activation.input.placeholder",
-    "attr": "placeholder"
-  },
-  {
-    "selector": "[id=\"MainCopy_ctl06_RegularExpressionValidator2\"]",
-    "type": "text",
-    "key": "login.activation.error.invalid"
-  },
-  {
-    "selector": "[id=\"MainCopy_ctl06_RequiredFieldValidator6\"]",
+    "selector": "#MPButtonBar .navbar-nav a[href='/network'] span",
     "type": "text",
-    "key": "login.activation.error.required"
-  },
-  {
-    "selector": "[id=\"MainCopy_ctl06_ActivationEmail\"]",
-    "type": "attr",
-    "key": "login.activation.submit",
-    "attr": "value"
-  },
-  {
-    "selector": "[id=\"MainCopy_AgreeButton\"]",
-    "type": "attr",
-    "key": "login.activation.agree",
-    "attr": "value"
-  },
-  {
-    "selector": "[id=\"MainCopy_DisagreeButton\"]",
-    "type": "attr",
-    "key": "login.activation.notagree",
-    "attr": "value"
+    "key": "nav.directory"
   },
   {
-    "selector": "[id=\"PageTitleH1\"]",
+    "selector": "#MPButtonBar .navbar-nav a[href='/network/members']",
     "type": "text",
-    "key": "login.activation.confirmed.title"
+    "key": "nav.memberDirectory"
   },
   {
-    "selector": "[id=\"MainCopy_ctl06_lblMEssage\"]",
+    "selector": "#MPButtonBar .navbar-nav a[href='/events'] span, #MPButtonBar .navbar-nav a[href='/events']",
     "type": "text",
-    "key": "login.activation.alreadyActive"
+    "key": "nav.events"
   }
 ]
