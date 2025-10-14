@@ -130,5 +130,26 @@
     "selector": "#MPButtonBar .navbar-nav a[href='/events'] span, #MPButtonBar .navbar-nav a[href='/events']",
     "type": "text",
     "key": "nav.events"
+  },
+  {
+    "selector": "li.dropdown > a[href=\"/communities\"] > span",
+    "type": "text",
+    "key": "nav.communities.label"
+  },
+  {
+    "selector": "li.dropdown > a[href=\"/communities\"]",
+    "type": "attr",
+    "key": "nav.communities.aria",
+    "attr": "aria-label"
+  },
+  {
+    "selector": "ul.dropdown-menu a[href=\"/communities/mycommunities\"]",
+    "type": "text",
+    "key": "nav.communities.mine"
+  },
+  {
+    "selector": "ul.dropdown-menu a[href=\"/communities/allcommunities\"]",
+    "type": "text",
+    "key": "nav.communities.all"
   }
 ]

@@ -43,4 +43,7 @@ nav.memberDirectory,Member Directory,Annuaire des membres,"#MPButtonBar .navbar-
 
 nav.events,"Events","Événements","#MPButtonBar .navbar-nav a[href='/events'] span, #MPButtonBar .navbar-nav a[href='/events']",text,
 
-
+nav.communities.label,Communities,Communautés,li.dropdown > a[href="/communities"] > span,text,
+nav.communities.aria,Show Communities submenu,Afficher le sous-menu Communautés,li.dropdown > a[href="/communities"],attr,aria-label
+nav.communities.mine,My Communities,Mes communautés,ul.dropdown-menu a[href="/communities/mycommunities"],text,
+nav.communities.all,All Communities,Toutes les communautés,ul.dropdown-menu a[href="/communities/allcommunities"],text,

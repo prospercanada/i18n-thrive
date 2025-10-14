@@ -29,3 +29,5 @@ contact.message.label,Message,Message,#MainCopy_ctl06_EmailForm label[for="MainC
 contact.message.aria,Your Message,Votre message,#MainCopy_ctl06_Comments,attr,aria-label
 
 contact.send.button,Send,Envoyer,#MainCopy_ctl06_SendButton,attr,value
+
+
