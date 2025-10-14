@@ -102,6 +102,7 @@
   "login.activation.error.required": "Please enter your email address",
   "login.activation.input.placeholder": "Email address",
   "login.activation.notagree": "I Do Not Agree",
+  "login.activation.sent": "The activation email has been sent successfully.",
   "login.activation.submit": "Send Activation Email",
   "login.activation.title": "Resilient Futures - Email Verification Pending",
   "login.button": "Login",

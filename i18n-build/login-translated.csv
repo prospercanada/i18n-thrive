@@ -249,6 +249,7 @@ login.activation.input.placeholder,Email address,Adresse courriel,[id="MainCopy_
 login.activation.error.invalid,Invalid email address,Adresse e-mail invalide,[id="MainCopy_ctl06_RegularExpressionValidator2"],text,
 login.activation.error.required,Please enter your email address,Veuillez entrer votre adresse e-mail,[id="MainCopy_ctl06_RequiredFieldValidator6"],text,
 login.activation.submit,Send Activation Email,Envoyer l'e-mail d'activation,[id="MainCopy_ctl06_ActivationEmail"],attr,value
+login.activation.sent,The activation email has been sent successfully.,Le courriel d’activation a été envoyé avec succès.,[id="MainCopy_ctl06_ErrMsg"],text,
 
 login.activation.agree,I Agree, disagree,[id="MainCopy_AgreeButton"],attr,value
 login.activation.notagree,I Do Not Agree, Je n'accepte pas,[id="MainCopy_DisagreeButton"],attr,value

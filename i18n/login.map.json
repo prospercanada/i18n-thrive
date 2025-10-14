@@ -606,6 +606,11 @@
     "attr": "value"
   },
   {
+    "selector": "[id=\"MainCopy_ctl06_ErrMsg\"]",
+    "type": "text",
+    "key": "login.activation.sent"
+  },
+  {
     "selector": "[id=\"MainCopy_AgreeButton\"]",
     "type": "attr",
     "key": "login.activation.agree",
