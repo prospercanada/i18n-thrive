@@ -1,5 +1,10 @@
 [
   {
+    "selector": "[id=\"PageTitleH1\"]",
+    "type": "text",
+    "key": "contact.title"
+  },
+  {
     "selector": ".section3 .panel.panel-form address, .row.panel.panel-form address",
     "type": "html",
     "key": "contact.address.html"

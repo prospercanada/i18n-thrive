@@ -1,6 +1,7 @@
 key,en,fr,selector,type,attr
 # contact.address.html,"60 St. Clair Avenue East, Suite 700<br>Toronto Ontario M4T 1N5<br>Canada<br>Phone: 416-665-2828<br>Toll Free: 1-877-568-1571<br>FAX: 416-665-1661","60, avenue St. Clair Est, bureau 700<br>Toronto (Ontario) M4T 1N5<br>Canada<br>Téléphone : 416-665-2828<br>Sans frais : 1-877-568-1571<br>Télécopieur : 416-665-1661",".section3 .panel.panel-form address, .row.panel.panel-form address",attr,innerHTML
 
+contact.title,Contact Us,Communiquez avec nous,[id="PageTitleH1"],text,
 contact.address.html,"60 St. Clair Avenue East, Suite 700<br>Toronto Ontario M4T 1N5<br>Canada<br>Phone: 416-665-2828<br>Toll Free: 1-877-568-1571<br>FAX: 416-665-1661","60, avenue St. Clair Est, bureau 700<br>Toronto (Ontario) M4T 1N5<br>Canada<br>Téléphone : 416-665-2828<br>Sans frais : 1-877-568-1571<br>Télécopieur : 416-665-1661",".section3 .panel.panel-form address, .row.panel.panel-form address",html,
 
 
@@ -10,16 +11,16 @@ contact.firstName.label,Your First Name,Prénom,#MainCopy_ctl06_EmailForm label[
 contact.firstName.required,Please enter your first name,Veuillez entrer votre prénom,#MainCopy_ctl06_FirstNameRequiredValidator,text,
 contact.firstName.title,Your First Name,Prénom,#MainCopy_ctl06_FirstName,attr,title
 
-contact.lastName.label,Your Last Name,Nom de famille,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_LastName"],text,
-contact.lastName.required,Please enter your last name,Veuillez entrer votre nom de famille,#MainCopy_ctl06_LastNameRequiredfieldvalidator,text,
-contact.lastName.title,Your Last Name,Nom de famille,#MainCopy_ctl06_LastName,attr,title
+contact.lastName.label,Your Last Name,Nom,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_LastName"],text,
+contact.lastName.required,Please enter your last name,Veuillez entrer votre nom,#MainCopy_ctl06_LastNameRequiredfieldvalidator,text,
+contact.lastName.title,Your Last Name,Nom,#MainCopy_ctl06_LastName,attr,title
 
-contact.email.label,Your Email Address,Adresse courriel,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_FromEmailAddress"],text,
-contact.email.required,Please enter your email address,Veuillez entrer votre adresse courriel,#MainCopy_ctl06_FromEmailAddressRequiredfieldvalidator,text,
-contact.email.title,Your Email Address,Adresse courriel,#MainCopy_ctl06_FromEmailAddress,attr,title
+contact.email.label,Your Email Address,Adresse de courriel,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_FromEmailAddress"],text,
+contact.email.required,Please enter your email address,Veuillez entrer votre adresse de courriel,#MainCopy_ctl06_FromEmailAddressRequiredfieldvalidator,text,
+contact.email.title,Your Email Address,Adresse de courriel,#MainCopy_ctl06_FromEmailAddress,attr,title
 
-contact.phone.label,Your Phone Number (optional),Votre numéro de téléphone (facultatif),#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_Phone"],text,
-contact.phone.title,Your Phone Number (optional),Votre numéro de téléphone (facultatif),#MainCopy_ctl06_Phone,attr,title
+contact.phone.label,Your Phone Number (optional),Numéro de téléphone (facultatif),#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_Phone"],text,
+contact.phone.title,Your Phone Number (optional),Numéro de téléphone (facultatif),#MainCopy_ctl06_Phone,attr,title
 
 contact.subject.label,Subject,Objet,#MainCopy_ctl06_EmailForm label[for="MainCopy_ctl06_Subject"],text,
 contact.subject.title,Subject,Objet,#MainCopy_ctl06_Subject,attr,title
