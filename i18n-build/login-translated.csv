@@ -251,8 +251,9 @@ login.activation.error.required,Please enter your email address,Veuillez entrer 
 login.activation.submit,Send Activation Email,Envoyer l'e-mail d'activation,[id="MainCopy_ctl06_ActivationEmail"],attr,value
 login.activation.sent,The activation email has been sent successfully.,Le courriel d’activation a été envoyé avec succès.,[id="MainCopy_ctl06_ErrMsg"],text,
 
-login.activation.agree,I Agree, disagree,[id="MainCopy_AgreeButton"],attr,value
-login.activation.notagree,I Do Not Agree, Je n'accepte pas,[id="MainCopy_DisagreeButton"],attr,value
+consent.agree,I Agree,J’accepte,[id="MainCopy_AgreeButton"],attr,value
+consent.disagree,I Do Not Agree,Je n’accepte pas,[id="MainCopy_DisagreeButton"],attr,value
+
 
 # https://community.prospercanada.org/login/hlaccountactivation?ContactKey=f2754f07-7648-4a2e-a854-0199da55996f&ActivateAccount=1 -- Resilient Futures – Email Verification Confirmed
 

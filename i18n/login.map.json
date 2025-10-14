@@ -613,13 +613,13 @@
   {
     "selector": "[id=\"MainCopy_AgreeButton\"]",
     "type": "attr",
-    "key": "login.activation.agree",
+    "key": "consent.agree",
     "attr": "value"
   },
   {
     "selector": "[id=\"MainCopy_DisagreeButton\"]",
     "type": "attr",
-    "key": "login.activation.notagree",
+    "key": "consent.disagree",
     "attr": "value"
   },
   {
