@@ -1,4 +1,5 @@
 {
+  "demo.access.note": "This field will be viewable by staff admin only, for the purposes of arranging accommodations where required or requested",
   "freeform.extra.input.placeholder": "Enter one additional value",
   "freeform.extra.input.title": "Enter one additional value",
   "freeform.extra.label": "Enter one additional value",

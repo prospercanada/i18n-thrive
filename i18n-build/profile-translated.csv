@@ -217,3 +217,5 @@ register.demo.fe-topics.save,Save,Enregistrer,#MainCopy_ctl50_SaveButton,attr,va
 register.demo.fe-topics.cancel,Cancel,Annuler,#MainCopy_ctl50_CancelButton,attr,value
 register.demo.fe-topics.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl50_FreeformPanel .col-md-12 > div:first-child,text,
 register.demo.fe-topics.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl50_FreeFormTextValidator,text,
+
+demo.access.note,"This field will be viewable by staff admin only, for the purposes of arranging accommodations where required or requested","Cet espace ne sera visible que par l’administration; il sert à organiser des mesures d’adaptation au besoin ou sur demande",[id="MainCopy_ctl47_lblEmptyDemographic"],text,
