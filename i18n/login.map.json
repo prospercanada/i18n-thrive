@@ -293,6 +293,11 @@
     "attr": "title"
   },
   {
+    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"00000000-0000-0000-0000-000000000000\"]",
+    "type": "text",
+    "key": "demo.feOffered.placeholder.option"
+  },
+  {
     "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"e314e9fa-f79b-4e20-88a1-0199735055d1\"]",
     "type": "text",
     "key": "demo.feOffered.opt.tax"
@@ -337,6 +342,11 @@
     "type": "attr",
     "key": "demo.otherServices.title",
     "attr": "title"
+  },
+  {
+    "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-select\"] option[value=\"00000000-0000-0000-0000-000000000000\"]",
+    "type": "text",
+    "key": "demo.otherServices.placeholder.option"
   },
   {
     "selector": "[id=\"172d3906-c563-42c3-bff0-0199735b5682-freeform\"]",
@@ -419,6 +429,11 @@
     "type": "attr",
     "key": "demo.populations.title",
     "attr": "title"
+  },
+  {
+    "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"00000000-0000-0000-0000-000000000000\"]",
+    "type": "text",
+    "key": "demo.populations.placeholder.option"
   },
   {
     "selector": "[id=\"303063c6-1cd6-4d75-8e3b-0199735e0e0d-select\"] option[value=\"cb903b60-1ec8-4710-a44b-0199735e85a8\"]",
@@ -507,6 +522,11 @@
     "attr": "title"
   },
   {
+    "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-select\"] option[value=\"00000000-0000-0000-0000-000000000000\"]",
+    "type": "text",
+    "key": "demo.geo.placeholder.option"
+  },
+  {
     "selector": "[id=\"eb4436bb-e703-484c-afc7-0199736d34bf-select\"] option[value=\"ae3153bb-d4f2-4072-9d6a-0199736d53e7\"]",
     "type": "text",
     "key": "demo.geo.opt.large"
@@ -546,6 +566,11 @@
     "type": "attr",
     "key": "demo.langpref.title",
     "attr": "title"
+  },
+  {
+    "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"] option[value=\"00000000-0000-0000-0000-000000000000\"]",
+    "type": "text",
+    "key": "demo.langpref.placeholder.option"
   },
   {
     "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"] option[value=\"4dd09e3d-5e71-425b-a4fc-0199736e9b9c\"]",
