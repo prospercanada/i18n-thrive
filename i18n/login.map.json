@@ -282,7 +282,7 @@
     "key": "demo.sector.opt.provincial"
   },
   {
-    "selector": "label[for=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv\"]",
+    "selector": ".demoType[data-demographictypekey=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10\"] .control-label",
     "type": "text",
     "key": "demo.feOffered.label"
   },
@@ -291,12 +291,6 @@
     "type": "attr",
     "key": "demo.feOffered.title",
     "attr": "title"
-  },
-  {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"]",
-    "type": "attr",
-    "key": "demo.feOffered.noneSelected",
-    "attr": "data-none-selected-text"
   },
   {
     "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"e314e9fa-f79b-4e20-88a1-0199735055d1\"]",

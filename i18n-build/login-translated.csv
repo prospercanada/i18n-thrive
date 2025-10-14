@@ -127,10 +127,9 @@ demo.sector.opt.provincial,Provincial government,Gouvernement provincial,[id="d4
 
 
 # Financial Empowerment Services Offered DROPDOWN
-
-demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,label[for="7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv"],text,
+demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,.demoType[data-demographictypekey="7ef9a3b6-0f46-4dac-b38b-0199734efe10"] .control-label,text,
+# demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,label[for="7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv"],text,
 demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
-demo.feOffered.noneSelected,Nothing selected,Aucune sélection,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,data-none-selected-text
 
 demo.feOffered.opt.tax,"Tax-filing support (e.g. free tax clinics)","Aide à la production des déclarations de revenus (p. ex., cliniques d’impôt gratuites)",[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="e314e9fa-f79b-4e20-88a1-0199735055d1"],text,
 demo.feOffered.opt.benefits,Help accessing benefits,Aide pour accéder aux prestations,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="d3ac29bd-3b42-44db-8510-0199735064f7"],text,
