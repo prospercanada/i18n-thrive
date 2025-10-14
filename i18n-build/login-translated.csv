@@ -90,30 +90,6 @@ login.remember,Remember Password?,Se souvenir du mot de passe ?,label[for="MainC
 required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
 # asterisk.legend,*,*,.SmallText .invalidInputLabel,text,
 
-# demo.orgLocation.label,Organization Location,Emplacement de l’organisme,[for$="-demoDiv"]:has(+ #0bca3586-218f-43b3-b059-0199734a100b-demoDiv),text,
-# demo.orgLocation.title,(Organization Location),(Emplacement de l’organisme),[id$="0bca3586-218f-43b3-b059-0199734a100b-select"],attr,title
-# demo.sector.label,Sector,Secteur,[for$="-demoDiv"]:has(+ #d4aedf2d-a642-4b70-81dd-0199734cd5a1-demoDiv),text,
-# demo.sector.title,(Sector),(Secteur),[id$="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"],attr,title
-# demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,[for$="-demoDiv"]:has(+ #7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv),text,
-# demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id$="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
-# demo.feOffered.free.placeholder,Add your own,Ajouter le vôtre,[id$="7ef9a3b6-0f46-4dac-b38b-0199734efe10-freeform"],attr,placeholder
-# demo.otherServices.label,Other Services Offered,Autres services offerts,[for$="-demoDiv"]:has(+ #172d3906-c563-42c3-bff0-0199735b5682-demoDiv),text,
-# demo.otherServices.title,(Other Services Offered),(Autres services offerts),[id$="172d3906-c563-42c3-bff0-0199735b5682-select"],attr,title
-# demo.otherServices.free.placeholder,Add your own,Ajouter le vôtre,[id$="172d3906-c563-42c3-bff0-0199735b5682-freeform"],attr,placeholder
-# demo.populations.label,Populations Served,Populations desservies,[for$="-demoDiv"]:has(+ #303063c6-1cd6-4d75-8e3b-0199735e0e0d-demoDiv),text,
-# demo.populations.title,(Populations Served),(Populations desservies),[id$="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"],attr,title
-# demo.geo.label,Geographic Area(s) Served,Région(s) desservie(s),[for$="-demoDiv"]:has(+ #eb4436bb-e703-484c-afc7-0199736d34bf-demoDiv),text,
-# demo.geo.title,(Geographic Area(s) Served),(Région(s) desservie(s)),[id$="eb4436bb-e703-484c-afc7-0199736d34bf-select"],attr,title
-# demo.langpref.label,Language Preference,Préférence linguistique,[for$="-demoDiv"]:has(+ #820d636e-9fed-4604-869e-0199736e70b7-demoDiv),text,
-# demo.langpref.title,(Language Preference),(Préférence linguistique),[id$="820d636e-9fed-4604-869e-0199736e70b7-select"],attr,title
-# demo.accessibility.label,Accessibility Requirements,Besoins en accessibilité,[for$="-demoDiv"]:has(+ #7a06d47f-5e14-4704-a05e-0199736f163a-demoDiv),text,
-# demo.accessibility.free.placeholder,Add your own,Ajouter le vôtre,[id$="7a06d47f-5e14-4704-a05e-0199736f163a-freeform"],attr,placeholder
-
-# error.mustChoose,Must choose a value,Vous devez choisir une valeur,#0bca3586-218f-43b3-b059-0199734a100b-demoRow .error-message,text,
-# error.mustChooseSector,Must choose a value,Vous devez choisir une valeur,#d4aedf2d-a642-4b70-81dd-0199734cd5a1-demoRow .error-message,text,
-# error.mustChooseFE,Must choose a value,Vous devez choisir une valeur,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoRow .error-message,text,
-# error.mustChooseOther,Must choose a value or add your own,Vous devez choisir une valeur ou ajouter la vôtre,#172d3906-c563-42c3-bff0-0199735b5682-demoRow .error-message,text,
-
 # Organization Location   DROPDOWN
 demo.orgLocation.label,Organization Location,Emplacement de l’organisme,label[for="0bca3586-218f-43b3-b059-0199734a100b-demoDiv"],text,
 demo.orgLocation.title,(Organization Location),(Emplacement de l’organisme),[id="0bca3586-218f-43b3-b059-0199734a100b-select"],attr,title
@@ -151,18 +127,32 @@ demo.sector.opt.provincial,Provincial government,Gouvernement provincial,[id="d4
 
 
 # Financial Empowerment Services Offered DROPDOWN
+
 demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,label[for="7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv"],text,
-demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
-demo.feOffered.placeholder.option,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="00000000-0000-0000-0000-000000000000"],text,
+demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select,attr,title
+demo.feOffered.noneSelected,Nothing selected,Aucune sélection,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select,attr,data-none-selected-text
+
+demo.feOffered.opt.tax,"Tax-filing support (e.g. free tax clinics)","Aide à la production des déclarations de revenus (p. ex., cliniques d’impôt gratuites)",#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value="e314e9fa-f79b-4e20-88a1-0199735055d1"],text,
+demo.feOffered.opt.benefits,Help accessing benefits,Aide pour accéder aux prestations,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value="d3ac29bd-3b42-44db-8510-0199735064f7"],text,
+demo.feOffered.opt.coaching,"One-on-one financial coaching (e.g. financial goal setting and action planning)","Coaching financier individuel (p. ex., fixation d’objectifs financiers et plan d’action)",#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value="18be00b1-e86a-4c55-b5a5-0199735073ac"],text,
+demo.feOffered.opt.counselling,"Financial counselling and problem solving (including debt management)","Consultation et résolution de problèmes financiers (y compris la gestion des dettes)",#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value="ffc0566b-cf88-4574-9ad8-0199735082c9"],text,
+demo.feOffered.opt.education,Financial education,Éducation financière,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value="f1bb407b-582e-4a74-8059-019973509314"],text,
+demo.feOffered.opt.none,None,Aucun,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value="c6872cc1-f47d-4f74-87e0-01997350a208"],text,
+demo.feOffered.opt.other,Other,Autre,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value="bcca9ce0-d09c-4db3-81a3-01997350bb05"],text,
+
+demo.feOffered.error.mustChoose,Must choose a value,Vous devez choisir une valeur,#7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoRow .error-message.invalidInputLabel,text,
+
+# demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,label[for="7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv"],text,
+# demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
 
 
-demo.feOffered.opt.tax,Tax-filing support (e.g. free tax clinics),Aide à la production des déclarations de revenus (p. ex. cliniques d’impôts gratuites),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="e314e9fa-f79b-4e20-88a1-0199735055d1"],text,
-demo.feOffered.opt.benefits,Help accessing benefits,Aide à l’accès aux prestations,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="d3ac29bd-3b42-44db-8510-0199735064f7"],text,
-demo.feOffered.opt.coach,One-on-one financial coaching (e.g. financial goal setting and action planning),Accompagnement financier individuel (p. ex. fixation d’objectifs et plan d’action),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="18be00b1-e86a-4c55-b5a5-0199735073ac"],text,
-demo.feOffered.opt.counsel,Financial counselling and problem solving (including debt management),Conseils financiers et résolution de problèmes (y compris la gestion des dettes),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="ffc0566b-cf88-4574-9ad8-0199735082c9"],text,
-demo.feOffered.opt.edu,Financial education,Éducation financière,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="f1bb407b-582e-4a74-8059-019973509314"],text,
-demo.feOffered.opt.none,None,Aucun,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="c6872cc1-f47d-4f74-87e0-01997350a208"],text,
-demo.feOffered.opt.other,Other,Autre,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="bcca9ce0-d09c-4db3-81a3-01997350bb05"],text,
+# demo.feOffered.opt.tax,Tax-filing support (e.g. free tax clinics),Aide à la production des déclarations de revenus (p. ex. cliniques d’impôts gratuites),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="e314e9fa-f79b-4e20-88a1-0199735055d1"],text,
+# demo.feOffered.opt.benefits,Help accessing benefits,Aide à l’accès aux prestations,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="d3ac29bd-3b42-44db-8510-0199735064f7"],text,
+# demo.feOffered.opt.coach,One-on-one financial coaching (e.g. financial goal setting and action planning),Accompagnement financier individuel (p. ex. fixation d’objectifs et plan d’action),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="18be00b1-e86a-4c55-b5a5-0199735073ac"],text,
+# demo.feOffered.opt.counsel,Financial counselling and problem solving (including debt management),Conseils financiers et résolution de problèmes (y compris la gestion des dettes),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="ffc0566b-cf88-4574-9ad8-0199735082c9"],text,
+# demo.feOffered.opt.edu,Financial education,Éducation financière,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="f1bb407b-582e-4a74-8059-019973509314"],text,
+# demo.feOffered.opt.none,None,Aucun,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="c6872cc1-f47d-4f74-87e0-01997350a208"],text,
+# demo.feOffered.opt.other,Other,Autre,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="bcca9ce0-d09c-4db3-81a3-01997350bb05"],text,
 
 
 

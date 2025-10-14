@@ -287,50 +287,56 @@
     "key": "demo.feOffered.label"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"]",
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select",
     "type": "attr",
     "key": "demo.feOffered.title",
     "attr": "title"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"00000000-0000-0000-0000-000000000000\"]",
-    "type": "text",
-    "key": "demo.feOffered.placeholder.option"
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select",
+    "type": "attr",
+    "key": "demo.feOffered.noneSelected",
+    "attr": "data-none-selected-text"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"e314e9fa-f79b-4e20-88a1-0199735055d1\"]",
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value=\"e314e9fa-f79b-4e20-88a1-0199735055d1\"]",
     "type": "text",
     "key": "demo.feOffered.opt.tax"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"d3ac29bd-3b42-44db-8510-0199735064f7\"]",
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value=\"d3ac29bd-3b42-44db-8510-0199735064f7\"]",
     "type": "text",
     "key": "demo.feOffered.opt.benefits"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"18be00b1-e86a-4c55-b5a5-0199735073ac\"]",
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value=\"18be00b1-e86a-4c55-b5a5-0199735073ac\"]",
     "type": "text",
-    "key": "demo.feOffered.opt.coach"
+    "key": "demo.feOffered.opt.coaching"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"ffc0566b-cf88-4574-9ad8-0199735082c9\"]",
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value=\"ffc0566b-cf88-4574-9ad8-0199735082c9\"]",
     "type": "text",
-    "key": "demo.feOffered.opt.counsel"
+    "key": "demo.feOffered.opt.counselling"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"f1bb407b-582e-4a74-8059-019973509314\"]",
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value=\"f1bb407b-582e-4a74-8059-019973509314\"]",
     "type": "text",
-    "key": "demo.feOffered.opt.edu"
+    "key": "demo.feOffered.opt.education"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"c6872cc1-f47d-4f74-87e0-01997350a208\"]",
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value=\"c6872cc1-f47d-4f74-87e0-01997350a208\"]",
     "type": "text",
     "key": "demo.feOffered.opt.none"
   },
   {
-    "selector": "[id=\"7ef9a3b6-0f46-4dac-b38b-0199734efe10-select\"] option[value=\"bcca9ce0-d09c-4db3-81a3-01997350bb05\"]",
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-select option[value=\"bcca9ce0-d09c-4db3-81a3-01997350bb05\"]",
     "type": "text",
     "key": "demo.feOffered.opt.other"
+  },
+  {
+    "selector": "#7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoRow .error-message.invalidInputLabel",
+    "type": "text",
+    "key": "demo.feOffered.error.mustChoose"
   },
   {
     "selector": "label[for=\"172d3906-c563-42c3-bff0-0199735b5682-demoDiv\"]",
