@@ -10,6 +10,22 @@
     "key": "profile.bio.heading"
   },
   {
+    "selector": "[id=\"MainCopy_ctl29_pnlNoSummary\"] p:first-of-type",
+    "type": "text",
+    "key": "profile.bio.nosummary.text"
+  },
+  {
+    "selector": "[id=\"MainCopy_ctl29_lnkInsert\"]",
+    "type": "text",
+    "key": "profile.bio.add"
+  },
+  {
+    "selector": "[id=\"MainCopy_ctl29_lnkInsert\"]",
+    "type": "attr",
+    "key": "profile.bio.add.aria",
+    "attr": "aria-label"
+  },
+  {
     "selector": "#MainCopy_ctl29_HtmlEditor > div.modal-header > label",
     "type": "text",
     "key": "profile.bio.editTitle"

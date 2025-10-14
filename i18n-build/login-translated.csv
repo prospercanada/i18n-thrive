@@ -235,3 +235,17 @@ demo.langpref.opt.fr,French,Français,[id="820d636e-9fed-4604-869e-0199736e70b7-
 demo.access.label,Accessibility Requirements,Exigences en matière d’accessibilité,label[for="7a06d47f-5e14-4704-a05e-0199736f163a-demoDiv"],text,
 demo.access.free.placeholder,Add your own,Ajoutez le vôtre,[id="7a06d47f-5e14-4704-a05e-0199736f163a-freeform"],attr,placeholder
 error.access.mustAdd,Must add your own value,Vous devez ajouter la vôtre,[id="7a06d47f-5e14-4704-a05e-0199736f163a-demoRow"] .error-message,text,
+
+
+# https://community.prospercanada.org/login/hlactivationpending --Resilient Futures - Email Verification Pending
+
+login.activation.title,Resilient Futures - Email Verification Pending,Un avenir résilient - Vérification de l’adresse électronique en cours,[id="PageTitleH1"],text,
+
+login.activation.caption,Please enter email address registered,Veuillez entrer l’adresse courriel enregistrée,[id="MainCopy_ctl06_EmailCaption"],text,
+login.activation.input.placeholder,Email address,Adresse courriel,[id="MainCopy_ctl06_txtEmailAddress"],attr,placeholder
+login.activation.error.invalid,Invalid email address,Adresse e-mail invalide,[id="MainCopy_ctl06_RegularExpressionValidator2"],text,
+login.activation.error.required,Please enter your email address,Veuillez entrer votre adresse e-mail,[id="MainCopy_ctl06_RequiredFieldValidator6"],text,
+login.activation.submit,Send Activation Email,Envoyer l'e-mail d'activation,[id="MainCopy_ctl06_ActivationEmail"],attr,value
+
+login.activation.agree,I Agree, disagree,[id="MainCopy_AgreeButton"],attr,value
+login.activation.notagree,I Do Not Agree, Je n'accepte pas,[id="MainCopy_DisagreeButton"],attr,value

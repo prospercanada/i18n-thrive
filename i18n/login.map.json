@@ -567,5 +567,49 @@
     "selector": "[id=\"7a06d47f-5e14-4704-a05e-0199736f163a-demoRow\"] .error-message",
     "type": "text",
     "key": "error.access.mustAdd"
+  },
+  {
+    "selector": "[id=\"PageTitleH1\"]",
+    "type": "text",
+    "key": "login.activation.title"
+  },
+  {
+    "selector": "[id=\"MainCopy_ctl06_EmailCaption\"]",
+    "type": "text",
+    "key": "login.activation.caption"
+  },
+  {
+    "selector": "[id=\"MainCopy_ctl06_txtEmailAddress\"]",
+    "type": "attr",
+    "key": "login.activation.input.placeholder",
+    "attr": "placeholder"
+  },
+  {
+    "selector": "[id=\"MainCopy_ctl06_RegularExpressionValidator2\"]",
+    "type": "text",
+    "key": "login.activation.error.invalid"
+  },
+  {
+    "selector": "[id=\"MainCopy_ctl06_RequiredFieldValidator6\"]",
+    "type": "text",
+    "key": "login.activation.error.required"
+  },
+  {
+    "selector": "[id=\"MainCopy_ctl06_ActivationEmail\"]",
+    "type": "attr",
+    "key": "login.activation.submit",
+    "attr": "value"
+  },
+  {
+    "selector": "[id=\"MainCopy_AgreeButton\"]",
+    "type": "attr",
+    "key": "login.activation.agree",
+    "attr": "value"
+  },
+  {
+    "selector": "[id=\"MainCopy_DisagreeButton\"]",
+    "type": "attr",
+    "key": "login.activation.notagree",
+    "attr": "value"
   }
 ]

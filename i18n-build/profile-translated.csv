@@ -5,6 +5,11 @@ profile.link.myProfile,My Profile,Mon profil,#MainCopy_ctl27_ProfileLink,text,
 
 # ===== Bio =====
 profile.bio.heading,Bio,Biographie,#MainCopy_ctl29_TitleText,text,
+
+profile.bio.nosummary.text,Please add details you would like to share about yourself,Veuillez ajouter des renseignements que vous souhaitez partager à votre sujet,[id="MainCopy_ctl29_pnlNoSummary"] p:first-of-type,text,
+profile.bio.add,Add,Ajouter,[id="MainCopy_ctl29_lnkInsert"],text,
+profile.bio.add.aria,add bio information,ajouter des renseignements biographiques,[id="MainCopy_ctl29_lnkInsert"],attr,aria-label
+
 profile.bio.editTitle,Edit Bio,Modifier la biographie,#MainCopy_ctl29_HtmlEditor > div.modal-header > label,text,
 profile.bio.save,Save,Enregistrer,#MainCopy_ctl29_Btn_Save,attr,value
 profile.bio.cancel,Cancel,Annuler,#MainCopy_ctl29_lnkCancel,text,
