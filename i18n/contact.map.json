@@ -1,9 +1,8 @@
 [
   {
     "selector": ".section3 .panel.panel-form address, .row.panel.panel-form address",
-    "type": "attr",
-    "key": "contact.address.html",
-    "attr": "innerHTML"
+    "type": "html",
+    "key": "contact.address.html"
   },
   {
     "selector": "#MainCopy_ctl06_EmailForm h2",

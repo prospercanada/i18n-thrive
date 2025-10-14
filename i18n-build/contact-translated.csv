@@ -1,5 +1,8 @@
 key,en,fr,selector,type,attr
-contact.address.html,"60 St. Clair Avenue East, Suite 700<br>Toronto Ontario M4T 1N5<br>Canada<br>Phone: 416-665-2828<br>Toll Free: 1-877-568-1571<br>FAX: 416-665-1661","60, avenue St. Clair Est, bureau 700<br>Toronto (Ontario) M4T 1N5<br>Canada<br>Téléphone : 416-665-2828<br>Sans frais : 1-877-568-1571<br>Télécopieur : 416-665-1661",".section3 .panel.panel-form address, .row.panel.panel-form address",attr,innerHTML
+# contact.address.html,"60 St. Clair Avenue East, Suite 700<br>Toronto Ontario M4T 1N5<br>Canada<br>Phone: 416-665-2828<br>Toll Free: 1-877-568-1571<br>FAX: 416-665-1661","60, avenue St. Clair Est, bureau 700<br>Toronto (Ontario) M4T 1N5<br>Canada<br>Téléphone : 416-665-2828<br>Sans frais : 1-877-568-1571<br>Télécopieur : 416-665-1661",".section3 .panel.panel-form address, .row.panel.panel-form address",attr,innerHTML
+
+contact.address.html,"60 St. Clair Avenue East, Suite 700<br>Toronto Ontario M4T 1N5<br>Canada<br>Phone: 416-665-2828<br>Toll Free: 1-877-568-1571<br>FAX: 416-665-1661","60, avenue St. Clair Est, bureau 700<br>Toronto (Ontario) M4T 1N5<br>Canada<br>Téléphone : 416-665-2828<br>Sans frais : 1-877-568-1571<br>Télécopieur : 416-665-1661",".section3 .panel.panel-form address, .row.panel.panel-form address",html,
+
 
 contact.form.heading,Send Us A Message,Envoyez-nous un message,#MainCopy_ctl06_EmailForm h2,text,
 
