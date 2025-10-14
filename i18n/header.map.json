@@ -115,5 +115,20 @@
     "selector": "#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar .navbar-nav a[href='/faq']",
     "type": "text",
     "key": "nav.faq"
+  },
+  {
+    "selector": "#MPButtonBar .navbar-nav a[href='/network'] span",
+    "type": "text",
+    "key": "nav.directory"
+  },
+  {
+    "selector": "#MPButtonBar .navbar-nav a[href='/network/members']",
+    "type": "text",
+    "key": "nav.memberDirectory"
+  },
+  {
+    "selector": "#MPButtonBar .navbar-nav a[href='/events'] span, #MPButtonBar .navbar-nav a[href='/events']",
+    "type": "text",
+    "key": "nav.events"
   }
 ]
