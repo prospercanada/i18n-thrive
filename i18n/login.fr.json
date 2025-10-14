@@ -119,5 +119,6 @@
   "password.policy.html": "La longueur doit être comprise entre 8 et 30 caractères.<br>oit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial (~!@#$%^&*()_+{}:\"<>?)",
   "required.note": "Indique que le champ est obligatoire",
   "signup.title": "Pas encore inscrit ? Créez un compte",
-  "state.label": "Province/État"
+  "state.label": "Province/État",
+  "zopcode.label": "Code postal"
 }

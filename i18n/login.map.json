@@ -93,6 +93,11 @@
     "key": "state.label"
   },
   {
+    "selector": "[id='MainCopy_ctl10_ZipCodeLabel1']",
+    "type": "text",
+    "key": "zopcode.label"
+  },
+  {
     "selector": "[id$=\"_PasswordPolicyText\"]",
     "type": "html",
     "key": "password.policy.html"

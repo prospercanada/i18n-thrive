@@ -72,6 +72,9 @@ country.label,Country,Pays,[id='lblCountry'],text,
 # country.title,(Country),(Pays),[id$="_dsCountryStateProvinceList_ddlCountry"],attr,title
 # country.placeholder.option,(Country),(Pays),[id$="_dsCountryStateProvinceList_ddlCountry"] option[value=""],text,
 state.label,State/Province,Province/État,[id='lblState'],text,
+zopcode.label,Postal Code, Code postal,[id='MainCopy_ctl10_ZipCodeLabel1'],text,
+
+
 # state.title,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"],attr,title
 # state.placeholder.option,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"] option[value=""],text,
 password.policy.html,Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,La longueur doit être comprise entre 8 et 30 caractères.<br>oit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial (~!@#$%^&*()_+{}:"<>?),[id$="_PasswordPolicyText"],html,
