@@ -36,16 +36,10 @@
     "attr": "value"
   },
   {
-    "selector": "[id=\"MainCopy_ctl10_CreateAccountButton\"]",
+    "selector": "input[type=\"submit\"][id^=\"MainCopy_\"][id$=\"_CreateAccountButton\"]",
     "type": "attr",
     "key": "login.submit",
     "attr": "value"
-  },
-  {
-    "selector": "[id=\"MainCopy_ctl10_CreateAccountButton\"]",
-    "type": "attr",
-    "key": "login.submit.aria",
-    "attr": "aria-label"
   },
   {
     "selector": "[id$=\"_SignupSection\"] .panel-title strong",

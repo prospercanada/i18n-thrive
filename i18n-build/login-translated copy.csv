@@ -8,10 +8,8 @@ login.forgot.link,Did You Forget Your Password?,Mot de passe oublié ?,#MainCopy
 login.remember.label," Stay signed in for 5 days"," Rester connecté pendant 5 jours","#MainCopy_ctl07_Remember + label",text,
 login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
 
-# login.submit,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,value
-login.submit,Create Account,Créer un compte,input[type="submit"][id^="MainCopy_"][id$="_CreateAccountButton"],attr,value
-
-#login.submit.aria,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,aria-label
+login.submit,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,value
+login.submit.aria,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,aria-label
 
 
 # Regiser Form

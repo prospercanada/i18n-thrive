@@ -124,7 +124,6 @@
   "login.remember.label": "Rester connecté pendant 5 jours",
   "login.signup.link": "Nouveau membre / Inscrivez-vous",
   "login.submit": "Créer un compte",
-  "login.submit.aria": "Créer un compte",
   "password.label": "Mot de passe",
   "password.placeholder": "Mot de passe",
   "password.policy.html": "La longueur doit être comprise entre 8 et 30 caractères.<br>oit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial (~!@#$%^&*()_+{}:\"<>?)",
