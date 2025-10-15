@@ -1,9 +1,8 @@
 [
   {
-    "selector": "#CommunityTabsContainer li:first-child > a",
-    "type": "attr",
-    "key": "comm.tabs.home",
-    "attr": "data-i18n-text"
+    "selector": "#MainCopy_ctl02_Tab1Link",
+    "type": "text",
+    "key": "comm.tabs.home"
   },
   {
     "selector": "a[data-tab=\"discussions\"]",
