@@ -48,11 +48,6 @@
     "attr": "aria-label"
   },
   {
-    "selector": "#RibbitWelcome .Login a[qa-id='login-link']",
-    "type": "text",
-    "key": "auth.login"
-  },
-  {
     "selector": "[id$=\"_SignupSection\"] .panel-title strong",
     "type": "text",
     "key": "signup.title"

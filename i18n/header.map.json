@@ -151,5 +151,10 @@
     "selector": "ul.dropdown-menu a[href=\"/communities/allcommunities\"]",
     "type": "text",
     "key": "nav.communities.all"
+  },
+  {
+    "selector": "#RibbitWelcome .Login a[qa-id='login-link']",
+    "type": "text",
+    "key": "auth.login"
   }
 ]

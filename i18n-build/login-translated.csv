@@ -50,7 +50,7 @@ login.submit.aria,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAcco
 # register.required.hint.html,"<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indicates that the field is required</label>","<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indique que le champ est obligatoire</label>",".SmallText",html,
 
 
-auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,
+# auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,
 
 
 # Regiser Form

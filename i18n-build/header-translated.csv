@@ -47,3 +47,5 @@ nav.communities.label,Communities,Communautés,li.dropdown > a[href="/communitie
 nav.communities.aria,Show Communities submenu,Afficher le sous-menu Communautés,li.dropdown > a[href="/communities"],attr,aria-label
 nav.communities.mine,My Communities,Mes communautés,ul.dropdown-menu a[href="/communities/mycommunities"],text,
 nav.communities.all,All Communities,Toutes les communautés,ul.dropdown-menu a[href="/communities/allcommunities"],text,
+
+auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,

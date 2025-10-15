@@ -1,4 +1,5 @@
 {
+  "auth.login": "Se connecter",
   "create.button": "Créer",
   "create.button.sronly": "Basculer le menu",
   "create.menu.discussion": "Fil de discussion",
