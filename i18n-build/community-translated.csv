@@ -5,9 +5,9 @@ comm.tabs.library,"Library ","Bibliothèque ",a[data-tab="resources"],attr,data-
 comm.tabs.events,"Events ","Événements ",a[data-tab="events"],attr,data-i18n-text
 comm.tabs.members,"Members ","Membres ",a[data-tab="members"],attr,data-i18n-text
 
-library.latest.title,Latest Library Entries,Dernières entrées de la bibliothèque,h2#MainCopy_ctl14_TitleText,text,
-comm.announcements.title,Announcements,Annonces,h2#MainCopy_ctl12_TitleText,text,
-events.upcoming.title,Upcoming Events,Événements à venir,h2#MainCopy_ctl07_TitleText,text,
+library.latest.title,Latest Library Entries,Dernières entrées de la bibliothèque,#MainCopy_ctl14_TitleText,text,
+comm.announcements.title,Announcements,Annonces,#MainCopy_ctl12_TitleText,text,
+events.upcoming.title,Upcoming Events,Événements à venir,#MainCopy_ctl07_TitleText,text,
 comm.latestDiscussions,"Latest Discussions ","Dernières discussions. ",#MainCopy_ctl09_TitleText,attr,data-i18n-text
 
 # comm.latestDiscussions,"Latest Discussions ","Dernières discussions ",#MainCopy_ctl09_TitleText,attr,data-i18n-text
