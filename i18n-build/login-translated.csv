@@ -1,13 +1,5 @@
 key,en,fr,selector,type,attr
 
-# login.panel.title,Members - Login here,Membres — Connectez-vous ici,#MainCopy_ctl07_LoginSectionH2,text,
-# login.email.label,Email,Courriel,#MainCopy_ctl07_LoginUserNameLabel,text,
-# login.password.label,Password,Mot de passe,#MainCopy_ctl07_LoginPasswordLabel,text,
-# login.signup.link,New User/Register Now,Nouvel utilisateur / Inscrivez-vous maintenant,#MainCopy_ctl07_signupLabel,text,
-# login.forgot.link,Did You Forget Your Password?,Avez-vous oublié votre mot de passe ?,#MainCopy_ctl07_ForgotPassword,text,
-# login.remember.label,Stay signed in for 5 days,Rester connecté pendant 5 jours,#MainCopy_ctl07_Remember + label,text,
-# login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
-
 login.panel.title,Members - Login here,Membres — Connectez-vous ici,#MainCopy_ctl07_LoginSectionH2,text,
 login.email.label,Email,Adresse courriel,#MainCopy_ctl07_LoginUserNameLabel,text,
 login.password.label,Password,Mot de passe,#MainCopy_ctl07_LoginPasswordLabel,text,
@@ -16,79 +8,42 @@ login.forgot.link,Did You Forget Your Password?,Mot de passe oublié ?,#MainCopy
 login.remember.label," Stay signed in for 5 days"," Rester connecté pendant 5 jours","#MainCopy_ctl07_Remember + label",text,
 login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
 
-
-# ===== Demographics block high-level labels =====
-# register.demo.org-location,Organization Location,Emplacement de l’organisme,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-# register.demo.sector,Sector,Secteur,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-# register.demo.fe-offered,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-# register.demo.other-services,Other Services Offered,Autres services offerts,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-# register.demo.populations,Populations Served,Populations desservies,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-# register.demo.fed-riding,Federal Riding,Circonscription fédérale,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-# register.demo.geo-served,Geographic Area(s) Served,Région(s) desservie(s),"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-# register.demo.lang-pref,Language Preference,Langue préférée,"#MainCopy_ctl10_divDemographics label[for$='-demoDiv']",text,
-
-# ===== Demographic dropdown “button text” placeholder (the mirrored button) =====
-# register.demo.btn.org-location,(Organization Location),(Emplacement de l’organisme),"button[data-id$='-select'][title='(Organization Location)']",attr,title
-# register.demo.btn.sector,(Sector),(Secteur),"button[data-id$='-select'][title='(Sector)']",attr,title
-# register.demo.btn.fe-offered,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),"button[data-id$='-select'][title='(Financial Empowerment Services Offered)']",attr,title
-# register.demo.btn.other-services,(Other Services Offered),(Autres services offerts),"button[data-id$='-select'][title='(Other Services Offered)']",attr,title
-# register.demo.btn.populations,(Populations Served),(Populations desservies),"button[data-id$='-select'][title='(Populations Served)']",attr,title
-# register.demo.btn.geo-served,(Geographic Area(s) Served),(Région(s) desservie(s)),"button[data-id$='-select'][title='(Geographic Area(s) Served)']",attr,title
-# register.demo.btn.lang-pref,(Language Preference),(Langue préférée),"button[data-id$='-select'][title='(Language Preference)']",attr,title
-
-# ===== Password policy (has <br> and entities) =====
-# register.password.policy.html,"Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:&quot;&lt;&gt;?-","La longueur doit être comprise entre 8 et 30 caractères.<br>Doit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial : ~!@#$%^&amp;*()_+{}:&quot;&lt;&gt;?-",#MainCopy_ctl10_PasswordPolicyText,html,
-
-# ===== Button =====
-# register.btn.create,Create Account,Créer un compte,#MainCopy_ctl10_CreateAccountButton,attr,value
-
 login.submit,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,value
 login.submit.aria,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,aria-label
-
-
-# ===== “required” hint line (simple approach: replace whole sentence) =====
-# register.required.hint.html,"<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indicates that the field is required</label>","<br><label class='control-label invalidInputLabel'>*</label> <label class='control-label'> Indique que le champ est obligatoire</label>",".SmallText",html,
-
-
-# auth.login,Log in,Se connecter,#RibbitWelcome .Login a[qa-id='login-link'],text,
 
 
 # Regiser Form
 
 signup.title,Not registered yet? Create an account,Pas encore inscrit ? Créez un compte,[id$="_SignupSection"] .panel-title strong,text,
 email.label,Email,Courriel,[id$="_EmailAddressLabel"],text,
-# email.input.title,Email,Courriel,[id$="_EmailAddress"],attr,title
-# email.input.placeholder,Email,Courriel,[id$="_EmailAddress"],attr,placeholder
-# email.invalid,Invalid Email Address,Adresse courriel invalide,[id$="_EmailAddressRegValidator"],text,
 firstname.label,First Name,Prénom,[id$="_FirstNameLabel"],text,
-# firstname.input.placeholder,First Name,Prénom,[id$="_FirstName"],attr,placeholder
 lastname.label,Last Name,Nom,[id$="_LastNameLabel"],text,
-# lastname.input.placeholder,Last Name,Nom de famille,[id$="_LastName"],attr,placeholder
 company.label,Company Name,Nom de l’organisme,[id$="_CompanyNameLabel"],text,
-# company.input.placeholder,Company Name,Nom de l'entreprise,[id$="_CompanyName"],attr,placeholder
 city.label,City,Ville,[id$="_CityLabel"],text,
-# city.input.placeholder,City,Ville,[id$="_City"],attr,placeholder
 country.label,Country,Pays,[id='lblCountry'],text,
-# country.title,(Country),(Pays),[id$="_dsCountryStateProvinceList_ddlCountry"],attr,title
-# country.placeholder.option,(Country),(Pays),[id$="_dsCountryStateProvinceList_ddlCountry"] option[value=""],text,
 state.label,State/Province,Province/État,[id='lblState'],text,
 zopcode.label,Postal Code, Code postal,[id='MainCopy_ctl10_ZipCodeLabel1'],text,
 
+# Validation errors
+register.required.email,Email must not be empty,Le courriel ne doit pas être vide,#MainCopy_ctl10_RequiredFieldValidator1,text,
+register.required.firstName,First Name must not be empty,Le prénom ne doit pas être vide,#MainCopy_ctl10_RequiredFieldValidator2,text,
+register.required.lastName,Last Name must not be empty,Le nom de famille ne doit pas être vide,#MainCopy_ctl10_RequiredFieldValidator3,text,
+register.required.company,Company Name must not be empty,Le nom de l’entreprise ne doit pas être vide,#MainCopy_ctl10_RequiredFieldValidator4,text,
 
-# state.title,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"],attr,title
-# state.placeholder.option,(State/Province),(Province/État),[id$="_dsCountryStateProvinceList_ddlState"] option[value=""],text,
+# Validation errors (password)
+register.required.password,Password must be set,Le mot de passe est obligatoire,#MainCopy_ctl10_RequiredFieldValidator5,text,
+register.required.passwordConfirm,Confirmation password must equal password entered,Le mot de passe de confirmation doit correspondre au mot de passe saisi,#MainCopy_ctl10_RequiredFieldValidator6,text,
+
+
 password.policy.html,Length must be between 8 - 30 characters.<br>Must contain at least 1 capital letter(s).<br>Must contain at least 1 numeric character(s) (0-9).<br>Must contain at least 1 special character(s): ~!@#$%^&amp;*()_+{}:"&lt;&gt;?-,La longueur doit être comprise entre 8 et 30 caractères.<br>oit contenir au moins 1 lettre majuscule.<br>Doit contenir au moins 1 chiffre (0-9).<br>Doit contenir au moins 1 caractère spécial (~!@#$%^&*()_+{}:"<>?),[id$="_PasswordPolicyText"],html,
 password.label,Password,Mot de passe,[id$="_PasswordLabel"],text,
 password.placeholder,Password,Mot de passe,[id$="_Password"],attr,placeholder
 confirm.label,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPasswordLabel"],text,
 confirm.placeholder,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPassword"],attr,placeholder
 
-# remember.label,Remember Password?,Se souvenir du mot de passe ?,'label[for$="_Remember2"]',text,
 login.remember,Remember Password?,Se souvenir du mot de passe ?,label[for="MainCopy_ctl10_Remember2"],text,
-
-# button.create,value=Create Account,value=Créer un compte,[id$="_CreateAccountButton"],attr,value
 required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
-# asterisk.legend,*,*,.SmallText .invalidInputLabel,text,
+
 
 # Organization Location   DROPDOWN
 demo.orgLocation.label,Organization Location,Emplacement de l’organisme,label[for="0bca3586-218f-43b3-b059-0199734a100b-demoDiv"],text,
@@ -110,6 +65,9 @@ demo.orgLocation.opt.qc,Quebec (QC),Québec (QC),[id="0bca3586-218f-43b3-b059-01
 demo.orgLocation.opt.sk,Saskatchewan (SK),Saskatchewan (SK),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="5b3a7785-b326-4729-9ec7-0199734b4d8d"],text,
 demo.orgLocation.opt.yt,Yukon (YT),Yukon (YT),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="cd009189-0e53-4e97-8809-0199734b5cf3"],text,
 
+demo.orgLocation.error.mustChoose,Must choose a value,Vous devez choisir une valeur,[id="0bca3586-218f-43b3-b059-0199734a100b-demoRow"] .error-message.invalidInputLabel,text,
+
+
 # Sector  DROPDOWN
 demo.sector.label,Sector,Secteur,.demoType[data-demographictypekey="d4aedf2d-a642-4b70-81dd-0199734cd5a1"] .control-label,text,
 demo.sector.title,(Sector),(Secteur),[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"],attr,title
@@ -124,6 +82,8 @@ demo.sector.opt.municipal,Municipal government,Administration municipale,[id="d4
 demo.sector.opt.npo,Non-profit sector,Secteur sans but lucratif,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="09988a56-6c73-4ec8-8005-0199734de470"],text,
 demo.sector.opt.private,Private sector,Secteur privé,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="2c024a36-a121-470d-be13-0199734dcfd0"],text,
 demo.sector.opt.provincial,Provincial government,Gouvernement provincial,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="4be70d97-01b4-44fb-a6de-0199734e01ff"],text,
+
+demo.sector.error.mustChoose,Must choose a value,Vous devez choisir une valeur,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-demoRow"] .error-message.invalidInputLabel,text,
 
 
 # Financial Empowerment Services Offered DROPDOWN
@@ -140,20 +100,6 @@ demo.feOffered.opt.none,None,Aucun,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-sel
 demo.feOffered.opt.other,Other,Autre,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="bcca9ce0-d09c-4db3-81a3-01997350bb05"],text,
 
 demo.feOffered.error.mustChoose,Must choose a value,Vous devez choisir une valeur,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoRow"] .error-message.invalidInputLabel,text,
-
-# demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,label[for="7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv"],text,
-# demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
-
-
-# demo.feOffered.opt.tax,Tax-filing support (e.g. free tax clinics),Aide à la production des déclarations de revenus (p. ex. cliniques d’impôts gratuites),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="e314e9fa-f79b-4e20-88a1-0199735055d1"],text,
-# demo.feOffered.opt.benefits,Help accessing benefits,Aide à l’accès aux prestations,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="d3ac29bd-3b42-44db-8510-0199735064f7"],text,
-# demo.feOffered.opt.coach,One-on-one financial coaching (e.g. financial goal setting and action planning),Accompagnement financier individuel (p. ex. fixation d’objectifs et plan d’action),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="18be00b1-e86a-4c55-b5a5-0199735073ac"],text,
-# demo.feOffered.opt.counsel,Financial counselling and problem solving (including debt management),Conseils financiers et résolution de problèmes (y compris la gestion des dettes),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="ffc0566b-cf88-4574-9ad8-0199735082c9"],text,
-# demo.feOffered.opt.edu,Financial education,Éducation financière,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="f1bb407b-582e-4a74-8059-019973509314"],text,
-# demo.feOffered.opt.none,None,Aucun,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="c6872cc1-f47d-4f74-87e0-01997350a208"],text,
-# demo.feOffered.opt.other,Other,Autre,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="bcca9ce0-d09c-4db3-81a3-01997350bb05"],text,
-
-
 
 # Other Services Offered dropdown
 
@@ -205,6 +151,7 @@ demo.populations.opt.rural,"Rural or Remote Communities","Communautés rurales o
 demo.populations.opt.olmc,"Official language minority community","Communauté de langue officielle en situation minoritaire (CLOSM)",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="04e2729a-7587-4c0a-92eb-0199735fe914"],text,
 demo.populations.opt.other,"Other","Autre",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="47206d42-7d7a-4e92-a89a-0199735ffefc"],text,
 
+demo.populations.error.mustChoose,Must choose a value,Vous devez choisir une valeur,[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-demoRow"] .error-message.invalidInputLabel,text,
 
 
 # Geographic Area(s) Served DROPDOWN
@@ -213,32 +160,26 @@ demo.geo.label,Geographic Area(s) Served,Région(s) desservie(s),label[for="eb44
 demo.geo.title,(Geographic Area(s) Served),(Région(s) desservie(s)),[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"],attr,title
 demo.geo.placeholder.option,(Geographic Area(s) Served),(Région(s) desservie(s)),[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="00000000-0000-0000-0000-000000000000"],text,
 
-
 demo.geo.opt.large,"Large urban (100,000 or more)","Grande zone urbaine (100 000 ou plus)",[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="ae3153bb-d4f2-4072-9d6a-0199736d53e7"],text,
 demo.geo.opt.medium,"Medium urban (30,000 to 99,999)","Zone urbaine moyenne (30 000 à 99 999)",[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="771f9697-f556-4266-9b63-0199736d6d83"],text,
 demo.geo.opt.small,"Small urban (less than 30,000)","Petite zone urbaine (moins de 30 000)",[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="fec2b918-503c-4259-b5a8-0199736d804e"],text,
 demo.geo.opt.northern,Northern,Nordique,[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="c870c027-e8a4-4248-b2e3-0199736d9edf"],text,
 demo.geo.opt.rural,Rural,Rurale,[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="08d64be6-a05c-4530-8d1d-0199736de779"],text,
 
-error.geo.mustChoose,Must choose a value,Vous devez choisir une valeur,[id="eb4436bb-e703-484c-afc7-0199736d34bf-demoRow"] .error-message,text,
-
 
 # Language Preference
 demo.langpref.label,Language Preference,Préférence linguistique,label[for="820d636e-9fed-4604-869e-0199736e70b7-demoDiv"],text,
 demo.langpref.title,(Language Preference),(Préférence linguistique),[id="820d636e-9fed-4604-869e-0199736e70b7-select"],attr,title
 demo.langpref.placeholder.option,(Language Preference),(Préférence linguistique),[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="00000000-0000-0000-0000-000000000000"],text,
-
-
 demo.langpref.opt.en,English,Anglais,[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="4dd09e3d-5e71-425b-a4fc-0199736e9b9c"],text,
 demo.langpref.opt.fr,French,Français,[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="4245aa21-b237-4ae7-9459-0199736eaf20"],text,
-# error.langpref.mustChoose,Must choose a value,Vous devez choisir une valeur,#820d636e-9fed-4604-869e-0199736e70b7-demoRow .error-message,text,
+
+demo.langpref.mustChoose,Must choose a value,Vous devez choisir une valeur,[id="820d636e-9fed-4604-869e-0199736e70b7-demoRow"] .error-message,text,
 
 # Accessibility Requirements
 
 demo.access.label,Accessibility Requirements,Exigences en matière d’accessibilité,label[for="7a06d47f-5e14-4704-a05e-0199736f163a-demoDiv"],text,
 demo.access.free.placeholder,Add your own,Ajoutez le vôtre,[id="7a06d47f-5e14-4704-a05e-0199736f163a-freeform"],attr,placeholder
-error.access.mustAdd,Must add your own value,Vous devez ajouter la vôtre,[id="7a06d47f-5e14-4704-a05e-0199736f163a-demoRow"] .error-message,text,
-
 
 # https://community.prospercanada.org/login/hlactivationpending --Resilient Futures - Email Verification Pending
 
