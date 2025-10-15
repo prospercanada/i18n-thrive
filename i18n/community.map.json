@@ -30,197 +30,24 @@
     "attr": "data-i18n-text"
   },
   {
+    "selector": "h2#MainCopy_ctl14_TitleText",
+    "type": "text",
+    "key": "library.latest.title"
+  },
+  {
+    "selector": "h2#MainCopy_ctl12_TitleText",
+    "type": "text",
+    "key": "comm.announcements.title"
+  },
+  {
+    "selector": "h2#MainCopy_ctl07_TitleText",
+    "type": "text",
+    "key": "events.upcoming.title"
+  },
+  {
     "selector": "#MainCopy_ctl09_TitleText",
     "type": "attr",
     "key": "comm.latestDiscussions",
     "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl09_PostMessage",
-    "type": "attr",
-    "key": "comm.postMessage",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl09_PostMessage",
-    "type": "attr",
-    "key": "comm.postMessage.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl12_TitleText",
-    "type": "attr",
-    "key": "comm.announcements",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_Add",
-    "type": "attr",
-    "key": "comm.add",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_Add",
-    "type": "attr",
-    "key": "comm.add.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl09_MoreLink",
-    "type": "attr",
-    "key": "comm.moreDiscussions",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl09_MoreLink",
-    "type": "attr",
-    "key": "comm.moreDiscussions.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl14_MoreLink",
-    "type": "attr",
-    "key": "comm.moreLibrary",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl14_MoreLink",
-    "type": "attr",
-    "key": "comm.moreLibrary.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#MainCopy_ctl12_MoreLink",
-    "type": "attr",
-    "key": "comm.moreAnnouncements",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_MoreLink",
-    "type": "attr",
-    "key": "comm.moreAnnouncements.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Reindex",
-    "type": "attr",
-    "key": "comm.reindex.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#ctl00_MainCopy_ctl12_AnnouncementList_ctl01_Edit",
-    "type": "attr",
-    "key": "comm.edit.title",
-    "attr": "title"
-  },
-  {
-    "selector": "#dialog-confirm-deleteannouncement [id$='deleteannouncement-message']",
-    "type": "attr",
-    "key": "comm.deleteConfirm",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_AddHeadingTitle",
-    "type": "attr",
-    "key": "comm.ann.add.heading",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_AnnouncementTextLabel",
-    "type": "attr",
-    "key": "comm.ann.add.label.text",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_AnnouncementTitleLabel",
-    "type": "attr",
-    "key": "comm.ann.add.label.title",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_URLText",
-    "type": "attr",
-    "key": "comm.ann.add.label.url",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_URLName",
-    "type": "attr",
-    "key": "comm.ann.add.label.urlText",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "label[for=\"MainCopy_ctl12_CheckURL\"]",
-    "type": "attr",
-    "key": "comm.ann.add.label.newWindow",
-    "attr": "data-i18n-text"
-  },
-  {
-    "selector": "#MainCopy_ctl12_Save",
-    "type": "attr",
-    "key": "comm.ann.add.save",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl12_Cancel",
-    "type": "attr",
-    "key": "comm.ann.add.cancel",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CommunityManagementGear1_StatusUL .dropdown-header",
-    "type": "text",
-    "key": "comm.status.header"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CommunityManagementGear1_YouAreCurrenltyAMemberText",
-    "type": "text",
-    "key": "comm.member.current"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CommunityManagementGear1_btnInviteOthersToJoin",
-    "type": "text",
-    "key": "comm.invite.button"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CommunityManagementGear1_btnInviteOthersToJoin",
-    "type": "attr",
-    "key": "comm.invite.button.value",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CommunityManagementGear1_EmailNotificationsHeader",
-    "type": "text",
-    "key": "comm.email.header"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CommunityManagementGear1_ChangeLink",
-    "type": "text",
-    "key": "comm.email.change"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CommunityManagementGear1_EmailNotificationOptBtnLoading",
-    "type": "text",
-    "key": "comm.email.saving"
-  },
-  {
-    "selector": "#MainCopy_ctl02_CommunityManagementGear1_SelectedNotificationOption",
-    "type": "text",
-    "key": "comm.email.selected"
-  },
-  {
-    "selector": "#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=\"Rt\"]",
-    "type": "text",
-    "key": "comm.email.option.realtime"
-  },
-  {
-    "selector": "#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=\"Dd\"]",
-    "type": "text",
-    "key": "comm.email.option.daily"
-  },
-  {
-    "selector": "#EmailNotificationOptDD .EmailNotificationOption a[data-subscription=\"Ne\"]",
-    "type": "text",
-    "key": "comm.email.option.none"
   }
 ]
