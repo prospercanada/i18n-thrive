@@ -1,36 +1,36 @@
 [
   {
-    "selector": "#MainCopy_ctl07_LoginSectionH2",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_LoginSectionH2\"]",
     "type": "text",
     "key": "login.panel.title"
   },
   {
-    "selector": "#MainCopy_ctl07_LoginUserNameLabel",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_LoginUserNameLabel\"]",
     "type": "text",
     "key": "login.email.label"
   },
   {
-    "selector": "#MainCopy_ctl07_LoginPasswordLabel",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_LoginPasswordLabel\"]",
     "type": "text",
     "key": "login.password.label"
   },
   {
-    "selector": "#MainCopy_ctl07_signupLabel",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_signupLabel\"]",
     "type": "text",
     "key": "login.signup.link"
   },
   {
-    "selector": "#MainCopy_ctl07_ForgotPassword",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_ForgotPassword\"]",
     "type": "text",
     "key": "login.forgot.link"
   },
   {
-    "selector": "#MainCopy_ctl07_Remember + label",
+    "selector": "input[type=\"checkbox\"][id^=\"MainCopy_\"][id$=\"_Remember\"] + label",
     "type": "text",
     "key": "login.remember.label"
   },
   {
-    "selector": "#MainCopy_ctl07_LoginRecaptchaButton",
+    "selector": "input[type=\"submit\"][id^=\"MainCopy_\"][id$=\"_LoginRecaptchaButton\"]",
     "type": "attr",
     "key": "login.button",
     "attr": "value"
@@ -87,32 +87,32 @@
     "key": "zopcode.label"
   },
   {
-    "selector": "#MainCopy_ctl10_RequiredFieldValidator1",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_RequiredFieldValidator1\"]",
     "type": "text",
     "key": "register.required.email"
   },
   {
-    "selector": "#MainCopy_ctl10_RequiredFieldValidator2",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_RequiredFieldValidator2\"]",
     "type": "text",
     "key": "register.required.firstName"
   },
   {
-    "selector": "#MainCopy_ctl10_RequiredFieldValidator3",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_RequiredFieldValidator3\"]",
     "type": "text",
     "key": "register.required.lastName"
   },
   {
-    "selector": "#MainCopy_ctl10_RequiredFieldValidator4",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_RequiredFieldValidator4\"]",
     "type": "text",
     "key": "register.required.company"
   },
   {
-    "selector": "#MainCopy_ctl10_RequiredFieldValidator5",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_RequiredFieldValidator5\"]",
     "type": "text",
     "key": "register.required.password"
   },
   {
-    "selector": "#MainCopy_ctl10_RequiredFieldValidator6",
+    "selector": "[id^=\"MainCopy_\"][id$=\"_RequiredFieldValidator6\"]",
     "type": "text",
     "key": "register.required.passwordConfirm"
   },
@@ -144,7 +144,7 @@
     "attr": "placeholder"
   },
   {
-    "selector": "label[for=\"MainCopy_ctl10_Remember2\"]",
+    "selector": "label[for$=\"_Remember2\"]",
     "type": "text",
     "key": "login.remember"
   },
