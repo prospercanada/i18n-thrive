@@ -122,11 +122,6 @@
     "key": "nav.directory"
   },
   {
-    "selector": "#MPButtonBar .navbar-nav a[href='/network/members']",
-    "type": "text",
-    "key": "nav.memberDirectory"
-  },
-  {
     "selector": "#MPButtonBar .navbar-nav a[href='/events'] span, #MPButtonBar .navbar-nav a[href='/events']",
     "type": "text",
     "key": "nav.events"

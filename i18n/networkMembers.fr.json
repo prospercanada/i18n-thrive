@@ -1,22 +1,3 @@
 {
-  "directory.btn.clear": "Effacer tout",
-  "directory.btn.clear.title": "Effacer tout",
-  "directory.btn.find": "Trouver des membres",
-  "directory.form.heading": "(Annuaire des membres)",
-  "directory.form.heading2": "(Annuaire des membres)",
-  "directory.label.city": "Ville",
-  "directory.label.communityName": "Nom de la communauté",
-  "directory.label.communityType": "Type de communauté",
-  "directory.label.company": "Nom de l’entreprise",
-  "directory.label.country": "Pays",
-  "directory.label.country.text": "Pays",
-  "directory.label.email": "Adresse courriel",
-  "directory.label.first": "Prénom",
-  "directory.label.last": "Nom de famille",
-  "directory.label.state": "Province/Territoire",
-  "directory.label.state.text": "Province/Territoire",
-  "directory.page.title": "Annuaire des membres",
-  "directory.placeholder.country": "(Pays)",
-  "directory.placeholder.state": "(Province/Territoire)",
-  "directory.tab.search": "Recherche"
+  "directory.page.title": "Annuaires des membres"
 }

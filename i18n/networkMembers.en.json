@@ -1,22 +1,3 @@
 {
-  "directory.btn.clear": "Clear All",
-  "directory.btn.clear.title": "Clear All",
-  "directory.btn.find": "Find Members",
-  "directory.form.heading": "(Member Directory)",
-  "directory.form.heading2": "(Member Directory)",
-  "directory.label.city": "City",
-  "directory.label.communityName": "Community Name",
-  "directory.label.communityType": "Community Type",
-  "directory.label.company": "Company Name",
-  "directory.label.country": "Country",
-  "directory.label.country.text": "Country",
-  "directory.label.email": "Email Address",
-  "directory.label.first": "First Name",
-  "directory.label.last": "Last Name",
-  "directory.label.state": "State/Province",
-  "directory.label.state.text": "State/Province",
-  "directory.page.title": "Member Directory",
-  "directory.placeholder.country": "(Country)",
-  "directory.placeholder.state": "(State/Province)",
-  "directory.tab.search": "Search"
+  "directory.page.title": "Member Directory"
 }

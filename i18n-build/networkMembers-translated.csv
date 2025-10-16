@@ -1,34 +1,34 @@
 key,en,fr,selector,type,attr
 # ===== Page title & tab =====
-directory.page.title,Member Directory,Annuaire des membres,#PageTitleH1,text,
-directory.tab.search,Search,Recherche,#MainCopy_ctl02_Tab1,text,
+directory.page.title,Member Directory,Annuaires des membres,#PageTitleH1,text,
+# directory.tab.search,Search,Recherche,#MainCopy_ctl02_Tab1,text,
 
 # ===== Panel headings =====
-directory.form.heading,(Member Directory),(Annuaire des membres),#MainCopy_ctl11_pnlFindContacts #Title,html,
-directory.form.heading2,(Member Directory),(Annuaire des membres),#MainCopy_ctl13_pnlFindContacts #Title,html,
+# directory.form.heading,(Member Directory),(Annuaires des membres),#MainCopy_ctl11_pnlFindContacts #Title,html,
+# directory.form.heading2,(Member Directory),(Annuaires des membres),#MainCopy_ctl13_pnlFindContacts #Title,html,
 
 # ===== Buttons =====
-directory.btn.find,Find Members,Trouver des membres,#MainCopy_ctl04_FindContacts,attr,value
-directory.btn.clear,Clear All,Effacer tout,#MainCopy_ctl04_ClearSearchResults,attr,value
-directory.btn.clear.title,Clear All,Effacer tout,#MainCopy_ctl04_ClearSearchResults,attr,title
+# directory.btn.find,Find Members,Trouver des membres,#MainCopy_ctl04_FindContacts,attr,value
+# directory.btn.clear,Clear All,Effacer tout,#MainCopy_ctl04_ClearSearchResults,attr,value
+# directory.btn.clear.title,Clear All,Effacer tout,#MainCopy_ctl04_ClearSearchResults,attr,title
 
 # ===== Labels (top block) =====
-directory.label.communityType,Community Type,Type de communauté,#MainCopy_ctl07_GroupType,text,
-directory.label.communityName,Community Name,Nom de la communauté,#MainCopy_ctl07_GroupName,text,
+# directory.label.communityType,Community Type,Type de communauté,#MainCopy_ctl07_GroupType,text,
+# directory.label.communityName,Community Name,Nom de la communauté,#MainCopy_ctl07_GroupName,text,
 
 # ===== Labels (member search block) =====
-directory.label.city,City,Ville,#MainCopy_ctl11_CityLabel,text,
-directory.label.country,Country,Pays,#MainCopy_ctl11_ucCountryStateProvinceList_ddlCountry,attr,title
-directory.label.country.text,Country,Pays,#lblCountry,text,
-directory.label.state,State/Province,Province/Territoire,#MainCopy_ctl11_ucCountryStateProvinceList_ddlState,attr,title
-directory.label.state.text,State/Province,Province/Territoire,#lblState,text,
+# directory.label.city,City,Ville,#MainCopy_ctl11_CityLabel,text,
+# directory.label.country,Country,Pays,#MainCopy_ctl11_ucCountryStateProvinceList_ddlCountry,attr,title
+# directory.label.country.text,Country,Pays,#lblCountry,text,
+# directory.label.state,State/Province,Province/Territoire,#MainCopy_ctl11_ucCountryStateProvinceList_ddlState,attr,title
+# directory.label.state.text,State/Province,Province/Territoire,#lblState,text,
 
 # ===== Labels (name/company/email block) =====
-directory.label.first,First Name,Prénom,#MainCopy_ctl13_FirstNameLabel,text,
-directory.label.last,Last Name,Nom de famille,#MainCopy_ctl13_LastNameLabel,text,
-directory.label.company,Company Name,Nom de l’entreprise,#MainCopy_ctl13_CompanyNameLabel,text,
-directory.label.email,Email Address,Adresse courriel,#MainCopy_ctl13_Label5,text,
+# directory.label.first,First Name,Prénom,#MainCopy_ctl13_FirstNameLabel,text,
+# directory.label.last,Last Name,Nom de famille,#MainCopy_ctl13_LastNameLabel,text,
+# directory.label.company,Company Name,Nom de l’entreprise,#MainCopy_ctl13_CompanyNameLabel,text,
+# directory.label.email,Email Address,Adresse courriel,#MainCopy_ctl13_Label5,text,
 
 # ===== Placeholders for selects (first option) =====
-directory.placeholder.country,(Country),(Pays),"#MainCopy_ctl11_ucCountryStateProvinceList_ddlCountry option[value='']",text,
-directory.placeholder.state,(State/Province),(Province/Territoire),"#MainCopy_ctl11_ucCountryStateProvinceList_ddlState option[value='']",text
+# directory.placeholder.country,(Country),(Pays),"#MainCopy_ctl11_ucCountryStateProvinceList_ddlCountry option[value='']",text,
+# directory.placeholder.state,(State/Province),(Province/Territoire),"#MainCopy_ctl11_ucCountryStateProvinceList_ddlState option[value='']",text

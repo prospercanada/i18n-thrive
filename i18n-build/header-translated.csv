@@ -39,7 +39,7 @@ nav.faq,"FAQs","FAQ","#MPButtonBar .navbar-nav a[href='/faq'] span, #MPButtonBar
 
 
 nav.directory,Directory,Annuaire,"#MPButtonBar .navbar-nav a[href='/network'] span",text,
-nav.memberDirectory,Member Directory,Annuaire des membres,"#MPButtonBar .navbar-nav a[href='/network/members']",text,
+# nav.memberDirectory,Member Directory,Annuaires des membres,"#MPButtonBar .navbar-nav a[href='/network/members']",text,
 
 nav.events,"Events","Événements","#MPButtonBar .navbar-nav a[href='/events'] span, #MPButtonBar .navbar-nav a[href='/events']",text,
 
