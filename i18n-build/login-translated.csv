@@ -31,8 +31,8 @@ lastname.label,Last Name,Nom,[id$="_LastNameLabel"],text,
 company.label,Company Name,Nom de l’organisme,[id$="_CompanyNameLabel"],text,
 city.label,City,Ville,[id$="_CityLabel"],text,
 country.label,Country,Pays,[id='lblCountry'],text,
-state.label,State/Province,Province/État,[id='lblState'],text,
-zopcode.label,Postal Code, Code postal,[id='MainCopy_ctl10_ZipCodeLabel1'],text,
+state.label,State/Province,État/Province,[id='lblState'],text,
+zopcode.label,Postal Code, Code postal,[id='MainCopy_ctl14_ZipCodeLabel1'],text,
 
 # Validation errors
 # OLD
@@ -74,20 +74,20 @@ demo.orgLocation.label,Organization Location,Emplacement de l’organisme,label[
 demo.orgLocation.title,(Organization Location),(Emplacement de l’organisme),[id="0bca3586-218f-43b3-b059-0199734a100b-select"],attr,title
 demo.orgLocation.placeholder.option,(Organization Location),(Emplacement de l’organisme),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="00000000-0000-0000-0000-000000000000"],text,
 
-demo.orgLocation.opt.ab,Alberta (AB),Alberta (AB),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="1fa64f56-58e3-422a-a6d4-0199734a4c08"],text,
+demo.orgLocation.opt.ab,Alberta (AB),Alberta (Alb.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="1fa64f56-58e3-422a-a6d4-0199734a4c08"],text,
 demo.orgLocation.opt.bc,British Columbia (BC),Colombie-Britannique (C.-B.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="1886c5aa-b646-4cbc-83e3-0199734a59ca"],text,
-demo.orgLocation.opt.mb,Manitoba (MB),Manitoba (MB),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="15c00889-b1ba-4938-9ce2-0199734a6e68"],text,
+demo.orgLocation.opt.mb,Manitoba (MB),Manitoba (Man.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="15c00889-b1ba-4938-9ce2-0199734a6e68"],text,
 demo.orgLocation.opt.nb,New Brunswick (NB),Nouveau-Brunswick (N.-B.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="83aa29ae-9221-4c63-bbd7-0199734a8673"],text,
 demo.orgLocation.opt.nl,Newfoundland and Labrador (NL),Terre-Neuve-et-Labrador (T.-N.-L.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="0badd8e0-a931-4333-8dac-0199734a9fd4"],text,
 demo.orgLocation.opt.nt,Northwest Territories (NT),Territoires du Nord-Ouest (T.N.-O.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="5e4267bc-3ac8-4c5d-baf1-0199734aea7b"],text,
 demo.orgLocation.opt.ns,Nova Scotia (NS),Nouvelle-Écosse (N.-É.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="6ef879d4-00b4-453c-bfec-0199734b0057"],text,
-demo.orgLocation.opt.nu,Nunavut (NU),Nunavut (NU),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="d004d0ee-dee7-4da8-8e5a-0199734b0fda"],text,
-demo.orgLocation.opt.on,Ontario (ON),Ontario (ON),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="381b0dd3-d22e-4be1-aa47-0199734b1e8b"],text,
+demo.orgLocation.opt.nu,Nunavut (NU),Nunavut (Nt),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="d004d0ee-dee7-4da8-8e5a-0199734b0fda"],text,
+demo.orgLocation.opt.on,Ontario (ON),Ontario (Ont.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="381b0dd3-d22e-4be1-aa47-0199734b1e8b"],text,
 demo.orgLocation.opt.other,Other,Autre,[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="16b8325e-107c-4eae-a2ed-0199734b6d0b"],text,
 demo.orgLocation.opt.pe,Prince Edward Island (PE),Île-du-Prince-Édouard (Î.-P.-É.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="7f3e4cad-01f5-433d-bd35-0199734b2d8d"],text,
-demo.orgLocation.opt.qc,Quebec (QC),Québec (QC),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="0fb975d6-f92c-4801-9852-0199734b3bd6"],text,
-demo.orgLocation.opt.sk,Saskatchewan (SK),Saskatchewan (SK),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="5b3a7785-b326-4729-9ec7-0199734b4d8d"],text,
-demo.orgLocation.opt.yt,Yukon (YT),Yukon (YT),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="cd009189-0e53-4e97-8809-0199734b5cf3"],text,
+demo.orgLocation.opt.qc,Quebec (QC),Québec (Qc),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="0fb975d6-f92c-4801-9852-0199734b3bd6"],text,
+demo.orgLocation.opt.sk,Saskatchewan (SK),Saskatchewan (Sask.),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="5b3a7785-b326-4729-9ec7-0199734b4d8d"],text,
+demo.orgLocation.opt.yt,Yukon (YT),Yukon (Yn),[id="0bca3586-218f-43b3-b059-0199734a100b-select"] option[value="cd009189-0e53-4e97-8809-0199734b5cf3"],text,
 
 demo.orgLocation.error.mustChoose,Must choose a value,Vous devez choisir une valeur,[id="0bca3586-218f-43b3-b059-0199734a100b-demoRow"] .error-message.invalidInputLabel,text,
 
@@ -99,7 +99,7 @@ demo.sector.placeholder.option,(Sector),(Secteur),[id="d4aedf2d-a642-4b70-81dd-0
 
 demo.sector.opt.other,Other,Autre,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="80b53b17-197f-4037-8da0-0199734e4c87"],text,
 demo.sector.opt.academia,Academia,Milieu universitaire,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="3925d475-cfce-44bd-bd6c-0199734e3c7c"],text,
-demo.sector.opt.consulting,Consulting,Services-conseils,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="27e99515-f6ea-45de-8139-0199734e2d80"],text,
+demo.sector.opt.consulting,Consulting,Consultation,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="27e99515-f6ea-45de-8139-0199734e2d80"],text,
 demo.sector.opt.federal,Federal government,Gouvernement fédéral,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="7a2a1dac-c67c-47c0-a1a7-0199734df4b2"],text,
 demo.sector.opt.foundation,Foundation,Fondation,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="d74873d0-a56b-4e37-9815-0199734e1e54"],text,
 demo.sector.opt.municipal,Municipal government,Administration municipale,[id="d4aedf2d-a642-4b70-81dd-0199734cd5a1-select"] option[value="fa1efca8-5afa-46b9-a72c-0199734e105c"],text,
@@ -115,10 +115,10 @@ demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonom
 # demo.feOffered.label,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,label[for="7ef9a3b6-0f46-4dac-b38b-0199734efe10-demoDiv"],text,
 demo.feOffered.title,(Financial Empowerment Services Offered),(Services d’autonomisation financière offerts),[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"],attr,title
 
-demo.feOffered.opt.tax,"Tax-filing support (e.g. free tax clinics)","Aide à la production des déclarations de revenus (p. ex., cliniques d’impôt gratuites)",[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="e314e9fa-f79b-4e20-88a1-0199735055d1"],text,
+demo.feOffered.opt.tax,"Tax-filing support (e.g. free tax clinics)","Soutien à la déclaration de revenus (p. ex. cliniques fiscales gratuites)",[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="e314e9fa-f79b-4e20-88a1-0199735055d1"],text,
 demo.feOffered.opt.benefits,Help accessing benefits,Aide pour accéder aux prestations,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="d3ac29bd-3b42-44db-8510-0199735064f7"],text,
-demo.feOffered.opt.coaching,"One-on-one financial coaching (e.g. financial goal setting and action planning)","Coaching financier individuel (p. ex., fixation d’objectifs financiers et plan d’action)",[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="18be00b1-e86a-4c55-b5a5-0199735073ac"],text,
-demo.feOffered.opt.counselling,"Financial counselling and problem solving (including debt management)","Consultation et résolution de problèmes financiers (y compris la gestion des dettes)",[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="ffc0566b-cf88-4574-9ad8-0199735082c9"],text,
+demo.feOffered.opt.coaching,"One-on-one financial coaching (e.g. financial goal setting and action planning)","Encadrement financier individuel (p. ex., établissement d'objectifs financiers et planification des actions)",[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="18be00b1-e86a-4c55-b5a5-0199735073ac"],text,
+demo.feOffered.opt.counselling,"Financial counselling and problem solving (including debt management)","Conseils financiers et résolution de problèmes (y compris la gestion de la dette)",[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="ffc0566b-cf88-4574-9ad8-0199735082c9"],text,
 demo.feOffered.opt.education,Financial education,Éducation financière,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="f1bb407b-582e-4a74-8059-019973509314"],text,
 demo.feOffered.opt.none,None,Aucun,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="c6872cc1-f47d-4f74-87e0-01997350a208"],text,
 demo.feOffered.opt.other,Other,Autre,[id="7ef9a3b6-0f46-4dac-b38b-0199734efe10-select"] option[value="bcca9ce0-d09c-4db3-81a3-01997350bb05"],text,
@@ -138,16 +138,16 @@ demo.otherServices.title,(Other Services Offered),(Autres services offerts),[id=
 demo.otherServices.free.placeholder,Add your own,Ajoutez le vôtre,[id="172d3906-c563-42c3-bff0-0199735b5682-freeform"],attr,placeholder
 error.mustChooseOther,Must choose a value or add your own,Vous devez choisir une valeur ou ajouter la vôtre,[id="172d3906-c563-42c3-bff0-0199735b5682-demoRow"] .error-message,text,
 
-demo.otherServices.opt.id,Access to ID,Accès aux pièces d’identité,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="af469578-6786-4ded-912b-0199735c3666"],text,
-demo.otherServices.opt.bank,Banking Access Support,Soutien à l’accès aux services bancaires,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="80d072b1-70fd-4115-bc44-0199735c4a26"],text,
+demo.otherServices.opt.id,Access to ID,Accès à l'identifiant,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="af469578-6786-4ded-912b-0199735c3666"],text,
+demo.otherServices.opt.bank,Banking Access Support,Soutien pour l’accès bancaire,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="80d072b1-70fd-4115-bc44-0199735c4a26"],text,
 demo.otherServices.opt.budget,Budget Counselling,Conseils budgétaires,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="a5af4c3a-3779-4e27-a6e2-0199735c5e61"],text,
-demo.otherServices.opt.consumer,Consumer Advocacy,Défense des consommateurs,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="c36de3cd-c9b0-47d6-98f6-0199735c750b"],text,
-demo.otherServices.opt.debt,Debt Management,Gestion de l’endettement,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="fa8f286c-4f1e-4598-9abb-0199735c8b25"],text,
-demo.otherServices.opt.eviction,Eviction Prevention Loan Program,Programme de prêts pour prévenir les expulsions,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="96ec77f6-777f-4d24-92ee-0199735ca5c7"],text,
-demo.otherServices.opt.housing,Housing or Homelessness Support,Soutien au logement ou à l’itinérance,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="c605a6f5-8365-4fd5-956d-0199735cc411"],text,
+demo.otherServices.opt.consumer,Consumer Advocacy,Représentation des consommateurs,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="c36de3cd-c9b0-47d6-98f6-0199735c750b"],text,
+demo.otherServices.opt.debt,Debt Management,Gestion de la dette,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="fa8f286c-4f1e-4598-9abb-0199735c8b25"],text,
+demo.otherServices.opt.eviction,Eviction Prevention Loan Program,Programme de prêts pour la prévention des expulsions,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="96ec77f6-777f-4d24-92ee-0199735ca5c7"],text,
+demo.otherServices.opt.housing,Housing or Homelessness Support,Soutien en matière de logement et d’itinérance,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="c605a6f5-8365-4fd5-956d-0199735cc411"],text,
 demo.otherServices.opt.income,Income Support,Soutien au revenu,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="d9a2fe4c-b7d8-44c4-8e86-0199735d0a81"],text,
-demo.otherServices.opt.rdsp,RDSP Info & Support,Renseignements et soutien sur le REEI,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="10590803-9632-4f04-931b-0199735d2532"],text,
-demo.otherServices.opt.resp,RESP Info & Support,Renseignements et soutien sur le REEE,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="06f22f9a-5caa-4b4f-a78e-0199735d40f1"],text,
+demo.otherServices.opt.rdsp,RDSP Info & Support,Renseignements sur le REEI et soutien,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="10590803-9632-4f04-931b-0199735d2532"],text,
+demo.otherServices.opt.resp,RESP Info & Support,Renseignements sur le REEE et soutien,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="06f22f9a-5caa-4b4f-a78e-0199735d40f1"],text,
 demo.otherServices.opt.none,None,Aucun,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="08ebb735-3715-4255-9aae-0199735d5bb5"],text,
 demo.otherServices.opt.other,Other,Autre,[id="172d3906-c563-42c3-bff0-0199735b5682-select"] option[value="b0c3fce6-3baa-44eb-935d-0199735d6e4c"],text,
 
@@ -159,18 +159,18 @@ demo.populations.title,(Populations Served),(Populations desservies),[id="303063
 demo.populations.placeholder.option,(Populations Served),(Populations desservies),[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="00000000-0000-0000-0000-000000000000"],text,
 
 
-demo.populations.opt.seniors,"Older people, Elders, or Seniors (65+ years old)","Aînés, aînées ou personnes âgées (65 ans et plus)",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="cb903b60-1ec8-4710-a44b-0199735e85a8"],text,
-demo.populations.opt.youth,"Youth (15-30 years old)","Jeunes (15 à 30 ans)",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="c27b3d6d-2cb4-46ad-ab71-0199735ea3fb"],text,
-demo.populations.opt.racialized,"Racialized people","Personnes racisées",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="9f14931f-d2d9-4a35-babf-0199735ed20f"],text,
+demo.populations.opt.seniors,"Older people, Elders, or Seniors (65+ years old)","Personnes âgées ou aînés (autochtones) (65 ans et plus)",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="cb903b60-1ec8-4710-a44b-0199735e85a8"],text,
+demo.populations.opt.youth,"Youth (15-30 years old)","Jeunes (entre 15 et 30 ans)",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="c27b3d6d-2cb4-46ad-ab71-0199735ea3fb"],text,
+demo.populations.opt.racialized,"Racialized people","Personnes racialisées",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="9f14931f-d2d9-4a35-babf-0199735ed20f"],text,
 demo.populations.opt.black,"Black communities","Communautés noires",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="220a99fd-e014-4833-b378-0199735ef809"],text,
-demo.populations.opt.newcomers,"Newcomers, Refugees, or Non-Status people","Nouveaux arrivants, réfugiés ou personnes sans statut",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="e72ec3b4-36ee-4e0a-96b0-0199735f0cdb"],text,
+demo.populations.opt.newcomers,"Newcomers, Refugees, or Non-Status people","Nouveaux arrivants, réfugiés ou Autochtones non inscrits",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="e72ec3b4-36ee-4e0a-96b0-0199735f0cdb"],text,
 demo.populations.opt.fnmi,"First Nations, Métis, and Inuit","Premières Nations, Métis et Inuit",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="e4e1810a-874a-4515-98ef-0199735f201b"],text,
 demo.populations.opt.disability,"Those living with disabilities","Personnes vivant avec un handicap",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="047370d1-d7c0-427d-96b3-0199735f3797"],text,
-demo.populations.opt.unhoused,"Those who are unhoused","Personnes en situation d’itinérance",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="f9eca94e-3e3f-426d-96f5-0199735f5056"],text,
+demo.populations.opt.unhoused,"Those who are unhoused","Personnes sans abri",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="f9eca94e-3e3f-426d-96f5-0199735f5056"],text,
 demo.populations.opt.lowincome,"Those living on low incomes","Personnes à faible revenu",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="1a0c56e1-eb9b-440a-9c86-0199735f6364"],text,
 demo.populations.opt.women,"Women","Femmes",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="a2f4e9c9-1c64-4fa0-99d8-0199735f74e5"],text,
-demo.populations.opt.2slgbtqi,"2SLGBTQI+","2SLGBTQI+",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="c7d59640-f41d-4c8c-af8f-0199735f8c96"],text,
-demo.populations.opt.northern,"Northern Communities","Communautés nordiques",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="8c06bef4-5bd5-4424-ac88-0199735fa346"],text,
+demo.populations.opt.2slgbtqi,"2SLGBTQI+","2ELGBTQI+",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="c7d59640-f41d-4c8c-af8f-0199735f8c96"],text,
+demo.populations.opt.northern,"Northern Communities","Communautés du Nord",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="8c06bef4-5bd5-4424-ac88-0199735fa346"],text,
 demo.populations.opt.rural,"Rural or Remote Communities","Communautés rurales ou éloignées",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="365a0a64-0c3f-4a20-8cea-0199735fb443"],text,
 demo.populations.opt.olmc,"Official language minority community","Communauté de langue officielle en situation minoritaire (CLOSM)",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="04e2729a-7587-4c0a-92eb-0199735fe914"],text,
 demo.populations.opt.other,"Other","Autre",[id="303063c6-1cd6-4d75-8e3b-0199735e0e0d-select"] option[value="47206d42-7d7a-4e92-a89a-0199735ffefc"],text,
@@ -180,14 +180,14 @@ demo.populations.error.mustChoose,Must choose a value,Vous devez choisir une val
 
 # Geographic Area(s) Served DROPDOWN
 
-demo.geo.label,Geographic Area(s) Served,Région(s) desservie(s),label[for="eb4436bb-e703-484c-afc7-0199736d34bf-demoDiv"],text,
-demo.geo.title,(Geographic Area(s) Served),(Région(s) desservie(s)),[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"],attr,title
-demo.geo.placeholder.option,(Geographic Area(s) Served),(Région(s) desservie(s)),[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="00000000-0000-0000-0000-000000000000"],text,
+demo.geo.label,Geographic Area(s) Served,Zone(s) géographique(s) desservie(s),label[for="eb4436bb-e703-484c-afc7-0199736d34bf-demoDiv"],text,
+demo.geo.title,(Geographic Area(s) Served),Zone(s) géographique(s) desservie(s),[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"],attr,title
+demo.geo.placeholder.option,(Geographic Area(s) Served),Zone(s) géographique(s) desservie(s),[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="00000000-0000-0000-0000-000000000000"],text,
 
 demo.geo.opt.large,"Large urban (100,000 or more)","Grande zone urbaine (100 000 ou plus)",[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="ae3153bb-d4f2-4072-9d6a-0199736d53e7"],text,
-demo.geo.opt.medium,"Medium urban (30,000 to 99,999)","Zone urbaine moyenne (30 000 à 99 999)",[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="771f9697-f556-4266-9b63-0199736d6d83"],text,
+demo.geo.opt.medium,"Medium urban (30,000 to 99,999)","Moyenne zone urbaine (30 000 à 99 999)",[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="771f9697-f556-4266-9b63-0199736d6d83"],text,
 demo.geo.opt.small,"Small urban (less than 30,000)","Petite zone urbaine (moins de 30 000)",[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="fec2b918-503c-4259-b5a8-0199736d804e"],text,
-demo.geo.opt.northern,Northern,Nordique,[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="c870c027-e8a4-4248-b2e3-0199736d9edf"],text,
+demo.geo.opt.northern,Northern,Nord,[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="c870c027-e8a4-4248-b2e3-0199736d9edf"],text,
 demo.geo.opt.rural,Rural,Rurale,[id="eb4436bb-e703-484c-afc7-0199736d34bf-select"] option[value="08d64be6-a05c-4530-8d1d-0199736de779"],text,
 
 

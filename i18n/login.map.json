@@ -82,7 +82,7 @@
     "key": "state.label"
   },
   {
-    "selector": "[id='MainCopy_ctl10_ZipCodeLabel1']",
+    "selector": "[id='MainCopy_ctl14_ZipCodeLabel1']",
     "type": "text",
     "key": "zopcode.label"
   },
