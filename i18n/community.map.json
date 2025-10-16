@@ -11,12 +11,6 @@
     "attr": "data-i18n-text"
   },
   {
-    "selector": "a[data-tab=\"resources\"]",
-    "type": "attr",
-    "key": "comm.tabs.library",
-    "attr": "data-i18n-text"
-  },
-  {
     "selector": "a[data-tab=\"events\"]",
     "type": "attr",
     "key": "comm.tabs.events",
