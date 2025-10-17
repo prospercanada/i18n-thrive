@@ -4,7 +4,7 @@ comm.tabs.home,Community Home,Accueil de la communauté,#MainCopy_ctl02_Tab1Link
 
 
 comm.tabs.discussions,"Discussion ","Discussions ",a[data-tab="discussions"],attr,data-i18n-text
-# comm.tabs.library,"Library ","Bibliothèque ",a[data-tab="resources"],attr,data-i18n-text
+comm.tabs.library,"Library ","Bibliothèque ",a[data-tab="resources"],attr,data-i18n-text
 comm.tabs.events,"Events ","Événements ",a[data-tab="events"],attr,data-i18n-text
 comm.tabs.members,"Members ","Membres ",a[data-tab="members"],attr,data-i18n-text
 
