@@ -5,7 +5,7 @@
     "key": "profile.link.myProfile"
   },
   {
-    "selector": "#MainCopy_ctl29_TitleText",
+    "selector": ".bioControl #MainCopy_ctl29_TitleText",
     "type": "text",
     "key": "profile.bio.heading"
   },
