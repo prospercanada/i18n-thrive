@@ -81,5 +81,8 @@
   "communityInvite.map": "communityInvite.map.json",
   "communityMy.en": "communityMy.map.json",
   "communityMy.fr": "communityMy.fr.json",
-  "communityMy.map": "communityMy.map.json"
+  "communityMy.map": "communityMy.map.json",
+  "accountResetPassword.en": "accountResetPassword.map.json",
+  "accountResetPassword.fr": "accountResetPassword.fr.json",
+  "accountResetPassword.map": "accountResetPassword.map.json"
 }

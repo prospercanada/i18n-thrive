@@ -14,6 +14,7 @@
     "i18n:build:contribSummary": "node scripts/build-from-csv.mjs i18n-build/contribSummary-translated.csv i18n contribSummary",
     "i18n:build:contribList": "node scripts/build-from-csv.mjs i18n-build/contribList-translated.csv i18n contribList",
     "i18n:build:accountChangePassword": "node scripts/build-from-csv.mjs i18n-build/accountChangePassword-translated.csv i18n accountChangePassword",
+    "i18n:build:accountResetPassword": "node scripts/build-from-csv.mjs i18n-build/accountResetPassword-translated.csv i18n accountResetPassword",
     "i18n:build:accountSettingsPrivacy": "node scripts/build-from-csv.mjs i18n-build/accountSettingsPrivacy-translated.csv i18n accountSettingsPrivacy",
     "i18n:build:accountSettingsEmail": "node scripts/build-from-csv.mjs i18n-build/accountSettingsEmail-translated.csv i18n accountSettingsEmail",
     "i18n:build:accountSettingsRss": "node scripts/build-from-csv.mjs i18n-build/accountSettingsRss-translated.csv i18n accountSettingsRss",
