@@ -1,15 +1,5 @@
 key,en,fr,selector,type,attr
 
-# OLD
-# login.panel.title,Members - Login here,Membres — Connectez-vous ici,#MainCopy_ctl07_LoginSectionH2,text,
-# login.email.label,Email,Adresse courriel,#MainCopy_ctl07_LoginUserNameLabel,text,
-# login.password.label,Password,Mot de passe,#MainCopy_ctl07_LoginPasswordLabel,text,
-# login.signup.link,New User/Register Now,Nouveau membre / Inscrivez-vous,#MainCopy_ctl07_signupLabel,text,
-# login.forgot.link,Did You Forget Your Password?,Mot de passe oublié ?,#MainCopy_ctl07_ForgotPassword,text,
-# login.remember.label," Stay signed in for 5 days"," Rester connecté pendant 5 jours","#MainCopy_ctl07_Remember + label",text,
-# login.button,Login,Connexion,#MainCopy_ctl07_LoginRecaptchaButton,attr,value
-# login.submit,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,value
-
 # NEW
 login.panel.title,Members - Login here,Membres — Connectez-vous ici,[id^="MainCopy_"][id$="_LoginSectionH2"],text,
 login.email.label,Email,Adresse courriel,[id^="MainCopy_"][id$="_LoginUserNameLabel"],text,
@@ -19,7 +9,6 @@ login.forgot.link,Did You Forget Your Password?,Mot de passe oublié ?,[id^="Mai
 login.remember.label," Stay signed in for 5 days"," Rester connecté pendant 5 jours",input[type="checkbox"][id^="MainCopy_"][id$="_Remember"] + label,text,
 login.button,Login,Connexion,input[type="submit"][id^="MainCopy_"][id$="_LoginRecaptchaButton"],attr,value
 login.submit,Create Account,Créer un compte,input[type="submit"][id^="MainCopy_"][id$="_CreateAccountButton"],attr,value
-# login.submit.aria,Create Account,Créer un compte,[id="MainCopy_ctl10_CreateAccountButton"],attr,aria-label
 
 
 # Regiser Form
@@ -34,23 +23,11 @@ country.label,Country,Pays,[id='lblCountry'],text,
 state.label,State/Province,État/Province,[id='lblState'],text,
 zopcode.label,Postal Code, Code postal,[id='MainCopy_ctl14_ZipCodeLabel1'],text,
 
-# Validation errors
-# OLD
-# register.required.email,Email must not be empty,Le courriel ne doit pas être vide,#MainCopy_ctl10_RequiredFieldValidator1,text,
-# register.required.firstName,First Name must not be empty,Le prénom ne doit pas être vide,#MainCopy_ctl10_RequiredFieldValidator2,text,
-# register.required.lastName,Last Name must not be empty,Le nom de famille ne doit pas être vide,#MainCopy_ctl10_RequiredFieldValidator3,text,
-# register.required.company,Company Name must not be empty,Le nom de l’entreprise ne doit pas être vide,#MainCopy_ctl10_RequiredFieldValidator4,text,
-
 # NEW
 register.required.email,Email must not be empty,Le courriel ne doit pas être vide,[id^="MainCopy_"][id$="_RequiredFieldValidator1"],text,
 register.required.firstName,First Name must not be empty,Le prénom ne doit pas être vide,[id^="MainCopy_"][id$="_RequiredFieldValidator2"],text,
 register.required.lastName,Last Name must not be empty,Le nom de famille ne doit pas être vide,[id^="MainCopy_"][id$="_RequiredFieldValidator3"],text,
 register.required.company,Company Name must not be empty,Le nom de l’entreprise ne doit pas être vide,[id^="MainCopy_"][id$="_RequiredFieldValidator4"],text,
-
-# Validation errors (password)
-# OLD
-# register.required.password,Password must be set,Le mot de passe est obligatoire,#MainCopy_ctl10_RequiredFieldValidator5,text,
-# register.required.passwordConfirm,Confirmation password must equal password entered,Le mot de passe de confirmation doit correspondre au mot de passe saisi,#MainCopy_ctl10_RequiredFieldValidator6,text,
 
 # NEW
 register.required.password,Password must be set,Le mot de passe est obligatoire,[id^="MainCopy_"][id$="_RequiredFieldValidator5"],text,
@@ -63,7 +40,6 @@ password.placeholder,Password,Mot de passe,[id$="_Password"],attr,placeholder
 confirm.label,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPasswordLabel"],text,
 confirm.placeholder,Confirm Password,Confirmez le mot de passe,[id$="_ConfirmPassword"],attr,placeholder
 
-# login.remember,Remember Password?,Se souvenir du mot de passe ?,label[for="MainCopy_ctl10_Remember2"],text,
 login.remember,Remember Password?,Se souvenir du mot de passe ?,label[for$="_Remember2"],text,
 
 required.note,Indicates that the field is required,Indique que le champ est obligatoire,.SmallText .control-label:last-of-type,text,
