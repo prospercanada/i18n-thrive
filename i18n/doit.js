@@ -153,8 +153,8 @@ function pickNamespaces(currentUrlOrPath) {
     typeof currentUrlOrPath === "string"
       ? new URL(currentUrlOrPath, location.origin)
       : currentUrlOrPath instanceof URL
-      ? currentUrlOrPath
-      : new URL(location.href);
+        ? currentUrlOrPath
+        : new URL(location.href);
 
   // collapse duplicate slashes; ensure leading slash
   const rawPath = (url.pathname || "/").replace(/\/{2,}/g, "/");
@@ -177,8 +177,12 @@ function pickNamespaces(currentUrlOrPath) {
   };
 
   // Add "profile" only for /profile...
-  if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
-  if (/^\/people(?:\/|$)/i.test(path)) out.add("profile");
+
+  const disableProfile = true; // turn off to see new untranslated widgets
+  if (!disableProfile) {
+    if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
+    if (/^\/people(?:\/|$)/i.test(path)) out.add("profile");
+  }
   // connections
   if (/^\/profile\/connections\/contacts(?:\/|$)/i.test(path))
     add("connections");
@@ -252,7 +256,7 @@ function pickNamespaces(currentUrlOrPath) {
 
   if (
     /^\/communities\/community-home\/recent-community-events(?:\/|$)/i.test(
-      path
+      path,
     )
   )
     out.add("communityEvents");
@@ -486,7 +490,7 @@ async function reI18n() {
     // document.documentElement.setAttribute("lang", lang);
     document.documentElement.setAttribute(
       "lang",
-      lang === "fr" ? "fr-CA" : "en-CA"
+      lang === "fr" ? "fr-CA" : "en-CA",
     );
     dbg("reI18n applied", { lang, namespaces });
 
@@ -563,7 +567,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   document.documentElement.setAttribute(
     "lang",
-    initial === "fr" ? "fr-CA" : "en-CA"
+    initial === "fr" ? "fr-CA" : "en-CA",
   );
   dbg("init complete", { initial, namespaces });
 
