@@ -3,7 +3,7 @@ key,en,fr,selector,type,attr
 profile.section,Profile,Profil,,text,
 profile.link.myProfile,My Profile,Mon profil,#MainCopy_ctl27_ProfileLink,text,
 
-# ===== Bio =====
+# ===== Bio MainCopy_ctl29 =====
 profile.bio.heading,Bio,Biographie,.bioControl #MainCopy_ctl29_TitleText,text,
 
 profile.bio.nosummary.text,Please add details you would like to share about yourself,Veuillez ajouter des renseignements que vous souhaitez partager à votre sujet,[id="MainCopy_ctl29_pnlNoSummary"] p:first-of-type,text,
@@ -15,81 +15,76 @@ profile.bio.save,Save,Enregistrer,#MainCopy_ctl29_Btn_Save,attr,value
 profile.bio.cancel,Cancel,Annuler,#MainCopy_ctl29_lnkCancel,text,
 
 
-
-# ===== Organization Location =====
+# ===== Organization Location MainCopy_ctl32 =====
 register.demo.org-location,Organization Location,Emplacement de l’organisme,#MainCopy_ctl32_ContactDemographicUpdatePanel #Title,text,
 register.demo.org-location.empty,Add detail,Ajouter des détails,#MainCopy_ctl32_lblEmptyDemographic,text,
 register.demo.org-location.add,Add,Ajouter,#MainCopy_ctl32_btnNoData,text,
 
 
-# ===== Financial Empowerment Services Offered =====
+# ===== Financial Empowerment Services Offered MainCopy_ctl41 =====
 register.demo.fe-offered,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,#MainCopy_ctl41_ContactDemographicUpdatePanel #Title,text,
 
-# ===== Geographic Area(s) Served =====
+
+# ===== Geographic Area(s) Served MainCopy_ctl34 =====
 register.demo.geo-served,Geographic Area(s) Served,Zone(s) géographique(s) desservie(s),#MainCopy_ctl34_ContactDemographicUpdatePanel #Title,text,
 # register.demo.geo-served.empty,Does your organization offer services in rural, urban or both types of community/ies? Select all that apply,Votre organisme offre-t-il des services dans des collectivités rurales, urbaines ou les deux? Sélectionnez toutes les options applicables.,#MainCopy_ctl34_lblEmptyDemographic,text,
 register.demo.geo-served.empty,"Does your organization offer services in rural, urban or both types of community/ies? Select all that apply","Votre organisme offre-t-il des services dans des collectivités rurales, urbaines ou les deux? Sélectionnez toutes les options applicables.",#MainCopy_ctl34_lblEmptyDemographic,text,
 
-# ===== Other Services Offered =====
+
+# ===== Other Services Offered MainCopy_ctl43 =====
 register.demo.other-services,Other Services Offered,Autres services offerts,#MainCopy_ctl43_ContactDemographicUpdatePanel #Title,text,
 register.demo.other-services.empty,Add detail,Ajouter des détails,#MainCopy_ctl43_lblEmptyDemographic,text,
 
-# ===== Sector =====
+
+# ===== Sector MainCopy_ctl36 =====
 register.demo.sector,Sector,Secteur,#MainCopy_ctl36_ContactDemographicUpdatePanel #Title,text,
 register.demo.sector.empty,Add detail,Ajouter des détails,#MainCopy_ctl36_lblEmptyDemographic,text,
 
+# ===== Select all languages your organization offers Financial Empowerment services in MainCopy_ctl45 =====
+register.demo.other-services,Other Services Offered,Autres services offerts,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
+register.demo.other-services.empty,Add detail,Ajouter des détails,#MainCopy_ctl45_ContactDemographicUpdatePanel,text,
 
-# ===== Language Preference =====
+
+# ===== Language you prefer us to use when communicating with you MainCopy_ctl47  =====
 # OLD register.demo.lang-pref,Language Preference,Langue préférée,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
+# register.demo.lang-pref.empty,Select your preferred language(s),Sélectionnez votre/vos langue(s) préférée(s),#MainCopy_ctl45_lblEmptyDemographic,text,
 
 # 2026-02-11 - Registration langiage preference lable change
-register.demo.lang-pref,Language you prefer us to use when communicating with you,Votre langue de communication préférée,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
+register.demo.lang-pref,Language you prefer us to use when communicating with you,Votre langue de communication préférée,#MainCopy_ctl47_ContactDemographicUpdatePanel #Title,text,
+register.demo.lang-pref.empty,Select your preferred language(s),Sélectionnez votre/vos langue(s) préférée(s),#MainCopy_ctl47_lblEmptyDemographic,text,
 
-register.demo.lang-pref.empty,Select your preferred language(s),Sélectionnez votre/vos langue(s) préférée(s),#MainCopy_ctl45_lblEmptyDemographic,text,
-
-# ===== Populations Served =====
+# ===== Populations Served  MainCopy_ctl38 =====
 register.demo.populations,Populations Served,Populations desservies,#MainCopy_ctl38_ContactDemographicUpdatePanel #Title,text,
 register.demo.populations.empty,Add detail,Ajouter des détails,#MainCopy_ctl38_lblEmptyDemographic,text,
 
-# ===== Accessibility Requirements =====
-register.demo.accessibility,Accessibility Requirements,Exigences en matière d’accessibilité,#MainCopy_ctl47_ContactDemographicUpdatePanel #Title,text,
-
-# ===== FE topics I'd love to chat with others about =====
-register.demo.fe-topics,FE topics I'd love to chat with others about,Sujets d’autonomisation financière dont j’aimerais discuter avec d’autres,#MainCopy_ctl50_ContactDemographicUpdatePanel #Title,text,
-register.demo.fe-topics.empty,Add detail,Ajouter des détails,#MainCopy_ctl50_lblEmptyDemographic,text,
+# ===== Accessibility Requirements  MainCopy_ctl52 =====
+# register.demo.accessibility,Accessibility Requirements,Exigences en matière d’accessibilité,#MainCopy_ctl47_ContactDemographicUpdatePanel #Title,text,
+register.demo.accessibility,Accessibility Requirements,Exigences en matière d’accessibilité,#MainCopy_ctl52_ContactDemographicUpdatePanel #Title,text,
 
 
-register.demo.fe-offered.add,Add,Ajouter,#MainCopy_ctl41_btnNoData,text,
-register.demo.geo-served.add,Add,Ajouter,#MainCopy_ctl34_btnNoData,text,
-register.demo.sector.add,Add,Ajouter,#MainCopy_ctl36_btnNoData,text,
-register.demo.populations.add,Add,Ajouter,#MainCopy_ctl38_btnNoData,text,
-register.demo.fe-topics.add,Add,Ajouter,#MainCopy_ctl50_btnNoData,text,
-register.demo.other-services.add,Add,Ajouter,#MainCopy_ctl43_btnNoData,text,
-register.demo.lang-pref.add,Add,Ajouter,#MainCopy_ctl45_btnNoData,text,
-register.demo.accessibility.add,Add,Ajouter,#MainCopy_ctl47_btnNoData,text,
+# ===== What interested you in joining Catalyst, the Prosper Canada community? MainCopy_ctl50 =====
+interested.demo.fe-topics,"What interested you in joining Catalyst, the Prosper Canada community?","Qu’est-ce qui vous a incité à rejoindre la communauté de Prospérité Canada ?",#MainCopy_ctl50_ContactDemographicUpdatePanel #Title,text,
+interested.demo.fe-topics.empty,Add detail,Ajouter des détails,#MainCopy_ctl50_lblEmptyDemographic,text,
+
+# ===== FE topics I'd love to chat with others about RETIRED? =====
+# register.demo.fe-topics,FE topics I'd love to chat with others about,Sujets d’autonomisation financière dont j’aimerais discuter avec d’autres,#MainCopy_ctl50_ContactDemographicUpdatePanel #Title,text,
+# register.demo.fe-topics.empty,Add detail,Ajouter des détails,#MainCopy_ctl50_lblEmptyDemographic,text,
+
+# register.demo.fe-offered.add,Add,Ajouter,#MainCopy_ctl41_btnNoData,text,
+# register.demo.geo-served.add,Add,Ajouter,#MainCopy_ctl34_btnNoData,text,
+# register.demo.sector.add,Add,Ajouter,#MainCopy_ctl36_btnNoData,text,
+# register.demo.populations.add,Add,Ajouter,#MainCopy_ctl38_btnNoData,text,
+# register.demo.fe-topics.add,Add,Ajouter,#MainCopy_ctl50_btnNoData,text,
+# register.demo.other-services.add,Add,Ajouter,#MainCopy_ctl43_btnNoData,text,
+# register.demo.lang-pref.add,Add,Ajouter,#MainCopy_ctl45_btnNoData,text,
+# register.demo.accessibility.add,Add,Ajouter,#MainCopy_ctl47_btnNoData,text,
 
 # Organization Location Modal
 
 register.demo.org-location.modalTitle,Edit Organization Location,Modifier l’emplacement de l’organisme,#MainCopy_ctl32_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.org-location.save,Save,Enregistrer,#MainCopy_ctl32_SaveButton,attr,value
 register.demo.org-location.cancel,Cancel,Annuler,#MainCopy_ctl32_CancelButton,attr,value
-# register.demo.org-location.option.alberta,Alberta (AB),Alberta (AB),"#MainCopy_ctl32_lbDemographicItems option[value=""1fa64f56-58e3-422a-a6d4-0199734a4c08""]",text,
-# register.demo.org-location.option.bc,British Columbia (BC),Colombie-Britannique (BC),"#MainCopy_ctl32_lbDemographicItems option[value=""1886c5aa-b646-4cbc-83e3-0199734a59ca""]",text,
-# register.demo.org-location.option.mb,Manitoba (MB),Manitoba (MB),"#MainCopy_ctl32_lbDemographicItems option[value=""15c00889-b1ba-4938-9ce2-0199734a6e68""]",text,
-# register.demo.org-location.option.nb,New Brunswick (NB),Nouveau-Brunswick (NB),"#MainCopy_ctl32_lbDemographicItems option[value=""83aa29ae-9221-4c63-bbd7-0199734a8673""]",text,
-# register.demo.org-location.option.nl,Newfoundland and Labrador (NL),Terre-Neuve-et-Labrador (NL),"#MainCopy_ctl32_lbDemographicItems option[value=""0badd8e0-a931-4333-8dac-0199734a9fd4""]",text,
-# register.demo.org-location.option.nt,Northwest Territories (NT),Territoires du Nord-Ouest (NT),"#MainCopy_ctl32_lbDemographicItems option[value=""5e4267bc-3ac8-4c5d-baf1-0199734aea7b""]",text,
-# register.demo.org-location.option.ns,Nova Scotia (NS),Nouvelle-Écosse (NS),"#MainCopy_ctl32_lbDemographicItems option[value=""6ef879d4-00b4-453c-bfec-0199734b0057""]",text,
-# register.demo.org-location.option.nu,Nunavut (NU),Nunavut (NU),"#MainCopy_ctl32_lbDemographicItems option[value=""d004d0ee-dee7-4da8-8e5a-0199734b0fda""]",text,
-# register.demo.org-location.option.on,Ontario (ON),Ontario (ON),"#MainCopy_ctl32_lbDemographicItems option[value=""381b0dd3-d22e-4be1-aa47-0199734b1e8b""]",text,
-# register.demo.org-location.option.other,Other,Autre,"#MainCopy_ctl32_lbDemographicItems option[value=""16b8325e-107c-4eae-a2ed-0199734b6d0b""]",text,
-# register.demo.org-location.option.pe,Prince Edward Island (PE),Île-du-Prince-Édouard (PE),"#MainCopy_ctl32_lbDemographicItems option[value=""7f3e4cad-01f5-433d-bd35-0199734b2d8d""]",text,
-# register.demo.org-location.option.qc,Quebec (QC),Québec (QC),"#MainCopy_ctl32_lbDemographicItems option[value=""0fb975d6-f92c-4801-9852-0199734b3bd6""]",text,
-# register.demo.org-location.option.sk,Saskatchewan (SK),Saskatchewan (SK),"#MainCopy_ctl32_lbDemographicItems option[value=""5b3a7785-b326-4729-9ec7-0199734b4d8d""]",text,
-# register.demo.org-location.option.yt,Yukon (YT),Yukon (YT),"#MainCopy_ctl32_lbDemographicItems option[value=""cd009189-0e53-4e97-8809-0199734b5cf3""]",text,
-# register.demo.org-location.option.notSpecified,Not Specified,Non précisé,"#MainCopy_ctl32_lbDemographicItems option[value=""00000000-0000-0000-0000-000000000000""]",text,
 
-# modal.note.html,<span class="small alert-info">Note: </span>&nbsp;Editing this will update your main profile as well as your mentor/mentee profile if applicable.,<span class="small alert-info">Remarque&nbsp;:</span>&nbsp;La modification de ce champ mettra à jour votre profil principal ainsi que votre profil de mentor ou de mentoré, le cas échéant.,[id$="_divIsMentorMenteeNote"],html,
 
 # Placeholder/title for the select button (Bootstrap-Select reads this)
 # province.select.title,(Province or territory),(Province ou territoire),[id$="_lbDemographicItems"],attr,title
@@ -215,12 +210,12 @@ register.demo.access.freeformPrompt,Enter one additional value,Saisissez une val
 register.demo.access.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl47_FreeFormTextValidator,text,
 
 
-# FE topics I'd love to chat with others about Modal
+# FE topics I'd love to chat with others about Modal NOT USED
 
-register.demo.fe-topics.modalTitle,"Edit FE topics I'd love to chat with others about","Modifier les sujets d’EF dont j’aimerais discuter avec d’autres",#MainCopy_ctl50_EditDemographicPanel > div > div > div.modal-header,text,
-register.demo.fe-topics.save,Save,Enregistrer,#MainCopy_ctl50_SaveButton,attr,value
-register.demo.fe-topics.cancel,Cancel,Annuler,#MainCopy_ctl50_CancelButton,attr,value
-register.demo.fe-topics.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl50_FreeformPanel .col-md-12 > div:first-child,text,
-register.demo.fe-topics.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl50_FreeFormTextValidator,text,
+# register.demo.fe-topics.modalTitle,"Edit FE topics I'd love to chat with others about","Modifier les sujets d’EF dont j’aimerais discuter avec d’autres",#MainCopy_ctl50_EditDemographicPanel > div > div > div.modal-header,text,
+# register.demo.fe-topics.save,Save,Enregistrer,#MainCopy_ctl50_SaveButton,attr,value
+# register.demo.fe-topics.cancel,Cancel,Annuler,#MainCopy_ctl50_CancelButton,attr,value
+# register.demo.fe-topics.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl50_FreeformPanel .col-md-12 > div:first-child,text,
+# register.demo.fe-topics.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl50_FreeFormTextValidator,text,
 
 demo.access.note,"This field will be viewable by staff admin only, for the purposes of arranging accommodations where required or requested","Cet espace ne sera visible que par l’administration; il sert à organiser des mesures d’adaptation au besoin ou sur demande",[id="MainCopy_ctl47_lblEmptyDemographic"],text,

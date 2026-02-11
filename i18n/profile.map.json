@@ -94,10 +94,20 @@
   {
     "selector": "#MainCopy_ctl45_ContactDemographicUpdatePanel #Title",
     "type": "text",
+    "key": "register.demo.other-services"
+  },
+  {
+    "selector": "#MainCopy_ctl45_ContactDemographicUpdatePanel",
+    "type": "text",
+    "key": "register.demo.other-services.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl47_ContactDemographicUpdatePanel #Title",
+    "type": "text",
     "key": "register.demo.lang-pref"
   },
   {
-    "selector": "#MainCopy_ctl45_lblEmptyDemographic",
+    "selector": "#MainCopy_ctl47_lblEmptyDemographic",
     "type": "text",
     "key": "register.demo.lang-pref.empty"
   },
@@ -112,59 +122,19 @@
     "key": "register.demo.populations.empty"
   },
   {
-    "selector": "#MainCopy_ctl47_ContactDemographicUpdatePanel #Title",
+    "selector": "#MainCopy_ctl52_ContactDemographicUpdatePanel #Title",
     "type": "text",
     "key": "register.demo.accessibility"
   },
   {
     "selector": "#MainCopy_ctl50_ContactDemographicUpdatePanel #Title",
     "type": "text",
-    "key": "register.demo.fe-topics"
+    "key": "interested.demo.fe-topics"
   },
   {
     "selector": "#MainCopy_ctl50_lblEmptyDemographic",
     "type": "text",
-    "key": "register.demo.fe-topics.empty"
-  },
-  {
-    "selector": "#MainCopy_ctl41_btnNoData",
-    "type": "text",
-    "key": "register.demo.fe-offered.add"
-  },
-  {
-    "selector": "#MainCopy_ctl34_btnNoData",
-    "type": "text",
-    "key": "register.demo.geo-served.add"
-  },
-  {
-    "selector": "#MainCopy_ctl36_btnNoData",
-    "type": "text",
-    "key": "register.demo.sector.add"
-  },
-  {
-    "selector": "#MainCopy_ctl38_btnNoData",
-    "type": "text",
-    "key": "register.demo.populations.add"
-  },
-  {
-    "selector": "#MainCopy_ctl50_btnNoData",
-    "type": "text",
-    "key": "register.demo.fe-topics.add"
-  },
-  {
-    "selector": "#MainCopy_ctl43_btnNoData",
-    "type": "text",
-    "key": "register.demo.other-services.add"
-  },
-  {
-    "selector": "#MainCopy_ctl45_btnNoData",
-    "type": "text",
-    "key": "register.demo.lang-pref.add"
-  },
-  {
-    "selector": "#MainCopy_ctl47_btnNoData",
-    "type": "text",
-    "key": "register.demo.accessibility.add"
+    "key": "interested.demo.fe-topics.empty"
   },
   {
     "selector": "#MainCopy_ctl32_EditDemographicPanel > div > div > div.modal-header",
@@ -663,33 +633,6 @@
     "selector": "#MainCopy_ctl47_FreeFormTextValidator",
     "type": "text",
     "key": "register.demo.access.freeformValidator"
-  },
-  {
-    "selector": "#MainCopy_ctl50_EditDemographicPanel > div > div > div.modal-header",
-    "type": "text",
-    "key": "register.demo.fe-topics.modalTitle"
-  },
-  {
-    "selector": "#MainCopy_ctl50_SaveButton",
-    "type": "attr",
-    "key": "register.demo.fe-topics.save",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl50_CancelButton",
-    "type": "attr",
-    "key": "register.demo.fe-topics.cancel",
-    "attr": "value"
-  },
-  {
-    "selector": "#MainCopy_ctl50_FreeformPanel .col-md-12 > div:first-child",
-    "type": "text",
-    "key": "register.demo.fe-topics.freeformPrompt"
-  },
-  {
-    "selector": "#MainCopy_ctl50_FreeFormTextValidator",
-    "type": "text",
-    "key": "register.demo.fe-topics.freeformValidator"
   },
   {
     "selector": "[id=\"MainCopy_ctl47_lblEmptyDemographic\"]",
