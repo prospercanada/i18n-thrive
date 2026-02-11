@@ -40,7 +40,11 @@ register.demo.sector.empty,Add detail,Ajouter des détails,#MainCopy_ctl36_lblEm
 
 
 # ===== Language Preference =====
-register.demo.lang-pref,Language Preference,Langue préférée,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
+# OLD register.demo.lang-pref,Language Preference,Langue préférée,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
+
+# 2026-02-11 - Registration langiage preference lable change
+register.demo.lang-pref,Language you prefer us to use when communicating with you,Votre langue de communication préférée,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
+
 register.demo.lang-pref.empty,Select your preferred language(s),Sélectionnez votre/vos langue(s) préférée(s),#MainCopy_ctl45_lblEmptyDemographic,text,
 
 # ===== Populations Served =====

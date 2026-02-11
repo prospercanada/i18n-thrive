@@ -66,7 +66,7 @@
   "register.demo.geo-served.rural": "Rural",
   "register.demo.geo-served.save": "Save",
   "register.demo.geo-served.smallUrban": "Small urban (less than 30,000)",
-  "register.demo.lang-pref": "Language Preference",
+  "register.demo.lang-pref": "Language you prefer us to use when communicating with you",
   "register.demo.lang-pref.add": "Add",
   "register.demo.lang-pref.cancel": "Cancel",
   "register.demo.lang-pref.empty": "Select your preferred language(s)",
