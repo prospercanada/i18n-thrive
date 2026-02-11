@@ -178,14 +178,8 @@ function pickNamespaces(currentUrlOrPath) {
 
   // Add "profile" only for /profile...
 
-  const disableProfile = false; // turn off to see new untranslated widgets
-  if (!disableProfile) {
-    console.log("profile page tranlation");
-    if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
-    if (/^\/people(?:\/|$)/i.test(path)) out.add("profile");
-  } else {
-    console.log("profile page tranlation skipped");
-  }
+  if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
+  if (/^\/people(?:\/|$)/i.test(path)) out.add("profile");
   // connections
   if (/^\/profile\/connections\/contacts(?:\/|$)/i.test(path))
     add("connections");
