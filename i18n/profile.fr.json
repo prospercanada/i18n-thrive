@@ -64,6 +64,8 @@
   "register.demo.lang-pref.french": "Français",
   "register.demo.lang-pref.modalTitle": "Modifier la préférence linguistique",
   "register.demo.lang-pref.save": "Enregistrer",
+  "register.demo.org-languages": "Dans quelle(s) langue(s) votre organisation offre-t-elle des services ?",
+  "register.demo.org-languages.empty": "Ajouter des détails",
   "register.demo.org-location": "Emplacement de l’organisme",
   "register.demo.org-location.add": "Ajouter",
   "register.demo.org-location.cancel": "Annuler",

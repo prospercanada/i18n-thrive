@@ -41,8 +41,8 @@ register.demo.sector,Sector,Secteur,#MainCopy_ctl36_ContactDemographicUpdatePane
 register.demo.sector.empty,Add detail,Ajouter des détails,#MainCopy_ctl36_lblEmptyDemographic,text,
 
 # ===== Select all languages your organization offers Financial Empowerment services in MainCopy_ctl45 =====
-register.demo.other-services,Other Services Offered,Autres services offerts,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
-register.demo.other-services.empty,Add detail,Ajouter des détails,#MainCopy_ctl45_ContactDemographicUpdatePanel,text,
+register.demo.org-languages,Select all languages your organization offers Financial Empowerment services in,Dans quelle(s) langue(s) votre organisation offre-t-elle des services ?,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
+register.demo.org-languages.empty,Add detail,Ajouter des détails,#MainCopy_ctl45_ContactDemographicUpdatePanel,text,
 
 
 # ===== Language you prefer us to use when communicating with you MainCopy_ctl47  =====

@@ -94,12 +94,12 @@
   {
     "selector": "#MainCopy_ctl45_ContactDemographicUpdatePanel #Title",
     "type": "text",
-    "key": "register.demo.other-services"
+    "key": "register.demo.org-languages"
   },
   {
     "selector": "#MainCopy_ctl45_ContactDemographicUpdatePanel",
     "type": "text",
-    "key": "register.demo.other-services.empty"
+    "key": "register.demo.org-languages.empty"
   },
   {
     "selector": "#MainCopy_ctl47_ContactDemographicUpdatePanel #Title",

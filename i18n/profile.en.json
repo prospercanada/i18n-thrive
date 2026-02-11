@@ -64,6 +64,8 @@
   "register.demo.lang-pref.french": "French",
   "register.demo.lang-pref.modalTitle": "Edit Language Preference",
   "register.demo.lang-pref.save": "Save",
+  "register.demo.org-languages": "Select all languages your organization offers Financial Empowerment services in",
+  "register.demo.org-languages.empty": "Add detail",
   "register.demo.org-location": "Organization Location",
   "register.demo.org-location.add": "Add",
   "register.demo.org-location.cancel": "Cancel",
