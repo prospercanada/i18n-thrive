@@ -70,6 +70,12 @@
   "register.demo.org-location.empty": "Ajouter des détails",
   "register.demo.org-location.modalTitle": "Modifier l’emplacement de l’organisme",
   "register.demo.org-location.save": "Enregistrer",
+  "register.demo.orglang-pref.cancel": "Annuler",
+  "register.demo.orglang-pref.english": "Anglais",
+  "register.demo.orglang-pref.french": "Français",
+  "register.demo.orglang-pref.modalTitle": "Modifier la préférence linguistique",
+  "register.demo.orglang-pref.other": "Autre",
+  "register.demo.orglang-pref.save": "Enregistrer",
   "register.demo.other-services": "Autres services offerts",
   "register.demo.other-services.accessId": "Accès à l'identifiant",
   "register.demo.other-services.banking": "Soutien pour l’accès bancaire",
@@ -121,5 +127,8 @@
   "register.demo.sector.option.other": "Autre",
   "register.demo.sector.option.private": "Secteur privé",
   "register.demo.sector.option.provincial": "Gouvernement provincial",
-  "register.demo.sector.save": "Enregistrer"
+  "register.demo.sector.save": "Enregistrer",
+  "register.demo.why.cancel": "Annuler",
+  "register.demo.why.modalTitle": "Qu’est-ce qui vous a incité à rejoindre la communauté de Prospérité Canada ?",
+  "register.demo.why.save": "Enregistrer"
 }

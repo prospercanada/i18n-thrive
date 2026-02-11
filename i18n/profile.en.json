@@ -70,6 +70,12 @@
   "register.demo.org-location.empty": "Add detail",
   "register.demo.org-location.modalTitle": "Edit Organization Location",
   "register.demo.org-location.save": "Save",
+  "register.demo.orglang-pref.cancel": "Cancel",
+  "register.demo.orglang-pref.english": "English",
+  "register.demo.orglang-pref.french": "French",
+  "register.demo.orglang-pref.modalTitle": "Edit Language Preference",
+  "register.demo.orglang-pref.other": "Other",
+  "register.demo.orglang-pref.save": "Save",
   "register.demo.other-services": "Other Services Offered",
   "register.demo.other-services.accessId": "Access to ID",
   "register.demo.other-services.banking": "Banking Access Support",
@@ -121,5 +127,8 @@
   "register.demo.sector.option.other": "Other",
   "register.demo.sector.option.private": "Private sector",
   "register.demo.sector.option.provincial": "Provincial government",
-  "register.demo.sector.save": "Save"
+  "register.demo.sector.save": "Save",
+  "register.demo.why.cancel": "Cancel",
+  "register.demo.why.modalTitle": "Edit What interested you in joining Catalyst, the Prosper Canada community?",
+  "register.demo.why.save": "Save"
 }

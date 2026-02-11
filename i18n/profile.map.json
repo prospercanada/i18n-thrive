@@ -491,27 +491,59 @@
   {
     "selector": "#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header",
     "type": "text",
-    "key": "register.demo.lang-pref.modalTitle"
+    "key": "register.demo.orglang-pref.modalTitle"
   },
   {
     "selector": "#MainCopy_ctl45_SaveButton",
     "type": "attr",
-    "key": "register.demo.lang-pref.save",
+    "key": "register.demo.orglang-pref.save",
     "attr": "value"
   },
   {
     "selector": "#MainCopy_ctl45_CancelButton",
     "type": "attr",
-    "key": "register.demo.lang-pref.cancel",
+    "key": "register.demo.orglang-pref.cancel",
     "attr": "value"
   },
   {
     "selector": "label[for=\"MainCopy_ctl45_DemographicsCheckBoxList_EnglishChk_0\"]",
     "type": "text",
-    "key": "register.demo.lang-pref.english"
+    "key": "register.demo.orglang-pref.english"
   },
   {
     "selector": "label[for=\"MainCopy_ctl45_DemographicsCheckBoxList_FrenchChk_1\"]",
+    "type": "text",
+    "key": "register.demo.orglang-pref.french"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl45_DemographicsCheckBoxList_OtherChk_2\"]",
+    "type": "text",
+    "key": "register.demo.orglang-pref.other"
+  },
+  {
+    "selector": "#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header",
+    "type": "text",
+    "key": "register.demo.lang-pref.modalTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl47_SaveButton",
+    "type": "attr",
+    "key": "register.demo.lang-pref.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl47_CancelButton",
+    "type": "attr",
+    "key": "register.demo.lang-pref.cancel",
+    "attr": "value"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl47_DemographicsCheckBoxList_EnglishChk_0\"]",
+    "type": "text",
+    "key": "register.demo.lang-pref.english"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl47_DemographicsCheckBoxList_FrenchChk_1\"]",
     "type": "text",
     "key": "register.demo.lang-pref.french"
   },
@@ -608,29 +640,46 @@
     "key": "register.demo.pop-served.other"
   },
   {
-    "selector": "#MainCopy_ctl47_EditDemographicPanel > div > div > div.modal-header",
+    "selector": "#MainCopy_ctl50_EditDemographicPanel > div > div > div.modal-header",
+    "type": "text",
+    "key": "register.demo.why.modalTitle"
+  },
+  {
+    "selector": "#MainCopy_ctl50_SaveButton",
+    "type": "attr",
+    "key": "register.demo.why.save",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl50_CancelButton",
+    "type": "attr",
+    "key": "register.demo.why.cancel",
+    "attr": "value"
+  },
+  {
+    "selector": "#MainCopy_ctl52_EditDemographicPanel > div > div > div.modal-header",
     "type": "text",
     "key": "register.demo.access.modalTitle"
   },
   {
-    "selector": "#MainCopy_ctl47_SaveButton",
+    "selector": "#MainCopy_ctl52_SaveButton",
     "type": "attr",
     "key": "register.demo.access.save",
     "attr": "value"
   },
   {
-    "selector": "#MainCopy_ctl47_CancelButton",
+    "selector": "#MainCopy_ctl52_CancelButton",
     "type": "attr",
     "key": "register.demo.access.cancel",
     "attr": "value"
   },
   {
-    "selector": "#MainCopy_ctl47_FreeformPanel .col-md-12 > div:first-child",
+    "selector": "#MainCopy_ctl52_FreeformPanel .col-md-12 > div:first-child",
     "type": "text",
     "key": "register.demo.access.freeformPrompt"
   },
   {
-    "selector": "#MainCopy_ctl47_FreeFormTextValidator",
+    "selector": "#MainCopy_ctl52_FreeFormTextValidator",
     "type": "text",
     "key": "register.demo.access.freeformValidator"
   },

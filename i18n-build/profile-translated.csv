@@ -79,12 +79,11 @@ interested.demo.fe-topics.empty,Add detail,Ajouter des détails,#MainCopy_ctl50_
 # register.demo.lang-pref.add,Add,Ajouter,#MainCopy_ctl45_btnNoData,text,
 # register.demo.accessibility.add,Add,Ajouter,#MainCopy_ctl47_btnNoData,text,
 
-# Organization Location Modal
+# Organization Location Modal MainCopy_ctl32
 
 register.demo.org-location.modalTitle,Edit Organization Location,Modifier l’emplacement de l’organisme,#MainCopy_ctl32_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.org-location.save,Save,Enregistrer,#MainCopy_ctl32_SaveButton,attr,value
 register.demo.org-location.cancel,Cancel,Annuler,#MainCopy_ctl32_CancelButton,attr,value
-
 
 # Placeholder/title for the select button (Bootstrap-Select reads this)
 # province.select.title,(Province or territory),(Province ou territoire),[id$="_lbDemographicItems"],attr,title
@@ -105,7 +104,6 @@ province.option.qc,Quebec (QC),Québec (Qc),[id$="_lbDemographicItems"] option[v
 province.option.sk,Saskatchewan (SK),Saskatchewan (Sask.),[id$="_lbDemographicItems"] option[value="5b3a7785-b326-4729-9ec7-0199734b4d8d"],text,
 province.option.yt,Yukon (YT),Yukon (Yn),[id$="_lbDemographicItems"] option[value="cd009189-0e53-4e97-8809-0199734b5cf3"],text,
 province.option.unspecified,Not Specified,Non précisé,[id$="_lbDemographicItems"] option[value="00000000-0000-0000-0000-000000000000"],text,
-
 
 # Financial Empowerment Services Offered Modal
 register.demo.fe-offered.modalTitle,Edit Financial Empowerment Services Offered,Modifier les services d’autonomisation financière offerts,#MainCopy_ctl41_EditDemographicPanel > div > div > div.modal-header,text,
@@ -129,7 +127,7 @@ register.demo.geo-served.smallUrban,"Small urban (less than 30,000)","Petite zon
 register.demo.geo-served.northern,Northern,Nord,"label[for=""MainCopy_ctl34_DemographicsCheckBoxList_NorthernChk_3""]",text,
 register.demo.geo-served.rural,Rural,Rurals,"label[for=""MainCopy_ctl34_DemographicsCheckBoxList_RuralChk_4""]",text,
 
-# Other Services Offered Modal
+# Other Services Offered Modal MainCopy_ctl43
 
 register.demo.other-services.modalTitle,Edit Other Services Offered,Modifier les autres services offerts,#MainCopy_ctl43_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.other-services.save,Save,Enregistrer,#MainCopy_ctl43_SaveButton,attr,value
@@ -155,7 +153,6 @@ freeform.extra.validator,Comma separated values cannot exceed 400 characters,Les
 
 
 # Sector Modal
-
 register.demo.sector.modalTitle,Edit Sector,Modifier le secteur,#MainCopy_ctl36_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.sector.save,Save,Enregistrer,#MainCopy_ctl36_SaveButton,attr,value
 register.demo.sector.cancel,Cancel,Annuler,#MainCopy_ctl36_CancelButton,attr,value
@@ -171,13 +168,28 @@ register.demo.sector.option.provincial,Provincial government,Gouvernement provin
 register.demo.sector.option.notSpecified,Not Specified,Non précisé,"#MainCopy_ctl36_lbDemographicItems option[value=""00000000-0000-0000-0000-000000000000""]",text,
 
 
-# Language Preference Modal
+# Select all language(s) that your organization offers financial empowerment services in Modal MainCopy_ctl45
+
+register.demo.orglang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.orglang-pref.save,Save,Enregistrer,#MainCopy_ctl45_SaveButton,attr,value
+register.demo.orglang-pref.cancel,Cancel,Annuler,#MainCopy_ctl45_CancelButton,attr,value
+register.demo.orglang-pref.english,English,Anglais,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_EnglishChk_0""]",text,
+register.demo.orglang-pref.french,French,Français,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_FrenchChk_1""]",text,
+register.demo.orglang-pref.other,Other,Autre,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_OtherChk_2""]",text,
+
+# Language you prefer us to use when communicating with you Modal ctl47
 
 register.demo.lang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header,text,
-register.demo.lang-pref.save,Save,Enregistrer,#MainCopy_ctl45_SaveButton,attr,value
-register.demo.lang-pref.cancel,Cancel,Annuler,#MainCopy_ctl45_CancelButton,attr,value
-register.demo.lang-pref.english,English,Anglais,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_EnglishChk_0""]",text,
-register.demo.lang-pref.french,French,Français,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_FrenchChk_1""]",text,
+register.demo.lang-pref.save,Save,Enregistrer,#MainCopy_ctl47_SaveButton,attr,value
+register.demo.lang-pref.cancel,Cancel,Annuler,#MainCopy_ctl47_CancelButton,attr,value
+register.demo.lang-pref.english,English,Anglais,"label[for=""MainCopy_ctl47_DemographicsCheckBoxList_EnglishChk_0""]",text,
+register.demo.lang-pref.french,French,Français,"label[for=""MainCopy_ctl47_DemographicsCheckBoxList_FrenchChk_1""]",text,
+
+# register.demo.lang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header,text,
+# register.demo.lang-pref.save,Save,Enregistrer,#MainCopy_ctl45_SaveButton,attr,value
+# register.demo.lang-pref.cancel,Cancel,Annuler,#MainCopy_ctl45_CancelButton,attr,value
+# register.demo.lang-pref.english,English,Anglais,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_EnglishChk_0""]",text,
+#register.demo.lang-pref.french,French,Français,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_FrenchChk_1""]",text,
 
 
 # Populations Served Modal
@@ -202,12 +214,25 @@ register.demo.pop-served.olmc,Official language minority community,Communauté d
 register.demo.pop-served.other,Other,Autre,"label[for=""MainCopy_ctl38_DemographicsCheckBoxList_OtherChk_14""]",text,
 
 
-# Accessibility Requirements Modal
-register.demo.access.modalTitle,Edit Accessibility Requirements,Modifier les besoins en accessibilité,#MainCopy_ctl47_EditDemographicPanel > div > div > div.modal-header,text,
-register.demo.access.save,Save,Enregistrer,#MainCopy_ctl47_SaveButton,attr,value
-register.demo.access.cancel,Cancel,Annuler,#MainCopy_ctl47_CancelButton,attr,value
-register.demo.access.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl47_FreeformPanel .col-md-12 > div:first-child,text,
-register.demo.access.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl47_FreeFormTextValidator,text,
+# What interested you in joining Catalyst, the Prosper Canada community? Modal MainCopy_ctl50
+register.demo.why.modalTitle,"Edit What interested you in joining Catalyst, the Prosper Canada community?","Qu’est-ce qui vous a incité à rejoindre la communauté de Prospérité Canada ?",#MainCopy_ctl50_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.why.save,Save,Enregistrer,#MainCopy_ctl50_SaveButton,attr,value
+register.demo.why.cancel,Cancel,Annuler,#MainCopy_ctl50_CancelButton,attr,value
+# register.demo.access.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl52_FreeformPanel .col-md-12 > div:first-child,text,
+
+
+# Accessibility Requirements Modal MainCopy_ctl52
+register.demo.access.modalTitle,Edit Accessibility Requirements,Modifier les besoins en accessibilité,#MainCopy_ctl52_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.access.save,Save,Enregistrer,#MainCopy_ctl52_SaveButton,attr,value
+register.demo.access.cancel,Cancel,Annuler,#MainCopy_ctl52_CancelButton,attr,value
+register.demo.access.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl52_FreeformPanel .col-md-12 > div:first-child,text,
+register.demo.access.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl52_FreeFormTextValidator,text,
+
+# register.demo.access.modalTitle,Edit Accessibility Requirements,Modifier les besoins en accessibilité,#MainCopy_ctl47_EditDemographicPanel > div > div > div.modal-header,text,
+# register.demo.access.save,Save,Enregistrer,#MainCopy_ctl47_SaveButton,attr,value
+# register.demo.access.cancel,Cancel,Annuler,#MainCopy_ctl47_CancelButton,attr,value
+# register.demo.access.freeformPrompt,Enter one additional value,Saisissez une valeur supplémentaire,#MainCopy_ctl47_FreeformPanel .col-md-12 > div:first-child,text,
+# register.demo.access.freeformValidator,Comma separated values cannot exceed 400 characters,Les valeurs séparées par des virgules ne peuvent pas dépasser 400 caractères,#MainCopy_ctl47_FreeFormTextValidator,text,
 
 
 # FE topics I'd love to chat with others about Modal NOT USED
