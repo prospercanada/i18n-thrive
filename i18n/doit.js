@@ -178,7 +178,7 @@ function pickNamespaces(currentUrlOrPath) {
 
   // Add "profile" only for /profile...
 
-  const disableProfile = true; // turn off to see new untranslated widgets
+  const disableProfile = false; // turn off to see new untranslated widgets
   if (!disableProfile) {
     console.log("profile page tranlation");
     if (/^\/profile(?:\/|$)/i.test(path)) out.add("profile");
