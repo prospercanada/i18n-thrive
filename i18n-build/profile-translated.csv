@@ -49,7 +49,7 @@ register.demo.org-languages.empty,Add detail,Ajouter des détails,#MainCopy_ctl4
 # OLD register.demo.lang-pref,Language Preference,Langue préférée,#MainCopy_ctl45_ContactDemographicUpdatePanel #Title,text,
 # register.demo.lang-pref.empty,Select your preferred language(s),Sélectionnez votre/vos langue(s) préférée(s),#MainCopy_ctl45_lblEmptyDemographic,text,
 
-# 2026-02-11 - Registration langiage preference lable change
+# 2026-02-11 - Registration language preference lable change
 register.demo.lang-pref,Language you prefer us to use when communicating with you,Votre langue de communication préférée,#MainCopy_ctl47_ContactDemographicUpdatePanel #Title,text,
 register.demo.lang-pref.empty,Select your preferred language(s),Sélectionnez votre/vos langue(s) préférée(s),#MainCopy_ctl47_lblEmptyDemographic,text,
 
@@ -179,17 +179,18 @@ register.demo.orglang-pref.other,Other,Autre,"label[for=""MainCopy_ctl45_Demogra
 
 # Language you prefer us to use when communicating with you Modal ctl47
 
-register.demo.lang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.lang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl47_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.lang-pref.save,Save,Enregistrer,#MainCopy_ctl47_SaveButton,attr,value
 register.demo.lang-pref.cancel,Cancel,Annuler,#MainCopy_ctl47_CancelButton,attr,value
 register.demo.lang-pref.english,English,Anglais,"label[for=""MainCopy_ctl47_DemographicsCheckBoxList_EnglishChk_0""]",text,
 register.demo.lang-pref.french,French,Français,"label[for=""MainCopy_ctl47_DemographicsCheckBoxList_FrenchChk_1""]",text,
+register.demo.lang-pref.other,Other,Autre,"label[for=""MainCopy_ctl47_DemographicsCheckBoxList_FrenchChk_1""]",text,
 
 # register.demo.lang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header,text,
 # register.demo.lang-pref.save,Save,Enregistrer,#MainCopy_ctl45_SaveButton,attr,value
 # register.demo.lang-pref.cancel,Cancel,Annuler,#MainCopy_ctl45_CancelButton,attr,value
 # register.demo.lang-pref.english,English,Anglais,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_EnglishChk_0""]",text,
-#register.demo.lang-pref.french,French,Français,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_FrenchChk_1""]",text,
+# register.demo.lang-pref.french,French,Français,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_OtherChk_2""]",text,
 
 
 # Populations Served Modal

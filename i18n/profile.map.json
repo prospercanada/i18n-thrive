@@ -521,7 +521,7 @@
     "key": "register.demo.orglang-pref.other"
   },
   {
-    "selector": "#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header",
+    "selector": "#MainCopy_ctl47_EditDemographicPanel > div > div > div.modal-header",
     "type": "text",
     "key": "register.demo.lang-pref.modalTitle"
   },
@@ -546,6 +546,11 @@
     "selector": "label[for=\"MainCopy_ctl47_DemographicsCheckBoxList_FrenchChk_1\"]",
     "type": "text",
     "key": "register.demo.lang-pref.french"
+  },
+  {
+    "selector": "label[for=\"MainCopy_ctl47_DemographicsCheckBoxList_FrenchChk_1\"]",
+    "type": "text",
+    "key": "register.demo.lang-pref.other"
   },
   {
     "selector": "#MainCopy_ctl38_EditDemographicPanel > div > div > div.modal-header",
