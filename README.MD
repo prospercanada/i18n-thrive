@@ -29,7 +29,7 @@ https://prospercanada.github.io/i18n-thrive/dist/i18n-thrive.bundle.js?v=2025-10
 
 TEST
 
-
+https://prospercanada.github.io/i18n-thrive/test/i18n-thrive.bundle.js?v=2026-02-11-v1
 https://prospercanada.github.io/i18n-thrive/test/i18n-thrive.bundle.js?v=2028-02-11-v1.2
 WOTKING VERSION
 https://prospercanada.github.io/i18n-thrive/test/lastgood/i18n-thrive.bundle--BACKUP_BEFORE-CHANGE-2026-02-10.js?v=1

@@ -287,11 +287,15 @@
   // ---------------- Page registry ----------------
   const PAGES = new Map(); // path -> render function
 
-  function register(path, renderFn) {
-    PAGES.set(path.replace(/\/+$/, ""), renderFn);
-  }
+  // function register(path, renderFn) {
+  //   PAGES.set(path.replace(/\/+$/, ""), renderFn);
+  // }
 
   /// GGGG BEGIn
+
+  function register(when, renderFn) {
+    PAGES.set(when, renderFn);
+  }
   function isActive(when) {
     const path = location.pathname.replace(/\/+$/, "") || "/";
 
