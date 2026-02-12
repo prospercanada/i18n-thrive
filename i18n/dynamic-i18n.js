@@ -260,6 +260,12 @@
     French: "Français",
   };
 
+  const ORG_LANG_PREF_MAP = {
+    English: "Anglais",
+    French: "Français",
+    Other: "Autre",
+  };
+
   // Populations Served (EN → FR)
   const POPS_MAP = {
     "Older people, Elders, or Seniors (65+ years old)":
@@ -373,8 +379,21 @@
       );
 
       translateDynamicUl(
-        "MainCopy_ctl45_ulDemographicItems",
+        "MainCopy_ctl47_ulDemographicItems",
         LANG_PREF_MAP,
+        "MainCopy_ctl47_ContactDemographicUpdatePanel",
+        "langchange", // your event
+      );
+      // translateDynamicUl(
+      //   "MainCopy_ctl45_ulDemographicItems",
+      //   LANG_PREF_MAP,
+      //   "MainCopy_ctl45_ContactDemographicUpdatePanel",
+      //   "langchange", // your event
+      // );
+
+      translateDynamicUl(
+        "MainCopy_ctl45_ulDemographicItems",
+        ORG_LANG_PREF_MAP,
         "MainCopy_ctl45_ContactDemographicUpdatePanel",
         "langchange", // your event
       );
