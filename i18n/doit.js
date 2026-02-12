@@ -489,6 +489,12 @@ async function reI18n() {
       "lang",
       lang === "fr" ? "fr-CA" : "en-CA",
     );
+
+    // 🔹 CRITICAL FIX ???????????????????????????????????
+    if (window.jQuery && jQuery.fn.selectpicker) {
+      jQuery(".toselectpicker").selectpicker("refresh");
+    }
+
     dbg("reI18n applied", { lang, namespaces });
 
     // ➜ run page-specific extras after partial postbacks
