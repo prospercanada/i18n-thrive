@@ -491,9 +491,9 @@ async function reI18n() {
     );
 
     // 🔹 CRITICAL FIX ???????????????????????????????????
-    if (window.jQuery && jQuery.fn.selectpicker) {
-      jQuery(".toselectpicker").selectpicker("refresh");
-    }
+    // if (window.jQuery && jQuery.fn.selectpicker) {
+    //   jQuery(".toselectpicker").selectpicker("refresh");
+    // }
 
     dbg("reI18n applied", { lang, namespaces });
 
