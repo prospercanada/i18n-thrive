@@ -62,6 +62,16 @@
     "key": "register.demo.fe-offered"
   },
   {
+    "selector": "#MainCopy_ctl41_lblEmptyDemographic",
+    "type": "text",
+    "key": "register.demo.fe-offered.empty"
+  },
+  {
+    "selector": "#MainCopy_ctl41_btnNoData",
+    "type": "text",
+    "key": "register.demo.fe-offered.add"
+  },
+  {
     "selector": "#MainCopy_ctl34_ContactDemographicUpdatePanel #Title",
     "type": "text",
     "key": "register.demo.geo-served"

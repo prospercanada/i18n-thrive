@@ -23,7 +23,8 @@ register.demo.org-location.add,Add,Ajouter,#MainCopy_ctl32_btnNoData,text,
 
 # ===== Financial Empowerment Services Offered MainCopy_ctl41 =====
 register.demo.fe-offered,Financial Empowerment Services Offered,Services d’autonomisation financière offerts,#MainCopy_ctl41_ContactDemographicUpdatePanel #Title,text,
-
+register.demo.fe-offered.empty,Add detail,Ajouter des détails,#MainCopy_ctl41_lblEmptyDemographic,text,
+register.demo.fe-offered.add,Add,Ajouter,#MainCopy_ctl41_btnNoData,text,
 
 # ===== Geographic Area(s) Served MainCopy_ctl34 =====
 register.demo.geo-served,Geographic Area(s) Served,Zone(s) géographique(s) desservie(s),#MainCopy_ctl34_ContactDemographicUpdatePanel #Title,text,
