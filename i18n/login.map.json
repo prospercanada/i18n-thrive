@@ -633,17 +633,17 @@
     "key": "demo.orglangpref.placeholder.option"
   },
   {
-    "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"] option[value=\"6e6ca8cd-49e0-4dd2-aed4-019c4d478887\"]",
+    "selector": "[id=\"c0dc62b2-8229-4be8-a60a-019c4d473226-select\"] option[value=\"6e6ca8cd-49e0-4dd2-aed4-019c4d478887\"]",
     "type": "text",
     "key": "demo.orglangpref.opt.en"
   },
   {
-    "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"] option[value=\"72c573c8-94ad-4e45-9ae9-019c4d47c4ac\"]",
+    "selector": "[id=\"c0dc62b2-8229-4be8-a60a-019c4d473226-select\"] option[value=\"72c573c8-94ad-4e45-9ae9-019c4d47c4ac\"]",
     "type": "text",
     "key": "demo.orglangpref.opt.fr"
   },
   {
-    "selector": "[id=\"820d636e-9fed-4604-869e-0199736e70b7-select\"] option[value=\"dd3e3997-9257-40ba-b6b3-019c4d47ee77\"]",
+    "selector": "[id=\"c0dc62b2-8229-4be8-a60a-019c4d473226-select\"] option[value=\"dd3e3997-9257-40ba-b6b3-019c4d47ee77\"]",
     "type": "text",
     "key": "demo.orglangpref.opt.other"
   },

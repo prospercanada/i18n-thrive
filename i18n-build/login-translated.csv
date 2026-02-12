@@ -204,9 +204,9 @@ demo.orglangpref.label,Select all language(s) that your organization offers fina
 demo.orglangpref.title,(Select all language(s) that your organization offers financial empowerment services in),(Sélectionnez toutes les langues dans lesquelles votre organisation offre des services d’autonomisation financière),[id="c0dc62b2-8229-4be8-a60a-019c4d473226-select"],attr,title
 demo.orglangpref.placeholder.option,(Select all language(s) that your organization offers financial empowerment services in),(Sélectionnez toutes les langues dans lesquelles votre organisation offre des services d’autonomisation financière),[id="c0dc62b2-8229-4be8-a60a-019c4d473226-select"] option[value="00000000-0000-0000-0000-000000000000"],text,
 
-demo.orglangpref.opt.en,English,Anglais,[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="6e6ca8cd-49e0-4dd2-aed4-019c4d478887"],text,
-demo.orglangpref.opt.fr,French,Français,[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="72c573c8-94ad-4e45-9ae9-019c4d47c4ac"],text,
-demo.orglangpref.opt.other,Other,Autre,[id="820d636e-9fed-4604-869e-0199736e70b7-select"] option[value="dd3e3997-9257-40ba-b6b3-019c4d47ee77"],text,
+demo.orglangpref.opt.en,English,Anglais,[id="c0dc62b2-8229-4be8-a60a-019c4d473226-select"] option[value="6e6ca8cd-49e0-4dd2-aed4-019c4d478887"],text,
+demo.orglangpref.opt.fr,French,Français,[id="c0dc62b2-8229-4be8-a60a-019c4d473226-select"] option[value="72c573c8-94ad-4e45-9ae9-019c4d47c4ac"],text,
+demo.orglangpref.opt.other,Other,Autre,[id="c0dc62b2-8229-4be8-a60a-019c4d473226-select"] option[value="dd3e3997-9257-40ba-b6b3-019c4d47ee77"],text,
 
 # Reason joined
 demo.reasonjoin.label,"What interested you in joining Catalyst, the Prosper Canada community?","Qu’est-ce qui vous a incité à vous joindre à Catalyst, la communauté de Prosper Canada?",label[for="d90acae3-b8c8-4401-a78b-019c4d6c87ae-demoDiv"],text,
