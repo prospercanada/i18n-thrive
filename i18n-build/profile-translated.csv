@@ -170,7 +170,7 @@ register.demo.sector.option.notSpecified,Not Specified,Non précisé,"#MainCopy_
 
 # Select all language(s) that your organization offers financial empowerment services in Modal MainCopy_ctl45
 
-register.demo.orglang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.orglang-pref.modalTitle,Edit Select all languages your organization offers Financial Empowerment services in,Modifier Dans quelle(s) langue(s) votre organisation offre-t-elle des services,#MainCopy_ctl45_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.orglang-pref.save,Save,Enregistrer,#MainCopy_ctl45_SaveButton,attr,value
 register.demo.orglang-pref.cancel,Cancel,Annuler,#MainCopy_ctl45_CancelButton,attr,value
 register.demo.orglang-pref.english,English,Anglais,"label[for=""MainCopy_ctl45_DemographicsCheckBoxList_EnglishChk_0""]",text,
@@ -179,7 +179,7 @@ register.demo.orglang-pref.other,Other,Autre,"label[for=""MainCopy_ctl45_Demogra
 
 # Language you prefer us to use when communicating with you Modal ctl47
 
-register.demo.lang-pref.modalTitle,Edit Language Preference,Modifier la préférence linguistique,#MainCopy_ctl47_EditDemographicPanel > div > div > div.modal-header,text,
+register.demo.lang-pref.modalTitle,Edit Language you prefer us to use when communicating with you,Modifier Dans quelle(s) langue(s) votre organisation offre-t-elle des services,#MainCopy_ctl47_EditDemographicPanel > div > div > div.modal-header,text,
 register.demo.lang-pref.save,Save,Enregistrer,#MainCopy_ctl47_SaveButton,attr,value
 register.demo.lang-pref.cancel,Cancel,Annuler,#MainCopy_ctl47_CancelButton,attr,value
 register.demo.lang-pref.english,English,Anglais,"label[for=""MainCopy_ctl47_DemographicsCheckBoxList_EnglishChk_0""]",text,
