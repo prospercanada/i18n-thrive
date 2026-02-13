@@ -413,114 +413,124 @@
     },
   );
 
-  register(
-    (loc) => loc.pathname.startsWith("/login"),
-    function renderLogin() {
-      const $ = window.jQuery;
-      if (!$ || !$.fn.selectpicker) return;
+  // DEGUG REGISTRATION FORM
+  // register(
+  //   (loc) => loc.pathname.startsWith("/login"),
+  //   function renderLogin() {
+  //     const $ = window.jQuery;
+  //     if (!$ || !$.fn.selectpicker) return;
 
-      const IDS = [
-        "0bca3586-218f-43b3-b059-0199734a100b-select",
-        "d4aedf2d-a642-4b70-81dd-0199734cd5a1-select",
-        "7ef9a3b6-0f46-4dac-b38b-0199734efe10-select",
-        "172d3906-c563-42c3-bff0-0199735b5682-select",
-        "303063c6-1cd6-4d75-8e3b-0199735e0e0d-select",
-        "eb4436bb-e703-484c-afc7-0199736d34bf-select",
-        "820d636e-9fed-4604-869e-0199736e70b7-select",
-      ];
+  //     // Organization Location 0bca3586-218f-43b3-b059-0199734a100b-select
+  //     // Sector  d4aedf2d-a642-4b70-81dd-0199734cd5a1-select
+  //     // Financial Empowerment Services Offered 7ef9a3b6-0f46-4dac-b38b-0199734efe10-select
+  //     // Other Services Offered 172d3906-c563-42c3-bff0-0199735b5682-select
+  //     // Populations Served 303063c6-1cd6-4d75-8e3b-0199735e0e0d-select
+  //     // Geographic Area(s) Served eb4436bb-e703-484c-afc7-0199736d34bf-select
+  //     // Language you prefer us to use when communicating with you 820d636e-9fed-4604-869e-0199736e70b7-select
+  //     // Select all language(s) that your organization offers financial empowerment services in  c0dc62b2-8229-4be8-a60a-019c4d473226-select
+  //     const IDS = [
+  //       "0bca3586-218f-43b3-b059-0199734a100b-select",
+  //       "d4aedf2d-a642-4b70-81dd-0199734cd5a1-select",
+  //       "7ef9a3b6-0f46-4dac-b38b-0199734efe10-select",
+  //       "172d3906-c563-42c3-bff0-0199735b5682-select",
+  //       "303063c6-1cd6-4d75-8e3b-0199735e0e0d-select",
+  //       "eb4436bb-e703-484c-afc7-0199736d34bf-select",
+  //       "820d636e-9fed-4604-869e-0199736e70b7-select",
+  //       "c0dc62b2-8229-4be8-a60a-019c4d473226-select", //NEW
+  //     ];
 
-      const COUNT_FMT = {
-        en: "{0} items selected",
-        fr: "{0} éléments sélectionnés",
-      };
+  //     const COUNT_FMT = {
+  //       en: "{0} items selected",
+  //       fr: "{0} éléments sélectionnés",
+  //     };
 
-      // FIXED precedence + tolerant of event.lang values like "fr-CA"
-      function currLang(e) {
-        const fromEvt = (e?.detail?.lang || "").toLowerCase();
-        if (fromEvt) return fromEvt.startsWith("fr") ? "fr" : "en";
-        const doc = (document.documentElement.lang || "").toLowerCase();
-        return doc.startsWith("fr") ? "fr" : "en";
-      }
+  //     // FIXED precedence + tolerant of event.lang values like "fr-CA"
+  //     function currLang(e) {
+  //       const fromEvt = (e?.detail?.lang || "").toLowerCase();
+  //       if (fromEvt) return fromEvt.startsWith("fr") ? "fr" : "en";
+  //       const doc = (document.documentElement.lang || "").toLowerCase();
+  //       return doc.startsWith("fr") ? "fr" : "en";
+  //     }
 
-      function noneFromTitle($sel) {
-        let t = $sel.attr("title") || "Nothing selected";
-        if (/^\(.*\)$/.test(t)) t = t.slice(1, -1);
-        return t;
-      }
+  //     function noneFromTitle($sel) {
+  //       let t = $sel.attr("title") || "Nothing selected";
+  //       if (/^\(.*\)$/.test(t)) t = t.slice(1, -1);
+  //       return t;
+  //     }
 
-      function computeLabel($sel, lang) {
-        const none = noneFromTitle($sel);
-        const fmt =
-          $sel.attr("data-count-selected-text") ||
-          COUNT_FMT[lang] ||
-          COUNT_FMT.en;
-        const $selOpts = $sel.find("option:selected");
-        const n = $selOpts.length;
-        if (n === 0) return none;
-        if (n > 1) return fmt.replace("{0}", String(n));
-        return $selOpts
-          .map((_, o) => o.textContent.trim())
-          .get()
-          .join(", ");
-      }
+  //     function computeLabel($sel, lang) {
+  //       const none = noneFromTitle($sel);
+  //       const fmt =
+  //         $sel.attr("data-count-selected-text") ||
+  //         COUNT_FMT[lang] ||
+  //         COUNT_FMT.en;
+  //       const $selOpts = $sel.find("option:selected");
+  //       const n = $selOpts.length;
+  //       if (n === 0) return none;
+  //       if (n > 1) return fmt.replace("{0}", String(n));
+  //       return $selOpts
+  //         .map((_, o) => o.textContent.trim())
+  //         .get()
+  //         .join(", ");
+  //     }
 
-      function updateFilterOptionText(id, lang) {
-        const $sel = $(`[id="${id}"]`);
-        const $btn = $(`.bootstrap-select [data-id="${id}"]`);
-        if (!$sel.length || !$btn.length) return;
-        $btn.find(".filter-option").text(computeLabel($sel, lang));
-      }
+  //     function updateFilterOptionText(id, lang) {
+  //       const $sel = $(`[id="${id}"]`);
+  //       const $btn = $(`.bootstrap-select [data-id="${id}"]`);
+  //       if (!$sel.length || !$btn.length) return;
+  //       $btn.find(".filter-option").text(computeLabel($sel, lang));
+  //     }
 
-      // NEW ATTEMPT ONE BEGIN
-      function initAll() {
-        const lang = currLang();
-        const fmt = COUNT_FMT[lang] || COUNT_FMT.en; // fallback
+  //     // NEW ATTEMPT ONE BEGIN
+  //     function initAll() {
+  //       const lang = currLang();
+  //       const fmt = COUNT_FMT[lang] || COUNT_FMT.en; // fallback
 
-        IDS.forEach((id) => {
-          const $el = $(`[id="${id}"]`);
-          if (!$el.length) return;
+  //       IDS.forEach((id) => {
+  //         const $el = $(`[id="${id}"]`);
+  //         if (!$el.length) return;
 
-          // avoid double-binding
-          if ($el.data("i18n-bound")) return;
+  //         // avoid double-binding
+  //         if ($el.data("i18n-bound")) return;
 
-          $el.attr("data-count-selected-text", fmt);
-          $el.selectpicker("refresh");
-          updateFilterOptionText(id, lang);
+  //         $el.attr("data-count-selected-text", fmt);
+  //         $el.selectpicker("refresh");
+  //         updateFilterOptionText(id, lang);
 
-          $el.off("changed.bs.select.i18n").on("changed.bs.select.i18n", () => {
-            updateFilterOptionText(id, currLang());
-          });
+  //         $el.off("changed.bs.select.i18n").on("changed.bs.select.i18n", () => {
+  //           updateFilterOptionText(id, currLang());
+  //         });
 
-          $el.data("i18n-bound", true);
-        });
-      }
+  //         $el.data("i18n-bound", true);
+  //       });
+  //     }
 
-      // run after DOM, then delay 500ms
-      if (document.readyState === "loading") {
-        document.addEventListener(
-          "DOMContentLoaded",
-          () => setTimeout(initAll, 500),
-          { once: true },
-        );
-      } else {
-        setTimeout(initAll, 500);
-      }
+  //     // run after DOM, then delay 500ms
+  //     if (document.readyState === "loading") {
+  //       document.addEventListener(
+  //         "DOMContentLoaded",
+  //         () => setTimeout(initAll, 500),
+  //         { once: true },
+  //       );
+  //     } else {
+  //       setTimeout(initAll, 500);
+  //     }
 
-      // When your app language changes, reapply strings and refresh
-      window.addEventListener("langchange", (e) => {
-        const lang = currLang(e);
-        setTimeout(() => {
-          IDS.forEach((id) => {
-            const $el = $(`[id="${id}"]`);
-            if (!$el.length) return;
-            $el.attr("data-count-selected-text", COUNT_FMT[lang]);
-            $el.selectpicker("refresh");
-            updateFilterOptionText(id, lang);
-          });
-        }, 0);
-      });
-    },
-  );
+  //     // When your app language changes, reapply strings and refresh
+  //     window.addEventListener("langchange", (e) => {
+  //       const lang = currLang(e);
+  //       setTimeout(() => {
+  //         IDS.forEach((id) => {
+  //           const $el = $(`[id="${id}"]`);
+  //           if (!$el.length) return;
+  //           $el.attr("data-count-selected-text", COUNT_FMT[lang]);
+  //           $el.selectpicker("refresh");
+  //           updateFilterOptionText(id, lang);
+  //         });
+  //       }, 0);
+  //     });
+  //   },
+  // );
   ///GGGGGG END
 
   // /advisory-committee
