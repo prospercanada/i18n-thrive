@@ -445,6 +445,7 @@
         return docLang.startsWith("fr") ? "fr" : "en";
       }
 
+      // this version should resolve the count and the input lable hint
       function refreshSelectpickers(lang) {
         if (!$.fn.selectpicker) return;
 
@@ -455,10 +456,10 @@
           const picker = $el.data("selectpicker");
           if (!picker) return;
 
-          // Update internal title
+          // Re-sync internal title from translated select
           picker.options.title = $el.attr("title");
 
-          // Update count text if multi-select
+          // Re-sync count text
           picker.options.countSelectedText = COUNT_FMT[lang] || COUNT_FMT.en;
 
           $el.selectpicker("refresh");
