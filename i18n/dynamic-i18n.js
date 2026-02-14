@@ -448,19 +448,39 @@
       function refreshSelectpickers(lang) {
         if (!$.fn.selectpicker) return;
 
-        const fmt = COUNT_FMT[lang] || COUNT_FMT.en;
-
         IDS.forEach((id) => {
           const $el = $(`#${id}`);
           if (!$el.length) return;
 
-          // Update internal plugin option
-          $el.data("countSelectedText", fmt);
+          const picker = $el.data("selectpicker");
+          if (!picker) return;
 
-          // Force rebuild
+          // Update internal title
+          picker.options.title = $el.attr("title");
+
+          // Update count text if multi-select
+          picker.options.countSelectedText = COUNT_FMT[lang] || COUNT_FMT.en;
+
           $el.selectpicker("refresh");
         });
       }
+
+      // function refreshSelectpickers(lang) {
+      //   if (!$.fn.selectpicker) return;
+
+      //   const fmt = COUNT_FMT[lang] || COUNT_FMT.en;
+
+      //   IDS.forEach((id) => {
+      //     const $el = $(`#${id}`);
+      //     if (!$el.length) return;
+
+      //     // Update internal plugin option
+      //     $el.data("countSelectedText", fmt);
+
+      //     // Force rebuild
+      //     $el.selectpicker("refresh");
+      //   });
+      // }
 
       // function refreshSelectpickers(lang) {
       //   if (!$.fn.selectpicker) return;
