@@ -454,10 +454,38 @@
           const $el = $(`#${id}`);
           if (!$el.length) return;
 
-          $el.attr("data-count-selected-text", fmt);
+          // Update internal plugin option
+          $el.data("countSelectedText", fmt);
+
+          // Force rebuild
           $el.selectpicker("refresh");
         });
       }
+
+      // function refreshSelectpickers(lang) {
+      //   if (!$.fn.selectpicker) return;
+
+      //   const fmt = COUNT_FMT[lang] || COUNT_FMT.en;
+
+      //   // IDS.forEach((id) => {
+      //   //   const $el = $(`#${id}`);
+      //   //   if (!$el.length) return;
+
+      //   //   $el.attr("data-count-selected-text", fmt);
+      //   //   $el.selectpicker("refresh");
+      //   // });
+
+      //   // N selected
+      //   IDS.forEach((id) => {
+      //     const $el = $(`#${id}`);
+      //     if (!$el.length) return;
+
+      //     // update plugin option (NOT attribute)
+      //     $el.data("countSelectedText", fmt);
+
+      //     $el.selectpicker("refresh");
+      //   });
+      // }
 
       function init() {
         // Defer one paint cycle to ensure:
