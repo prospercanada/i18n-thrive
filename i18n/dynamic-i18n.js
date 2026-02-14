@@ -413,7 +413,75 @@
     },
   );
 
-  // DEGUG REGISTRATION FORM
+  // ALTERNATIVE VERION TO TRY ON SATURDAY@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  register(
+    (loc) => loc.pathname.startsWith("/login"),
+    function renderLogin() {
+      const $ = window.jQuery;
+      if (!$) return;
+
+      const IDS = [
+        "0bca3586-218f-43b3-b059-0199734a100b-select",
+        "d4aedf2d-a642-4b70-81dd-0199734cd5a1-select",
+        "7ef9a3b6-0f46-4dac-b38b-0199734efe10-select",
+        "172d3906-c563-42c3-bff0-0199735b5682-select",
+        "303063c6-1cd6-4d75-8e3b-0199735e0e0d-select",
+        "eb4436bb-e703-484c-afc7-0199736d34bf-select",
+        "820d636e-9fed-4604-869e-0199736e70b7-select",
+        "c0dc62b2-8229-4be8-a60a-019c4d473226-select",
+      ];
+
+      const COUNT_FMT = {
+        en: "{0} items selected",
+        fr: "{0} éléments sélectionnés",
+      };
+
+      function currentLang(e) {
+        const fromEvt = (e?.detail?.lang || "").toLowerCase();
+        if (fromEvt) return fromEvt.startsWith("fr") ? "fr" : "en";
+
+        const docLang = (document.documentElement.lang || "").toLowerCase();
+        return docLang.startsWith("fr") ? "fr" : "en";
+      }
+
+      function refreshSelectpickers(lang) {
+        if (!$.fn.selectpicker) return;
+
+        const fmt = COUNT_FMT[lang] || COUNT_FMT.en;
+
+        IDS.forEach((id) => {
+          const $el = $(`#${id}`);
+          if (!$el.length) return;
+
+          $el.attr("data-count-selected-text", fmt);
+          $el.selectpicker("refresh");
+        });
+      }
+
+      function init() {
+        // Defer one paint cycle to ensure:
+        // 1. HL injected DOM
+        // 2. Your i18n text replacements applied
+        requestAnimationFrame(() => {
+          refreshSelectpickers(currentLang());
+        });
+      }
+
+      // Run immediately on page load
+      init();
+
+      // Re-run on language change
+      window.addEventListener("langchange", function (e) {
+        requestAnimationFrame(() => {
+          refreshSelectpickers(currentLang(e));
+        });
+      });
+    },
+  );
+
+  // FOR NOW USE THE ABOVE ALTERNATIVE VERION TO TRY ON SATURDAY@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // DEGUG REGISTRATION FORM COMMENTED OUT TO CHECK BUG ON LOGIN PAGE 13 FEB 2013
   // register(
   //   (loc) => loc.pathname.startsWith("/login"),
   //   function renderLogin() {
