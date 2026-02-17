@@ -416,7 +416,8 @@
   // ALTERNATIVE VERION TO TRY ON SATURDAY@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
   register(
-    (loc) => loc.pathname.startsWith("/login"),
+    (loc) => loc.pathname.startsWith("/XXXXlogin"),
+    // (loc) => loc.pathname.startsWith("/login"),
     function renderLogin() {
       const $ = window.jQuery;
       if (!$) return;
