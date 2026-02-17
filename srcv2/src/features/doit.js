@@ -39,8 +39,8 @@ export function pickNamespaces(currentUrlOrPath = location.href) {
     typeof currentUrlOrPath === "string"
       ? new URL(currentUrlOrPath, location.origin)
       : currentUrlOrPath instanceof URL
-      ? currentUrlOrPath
-      : new URL(location.href);
+        ? currentUrlOrPath
+        : new URL(location.href);
 
   const rawPath = (url.pathname || "/").replace(/\/{2,}/g, "/");
   const path = rawPath.replace(/^\/sandboxmicrosite(?=\/|$)/i, "") || "/";
@@ -95,7 +95,8 @@ export function pickNamespaces(currentUrlOrPath = location.href) {
 
   // Top-level statics
   if (/^\/contactus(?:\/|$)/i.test(path)) add("contactus");
-  if (/^\/login(?:\/|$)/i.test(path)) add("login");
+  if (/^\/xxxxlogin(?:\/|$)/i.test(path)) add("login");
+  // if (/^\/login(?:\/|$)/i.test(path)) add("login");
   if (/^\/participate\/postmessage(?:\/|$)/i.test(path)) add("postMessage");
   if (/^\/participate\/add-new-entry(?:\/|$)/i.test(path)) add("addLibrary");
   if (/^\/events\/calendar(?:\/|$)/i.test(path)) add("eventsCalendar");
@@ -111,7 +112,7 @@ export function pickNamespaces(currentUrlOrPath = location.href) {
     add("communityLibrary");
   if (
     /^\/communities\/community-home\/recent-community-events(?:\/|$)/i.test(
-      path
+      path,
     )
   )
     add("communityEvents");
@@ -201,11 +202,11 @@ export async function initDoIt({ manifestUrl }) {
   await window.ThriveI18n?.setLangNoReload?.(initial);
   document.documentElement.setAttribute(
     "data-lang",
-    initial === "fr" ? "fr" : "en"
+    initial === "fr" ? "fr" : "en",
   );
   document.documentElement.setAttribute(
     "lang",
-    initial === "fr" ? "fr-CA" : "en-CA"
+    initial === "fr" ? "fr-CA" : "en-CA",
   );
   dbg("initDoIt complete", { initial, namespaces });
 
