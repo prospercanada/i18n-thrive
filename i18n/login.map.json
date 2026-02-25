@@ -240,11 +240,6 @@
     "key": "demo.orgLocation.opt.yt"
   },
   {
-    "selector": "[id=\"0bca3586-218f-43b3-b059-0199734a100b-demoRow\"] .error-message.invalidInputLabel",
-    "type": "text",
-    "key": "demo.orgLocation.error.mustChoose"
-  },
-  {
     "selector": ".demoType[data-demographictypekey=\"d4aedf2d-a642-4b70-81dd-0199734cd5a1\"] .control-label",
     "type": "text",
     "key": "demo.sector.label"
