@@ -516,8 +516,10 @@
         requestAnimationFrame(() => {
           refreshSelectpickers(currentLang());
         });
-        // observeDomChanges(); // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login?
-        observeDomChanges(); // 👈 this is where shouldRefresh belongs
+
+        setTimeout(() => {
+          refreshSelectpickers(currentLang());
+        }, 500);
       }
 
       // Run immediately on page load
@@ -525,47 +527,47 @@
 
       // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login? begin
 
-      let refreshScheduled = false;
-      let isRefreshing = false;
+      // let refreshScheduled = false;
+      // let isRefreshing = false;
 
-      function scheduleRefresh(lang) {
-        if (refreshScheduled || isRefreshing) return;
+      // function scheduleRefresh(lang) {
+      //   if (refreshScheduled || isRefreshing) return;
 
-        refreshScheduled = true;
+      //   refreshScheduled = true;
 
-        requestAnimationFrame(() => {
-          refreshScheduled = false;
-          isRefreshing = true;
+      //   requestAnimationFrame(() => {
+      //     refreshScheduled = false;
+      //     isRefreshing = true;
 
-          refreshSelectpickers(lang);
+      //     refreshSelectpickers(lang);
 
-          isRefreshing = false;
-        });
-      }
+      //     isRefreshing = false;
+      //   });
+      // }
 
-      function observeDomChanges() {
-        const observer = new MutationObserver((mutations) => {
-          if (isRefreshing) return;
+      // function observeDomChanges() {
+      //   const observer = new MutationObserver((mutations) => {
+      //     if (isRefreshing) return;
 
-          let shouldRefresh = false;
+      //     let shouldRefresh = false;
 
-          for (const m of mutations) {
-            if (m.type === "childList" && m.addedNodes.length > 0) {
-              shouldRefresh = true;
-              break;
-            }
-          }
+      //     for (const m of mutations) {
+      //       if (m.type === "childList" && m.addedNodes.length > 0) {
+      //         shouldRefresh = true;
+      //         break;
+      //       }
+      //     }
 
-          if (shouldRefresh) {
-            scheduleRefresh(currentLang());
-          }
-        });
+      //     if (shouldRefresh) {
+      //       scheduleRefresh(currentLang());
+      //     }
+      //   });
 
-        observer.observe(document.body, {
-          childList: true,
-          subtree: true,
-        });
-      }
+      //   observer.observe(document.body, {
+      //     childList: true,
+      //     subtree: true,
+      //   });
+      // }
       // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login? end
 
       // Re-run on language change
