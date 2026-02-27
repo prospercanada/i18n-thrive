@@ -493,9 +493,10 @@ async function reI18n() {
     );
 
     // 🔹 CRITICAL FIX ???????????????????????????????????
-    // if (window.jQuery && jQuery.fn.selectpicker) {
-    //   jQuery(".toselectpicker").selectpicker("refresh");
-    // }
+    // This refreshes the select on the login/registration page
+    if (window.jQuery && jQuery.fn.selectpicker) {
+      jQuery(".toselectpicker").selectpicker("refresh");
+    }
 
     dbg("reI18n applied", { lang, namespaces });
 
