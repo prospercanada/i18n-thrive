@@ -516,15 +516,37 @@
         requestAnimationFrame(() => {
           refreshSelectpickers(currentLang());
         });
-        observeDomChanges(); // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login?
+        // observeDomChanges(); // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login?
+        observeDomChanges(); // 👈 this is where shouldRefresh belongs
       }
 
       // Run immediately on page load
       init();
 
-      // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login?
+      // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login? begin
+
+      let refreshScheduled = false;
+      let isRefreshing = false;
+
+      function scheduleRefresh(lang) {
+        if (refreshScheduled || isRefreshing) return;
+
+        refreshScheduled = true;
+
+        requestAnimationFrame(() => {
+          refreshScheduled = false;
+          isRefreshing = true;
+
+          refreshSelectpickers(lang);
+
+          isRefreshing = false;
+        });
+      }
+
       function observeDomChanges() {
         const observer = new MutationObserver((mutations) => {
+          if (isRefreshing) return;
+
           let shouldRefresh = false;
 
           for (const m of mutations) {
@@ -535,9 +557,7 @@
           }
 
           if (shouldRefresh) {
-            requestAnimationFrame(() => {
-              refreshSelectpickers(currentLang());
-            });
+            scheduleRefresh(currentLang());
           }
         });
 
@@ -546,6 +566,7 @@
           subtree: true,
         });
       }
+      // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login? end
 
       // Re-run on language change
       window.addEventListener("langchange", function (e) {
