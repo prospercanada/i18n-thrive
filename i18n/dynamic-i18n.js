@@ -516,10 +516,36 @@
         requestAnimationFrame(() => {
           refreshSelectpickers(currentLang());
         });
+        observeDomChanges(); // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login?
       }
 
       // Run immediately on page load
       init();
+
+      // CHANGE 11111 -  27 FEB 2026 does this fix theselect items on the login?
+      function observeDomChanges() {
+        const observer = new MutationObserver((mutations) => {
+          let shouldRefresh = false;
+
+          for (const m of mutations) {
+            if (m.type === "childList" && m.addedNodes.length > 0) {
+              shouldRefresh = true;
+              break;
+            }
+          }
+
+          if (shouldRefresh) {
+            requestAnimationFrame(() => {
+              refreshSelectpickers(currentLang());
+            });
+          }
+        });
+
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true,
+        });
+      }
 
       // Re-run on language change
       window.addEventListener("langchange", function (e) {

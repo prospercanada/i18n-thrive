@@ -498,12 +498,6 @@ async function reI18n() {
     //   jQuery(".toselectpicker").selectpicker("refresh");
     // }
 
-    setTimeout(() => {
-      if (window.jQuery && jQuery.fn.selectpicker) {
-        jQuery(".toselectpicker").selectpicker("refresh");
-      }
-    }, 300);
-
     dbg("reI18n applied", { lang, namespaces });
 
     // ➜ run page-specific extras after partial postbacks
